@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2026-05-13T07:53:34.874242",
+    "source": "manual",
+    "narrative": {
+      "headline": "Minervini AI system v1 in cold start phase with insufficient data for pattern recognition across all metrics.",
+      "setup_narrative": "No established setups have generated statistically significant sample sizes yet; system requires minimum trade volume to identify high-probability VCP, flat base, or momentum continuation patterns.",
+      "regime_narrative": "Single UNKNOWN regime trade (0% win rate) indicates market classification engine has not calibrated; system needs exposure across volatile, trending, and consolidating conditions to build regime detection models.",
+      "missed_narrative": "Zero filtered trades suggests either overly permissive entry criteria or absence of scanning activity; no opportunity cost data available for filter optimization.",
+      "recommendation": "Deploy paper trading mode across multiple market regimes for 20-30 trades minimum to establish baseline performance metrics and enable adaptive weight calibration."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T07:54:59.697477",
+    "source": "startup",
+    "narrative": {
+      "headline": "System initialization phase with insufficient data - only 2 trades executed under unknown regime conditions with 0% win rate.",
+      "setup_narrative": "No performing setups have been identified yet; system requires minimum trade sample size to establish statistical significance and identify edge conditions.",
+      "regime_narrative": "Regime detection is non-functional with all trades classified as UNKNOWN, indicating either market condition ambiguity or incomplete technical indicator calculation during the measurement period.",
+      "missed_narrative": "Zero filtered trades suggests overly permissive entry criteria or lack of opportunity flow; unable to assess filter effectiveness without baseline activity.",
+      "recommendation": "Extend observation period to accumulate minimum 20-30 trades across identifiable regime conditions before drawing performance conclusions or adjusting adaptive weights."
+    }
+  }
+]

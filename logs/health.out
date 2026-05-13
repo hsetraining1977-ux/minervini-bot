@@ -1142,3 +1142,4 @@
 2026-05-12 06:01:43 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
 2026-05-12 06:02:43 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
 2026-05-12 06:02:44 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-13 02:01:24 | ERROR    | health_monitor | CPU critical: 100.0%

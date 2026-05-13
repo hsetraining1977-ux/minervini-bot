@@ -197,3 +197,9 @@ echo -e "${CYAN}═════════════════════�
 nohup python3 /root/macro_intelligence.py >> /root/macro.out 2>&1 &
 echo "   Macro Intelligence started (PID: $!)"
 
+
+# Starting Adaptive Learning Engine
+nohup python3 -m streamlit run /root/adaptive_dashboard.py --server.port 8503 --server.address 0.0.0.0 >> /root/adaptive/dashboard.log 2>&1 &
+nohup python3 /root/adaptive_learning.py --mode daemon >> /root/adaptive/learning.log 2>&1 &
+echo "   Adaptive Intelligence started"
+

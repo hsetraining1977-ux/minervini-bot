@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-13T07:53:27.028311",
+  "setup_modifiers": {
+    "ORB_BREAKOUT": 1.0,
+    "VOLUME_SPIKE": 1.0,
+    "VWAP_CROSS_UP": 1.0,
+    "MOMENTUM_BURST_UP": 1.0,
+    "TIGHT_CONSOLIDATION_BREAK": 1.0,
+    "ORB_BREAKDOWN": 1.0,
+    "VWAP_CROSS_DOWN": 1.0,
+    "MOMENTUM_BURST_DOWN": 1.0
+  },
+  "regime_aggressiveness": {
+    "RISK_ON": 1.0,
+    "NEUTRAL": 1.0,
+    "RISK_OFF": 1.0,
+    "TRANSITION": 1.0
+  },
+  "sizing_modifiers": {
+    "RISK_ON": 1.0,
+    "NEUTRAL": 1.0,
+    "RISK_OFF": 1.0
+  },
+  "confidence_floor": {
+    "RISK_ON": 0.55,
+    "NEUTRAL": 0.65,
+    "RISK_OFF": 0.75,
+    "TRANSITION": 0.7
+  }
+}

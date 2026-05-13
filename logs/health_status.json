@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-13 02:00:21",
+  "timestamp": "2026-05-13 08:03:01",
   "processes": {
     "telegram_bot": true,
     "streamlit": true,
@@ -15,8 +15,8 @@
   "telegram_api": true,
   "alpaca_api": true,
   "resources": {
-    "cpu": 82.4,
-    "ram": 58.9,
+    "cpu": 0.0,
+    "ram": 58.5,
     "disk": 24.1
   },
   "healthy": true

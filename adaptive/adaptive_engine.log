@@ -1,0 +1,48 @@
+[2026-05-13 07:53:27] 
+=======================================================
+[2026-05-13 07:53:27]   ADAPTIVE LEARNING CYCLE — MANUAL
+[2026-05-13 07:53:27] =======================================================
+[2026-05-13 07:53:27]   [Learn] Processing replay trades...
+[2026-05-13 07:53:27]   [Learn] No replay trades found
+[2026-05-13 07:53:27]   [Learn] Processing paper trades...
+[2026-05-13 07:53:27]   [Learn] Processed 1 paper trades
+[2026-05-13 07:53:27]   [Learn] Analyzing missed opportunities...
+[2026-05-13 07:53:27]   Total trades processed: 1
+[2026-05-13 07:53:27] 
+  Phase 2: Level 1 Auto-Adaptation...
+[2026-05-13 07:53:27] 
+  Phase 3: Level 2 Suggestions...
+[2026-05-13 07:53:27] 
+  Phase 4: Generating AI narrative...
+[2026-05-13 07:53:34] 
+  ✔ Learning cycle complete
+[2026-05-13 07:53:34]     Adaptations: 0
+[2026-05-13 07:53:34]     Suggestions: 0
+[2026-05-13 07:54:53]   Starting in DAEMON mode (async background process)
+[2026-05-13 07:54:53]   Trading engines will NOT be affected
+[2026-05-13 07:54:53] 
+=======================================================
+[2026-05-13 07:54:53]   ADAPTIVE LEARNING CYCLE — STARTUP
+[2026-05-13 07:54:53] =======================================================
+[2026-05-13 07:54:53]   [Learn] Processing replay trades...
+[2026-05-13 07:54:53]   [Learn] No replay trades found
+[2026-05-13 07:54:53]   [Learn] Processing paper trades...
+[2026-05-13 07:54:53]   [Learn] Processed 1 paper trades
+[2026-05-13 07:54:53]   [Learn] Analyzing missed opportunities...
+[2026-05-13 07:54:53]   Total trades processed: 1
+[2026-05-13 07:54:53] 
+  Phase 2: Level 1 Auto-Adaptation...
+[2026-05-13 07:54:53] 
+  Phase 3: Level 2 Suggestions...
+[2026-05-13 07:54:53] 
+  Phase 4: Generating AI narrative...
+[2026-05-13 07:54:59] 
+  ✔ Learning cycle complete
+[2026-05-13 07:54:59]     Adaptations: 0
+[2026-05-13 07:54:59]     Suggestions: 0
+[2026-05-13 07:54:59]   ✔ Adaptive Learning Engine running in background
+[2026-05-13 07:54:59]   [Scheduler] Starting adaptive learning scheduler...
+[2026-05-13 07:54:59]   [Scheduler] Schedule:
+[2026-05-13 07:54:59]     • Every 30 min  → learning cycle
+[2026-05-13 07:54:59]     • 16:45 ET      → deep post-market analysis
+[2026-05-13 07:54:59]     • Every 60 min  → level 2 suggestions

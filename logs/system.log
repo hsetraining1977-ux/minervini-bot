@@ -16612,3 +16612,1428 @@
 2026-05-13 02:00:08 | INFO     | resource_monitor | Resources OK | CPU:97.0% RAM:62.2% Disk:23.8% Threads:1
 2026-05-13 02:00:21 | INFO     | health_monitor | Running health check...
 2026-05-13 02:00:22 | INFO     | health_monitor | All processes OK | CPU:82.4% RAM:58.9%
+2026-05-13 02:00:39 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-13 02:00:39 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:61.7% Disk:24.1% Threads:1
+2026-05-13 02:01:10 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-13 02:01:10 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:78.9% Disk:24.1% Threads:1
+2026-05-13 02:01:22 | INFO     | health_monitor | Running health check...
+2026-05-13 02:01:24 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-13 02:01:25 | INFO     | health_monitor | All processes OK | CPU:100.0% RAM:62.5%
+2026-05-13 02:01:41 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-13 02:01:41 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:56.1% Disk:24.5% Threads:1
+2026-05-13 02:02:12 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-13 02:02:12 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:56.7% Disk:24.0% Threads:1
+2026-05-13 02:02:25 | INFO     | health_monitor | Running health check...
+2026-05-13 02:02:26 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.7%
+2026-05-13 02:02:43 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:52.7% Disk:24.0% Threads:1
+2026-05-13 02:03:14 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.7% Disk:24.0% Threads:1
+2026-05-13 02:03:26 | INFO     | health_monitor | Running health check...
+2026-05-13 02:03:28 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.6%
+2026-05-13 02:03:45 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.6% Disk:24.0% Threads:1
+2026-05-13 02:04:16 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.6% Disk:24.0% Threads:1
+2026-05-13 02:04:28 | INFO     | health_monitor | Running health check...
+2026-05-13 02:04:30 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.6%
+2026-05-13 02:04:47 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.6% Disk:24.0% Threads:1
+2026-05-13 02:05:18 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.6% Disk:24.0% Threads:1
+2026-05-13 02:05:30 | INFO     | health_monitor | Running health check...
+2026-05-13 02:05:31 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.6%
+2026-05-13 02:05:49 | INFO     | resource_monitor | Resources OK | CPU:17.0% RAM:52.5% Disk:24.0% Threads:1
+2026-05-13 02:06:21 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.5% Disk:24.0% Threads:1
+2026-05-13 02:06:32 | INFO     | health_monitor | Running health check...
+2026-05-13 02:06:33 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.5%
+2026-05-13 02:06:52 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.5% Disk:24.0% Threads:1
+2026-05-13 02:07:23 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:52.5% Disk:24.0% Threads:1
+2026-05-13 02:07:33 | INFO     | health_monitor | Running health check...
+2026-05-13 02:07:35 | INFO     | health_monitor | All processes OK | CPU:3.0% RAM:52.5%
+2026-05-13 02:07:54 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:52.5% Disk:24.0% Threads:1
+2026-05-13 02:08:25 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.5% Disk:24.0% Threads:1
+2026-05-13 02:08:35 | INFO     | health_monitor | Running health check...
+2026-05-13 02:08:36 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.5%
+2026-05-13 02:08:56 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.5% Disk:24.0% Threads:1
+2026-05-13 02:09:27 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:52.5% Disk:24.0% Threads:1
+2026-05-13 02:09:36 | INFO     | health_monitor | Running health check...
+2026-05-13 02:09:38 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.5%
+2026-05-13 02:09:58 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.5% Disk:24.0% Threads:1
+2026-05-13 02:10:29 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.5% Disk:24.0% Threads:1
+2026-05-13 02:10:38 | INFO     | health_monitor | Running health check...
+2026-05-13 02:10:40 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:52.5%
+2026-05-13 02:11:00 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:52.5% Disk:24.0% Threads:1
+2026-05-13 02:11:31 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:11:40 | INFO     | health_monitor | Running health check...
+2026-05-13 02:11:42 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.4%
+2026-05-13 02:12:02 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:12:33 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:12:42 | INFO     | health_monitor | Running health check...
+2026-05-13 02:12:43 | INFO     | health_monitor | All processes OK | CPU:8.0% RAM:52.4%
+2026-05-13 02:13:04 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:13:35 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:13:43 | INFO     | health_monitor | Running health check...
+2026-05-13 02:13:45 | INFO     | health_monitor | All processes OK | CPU:7.1% RAM:52.4%
+2026-05-13 02:14:06 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:14:37 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:14:45 | INFO     | health_monitor | Running health check...
+2026-05-13 02:14:47 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.4%
+2026-05-13 02:15:08 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:15:40 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:15:47 | INFO     | health_monitor | Running health check...
+2026-05-13 02:15:48 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.4%
+2026-05-13 02:16:11 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:16:42 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:16:48 | INFO     | health_monitor | Running health check...
+2026-05-13 02:16:50 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.4%
+2026-05-13 02:17:13 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:17:44 | INFO     | resource_monitor | Resources OK | CPU:11.0% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:17:50 | INFO     | health_monitor | Running health check...
+2026-05-13 02:17:51 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.4%
+2026-05-13 02:18:15 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:18:46 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:18:51 | INFO     | health_monitor | Running health check...
+2026-05-13 02:18:53 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.4%
+2026-05-13 02:19:17 | INFO     | resource_monitor | Resources OK | CPU:6.1% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:19:48 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:19:53 | INFO     | health_monitor | Running health check...
+2026-05-13 02:19:54 | INFO     | health_monitor | All processes OK | CPU:3.0% RAM:52.4%
+2026-05-13 02:20:19 | INFO     | resource_monitor | Resources OK | CPU:5.1% RAM:52.4% Disk:24.0% Threads:1
+2026-05-13 02:20:50 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:52.3% Disk:24.0% Threads:1
+2026-05-13 02:20:54 | INFO     | health_monitor | Running health check...
+2026-05-13 02:20:56 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.3%
+2026-05-13 02:21:21 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.3% Disk:24.0% Threads:1
+2026-05-13 02:21:52 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.3% Disk:24.0% Threads:1
+2026-05-13 02:21:56 | INFO     | health_monitor | Running health check...
+2026-05-13 02:21:58 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.3%
+2026-05-13 02:22:23 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.3% Disk:24.0% Threads:1
+2026-05-13 02:22:54 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.3% Disk:24.0% Threads:1
+2026-05-13 02:22:58 | INFO     | health_monitor | Running health check...
+2026-05-13 02:23:00 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.3%
+2026-05-13 02:23:25 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:52.3% Disk:24.0% Threads:1
+2026-05-13 02:23:57 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.1% Disk:24.0% Threads:1
+2026-05-13 02:24:00 | INFO     | health_monitor | Running health check...
+2026-05-13 02:24:01 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.1%
+2026-05-13 02:24:28 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:52.1% Disk:24.0% Threads:1
+2026-05-13 02:24:59 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.1% Disk:24.0% Threads:1
+2026-05-13 02:25:02 | INFO     | health_monitor | Running health check...
+2026-05-13 02:25:05 | INFO     | health_monitor | All processes OK | CPU:3.0% RAM:52.1%
+2026-05-13 02:25:30 | INFO     | resource_monitor | Resources OK | CPU:5.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:26:01 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:26:05 | INFO     | health_monitor | Running health check...
+2026-05-13 02:26:07 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.0%
+2026-05-13 02:26:32 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:27:03 | INFO     | resource_monitor | Resources OK | CPU:22.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:27:07 | INFO     | health_monitor | Running health check...
+2026-05-13 02:27:08 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.0%
+2026-05-13 02:27:34 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:28:05 | INFO     | resource_monitor | Resources OK | CPU:9.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:28:09 | INFO     | health_monitor | Running health check...
+2026-05-13 02:28:11 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.0%
+2026-05-13 02:28:36 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:29:07 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:29:11 | INFO     | health_monitor | Running health check...
+2026-05-13 02:29:13 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.0%
+2026-05-13 02:29:38 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:30:09 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:30:13 | INFO     | health_monitor | Running health check...
+2026-05-13 02:30:14 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:52.0%
+2026-05-13 02:30:40 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:31:11 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:31:14 | INFO     | health_monitor | Running health check...
+2026-05-13 02:31:16 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.0%
+2026-05-13 02:31:42 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:32:13 | INFO     | resource_monitor | Resources OK | CPU:7.1% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:32:16 | INFO     | health_monitor | Running health check...
+2026-05-13 02:32:17 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.0%
+2026-05-13 02:32:45 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:33:16 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:33:17 | INFO     | health_monitor | Running health check...
+2026-05-13 02:33:19 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.0%
+2026-05-13 02:33:47 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:34:18 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:34:19 | INFO     | health_monitor | Running health check...
+2026-05-13 02:34:21 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 02:34:49 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:35:20 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:35:21 | INFO     | health_monitor | Running health check...
+2026-05-13 02:35:23 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 02:35:51 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:36:22 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:36:23 | INFO     | health_monitor | Running health check...
+2026-05-13 02:36:24 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 02:36:53 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:37:24 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:37:24 | INFO     | health_monitor | Running health check...
+2026-05-13 02:37:26 | INFO     | health_monitor | All processes OK | CPU:9.9% RAM:51.9%
+2026-05-13 02:37:55 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:38:26 | INFO     | health_monitor | Running health check...
+2026-05-13 02:38:26 | INFO     | resource_monitor | Resources OK | CPU:18.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:38:28 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 02:38:57 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:39:28 | INFO     | health_monitor | Running health check...
+2026-05-13 02:39:28 | INFO     | resource_monitor | Resources OK | CPU:14.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:39:29 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 02:39:59 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:40:29 | INFO     | health_monitor | Running health check...
+2026-05-13 02:40:30 | INFO     | resource_monitor | Resources OK | CPU:21.8% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:40:31 | INFO     | health_monitor | All processes OK | CPU:4.0% RAM:52.0%
+2026-05-13 02:41:01 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:41:31 | INFO     | health_monitor | Running health check...
+2026-05-13 02:41:33 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:41:33 | INFO     | health_monitor | All processes OK | CPU:5.0% RAM:52.0%
+2026-05-13 02:42:04 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:42:33 | INFO     | health_monitor | Running health check...
+2026-05-13 02:42:35 | INFO     | resource_monitor | Resources OK | CPU:10.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 02:42:35 | INFO     | health_monitor | All processes OK | CPU:5.9% RAM:52.0%
+2026-05-13 02:43:06 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:43:35 | INFO     | health_monitor | Running health check...
+2026-05-13 02:43:37 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 02:43:37 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:44:08 | INFO     | resource_monitor | Resources OK | CPU:7.1% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:44:37 | INFO     | health_monitor | Running health check...
+2026-05-13 02:44:38 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 02:44:39 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:45:10 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:45:38 | INFO     | health_monitor | Running health check...
+2026-05-13 02:45:40 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 02:45:41 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:46:12 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:46:40 | INFO     | health_monitor | Running health check...
+2026-05-13 02:46:42 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 02:46:43 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:47:14 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:47:42 | INFO     | health_monitor | Running health check...
+2026-05-13 02:47:44 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 02:47:45 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:48:16 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:48:44 | INFO     | health_monitor | Running health check...
+2026-05-13 02:48:46 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 02:48:47 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:49:18 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:49:46 | INFO     | health_monitor | Running health check...
+2026-05-13 02:49:48 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 02:49:50 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:50:21 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:50:48 | INFO     | health_monitor | Running health check...
+2026-05-13 02:50:49 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 02:50:52 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:51:23 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:51:49 | INFO     | health_monitor | Running health check...
+2026-05-13 02:51:51 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 02:51:54 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:52:25 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:52:51 | INFO     | health_monitor | Running health check...
+2026-05-13 02:52:52 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 02:52:56 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:53:27 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:53:52 | INFO     | health_monitor | Running health check...
+2026-05-13 02:53:54 | INFO     | health_monitor | All processes OK | CPU:3.0% RAM:51.9%
+2026-05-13 02:53:58 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:54:29 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:54:54 | INFO     | health_monitor | Running health check...
+2026-05-13 02:54:56 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 02:55:00 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:55:31 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:55:56 | INFO     | health_monitor | Running health check...
+2026-05-13 02:55:57 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 02:56:02 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:56:33 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:56:57 | INFO     | health_monitor | Running health check...
+2026-05-13 02:56:59 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.9%
+2026-05-13 02:57:04 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:57:35 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:57:59 | INFO     | health_monitor | Running health check...
+2026-05-13 02:58:00 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 02:58:07 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:58:38 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:59:00 | INFO     | health_monitor | Running health check...
+2026-05-13 02:59:02 | INFO     | health_monitor | All processes OK | CPU:7.0% RAM:51.9%
+2026-05-13 02:59:09 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 02:59:40 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:00:02 | INFO     | log_rotator | Starting log rotation cycle...
+2026-05-13 03:00:02 | INFO     | log_rotator | Rotation cycle complete. Rotated: 0 files
+2026-05-13 03:00:02 | INFO     | health_monitor | Running health check...
+2026-05-13 03:00:03 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.9%
+2026-05-13 03:00:11 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:00:42 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:01:03 | INFO     | health_monitor | Running health check...
+2026-05-13 03:01:05 | INFO     | health_monitor | All processes OK | CPU:3.0% RAM:51.9%
+2026-05-13 03:01:13 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:01:44 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:02:05 | INFO     | health_monitor | Running health check...
+2026-05-13 03:02:07 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:02:15 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:02:46 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:03:07 | INFO     | health_monitor | Running health check...
+2026-05-13 03:03:08 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 03:03:17 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:03:48 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:04:08 | INFO     | health_monitor | Running health check...
+2026-05-13 03:04:10 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:04:19 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:04:50 | INFO     | resource_monitor | Resources OK | CPU:7.9% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:05:10 | INFO     | health_monitor | Running health check...
+2026-05-13 03:05:12 | INFO     | health_monitor | All processes OK | CPU:3.0% RAM:52.0%
+2026-05-13 03:05:21 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:05:52 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:06:12 | INFO     | health_monitor | Running health check...
+2026-05-13 03:06:13 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.0%
+2026-05-13 03:06:24 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:06:55 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:07:13 | INFO     | health_monitor | Running health check...
+2026-05-13 03:07:15 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.0%
+2026-05-13 03:07:26 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:07:57 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:08:15 | INFO     | health_monitor | Running health check...
+2026-05-13 03:08:16 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.0%
+2026-05-13 03:08:28 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:08:59 | INFO     | resource_monitor | Resources OK | CPU:5.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:09:16 | INFO     | health_monitor | Running health check...
+2026-05-13 03:09:18 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.0%
+2026-05-13 03:09:30 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:10:01 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:10:18 | INFO     | health_monitor | Running health check...
+2026-05-13 03:10:20 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.0%
+2026-05-13 03:10:32 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:11:03 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:11:20 | INFO     | health_monitor | Running health check...
+2026-05-13 03:11:21 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 03:11:34 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:12:05 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:12:21 | INFO     | health_monitor | Running health check...
+2026-05-13 03:12:23 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:12:36 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:13:07 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:13:23 | INFO     | health_monitor | Running health check...
+2026-05-13 03:13:25 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 03:13:38 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:14:09 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:14:25 | INFO     | health_monitor | Running health check...
+2026-05-13 03:14:26 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:14:40 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:15:12 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:15:26 | INFO     | health_monitor | Running health check...
+2026-05-13 03:15:28 | INFO     | health_monitor | All processes OK | CPU:7.9% RAM:51.9%
+2026-05-13 03:15:43 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:16:14 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:16:28 | INFO     | health_monitor | Running health check...
+2026-05-13 03:16:29 | INFO     | health_monitor | All processes OK | CPU:3.0% RAM:51.9%
+2026-05-13 03:16:45 | INFO     | resource_monitor | Resources OK | CPU:9.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:17:16 | INFO     | resource_monitor | Resources OK | CPU:2.9% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:17:29 | INFO     | health_monitor | Running health check...
+2026-05-13 03:17:31 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:17:47 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:18:18 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:18:31 | INFO     | health_monitor | Running health check...
+2026-05-13 03:18:32 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:18:49 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:19:20 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:19:33 | INFO     | health_monitor | Running health check...
+2026-05-13 03:19:34 | INFO     | health_monitor | All processes OK | CPU:7.1% RAM:51.9%
+2026-05-13 03:19:51 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:20:22 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:20:34 | INFO     | health_monitor | Running health check...
+2026-05-13 03:20:36 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:20:53 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:21:24 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:21:36 | INFO     | health_monitor | Running health check...
+2026-05-13 03:21:37 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:21:55 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:22:26 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:22:38 | INFO     | health_monitor | Running health check...
+2026-05-13 03:22:40 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:22:57 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:23:28 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:23:40 | INFO     | health_monitor | Running health check...
+2026-05-13 03:23:41 | INFO     | health_monitor | All processes OK | CPU:10.0% RAM:51.9%
+2026-05-13 03:23:59 | INFO     | resource_monitor | Resources OK | CPU:30.3% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:24:31 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:24:41 | INFO     | health_monitor | Running health check...
+2026-05-13 03:24:43 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:25:02 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:25:33 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:25:43 | INFO     | health_monitor | Running health check...
+2026-05-13 03:25:45 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.9%
+2026-05-13 03:26:04 | INFO     | resource_monitor | Resources OK | CPU:29.7% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:26:35 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:26:45 | INFO     | health_monitor | Running health check...
+2026-05-13 03:26:46 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.9%
+2026-05-13 03:27:06 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:27:37 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:27:46 | INFO     | health_monitor | Running health check...
+2026-05-13 03:27:48 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:28:08 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:28:39 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:28:48 | INFO     | health_monitor | Running health check...
+2026-05-13 03:28:50 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 03:29:10 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:29:41 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:29:50 | INFO     | health_monitor | Running health check...
+2026-05-13 03:29:51 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 03:30:12 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:30:43 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:30:51 | INFO     | health_monitor | Running health check...
+2026-05-13 03:30:53 | INFO     | health_monitor | All processes OK | CPU:9.1% RAM:51.9%
+2026-05-13 03:31:14 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:31:45 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:31:53 | INFO     | health_monitor | Running health check...
+2026-05-13 03:31:55 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 03:32:16 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:32:48 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:32:55 | INFO     | health_monitor | Running health check...
+2026-05-13 03:32:56 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:33:19 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:33:50 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:33:56 | INFO     | health_monitor | Running health check...
+2026-05-13 03:33:58 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.9%
+2026-05-13 03:34:21 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:34:52 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:34:58 | INFO     | health_monitor | Running health check...
+2026-05-13 03:35:00 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.9%
+2026-05-13 03:35:23 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:35:54 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:36:00 | INFO     | health_monitor | Running health check...
+2026-05-13 03:36:01 | INFO     | health_monitor | All processes OK | CPU:4.0% RAM:51.9%
+2026-05-13 03:36:25 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:36:56 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:37:01 | INFO     | health_monitor | Running health check...
+2026-05-13 03:37:04 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:37:27 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:37:58 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:38:04 | INFO     | health_monitor | Running health check...
+2026-05-13 03:38:06 | INFO     | health_monitor | All processes OK | CPU:3.0% RAM:51.9%
+2026-05-13 03:38:29 | INFO     | resource_monitor | Resources OK | CPU:7.1% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:39:00 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:39:06 | INFO     | health_monitor | Running health check...
+2026-05-13 03:39:08 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.0%
+2026-05-13 03:39:31 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:40:02 | INFO     | resource_monitor | Resources OK | CPU:8.1% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:40:08 | INFO     | health_monitor | Running health check...
+2026-05-13 03:40:09 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:52.0%
+2026-05-13 03:40:33 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:41:05 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:41:10 | INFO     | health_monitor | Running health check...
+2026-05-13 03:41:11 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.0%
+2026-05-13 03:41:36 | INFO     | resource_monitor | Resources OK | CPU:8.9% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:42:07 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:42:11 | INFO     | health_monitor | Running health check...
+2026-05-13 03:42:13 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:52.0%
+2026-05-13 03:42:38 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.0% Threads:1
+2026-05-13 03:43:09 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:43:13 | INFO     | health_monitor | Running health check...
+2026-05-13 03:43:14 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 03:43:40 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:44:11 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:44:14 | INFO     | health_monitor | Running health check...
+2026-05-13 03:44:16 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 03:44:42 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:45:13 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:45:16 | INFO     | health_monitor | Running health check...
+2026-05-13 03:45:18 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:45:44 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:46:15 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:46:18 | INFO     | health_monitor | Running health check...
+2026-05-13 03:46:19 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:46:46 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:47:17 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:47:19 | INFO     | health_monitor | Running health check...
+2026-05-13 03:47:21 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:47:48 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:48:19 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:48:21 | INFO     | health_monitor | Running health check...
+2026-05-13 03:48:22 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 03:48:50 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:49:21 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:49:22 | INFO     | health_monitor | Running health check...
+2026-05-13 03:49:24 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 03:49:53 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:50:24 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.0% Threads:1
+2026-05-13 03:50:24 | INFO     | health_monitor | Running health check...
+2026-05-13 03:50:26 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 03:50:55 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.0% Threads:1
+2026-05-13 03:51:26 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.0% Threads:1
+2026-05-13 03:51:26 | INFO     | health_monitor | Running health check...
+2026-05-13 03:51:27 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.6%
+2026-05-13 03:51:57 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.6% Disk:24.0% Threads:1
+2026-05-13 03:52:28 | INFO     | health_monitor | Running health check...
+2026-05-13 03:52:28 | INFO     | resource_monitor | Resources OK | CPU:13.9% RAM:51.6% Disk:24.0% Threads:1
+2026-05-13 03:52:29 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.6%
+2026-05-13 03:52:59 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.6% Disk:24.0% Threads:1
+2026-05-13 03:53:29 | INFO     | health_monitor | Running health check...
+2026-05-13 03:53:30 | INFO     | resource_monitor | Resources OK | CPU:14.0% RAM:51.6% Disk:24.0% Threads:1
+2026-05-13 03:53:31 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.6%
+2026-05-13 03:54:01 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.0% Threads:1
+2026-05-13 03:54:31 | INFO     | health_monitor | Running health check...
+2026-05-13 03:54:32 | INFO     | resource_monitor | Resources OK | CPU:21.0% RAM:51.6% Disk:24.0% Threads:1
+2026-05-13 03:54:33 | INFO     | health_monitor | All processes OK | CPU:5.1% RAM:51.6%
+2026-05-13 03:55:03 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:51.6% Disk:24.0% Threads:1
+2026-05-13 03:55:33 | INFO     | health_monitor | Running health check...
+2026-05-13 03:55:34 | INFO     | resource_monitor | Resources OK | CPU:9.9% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 03:55:34 | INFO     | health_monitor | All processes OK | CPU:5.0% RAM:51.4%
+2026-05-13 03:56:05 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 03:56:34 | INFO     | health_monitor | Running health check...
+2026-05-13 03:56:36 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.4%
+2026-05-13 03:56:36 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 03:57:07 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 03:57:36 | INFO     | health_monitor | Running health check...
+2026-05-13 03:57:38 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.4%
+2026-05-13 03:57:38 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 03:58:10 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 03:58:38 | INFO     | health_monitor | Running health check...
+2026-05-13 03:58:40 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.4%
+2026-05-13 03:58:41 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 03:59:12 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 03:59:40 | INFO     | health_monitor | Running health check...
+2026-05-13 03:59:41 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.4%
+2026-05-13 03:59:43 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:00:02 | INFO     | log_rotator | Starting log rotation cycle...
+2026-05-13 04:00:02 | INFO     | log_rotator | Rotation cycle complete. Rotated: 0 files
+2026-05-13 04:00:14 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:00:41 | INFO     | health_monitor | Running health check...
+2026-05-13 04:00:43 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.4%
+2026-05-13 04:00:45 | INFO     | resource_monitor | Resources OK | CPU:8.1% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:01:16 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:01:43 | INFO     | health_monitor | Running health check...
+2026-05-13 04:01:44 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.4%
+2026-05-13 04:01:47 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:02:18 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:02:45 | INFO     | health_monitor | Running health check...
+2026-05-13 04:02:48 | INFO     | health_monitor | All processes OK | CPU:4.0% RAM:51.4%
+2026-05-13 04:02:49 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:03:20 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:03:48 | INFO     | health_monitor | Running health check...
+2026-05-13 04:03:50 | INFO     | health_monitor | All processes OK | CPU:7.0% RAM:51.4%
+2026-05-13 04:03:51 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:04:22 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:04:50 | INFO     | health_monitor | Running health check...
+2026-05-13 04:04:52 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.4%
+2026-05-13 04:04:53 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:05:24 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:05:52 | INFO     | health_monitor | Running health check...
+2026-05-13 04:05:54 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.4%
+2026-05-13 04:05:55 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:06:26 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:06:54 | INFO     | health_monitor | Running health check...
+2026-05-13 04:06:56 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.4%
+2026-05-13 04:06:58 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:07:29 | INFO     | resource_monitor | Resources OK | CPU:9.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:07:56 | INFO     | health_monitor | Running health check...
+2026-05-13 04:07:58 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.4%
+2026-05-13 04:08:00 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:08:31 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:08:58 | INFO     | health_monitor | Running health check...
+2026-05-13 04:08:59 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.4%
+2026-05-13 04:09:02 | INFO     | resource_monitor | Resources OK | CPU:7.1% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:09:33 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:09:59 | INFO     | health_monitor | Running health check...
+2026-05-13 04:10:01 | INFO     | health_monitor | All processes OK | CPU:7.1% RAM:51.4%
+2026-05-13 04:10:04 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:10:35 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.4% Disk:24.0% Threads:1
+2026-05-13 04:11:01 | INFO     | health_monitor | Running health check...
+2026-05-13 04:11:02 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.4%
+2026-05-13 04:11:06 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.1% Threads:1
+2026-05-13 04:11:37 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.4% Disk:24.1% Threads:1
+2026-05-13 04:12:02 | INFO     | health_monitor | Running health check...
+2026-05-13 04:12:04 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.4%
+2026-05-13 04:12:08 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.4% Disk:24.1% Threads:1
+2026-05-13 04:12:39 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.4% Disk:24.1% Threads:1
+2026-05-13 04:13:04 | INFO     | health_monitor | Running health check...
+2026-05-13 04:13:06 | INFO     | health_monitor | All processes OK | CPU:6.1% RAM:51.4%
+2026-05-13 04:13:10 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.4% Disk:24.1% Threads:1
+2026-05-13 04:13:41 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.4% Disk:24.1% Threads:1
+2026-05-13 04:14:06 | INFO     | health_monitor | Running health check...
+2026-05-13 04:14:07 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.3%
+2026-05-13 04:14:12 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.3% Disk:24.1% Threads:1
+2026-05-13 04:14:43 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.3% Disk:24.1% Threads:1
+2026-05-13 04:15:07 | INFO     | health_monitor | Running health check...
+2026-05-13 04:15:09 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.3%
+2026-05-13 04:15:14 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.3% Disk:24.1% Threads:1
+2026-05-13 04:15:45 | INFO     | resource_monitor | Resources OK | CPU:7.1% RAM:51.3% Disk:24.1% Threads:1
+2026-05-13 04:16:09 | INFO     | health_monitor | Running health check...
+2026-05-13 04:16:10 | INFO     | health_monitor | All processes OK | CPU:7.1% RAM:51.3%
+2026-05-13 04:16:17 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.3% Disk:24.1% Threads:1
+2026-05-13 04:16:48 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.3% Disk:24.1% Threads:1
+2026-05-13 04:17:10 | INFO     | health_monitor | Running health check...
+2026-05-13 04:17:12 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.3%
+2026-05-13 04:17:19 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.3% Disk:24.1% Threads:1
+2026-05-13 04:17:50 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.3% Disk:24.1% Threads:1
+2026-05-13 04:18:12 | INFO     | health_monitor | Running health check...
+2026-05-13 04:18:14 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.3%
+2026-05-13 04:18:21 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.3% Disk:24.1% Threads:1
+2026-05-13 04:18:52 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.3% Disk:24.1% Threads:1
+2026-05-13 04:19:14 | INFO     | health_monitor | Running health check...
+2026-05-13 04:19:15 | INFO     | health_monitor | All processes OK | CPU:7.1% RAM:51.3%
+2026-05-13 04:19:23 | INFO     | resource_monitor | Resources OK | CPU:2.9% RAM:51.3% Disk:24.1% Threads:1
+2026-05-13 04:19:54 | INFO     | resource_monitor | Resources OK | CPU:60.4% RAM:51.0% Disk:24.1% Threads:1
+2026-05-13 04:20:15 | INFO     | health_monitor | Running health check...
+2026-05-13 04:20:17 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.0%
+2026-05-13 04:20:25 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.0% Disk:24.1% Threads:1
+2026-05-13 04:20:56 | INFO     | resource_monitor | Resources OK | CPU:10.9% RAM:51.0% Disk:24.1% Threads:1
+2026-05-13 04:21:17 | INFO     | health_monitor | Running health check...
+2026-05-13 04:21:18 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.0%
+2026-05-13 04:21:27 | INFO     | resource_monitor | Resources OK | CPU:49.0% RAM:51.0% Disk:24.1% Threads:1
+2026-05-13 04:21:58 | INFO     | resource_monitor | Resources OK | CPU:17.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:22:18 | INFO     | health_monitor | Running health check...
+2026-05-13 04:22:20 | INFO     | health_monitor | All processes OK | CPU:8.1% RAM:51.1%
+2026-05-13 04:22:29 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:23:01 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:23:20 | INFO     | health_monitor | Running health check...
+2026-05-13 04:23:22 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.1%
+2026-05-13 04:23:32 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:24:03 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:24:22 | INFO     | health_monitor | Running health check...
+2026-05-13 04:24:23 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.1%
+2026-05-13 04:24:34 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:25:05 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:25:23 | INFO     | health_monitor | Running health check...
+2026-05-13 04:25:25 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.1%
+2026-05-13 04:25:36 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:26:07 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:26:25 | INFO     | health_monitor | Running health check...
+2026-05-13 04:26:27 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.1%
+2026-05-13 04:26:38 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:27:09 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:27:27 | INFO     | health_monitor | Running health check...
+2026-05-13 04:27:29 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.1%
+2026-05-13 04:27:40 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:28:11 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:28:29 | INFO     | health_monitor | Running health check...
+2026-05-13 04:28:31 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.1%
+2026-05-13 04:28:42 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:29:13 | INFO     | resource_monitor | Resources OK | CPU:7.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:29:31 | INFO     | health_monitor | Running health check...
+2026-05-13 04:29:32 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.1%
+2026-05-13 04:29:44 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:30:15 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:30:32 | INFO     | health_monitor | Running health check...
+2026-05-13 04:30:34 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.1%
+2026-05-13 04:30:46 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:31:18 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:31:34 | INFO     | health_monitor | Running health check...
+2026-05-13 04:31:36 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.1%
+2026-05-13 04:31:49 | INFO     | resource_monitor | Resources OK | CPU:5.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:32:20 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:32:36 | INFO     | health_monitor | Running health check...
+2026-05-13 04:32:37 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.1%
+2026-05-13 04:32:51 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:33:22 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:33:37 | INFO     | health_monitor | Running health check...
+2026-05-13 04:33:39 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.1%
+2026-05-13 04:33:53 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:34:24 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:34:39 | INFO     | health_monitor | Running health check...
+2026-05-13 04:34:41 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.1%
+2026-05-13 04:34:55 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:35:26 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:35:41 | INFO     | health_monitor | Running health check...
+2026-05-13 04:35:42 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.1%
+2026-05-13 04:35:57 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:36:28 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:36:42 | INFO     | health_monitor | Running health check...
+2026-05-13 04:36:44 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.1%
+2026-05-13 04:36:59 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:37:30 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:37:44 | INFO     | health_monitor | Running health check...
+2026-05-13 04:37:46 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.1%
+2026-05-13 04:38:01 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:38:32 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:38:46 | INFO     | health_monitor | Running health check...
+2026-05-13 04:38:47 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.1%
+2026-05-13 04:39:03 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:39:34 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:39:47 | INFO     | health_monitor | Running health check...
+2026-05-13 04:39:49 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.1%
+2026-05-13 04:40:06 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.1% Disk:24.1% Threads:1
+2026-05-13 04:40:37 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:51.2% Disk:24.1% Threads:1
+2026-05-13 04:40:49 | INFO     | health_monitor | Running health check...
+2026-05-13 04:40:50 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.2%
+2026-05-13 04:41:08 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:51.2% Disk:24.1% Threads:1
+2026-05-13 04:41:39 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:51.2% Disk:24.1% Threads:1
+2026-05-13 04:41:50 | INFO     | health_monitor | Running health check...
+2026-05-13 04:41:52 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.2%
+2026-05-13 04:42:10 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.2% Disk:24.1% Threads:1
+2026-05-13 04:42:41 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.2% Disk:24.1% Threads:1
+2026-05-13 04:42:52 | INFO     | health_monitor | Running health check...
+2026-05-13 04:42:54 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.2%
+2026-05-13 04:43:12 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.2% Disk:24.1% Threads:1
+2026-05-13 04:43:43 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.2% Disk:24.1% Threads:1
+2026-05-13 04:43:54 | INFO     | health_monitor | Running health check...
+2026-05-13 04:43:55 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.2%
+2026-05-13 04:44:14 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.2% Disk:24.1% Threads:1
+2026-05-13 04:44:45 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.2% Disk:24.1% Threads:1
+2026-05-13 04:44:55 | INFO     | health_monitor | Running health check...
+2026-05-13 04:44:57 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.2%
+2026-05-13 04:45:16 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.2% Disk:24.1% Threads:1
+2026-05-13 04:45:47 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.2% Disk:24.1% Threads:1
+2026-05-13 04:45:57 | INFO     | health_monitor | Running health check...
+2026-05-13 04:45:58 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.2%
+2026-05-13 04:46:18 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.2% Disk:24.1% Threads:1
+2026-05-13 04:46:49 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.2% Disk:24.1% Threads:1
+2026-05-13 04:46:58 | INFO     | health_monitor | Running health check...
+2026-05-13 04:47:00 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.2%
+2026-05-13 04:47:20 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.2% Disk:24.1% Threads:1
+2026-05-13 04:47:51 | INFO     | resource_monitor | Resources OK | CPU:10.0% RAM:51.2% Disk:24.1% Threads:1
+2026-05-13 04:48:00 | INFO     | health_monitor | Running health check...
+2026-05-13 04:48:02 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.2%
+2026-05-13 04:48:23 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.3% Disk:24.1% Threads:1
+2026-05-13 04:48:54 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.3% Disk:24.1% Threads:1
+2026-05-13 04:49:02 | INFO     | health_monitor | Running health check...
+2026-05-13 04:49:03 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.3%
+2026-05-13 04:49:25 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.3% Disk:24.1% Threads:1
+2026-05-13 04:49:56 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.3% Disk:24.1% Threads:1
+2026-05-13 04:50:03 | INFO     | health_monitor | Running health check...
+2026-05-13 04:50:05 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.3%
+2026-05-13 04:50:27 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 04:50:58 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 04:51:05 | INFO     | health_monitor | Running health check...
+2026-05-13 04:51:06 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 04:51:29 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 04:52:00 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 04:52:06 | INFO     | health_monitor | Running health check...
+2026-05-13 04:52:08 | INFO     | health_monitor | All processes OK | CPU:4.0% RAM:52.0%
+2026-05-13 04:52:31 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.0% Disk:24.1% Threads:1
+2026-05-13 04:53:02 | INFO     | resource_monitor | Resources OK | CPU:7.2% RAM:52.0% Disk:24.1% Threads:1
+2026-05-13 04:53:08 | INFO     | health_monitor | Running health check...
+2026-05-13 04:53:09 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.0%
+2026-05-13 04:53:33 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.1% Threads:1
+2026-05-13 04:54:04 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:52.0% Disk:24.1% Threads:1
+2026-05-13 04:54:09 | INFO     | health_monitor | Running health check...
+2026-05-13 04:54:11 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.0%
+2026-05-13 04:54:35 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.1% Threads:1
+2026-05-13 04:55:06 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.1% Threads:1
+2026-05-13 04:55:11 | INFO     | health_monitor | Running health check...
+2026-05-13 04:55:13 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.0%
+2026-05-13 04:55:37 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.1% Threads:1
+2026-05-13 04:56:08 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:52.0% Disk:24.1% Threads:1
+2026-05-13 04:56:13 | INFO     | health_monitor | Running health check...
+2026-05-13 04:56:14 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.0%
+2026-05-13 04:56:39 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.0% Disk:24.1% Threads:1
+2026-05-13 04:57:10 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.1% Threads:1
+2026-05-13 04:57:14 | INFO     | health_monitor | Running health check...
+2026-05-13 04:57:16 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.0%
+2026-05-13 04:57:42 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.0% Disk:24.1% Threads:1
+2026-05-13 04:58:13 | INFO     | resource_monitor | Resources OK | CPU:9.0% RAM:52.0% Disk:24.1% Threads:1
+2026-05-13 04:58:16 | INFO     | health_monitor | Running health check...
+2026-05-13 04:58:17 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.0%
+2026-05-13 04:58:44 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.0% Disk:24.1% Threads:1
+2026-05-13 04:59:15 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.0% Disk:24.1% Threads:1
+2026-05-13 04:59:17 | INFO     | health_monitor | Running health check...
+2026-05-13 04:59:19 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.0%
+2026-05-13 04:59:46 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:52.0% Disk:24.1% Threads:1
+2026-05-13 05:00:02 | INFO     | log_rotator | Starting log rotation cycle...
+2026-05-13 05:00:02 | INFO     | log_rotator | Rotation cycle complete. Rotated: 0 files
+2026-05-13 05:00:17 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:00:19 | INFO     | health_monitor | Running health check...
+2026-05-13 05:00:21 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 05:00:48 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:01:19 | INFO     | resource_monitor | Resources OK | CPU:65.7% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:01:21 | INFO     | health_monitor | Running health check...
+2026-05-13 05:01:22 | INFO     | health_monitor | All processes OK | CPU:5.1% RAM:51.9%
+2026-05-13 05:01:50 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:02:21 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:02:22 | INFO     | health_monitor | Running health check...
+2026-05-13 05:02:24 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 05:02:52 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:03:23 | INFO     | resource_monitor | Resources OK | CPU:7.1% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:03:24 | INFO     | health_monitor | Running health check...
+2026-05-13 05:03:25 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.9%
+2026-05-13 05:03:54 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:04:25 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:04:26 | INFO     | health_monitor | Running health check...
+2026-05-13 05:04:27 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.9%
+2026-05-13 05:04:56 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:05:27 | INFO     | health_monitor | Running health check...
+2026-05-13 05:05:27 | INFO     | resource_monitor | Resources OK | CPU:15.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:05:29 | INFO     | health_monitor | All processes OK | CPU:8.0% RAM:51.9%
+2026-05-13 05:05:58 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:06:29 | INFO     | health_monitor | Running health check...
+2026-05-13 05:06:29 | INFO     | resource_monitor | Resources OK | CPU:22.8% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:06:30 | INFO     | health_monitor | All processes OK | CPU:3.0% RAM:51.8%
+2026-05-13 05:07:01 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:07:30 | INFO     | health_monitor | Running health check...
+2026-05-13 05:07:32 | INFO     | resource_monitor | Resources OK | CPU:8.1% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:07:32 | INFO     | health_monitor | All processes OK | CPU:4.0% RAM:51.9%
+2026-05-13 05:08:03 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:08:32 | INFO     | health_monitor | Running health check...
+2026-05-13 05:08:33 | INFO     | health_monitor | All processes OK | CPU:8.0% RAM:51.9%
+2026-05-13 05:08:34 | INFO     | resource_monitor | Resources OK | CPU:8.9% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:09:05 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:09:33 | INFO     | health_monitor | Running health check...
+2026-05-13 05:09:35 | INFO     | health_monitor | All processes OK | CPU:3.0% RAM:51.9%
+2026-05-13 05:09:36 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.9% Disk:24.1% Threads:1
+2026-05-13 05:10:07 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:10:35 | INFO     | health_monitor | Running health check...
+2026-05-13 05:10:37 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.8%
+2026-05-13 05:10:38 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:11:09 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:11:37 | INFO     | health_monitor | Running health check...
+2026-05-13 05:11:38 | INFO     | health_monitor | All processes OK | CPU:9.1% RAM:51.8%
+2026-05-13 05:11:40 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:12:11 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:12:38 | INFO     | health_monitor | Running health check...
+2026-05-13 05:12:40 | INFO     | health_monitor | All processes OK | CPU:3.0% RAM:51.8%
+2026-05-13 05:12:42 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:13:13 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:13:40 | INFO     | health_monitor | Running health check...
+2026-05-13 05:13:41 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.8%
+2026-05-13 05:13:44 | INFO     | resource_monitor | Resources OK | CPU:8.9% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:14:15 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:14:41 | INFO     | health_monitor | Running health check...
+2026-05-13 05:14:43 | INFO     | health_monitor | All processes OK | CPU:8.0% RAM:51.8%
+2026-05-13 05:14:46 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:15:18 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:15:43 | INFO     | health_monitor | Running health check...
+2026-05-13 05:15:44 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.8%
+2026-05-13 05:15:49 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:16:20 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:16:44 | INFO     | health_monitor | Running health check...
+2026-05-13 05:16:46 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.8%
+2026-05-13 05:16:51 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:17:22 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:17:46 | INFO     | health_monitor | Running health check...
+2026-05-13 05:17:48 | INFO     | health_monitor | All processes OK | CPU:7.1% RAM:51.8%
+2026-05-13 05:17:53 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:18:24 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:18:48 | INFO     | health_monitor | Running health check...
+2026-05-13 05:18:49 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.8%
+2026-05-13 05:18:55 | INFO     | resource_monitor | Resources OK | CPU:7.1% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:19:26 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:19:49 | INFO     | health_monitor | Running health check...
+2026-05-13 05:19:51 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.8%
+2026-05-13 05:19:57 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:20:28 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:20:51 | INFO     | health_monitor | Running health check...
+2026-05-13 05:20:52 | INFO     | health_monitor | All processes OK | CPU:9.8% RAM:51.8%
+2026-05-13 05:20:59 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:21:30 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:21:52 | INFO     | health_monitor | Running health check...
+2026-05-13 05:21:54 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.8%
+2026-05-13 05:22:01 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:22:32 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:22:54 | INFO     | health_monitor | Running health check...
+2026-05-13 05:22:55 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.8%
+2026-05-13 05:23:03 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:23:35 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:23:56 | INFO     | health_monitor | Running health check...
+2026-05-13 05:23:57 | INFO     | health_monitor | All processes OK | CPU:8.0% RAM:51.8%
+2026-05-13 05:24:06 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:24:37 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:24:57 | INFO     | health_monitor | Running health check...
+2026-05-13 05:24:59 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.8%
+2026-05-13 05:25:08 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:25:39 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:25:59 | INFO     | health_monitor | Running health check...
+2026-05-13 05:26:00 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.8%
+2026-05-13 05:26:10 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:26:41 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:27:00 | INFO     | health_monitor | Running health check...
+2026-05-13 05:27:02 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.8%
+2026-05-13 05:27:12 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:27:43 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:28:02 | INFO     | health_monitor | Running health check...
+2026-05-13 05:28:03 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.8%
+2026-05-13 05:28:14 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:28:45 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:29:04 | INFO     | health_monitor | Running health check...
+2026-05-13 05:29:05 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.8%
+2026-05-13 05:29:16 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:29:47 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:30:05 | INFO     | health_monitor | Running health check...
+2026-05-13 05:30:07 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.8%
+2026-05-13 05:30:18 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:30:49 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:31:07 | INFO     | health_monitor | Running health check...
+2026-05-13 05:31:08 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.8%
+2026-05-13 05:31:20 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:31:52 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:32:08 | INFO     | health_monitor | Running health check...
+2026-05-13 05:32:10 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.8%
+2026-05-13 05:32:23 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:32:54 | INFO     | resource_monitor | Resources OK | CPU:9.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:33:10 | INFO     | health_monitor | Running health check...
+2026-05-13 05:33:11 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.8%
+2026-05-13 05:33:25 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:33:56 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:34:11 | INFO     | health_monitor | Running health check...
+2026-05-13 05:34:13 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.8%
+2026-05-13 05:34:27 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:34:58 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:35:13 | INFO     | health_monitor | Running health check...
+2026-05-13 05:35:15 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.8%
+2026-05-13 05:35:29 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:36:00 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:36:15 | INFO     | health_monitor | Running health check...
+2026-05-13 05:36:16 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.8%
+2026-05-13 05:36:31 | INFO     | resource_monitor | Resources OK | CPU:8.1% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:37:02 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:37:16 | INFO     | health_monitor | Running health check...
+2026-05-13 05:37:18 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.8%
+2026-05-13 05:37:33 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:38:04 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:38:18 | INFO     | health_monitor | Running health check...
+2026-05-13 05:38:19 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.8%
+2026-05-13 05:38:35 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:39:06 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:39:19 | INFO     | health_monitor | Running health check...
+2026-05-13 05:39:21 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.8%
+2026-05-13 05:39:37 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:40:08 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.8% Disk:24.1% Threads:1
+2026-05-13 05:40:21 | INFO     | health_monitor | Running health check...
+2026-05-13 05:40:22 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.7%
+2026-05-13 05:40:40 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:41:11 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:41:23 | INFO     | health_monitor | Running health check...
+2026-05-13 05:41:24 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.7%
+2026-05-13 05:41:42 | INFO     | resource_monitor | Resources OK | CPU:6.1% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:42:13 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:42:24 | INFO     | health_monitor | Running health check...
+2026-05-13 05:42:26 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.7%
+2026-05-13 05:42:44 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:43:15 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:43:26 | INFO     | health_monitor | Running health check...
+2026-05-13 05:43:27 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.7%
+2026-05-13 05:43:46 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:44:17 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:44:27 | INFO     | health_monitor | Running health check...
+2026-05-13 05:44:29 | INFO     | health_monitor | All processes OK | CPU:7.1% RAM:51.7%
+2026-05-13 05:44:48 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:45:19 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:45:29 | INFO     | health_monitor | Running health check...
+2026-05-13 05:45:30 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.7%
+2026-05-13 05:45:50 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:46:21 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:46:30 | INFO     | health_monitor | Running health check...
+2026-05-13 05:46:32 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.7%
+2026-05-13 05:46:52 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:47:23 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:47:32 | INFO     | health_monitor | Running health check...
+2026-05-13 05:47:34 | INFO     | health_monitor | All processes OK | CPU:8.0% RAM:51.7%
+2026-05-13 05:47:54 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:48:25 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:48:34 | INFO     | health_monitor | Running health check...
+2026-05-13 05:48:35 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.7%
+2026-05-13 05:48:56 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:49:28 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:49:35 | INFO     | health_monitor | Running health check...
+2026-05-13 05:49:37 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.7%
+2026-05-13 05:49:59 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:50:30 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:50:37 | INFO     | health_monitor | Running health check...
+2026-05-13 05:50:38 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.7%
+2026-05-13 05:51:01 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:51:32 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:51:38 | INFO     | health_monitor | Running health check...
+2026-05-13 05:51:40 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.7%
+2026-05-13 05:52:03 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:52:34 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:52:40 | INFO     | health_monitor | Running health check...
+2026-05-13 05:52:41 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.7%
+2026-05-13 05:53:05 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:53:36 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:53:41 | INFO     | health_monitor | Running health check...
+2026-05-13 05:53:43 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.7%
+2026-05-13 05:54:07 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:54:38 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:54:43 | INFO     | health_monitor | Running health check...
+2026-05-13 05:54:45 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.7%
+2026-05-13 05:55:09 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:55:40 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:55:45 | INFO     | health_monitor | Running health check...
+2026-05-13 05:55:46 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.7%
+2026-05-13 05:56:11 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:56:42 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:56:46 | INFO     | health_monitor | Running health check...
+2026-05-13 05:56:48 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.7%
+2026-05-13 05:57:13 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:57:44 | INFO     | resource_monitor | Resources OK | CPU:6.1% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:57:48 | INFO     | health_monitor | Running health check...
+2026-05-13 05:57:49 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.7%
+2026-05-13 05:58:16 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:58:47 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:58:49 | INFO     | health_monitor | Running health check...
+2026-05-13 05:58:51 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.7%
+2026-05-13 05:59:18 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:59:49 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 05:59:51 | INFO     | health_monitor | Running health check...
+2026-05-13 05:59:52 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.7%
+2026-05-13 06:00:02 | INFO     | log_rotator | Starting log rotation cycle...
+2026-05-13 06:00:02 | INFO     | log_rotator | Rotation cycle complete. Rotated: 0 files
+2026-05-13 06:00:20 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 06:00:51 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 06:00:52 | INFO     | health_monitor | Running health check...
+2026-05-13 06:00:54 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.7%
+2026-05-13 06:01:22 | INFO     | resource_monitor | Resources OK | CPU:7.1% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 06:01:53 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 06:01:54 | INFO     | health_monitor | Running health check...
+2026-05-13 06:01:56 | INFO     | health_monitor | All processes OK | CPU:8.0% RAM:51.7%
+2026-05-13 06:02:24 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 06:02:55 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 06:02:56 | INFO     | health_monitor | Running health check...
+2026-05-13 06:02:57 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.7%
+2026-05-13 06:03:26 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 06:03:57 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 06:03:57 | INFO     | health_monitor | Running health check...
+2026-05-13 06:03:59 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.7%
+2026-05-13 06:04:28 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 06:04:59 | INFO     | health_monitor | Running health check...
+2026-05-13 06:04:59 | INFO     | resource_monitor | Resources OK | CPU:21.2% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 06:05:00 | INFO     | health_monitor | All processes OK | CPU:11.9% RAM:51.7%
+2026-05-13 06:05:30 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 06:06:00 | INFO     | health_monitor | Running health check...
+2026-05-13 06:06:01 | INFO     | resource_monitor | Resources OK | CPU:16.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 06:06:02 | INFO     | health_monitor | All processes OK | CPU:4.0% RAM:51.7%
+2026-05-13 06:06:33 | INFO     | resource_monitor | Resources OK | CPU:7.1% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 06:07:02 | INFO     | health_monitor | Running health check...
+2026-05-13 06:07:03 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.7%
+2026-05-13 06:07:04 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 06:07:35 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 06:08:04 | INFO     | health_monitor | Running health check...
+2026-05-13 06:08:05 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.7%
+2026-05-13 06:08:06 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 06:08:37 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:09:05 | INFO     | health_monitor | Running health check...
+2026-05-13 06:09:07 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.6%
+2026-05-13 06:09:08 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:09:39 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:10:07 | INFO     | health_monitor | Running health check...
+2026-05-13 06:10:08 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.6%
+2026-05-13 06:10:10 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:10:41 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:11:08 | INFO     | health_monitor | Running health check...
+2026-05-13 06:11:10 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.6%
+2026-05-13 06:11:12 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:11:43 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:12:10 | INFO     | health_monitor | Running health check...
+2026-05-13 06:12:11 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.6%
+2026-05-13 06:12:14 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:12:45 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:13:11 | INFO     | health_monitor | Running health check...
+2026-05-13 06:13:13 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.6%
+2026-05-13 06:13:16 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:13:47 | INFO     | resource_monitor | Resources OK | CPU:8.9% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:14:13 | INFO     | health_monitor | Running health check...
+2026-05-13 06:14:14 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.6%
+2026-05-13 06:14:19 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:14:50 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:15:14 | INFO     | health_monitor | Running health check...
+2026-05-13 06:15:16 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.6%
+2026-05-13 06:15:21 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:15:52 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:16:16 | INFO     | health_monitor | Running health check...
+2026-05-13 06:16:18 | INFO     | health_monitor | All processes OK | CPU:8.0% RAM:51.6%
+2026-05-13 06:16:23 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:16:54 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:17:18 | INFO     | health_monitor | Running health check...
+2026-05-13 06:17:19 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.6%
+2026-05-13 06:17:25 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:17:56 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:18:19 | INFO     | health_monitor | Running health check...
+2026-05-13 06:18:21 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.6%
+2026-05-13 06:18:27 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:18:58 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:19:21 | INFO     | health_monitor | Running health check...
+2026-05-13 06:19:22 | INFO     | health_monitor | All processes OK | CPU:6.0% RAM:51.6%
+2026-05-13 06:19:29 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:20:00 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:20:22 | INFO     | health_monitor | Running health check...
+2026-05-13 06:20:24 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.6%
+2026-05-13 06:20:31 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:21:02 | INFO     | resource_monitor | Resources OK | CPU:8.1% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:21:24 | INFO     | health_monitor | Running health check...
+2026-05-13 06:21:25 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.6%
+2026-05-13 06:21:33 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:22:04 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:22:25 | INFO     | health_monitor | Running health check...
+2026-05-13 06:22:27 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.6%
+2026-05-13 06:22:35 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:23:07 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:23:27 | INFO     | health_monitor | Running health check...
+2026-05-13 06:23:29 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.6%
+2026-05-13 06:23:38 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:24:09 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:24:29 | INFO     | health_monitor | Running health check...
+2026-05-13 06:24:30 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:51.6%
+2026-05-13 06:24:40 | INFO     | resource_monitor | Resources OK | CPU:8.1% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:25:11 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:25:30 | INFO     | health_monitor | Running health check...
+2026-05-13 06:25:32 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.6%
+2026-05-13 06:25:42 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:26:13 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:26:32 | INFO     | health_monitor | Running health check...
+2026-05-13 06:26:33 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.6%
+2026-05-13 06:26:44 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:27:15 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:27:33 | INFO     | health_monitor | Running health check...
+2026-05-13 06:27:35 | INFO     | health_monitor | All processes OK | CPU:8.0% RAM:51.6%
+2026-05-13 06:27:46 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:28:17 | INFO     | resource_monitor | Resources OK | CPU:7.1% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:28:35 | INFO     | health_monitor | Running health check...
+2026-05-13 06:28:37 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.6%
+2026-05-13 06:28:48 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:29:19 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:29:37 | INFO     | health_monitor | Running health check...
+2026-05-13 06:29:38 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.6%
+2026-05-13 06:29:50 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:30:21 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:30:38 | INFO     | health_monitor | Running health check...
+2026-05-13 06:30:40 | INFO     | health_monitor | All processes OK | CPU:3.0% RAM:51.6%
+2026-05-13 06:30:52 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:31:23 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:31:40 | INFO     | health_monitor | Running health check...
+2026-05-13 06:31:41 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.6%
+2026-05-13 06:31:55 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:32:26 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:32:41 | INFO     | health_monitor | Running health check...
+2026-05-13 06:32:43 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.6%
+2026-05-13 06:32:57 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:33:28 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:33:43 | INFO     | health_monitor | Running health check...
+2026-05-13 06:33:44 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.6%
+2026-05-13 06:33:59 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:34:30 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:34:44 | INFO     | health_monitor | Running health check...
+2026-05-13 06:34:46 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:51.6%
+2026-05-13 06:35:01 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:35:32 | INFO     | resource_monitor | Resources OK | CPU:7.1% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:35:46 | INFO     | health_monitor | Running health check...
+2026-05-13 06:35:48 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.6%
+2026-05-13 06:36:03 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.6% Disk:24.1% Threads:1
+2026-05-13 06:36:34 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:36:48 | INFO     | health_monitor | Running health check...
+2026-05-13 06:36:49 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 06:37:05 | INFO     | resource_monitor | Resources OK | CPU:2.9% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:37:36 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:37:49 | INFO     | health_monitor | Running health check...
+2026-05-13 06:37:51 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:53.5%
+2026-05-13 06:38:07 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:38:38 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:38:51 | INFO     | health_monitor | Running health check...
+2026-05-13 06:38:52 | INFO     | health_monitor | All processes OK | CPU:8.1% RAM:53.5%
+2026-05-13 06:39:09 | INFO     | resource_monitor | Resources OK | CPU:8.1% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:39:40 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:39:52 | INFO     | health_monitor | Running health check...
+2026-05-13 06:39:54 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.5%
+2026-05-13 06:40:11 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:40:43 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:40:54 | INFO     | health_monitor | Running health check...
+2026-05-13 06:40:55 | INFO     | health_monitor | All processes OK | CPU:5.0% RAM:53.5%
+2026-05-13 06:41:14 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:41:45 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:41:56 | INFO     | health_monitor | Running health check...
+2026-05-13 06:41:57 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.5%
+2026-05-13 06:42:16 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:42:47 | INFO     | resource_monitor | Resources OK | CPU:45.5% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:42:57 | INFO     | health_monitor | Running health check...
+2026-05-13 06:42:59 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 06:43:18 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:43:49 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:43:59 | INFO     | health_monitor | Running health check...
+2026-05-13 06:44:00 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.5%
+2026-05-13 06:44:20 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:44:51 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:45:00 | INFO     | health_monitor | Running health check...
+2026-05-13 06:45:02 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.5%
+2026-05-13 06:45:22 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:45:53 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:46:02 | INFO     | health_monitor | Running health check...
+2026-05-13 06:46:03 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 06:46:24 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:46:55 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:47:03 | INFO     | health_monitor | Running health check...
+2026-05-13 06:47:05 | INFO     | health_monitor | All processes OK | CPU:9.0% RAM:53.5%
+2026-05-13 06:47:26 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:47:57 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:48:05 | INFO     | health_monitor | Running health check...
+2026-05-13 06:48:07 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 06:48:28 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:48:59 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:49:07 | INFO     | health_monitor | Running health check...
+2026-05-13 06:49:08 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:53.5%
+2026-05-13 06:49:30 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:50:02 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:50:08 | INFO     | health_monitor | Running health check...
+2026-05-13 06:50:10 | INFO     | health_monitor | All processes OK | CPU:8.0% RAM:53.5%
+2026-05-13 06:50:33 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:51:04 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:51:10 | INFO     | health_monitor | Running health check...
+2026-05-13 06:51:11 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 06:51:35 | INFO     | resource_monitor | Resources OK | CPU:17.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:52:06 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:52:11 | INFO     | health_monitor | Running health check...
+2026-05-13 06:52:13 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 06:52:37 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:53:08 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:53:13 | INFO     | health_monitor | Running health check...
+2026-05-13 06:53:15 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 06:53:39 | INFO     | resource_monitor | Resources OK | CPU:8.9% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:54:10 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:54:15 | INFO     | health_monitor | Running health check...
+2026-05-13 06:54:16 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 06:54:41 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:55:12 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:55:16 | INFO     | health_monitor | Running health check...
+2026-05-13 06:55:18 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 06:55:43 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:56:14 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:56:18 | INFO     | health_monitor | Running health check...
+2026-05-13 06:56:19 | INFO     | health_monitor | All processes OK | CPU:3.0% RAM:53.5%
+2026-05-13 06:56:45 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:57:17 | INFO     | resource_monitor | Resources OK | CPU:7.1% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:57:19 | INFO     | health_monitor | Running health check...
+2026-05-13 06:57:21 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 06:57:48 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:58:19 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:58:21 | INFO     | health_monitor | Running health check...
+2026-05-13 06:58:22 | INFO     | health_monitor | All processes OK | CPU:6.1% RAM:53.5%
+2026-05-13 06:58:50 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:59:21 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 06:59:22 | INFO     | health_monitor | Running health check...
+2026-05-13 06:59:24 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 06:59:52 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:00:02 | INFO     | log_rotator | Starting log rotation cycle...
+2026-05-13 07:00:02 | INFO     | log_rotator | Rotation cycle complete. Rotated: 0 files
+2026-05-13 07:00:23 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:00:24 | INFO     | health_monitor | Running health check...
+2026-05-13 07:00:26 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.5%
+2026-05-13 07:00:54 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:01:25 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:01:26 | INFO     | health_monitor | Running health check...
+2026-05-13 07:01:27 | INFO     | health_monitor | All processes OK | CPU:8.8% RAM:53.5%
+2026-05-13 07:01:56 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:02:27 | INFO     | health_monitor | Running health check...
+2026-05-13 07:02:27 | INFO     | resource_monitor | Resources OK | CPU:4.9% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:02:29 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 07:02:58 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:03:29 | INFO     | health_monitor | Running health check...
+2026-05-13 07:03:29 | INFO     | resource_monitor | Resources OK | CPU:27.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:03:30 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:53.5%
+2026-05-13 07:04:00 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:04:30 | INFO     | health_monitor | Running health check...
+2026-05-13 07:04:31 | INFO     | resource_monitor | Resources OK | CPU:15.2% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:04:32 | INFO     | health_monitor | All processes OK | CPU:4.0% RAM:53.5%
+2026-05-13 07:05:02 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:05:32 | INFO     | health_monitor | Running health check...
+2026-05-13 07:05:33 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.5%
+2026-05-13 07:05:34 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:06:05 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:06:33 | INFO     | health_monitor | Running health check...
+2026-05-13 07:06:35 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 07:06:36 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:07:07 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:07:35 | INFO     | health_monitor | Running health check...
+2026-05-13 07:07:37 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 07:07:38 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:08:09 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:08:37 | INFO     | health_monitor | Running health check...
+2026-05-13 07:08:38 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 07:08:40 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:09:11 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:09:38 | INFO     | health_monitor | Running health check...
+2026-05-13 07:09:40 | INFO     | health_monitor | All processes OK | CPU:8.0% RAM:53.5%
+2026-05-13 07:09:42 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:10:13 | INFO     | resource_monitor | Resources OK | CPU:7.1% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:10:40 | INFO     | health_monitor | Running health check...
+2026-05-13 07:10:41 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:53.5%
+2026-05-13 07:10:44 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:11:15 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:11:41 | INFO     | health_monitor | Running health check...
+2026-05-13 07:11:43 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 07:11:46 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:12:17 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:12:43 | INFO     | health_monitor | Running health check...
+2026-05-13 07:12:44 | INFO     | health_monitor | All processes OK | CPU:8.0% RAM:53.5%
+2026-05-13 07:12:48 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:13:19 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:13:44 | INFO     | health_monitor | Running health check...
+2026-05-13 07:13:46 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.5%
+2026-05-13 07:13:50 | INFO     | resource_monitor | Resources OK | CPU:9.9% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:14:22 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.5% Disk:24.1% Threads:1
+2026-05-13 07:14:46 | INFO     | health_monitor | Running health check...
+2026-05-13 07:14:47 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.5%
+2026-05-13 07:14:53 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:15:24 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:15:47 | INFO     | health_monitor | Running health check...
+2026-05-13 07:15:49 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.4%
+2026-05-13 07:15:55 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:16:26 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:16:49 | INFO     | health_monitor | Running health check...
+2026-05-13 07:16:51 | INFO     | health_monitor | All processes OK | CPU:3.0% RAM:53.4%
+2026-05-13 07:16:57 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:17:28 | INFO     | resource_monitor | Resources OK | CPU:7.1% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:17:51 | INFO     | health_monitor | Running health check...
+2026-05-13 07:17:52 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.4%
+2026-05-13 07:17:59 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:18:30 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:18:52 | INFO     | health_monitor | Running health check...
+2026-05-13 07:18:54 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.4%
+2026-05-13 07:19:01 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:19:32 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:19:54 | INFO     | health_monitor | Running health check...
+2026-05-13 07:19:55 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.4%
+2026-05-13 07:20:03 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:20:34 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:20:55 | INFO     | health_monitor | Running health check...
+2026-05-13 07:20:57 | INFO     | health_monitor | All processes OK | CPU:8.0% RAM:53.4%
+2026-05-13 07:21:05 | INFO     | resource_monitor | Resources OK | CPU:7.1% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:21:36 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:21:57 | INFO     | health_monitor | Running health check...
+2026-05-13 07:21:58 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.4%
+2026-05-13 07:22:07 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:22:38 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:22:58 | INFO     | health_monitor | Running health check...
+2026-05-13 07:23:00 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.4%
+2026-05-13 07:23:09 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:23:41 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:24:00 | INFO     | health_monitor | Running health check...
+2026-05-13 07:24:01 | INFO     | health_monitor | All processes OK | CPU:7.1% RAM:53.4%
+2026-05-13 07:24:12 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:24:43 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:25:02 | INFO     | health_monitor | Running health check...
+2026-05-13 07:25:03 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.4%
+2026-05-13 07:25:14 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:25:45 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:26:03 | INFO     | health_monitor | Running health check...
+2026-05-13 07:26:05 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.4%
+2026-05-13 07:26:16 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:26:47 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:27:05 | INFO     | health_monitor | Running health check...
+2026-05-13 07:27:06 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.4%
+2026-05-13 07:27:18 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:27:49 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:28:06 | INFO     | health_monitor | Running health check...
+2026-05-13 07:28:08 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.4%
+2026-05-13 07:28:20 | INFO     | resource_monitor | Resources OK | CPU:7.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:28:51 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:29:08 | INFO     | health_monitor | Running health check...
+2026-05-13 07:29:09 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.4%
+2026-05-13 07:29:22 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:29:53 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:30:09 | INFO     | health_monitor | Running health check...
+2026-05-13 07:30:11 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.4%
+2026-05-13 07:30:24 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:30:55 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:31:11 | INFO     | health_monitor | Running health check...
+2026-05-13 07:31:13 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.4%
+2026-05-13 07:31:26 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:31:57 | INFO     | resource_monitor | Resources OK | CPU:9.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:32:13 | INFO     | health_monitor | Running health check...
+2026-05-13 07:32:14 | INFO     | health_monitor | All processes OK | CPU:8.0% RAM:53.4%
+2026-05-13 07:32:29 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:33:00 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:33:14 | INFO     | health_monitor | Running health check...
+2026-05-13 07:33:16 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.4%
+2026-05-13 07:33:31 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:34:02 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:34:16 | INFO     | health_monitor | Running health check...
+2026-05-13 07:34:17 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.4%
+2026-05-13 07:34:33 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:35:04 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:35:17 | INFO     | health_monitor | Running health check...
+2026-05-13 07:35:19 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.4%
+2026-05-13 07:35:35 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:36:06 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:36:19 | INFO     | health_monitor | Running health check...
+2026-05-13 07:36:20 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.4%
+2026-05-13 07:36:37 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:37:08 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:37:20 | INFO     | health_monitor | Running health check...
+2026-05-13 07:37:22 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.4%
+2026-05-13 07:37:39 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:38:10 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:38:22 | INFO     | health_monitor | Running health check...
+2026-05-13 07:38:23 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.4%
+2026-05-13 07:38:41 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:39:12 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:39:24 | INFO     | health_monitor | Running health check...
+2026-05-13 07:39:25 | INFO     | health_monitor | All processes OK | CPU:76.5% RAM:53.4%
+2026-05-13 07:39:43 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:40:14 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:40:25 | INFO     | health_monitor | Running health check...
+2026-05-13 07:40:27 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:53.4%
+2026-05-13 07:40:46 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:41:17 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:41:27 | INFO     | health_monitor | Running health check...
+2026-05-13 07:41:28 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.4%
+2026-05-13 07:41:48 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:42:19 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:42:28 | INFO     | health_monitor | Running health check...
+2026-05-13 07:42:30 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:53.4%
+2026-05-13 07:42:50 | INFO     | resource_monitor | Resources OK | CPU:8.9% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:43:21 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:43:30 | INFO     | health_monitor | Running health check...
+2026-05-13 07:43:31 | INFO     | health_monitor | All processes OK | CPU:8.0% RAM:53.4%
+2026-05-13 07:43:52 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:44:23 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:53.4% Disk:24.1% Threads:1
+2026-05-13 07:44:31 | INFO     | health_monitor | Running health check...
+2026-05-13 07:44:33 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.3%
+2026-05-13 07:44:54 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.3% Disk:24.1% Threads:1
+2026-05-13 07:45:25 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.3% Disk:24.1% Threads:1
+2026-05-13 07:45:33 | INFO     | health_monitor | Running health check...
+2026-05-13 07:45:35 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.3%
+2026-05-13 07:45:56 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:53.3% Disk:24.1% Threads:1
+2026-05-13 07:46:27 | INFO     | resource_monitor | Resources OK | CPU:9.2% RAM:52.9% Disk:24.1% Threads:1
+2026-05-13 07:46:35 | INFO     | health_monitor | Running health check...
+2026-05-13 07:46:36 | INFO     | health_monitor | All processes OK | CPU:47.5% RAM:52.9%
+2026-05-13 07:46:58 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 07:47:29 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:51.7% Disk:24.1% Threads:1
+2026-05-13 07:47:36 | INFO     | health_monitor | Running health check...
+2026-05-13 07:47:39 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:51.7%
+2026-05-13 07:48:00 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.6% Disk:24.1% Threads:1
+2026-05-13 07:48:32 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.6% Disk:24.1% Threads:1
+2026-05-13 07:48:39 | INFO     | health_monitor | Running health check...
+2026-05-13 07:48:41 | INFO     | health_monitor | All processes OK | CPU:9.0% RAM:52.6%
+2026-05-13 07:49:03 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.6% Disk:24.1% Threads:1
+2026-05-13 07:49:34 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.6% Disk:24.1% Threads:1
+2026-05-13 07:49:41 | INFO     | health_monitor | Running health check...
+2026-05-13 07:49:42 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.6%
+2026-05-13 07:50:05 | INFO     | resource_monitor | Resources OK | CPU:8.1% RAM:52.7% Disk:24.1% Threads:1
+2026-05-13 07:50:36 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.7% Disk:24.1% Threads:1
+2026-05-13 07:50:42 | INFO     | health_monitor | Running health check...
+2026-05-13 07:50:44 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.7%
+2026-05-13 07:51:07 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.6% Disk:24.1% Threads:1
+2026-05-13 07:51:38 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.0% Disk:24.1% Threads:1
+2026-05-13 07:51:44 | INFO     | health_monitor | Running health check...
+2026-05-13 07:51:46 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:53.0%
+2026-05-13 07:52:09 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:53.0% Disk:24.1% Threads:1
+2026-05-13 07:52:40 | INFO     | resource_monitor | Resources OK | CPU:51.0% RAM:53.0% Disk:24.1% Threads:1
+2026-05-13 07:52:46 | INFO     | health_monitor | Running health check...
+2026-05-13 07:52:47 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:53.0%
+2026-05-13 07:53:11 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.8% Disk:24.1% Threads:1
+2026-05-13 07:53:42 | INFO     | resource_monitor | Resources OK | CPU:9.0% RAM:52.7% Disk:24.1% Threads:1
+2026-05-13 07:53:47 | INFO     | health_monitor | Running health check...
+2026-05-13 07:53:49 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.7%
+2026-05-13 07:54:13 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.7% Disk:24.1% Threads:1
+2026-05-13 07:54:44 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.7% Disk:24.1% Threads:1
+2026-05-13 07:54:49 | INFO     | health_monitor | Running health check...
+2026-05-13 07:54:50 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:52.7%
+2026-05-13 07:55:15 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.7% Disk:24.1% Threads:1
+2026-05-13 07:55:46 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:52.7% Disk:24.1% Threads:1
+2026-05-13 07:55:50 | INFO     | health_monitor | Running health check...
+2026-05-13 07:55:52 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:52.7%
+2026-05-13 07:56:17 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.7% Disk:24.1% Threads:1
+2026-05-13 07:56:48 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:52.7% Disk:24.1% Threads:1
+2026-05-13 07:56:52 | INFO     | health_monitor | Running health check...
+2026-05-13 07:56:53 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:52.7%
+2026-05-13 07:57:20 | INFO     | resource_monitor | Resources OK | CPU:32.0% RAM:55.1% Disk:24.1% Threads:1
+2026-05-13 07:57:51 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:55.1% Disk:24.1% Threads:1
+2026-05-13 07:57:53 | INFO     | health_monitor | Running health check...
+2026-05-13 07:57:55 | INFO     | health_monitor | All processes OK | CPU:41.0% RAM:55.1%
+2026-05-13 07:58:22 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:55.1% Disk:24.1% Threads:1
+2026-05-13 07:58:53 | INFO     | resource_monitor | Resources OK | CPU:2.9% RAM:55.1% Disk:24.1% Threads:1
+2026-05-13 07:58:55 | INFO     | health_monitor | Running health check...
+2026-05-13 07:58:57 | INFO     | health_monitor | All processes OK | CPU:3.0% RAM:55.1%
+2026-05-13 07:59:24 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:55.1% Disk:24.1% Threads:1
+2026-05-13 07:59:55 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:55.1% Disk:24.1% Threads:1
+2026-05-13 07:59:57 | INFO     | health_monitor | Running health check...
+2026-05-13 07:59:58 | INFO     | health_monitor | All processes OK | CPU:8.1% RAM:55.1%
+2026-05-13 08:00:02 | INFO     | log_rotator | Starting log rotation cycle...
+2026-05-13 08:00:02 | INFO     | log_rotator | Rotation cycle complete. Rotated: 0 files
+2026-05-13 08:00:26 | INFO     | resource_monitor | Resources OK | CPU:45.4% RAM:58.3% Disk:24.1% Threads:1
+2026-05-13 08:00:57 | INFO     | resource_monitor | Resources OK | CPU:64.4% RAM:58.5% Disk:24.1% Threads:1
+2026-05-13 08:00:58 | INFO     | health_monitor | Running health check...
+2026-05-13 08:01:00 | INFO     | health_monitor | All processes OK | CPU:2.0% RAM:58.5%
+2026-05-13 08:01:28 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:58.5% Disk:24.1% Threads:1
+2026-05-13 08:01:59 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:58.5% Disk:24.1% Threads:1
+2026-05-13 08:02:00 | INFO     | health_monitor | Running health check...
+2026-05-13 08:02:01 | INFO     | health_monitor | All processes OK | CPU:1.0% RAM:58.5%
+2026-05-13 08:02:30 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:58.5% Disk:24.1% Threads:1
+2026-05-13 08:03:01 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:58.5% Disk:24.1% Threads:1
+2026-05-13 08:03:01 | INFO     | health_monitor | Running health check...
+2026-05-13 08:03:03 | INFO     | health_monitor | All processes OK | CPU:0.0% RAM:58.5%
+2026-05-13 08:03:32 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:58.6% Disk:24.1% Threads:1

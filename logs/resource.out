@@ -110,3 +110,7 @@
 2026-05-12 10:45:20 | ERROR    | resource_monitor | CPU CRITICAL: 95.0%
 2026-05-12 11:13:49 | ERROR    | resource_monitor | CPU CRITICAL: 97.0%
 2026-05-13 02:00:07 | ERROR    | resource_monitor | CPU CRITICAL: 97.0%
+2026-05-13 02:00:39 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-13 02:01:10 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-13 02:01:41 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-13 02:02:12 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%

@@ -1,6 +1,6 @@
 {
-  "lockdown": false,
-  "warning": true,
+  "lockdown": true,
+  "warning": false,
   "last_event": "CPI Report",
-  "mode": "warning"
+  "mode": "lockdown"
 }
