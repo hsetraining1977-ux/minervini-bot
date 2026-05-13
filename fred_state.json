@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-05-11 06:00:23.533916",
+  "fred_data": {},
+  "analysis": {
+    "economic_phase": "غير محدد",
+    "fed_direction": "محايد",
+    "inflation_trend": "محايد",
+    "score": 0,
+    "signals": [],
+    "sector_rotation": []
+  },
+  "cot": {
+    "Gold": {
+      "commercial_net": -19112,
+      "non_commercial_net": -87,
+      "commercial_bias": "بيع 🔴",
+      "spec_bias": "بيع 🔴"
+    },
+    "Oil": {
+      "commercial_net": 337501,
+      "non_commercial_net": -66,
+      "commercial_bias": "شراء 🟢",
+      "spec_bias": "بيع 🔴"
+    }
+  }
+}

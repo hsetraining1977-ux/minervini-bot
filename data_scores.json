@@ -1,0 +1,179 @@
+{
+  "NVDA": {
+    "symbol": "NVDA",
+    "total_score": 1,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [
+      "✅ Alpha Vantage: Bullish 🟢"
+    ],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:18.306293"
+  },
+  "MSFT": {
+    "symbol": "MSFT",
+    "total_score": 0,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:19.809584"
+  },
+  "AAPL": {
+    "symbol": "AAPL",
+    "total_score": 1,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [
+      "✅ Alpha Vantage: Bullish 🟢"
+    ],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:21.249185"
+  },
+  "GOOGL": {
+    "symbol": "GOOGL",
+    "total_score": 1,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [
+      "✅ Alpha Vantage: Bullish 🟢"
+    ],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:22.693395"
+  },
+  "META": {
+    "symbol": "META",
+    "total_score": 1,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [
+      "✅ Alpha Vantage: Bullish 🟢"
+    ],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:24.211709"
+  },
+  "AMZN": {
+    "symbol": "AMZN",
+    "total_score": 1,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [
+      "✅ Alpha Vantage: Bullish 🟢"
+    ],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:26.154811"
+  },
+  "AVGO": {
+    "symbol": "AVGO",
+    "total_score": 1,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [
+      "✅ Alpha Vantage: Bullish 🟢"
+    ],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:27.624912"
+  },
+  "AMD": {
+    "symbol": "AMD",
+    "total_score": 1,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [
+      "✅ Alpha Vantage: Bullish 🟢"
+    ],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:29.093397"
+  },
+  "CRWD": {
+    "symbol": "CRWD",
+    "total_score": 1,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [
+      "✅ Alpha Vantage: Bullish 🟢"
+    ],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:30.547652"
+  },
+  "PANW": {
+    "symbol": "PANW",
+    "total_score": 0,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:32.262356"
+  },
+  "PLTR": {
+    "symbol": "PLTR",
+    "total_score": 0,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:33.724753"
+  },
+  "NOW": {
+    "symbol": "NOW",
+    "total_score": 0,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:35.389840"
+  },
+  "DDOG": {
+    "symbol": "DDOG",
+    "total_score": 1,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [
+      "✅ Alpha Vantage: Bullish 🟢"
+    ],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:37.051236"
+  },
+  "TSLA": {
+    "symbol": "TSLA",
+    "total_score": 0,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:38.560984"
+  },
+  "V": {
+    "symbol": "V",
+    "total_score": 1,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [
+      "✅ Alpha Vantage: Bullish 🟢"
+    ],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:40.037571"
+  },
+  "MA": {
+    "symbol": "MA",
+    "total_score": 1,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [
+      "✅ Alpha Vantage: Bullish 🟢"
+    ],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:41.480208"
+  },
+  "LLY": {
+    "symbol": "LLY",
+    "total_score": 1,
+    "allowed": true,
+    "blocks": [],
+    "reasons": [
+      "✅ Alpha Vantage: Bullish 🟢"
+    ],
+    "data_quality": "FRED + yfinance + Finnhub + Alpha Vantage",
+    "timestamp": "2026-05-11 09:00:43.242367"
+  }
+}

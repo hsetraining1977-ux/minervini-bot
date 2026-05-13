@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/root/event_awareness.py", line 17, in <module>
+    from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID, ALPACA_KEY, ALPACA_SECRET
+ImportError: cannot import name 'TELEGRAM_TOKEN' from 'config' (/root/config.py)

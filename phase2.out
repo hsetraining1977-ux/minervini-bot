@@ -1,0 +1,230 @@
+🧪 اختبار Weekly RS Scan...
+
+
+[Weekly] بدء الفحص الأسبوعي...
+
+[EPS] فحص Annual EPS لـ 20 سهم...
+  ✅ AMD    | EPS: +164% | Rev: +34%
+  ❌ MRVL   | eps_low_0%
+  ✅ LRCX   | EPS: +43% | Rev: +24%
+  ❌ AMAT   | eps_low_0.3%
+  ❌ SOXX   | no_financials
+  ❌ SMH    | no_financials
+  ❌ ARM    | rev_low_nan%
+  ❌ KLAC   | eps_low_nan%
+  ❌ CAT    | eps_low_-14.7%
+  ❌ DDOG   | eps_low_-43.6%
+  ✅ GOOGL  | EPS: +34% | Rev: +15%
+  ❌ FTNT   | eps_low_7.5%
+  ❌ UNH    | eps_low_-15.6%
+  ✅ TSM    | EPS: +46% | Rev: +32%
+  ✅ AVGO   | EPS: +287% | Rev: +24%
+  ❌ AMZN   | rev_low_12.4%
+  ❌ CRWD   | eps_low_0%
+  ❌ PANW   | eps_low_-57.6%
+  ❌ QQQ    | no_financials
+  ❌ ABNB   | eps_low_-2.1%
+
+[EPS] اجتاز الفلتر: 5 من 20
+
+[Weekly] اكتمل — تم إرسال التقرير على Telegram ✅
+
+🧪 اختبار Annual EPS...
+
+
+[EPS] فحص Annual EPS لـ 5 سهم...
+  ✅ NVDA   | EPS: +66% | Rev: +66%
+  ❌ MSFT   | eps_low_15.5%
+  ❌ AAPL   | eps_low_22.6%
+  ❌ META   | eps_low_-2.6%
+  ❌ AMZN   | rev_low_12.4%
+
+[EPS] اجتاز الفلتر: 1 من 5
+
+
+✅ كل الاختبارات اكتملت!
+لتشغيل النظام كاملاً: from phase2_upgrade import run_phase2; run_phase2()
+🧪 اختبار Weekly RS Scan...
+
+
+[Weekly] بدء الفحص الأسبوعي...
+
+[EPS] فحص Annual EPS لـ 20 سهم...
+  ✅ AMD    | EPS: +164% | Rev: +34%
+  ❌ MRVL   | eps_low_0%
+  ✅ LRCX   | EPS: +43% | Rev: +24%
+  ❌ AMAT   | eps_low_0.3%
+  ❌ SOXX   | no_financials
+  ❌ SMH    | no_financials
+  ❌ ARM    | rev_low_nan%
+  ❌ KLAC   | eps_low_nan%
+  ❌ CAT    | eps_low_-14.7%
+  ❌ DDOG   | eps_low_-43.6%
+  ✅ GOOGL  | EPS: +34% | Rev: +15%
+  ❌ FTNT   | eps_low_7.5%
+  ❌ UNH    | eps_low_-15.6%
+  ✅ TSM    | EPS: +46% | Rev: +32%
+  ✅ AVGO   | EPS: +287% | Rev: +24%
+  ❌ AMZN   | rev_low_12.4%
+  ❌ CRWD   | eps_low_0%
+  ❌ PANW   | eps_low_-57.6%
+  ❌ QQQ    | no_financials
+  ❌ ABNB   | eps_low_-2.1%
+
+[EPS] اجتاز الفلتر: 5 من 20
+
+[Weekly] اكتمل — تم إرسال التقرير على Telegram ✅
+
+🧪 اختبار Annual EPS...
+
+
+[EPS] فحص Annual EPS لـ 5 سهم...
+  ✅ NVDA   | EPS: +66% | Rev: +66%
+  ❌ MSFT   | eps_low_15.5%
+  ❌ AAPL   | eps_low_22.6%
+  ❌ META   | eps_low_-2.6%
+  ❌ AMZN   | rev_low_12.4%
+
+[EPS] اجتاز الفلتر: 1 من 5
+
+
+✅ كل الاختبارات اكتملت!
+لتشغيل النظام كاملاً: from phase2_upgrade import run_phase2; run_phase2()
+🧪 اختبار Weekly RS Scan...
+
+
+[Weekly] بدء الفحص الأسبوعي...
+
+[EPS] فحص Annual EPS لـ 20 سهم...
+  ✅ AMD    | EPS: +164% | Rev: +34%
+  ❌ MRVL   | eps_low_0%
+  ✅ LRCX   | EPS: +43% | Rev: +24%
+  ❌ AMAT   | eps_low_0.3%
+  ❌ SOXX   | no_financials
+  ❌ SMH    | no_financials
+  ❌ CAT    | eps_low_-14.7%
+  ❌ ARM    | rev_low_nan%
+  ❌ KLAC   | eps_low_nan%
+  ✅ GOOGL  | EPS: +34% | Rev: +15%
+  ❌ DDOG   | eps_low_-43.6%
+  ❌ FTNT   | eps_low_7.5%
+  ❌ UNH    | eps_low_-15.6%
+  ✅ TSM    | EPS: +46% | Rev: +32%
+  ✅ AVGO   | EPS: +287% | Rev: +24%
+  ❌ AMZN   | rev_low_12.4%
+  ❌ CRWD   | eps_low_0%
+  ❌ ABNB   | eps_low_-2.1%
+  ❌ QQQ    | no_financials
+  ✅ NVDA   | EPS: +66% | Rev: +66%
+
+[EPS] اجتاز الفلتر: 6 من 20
+
+[Weekly] اكتمل — تم إرسال التقرير على Telegram ✅
+
+🧪 اختبار Annual EPS...
+
+
+[EPS] فحص Annual EPS لـ 5 سهم...
+  ✅ NVDA   | EPS: +66% | Rev: +66%
+  ❌ MSFT   | eps_low_15.5%
+  ❌ AAPL   | eps_low_22.6%
+  ❌ META   | eps_low_-2.6%
+  ❌ AMZN   | rev_low_12.4%
+
+[EPS] اجتاز الفلتر: 1 من 5
+
+
+✅ كل الاختبارات اكتملت!
+لتشغيل النظام كاملاً: from phase2_upgrade import run_phase2; run_phase2()
+🧪 اختبار Weekly RS Scan...
+
+
+[Weekly] بدء الفحص الأسبوعي...
+
+[EPS] فحص Annual EPS لـ 20 سهم...
+  ✅ AMD    | EPS: +164% | Rev: +34%
+  ❌ MRVL   | eps_low_0%
+  ✅ LRCX   | EPS: +43% | Rev: +24%
+  ❌ AMAT   | eps_low_0.3%
+  ❌ SOXX   | no_financials
+  ❌ SMH    | no_financials
+  ❌ CAT    | eps_low_-14.7%
+  ❌ ARM    | rev_low_nan%
+  ❌ KLAC   | eps_low_nan%
+  ✅ GOOGL  | EPS: +34% | Rev: +15%
+  ❌ DDOG   | eps_low_-43.6%
+  ❌ FTNT   | eps_low_7.5%
+  ❌ UNH    | eps_low_-15.6%
+  ✅ TSM    | EPS: +46% | Rev: +32%
+  ✅ AVGO   | EPS: +287% | Rev: +24%
+  ❌ AMZN   | rev_low_12.4%
+  ❌ CRWD   | eps_low_0%
+  ❌ PANW   | eps_low_-57.6%
+  ❌ QQQ    | no_financials
+  ✅ NVDA   | EPS: +66% | Rev: +66%
+
+[EPS] اجتاز الفلتر: 6 من 20
+
+[Weekly] اكتمل — تم إرسال التقرير على Telegram ✅
+
+🧪 اختبار Annual EPS...
+
+
+[EPS] فحص Annual EPS لـ 5 سهم...
+  ✅ NVDA   | EPS: +66% | Rev: +66%
+  ❌ MSFT   | eps_low_15.5%
+  ❌ AAPL   | eps_low_22.6%
+  ❌ META   | eps_low_-2.6%
+  ❌ AMZN   | rev_low_12.4%
+
+[EPS] اجتاز الفلتر: 1 من 5
+
+
+✅ كل الاختبارات اكتملت!
+لتشغيل النظام كاملاً: from phase2_upgrade import run_phase2; run_phase2()
+🧪 اختبار Weekly RS Scan...
+
+
+[Weekly] بدء الفحص الأسبوعي...
+
+[EPS] فحص Annual EPS لـ 20 سهم...
+  ✅ AMD    | EPS: +164% | Rev: +34%
+  ❌ MRVL   | eps_low_0%
+  ✅ LRCX   | EPS: +43% | Rev: +24%
+  ❌ AMAT   | eps_low_0.3%
+  ❌ SOXX   | no_financials
+  ❌ SMH    | no_financials
+  ❌ CAT    | eps_low_-14.7%
+  ❌ ARM    | rev_low_nan%
+  ❌ KLAC   | eps_low_nan%
+  ✅ GOOGL  | EPS: +34% | Rev: +15%
+  ❌ DDOG   | eps_low_-43.6%
+  ❌ FTNT   | eps_low_7.5%
+  ❌ UNH    | eps_low_-15.6%
+  ✅ TSM    | EPS: +46% | Rev: +32%
+  ✅ AVGO   | EPS: +287% | Rev: +24%
+  ❌ AMZN   | rev_low_12.4%
+  ❌ CRWD   | eps_low_0%
+  ❌ PANW   | eps_low_-57.6%
+  ❌ QQQ    | no_financials
+  ✅ NVDA   | EPS: +66% | Rev: +66%
+
+[EPS] اجتاز الفلتر: 6 من 20
+
+[Weekly] اكتمل — تم إرسال التقرير على Telegram ✅
+
+🧪 اختبار Annual EPS...
+
+
+[EPS] فحص Annual EPS لـ 5 سهم...
+  ✅ NVDA   | EPS: +66% | Rev: +66%
+  ❌ MSFT   | eps_low_15.5%
+  ❌ AAPL   | eps_low_22.6%
+  ❌ META   | eps_low_-2.6%
+  ❌ AMZN   | rev_low_12.4%
+
+[EPS] اجتاز الفلتر: 1 من 5
+
+
+✅ كل الاختبارات اكتملت!
+لتشغيل النظام كاملاً: from phase2_upgrade import run_phase2; run_phase2()

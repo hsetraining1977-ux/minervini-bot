@@ -1,0 +1,10 @@
+{
+  "warnings": [
+    {
+      "type": "POSITION_CONCENTRATION",
+      "level": "MEDIUM",
+      "message": "NVDA weight 22.5% > 15%"
+    }
+  ],
+  "timestamp": "2026-05-11T16:51:54.569870"
+}

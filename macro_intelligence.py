@@ -544,3 +544,16 @@ if __name__ == "__main__":
     send_correlation_report(macro_data)
 
     print("\n✅ اكتمل! كلا التقريرين وصلا على Telegram")
+
+
+# Keep running every 1 hour
+import time as _time
+if __name__ == "__main__":
+    while True:
+        try:
+            macro_data = fetch_macro_data()
+            analysis = analyze_macro_regime(macro_data)
+            save_macro_state(analysis)
+        except Exception as e:
+            print(f"Macro error: {e}")
+        _time.sleep(3600)

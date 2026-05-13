@@ -1,0 +1,765 @@
+
+===========================================================================
+  🏦 Institutional Intraday Scanner | 2026-05-11 15:45
+===========================================================================
+[Regime] RISK_ON | SPY VWAP: ✅ | Mom: +0.47% | VIX: 17.9
+
+  Scanning 4 symbols...
+
+  🔥 NVDA   | 100.0 | HOT    | Gap:-0.6% RV:11.6x Mom:+3.4% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:7.69 SL:209.57 T1:236.48
+  🔥 AMD    | 100.0 | HOT    | Gap:+1.2% RV:4.3x Mom:+0.3% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:27.28 SL:421.1 T1:516.58
+  🔥 TSLA   | 100.0 | HOT    | Gap:-1.4% RV:2.5x Mom:+4.2% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:14.91 SL:417.52 T1:469.7
+  👀 AVGO   |  61.6 | WATCH  | Gap:-0.6% RV:1.2x Mom:+0.7% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:15.4 SL:407.39 T1:461.29
+
+  ✅ HOT: 3 | STRONG: 0 | WATCH: 1
+
+====================================================================================================
+SYM      SCR RATING   GAP%   RV  MOM% VWAP  ORB  VOL  MTF    ATR      SL      T1    SZ
+====================================================================================================
+NVDA   100.0 HOT      -0.6 11.6x  +3.4    ✅    🚀    ❌    ✅   7.69  209.57  236.48    43
+AMD    100.0 HOT      +1.2  4.3x  +0.3    ✅    ❌    ❌    ✅  27.28  421.10  516.58    12
+TSLA   100.0 HOT      -1.4  2.5x  +4.2    ✅    🚀    ❌    ✅  14.91  417.52  469.70    22
+AVGO    61.6 WATCH    -0.6  1.2x  +0.7    ✅    ❌    ❌    ✅  15.40  407.39  461.29    21
+====================================================================================================
+
+===========================================================================
+  🏦 Institutional Intraday Scanner | 2026-05-11 15:47
+===========================================================================
+[Regime] RISK_ON | SPY VWAP: ✅ | Mom: +0.47% | VIX: 17.9
+
+  Scanning 4 symbols...
+
+  🔥 NVDA   | 100.0 | HOT    | Gap:-0.6% RV:11.7x Mom:+3.4% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:7.69 SL:209.59 T1:236.5
+  🔥 AMD    | 100.0 | HOT    | Gap:+1.2% RV:4.3x Mom:+0.6% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:27.28 SL:422.2 T1:517.68
+  🔥 TSLA   | 100.0 | HOT    | Gap:-1.4% RV:2.5x Mom:+4.1% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:14.95 SL:417.2 T1:469.52
+  👀 AVGO   |  61.6 | WATCH  | Gap:-0.6% RV:1.2x Mom:+0.6% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:15.4 SL:407.05 T1:460.95
+
+  ✅ HOT: 3 | STRONG: 0 | WATCH: 1
+
+====================================================================================================
+SYM      SCR RATING   GAP%   RV  MOM% VWAP  ORB  VOL  MTF    ATR      SL      T1    SZ
+====================================================================================================
+NVDA   100.0 HOT      -0.6 11.7x  +3.4    ✅    🚀    ❌    ✅   7.69  209.59  236.50    43
+AMD    100.0 HOT      +1.2  4.3x  +0.6    ✅    ❌    ❌    ✅  27.28  422.20  517.68    12
+TSLA   100.0 HOT      -1.4  2.5x  +4.1    ✅    🚀    ❌    ✅  14.95  417.20  469.52    22
+AVGO    61.6 WATCH    -0.6  1.2x  +0.6    ✅    ❌    ❌    ✅  15.40  407.05  460.95    21
+====================================================================================================
+
+===========================================================================
+  🏦 Institutional Intraday Scanner | 2026-05-11 15:50
+===========================================================================
+[Regime] RISK_ON | SPY VWAP: ✅ | Mom: +0.47% | VIX: 17.9
+
+  Scanning 4 symbols...
+
+  🔥 NVDA   | 100.0 | HOT    | Gap:-0.6% RV:11.3x Mom:+3.6% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:7.69 SL:210.13 T1:237.05
+  🔥 AMD    | 100.0 | HOT    | Gap:+1.2% RV:4.2x Mom:+0.8% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:27.28 SL:423.33 T1:518.81
+  🔥 TSLA   | 100.0 | HOT    | Gap:-1.4% RV:2.5x Mom:+4.1% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:14.95 SL:416.9 T1:469.22
+  👀 AVGO   |  61.6 | WATCH  | Gap:-0.6% RV:1.2x Mom:+0.8% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:15.4 SL:407.92 T1:461.82
+
+  ✅ HOT: 3 | STRONG: 0 | WATCH: 1
+
+====================================================================================================
+SYM      SCR RATING   GAP%   RV  MOM% VWAP  ORB  VOL  MTF    ATR      SL      T1    SZ
+====================================================================================================
+NVDA   100.0 HOT      -0.6 11.3x  +3.6    ✅    🚀    ❌    ✅   7.69  210.13  237.05    43
+AMD    100.0 HOT      +1.2  4.2x  +0.8    ✅    ❌    ❌    ✅  27.28  423.33  518.81    12
+TSLA   100.0 HOT      -1.4  2.5x  +4.1    ✅    🚀    ❌    ✅  14.95  416.90  469.22    22
+AVGO    61.6 WATCH    -0.6  1.2x  +0.8    ✅    ❌    ❌    ✅  15.40  407.92  461.82    21
+====================================================================================================
+
+===========================================================================
+  🏦 Institutional Intraday Scanner | 2026-05-11 16:20
+===========================================================================
+[Regime] RISK_ON | SPY VWAP: ✅ | Mom: +0.50% | VIX: 18.0
+
+  Scanning 4 symbols...
+
+  🔥 NVDA   | 100.0 | HOT    | Gap:-0.6% RV:12.1x Mom:+3.7% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:7.7 SL:210.26 T1:237.21
+  🔥 AMD    | 100.0 | HOT    | Gap:+1.2% RV:3.6x Mom:+0.7% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:27.28 SL:422.81 T1:518.29
+  🔥 TSLA   | 100.0 | HOT    | Gap:-1.4% RV:6.0x Mom:+4.0% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:14.95 SL:416.62 T1:468.94
+  ❌ AVGO   |  36.9 | IGNORE | Gap:-0.6% RV:1.8x Mom:+0.4% VWAP:❌ ➡️In VOL:❌ MTF:✅ ATR:15.4 SL:406.27 T1:460.17
+
+  ✅ HOT: 3 | STRONG: 0 | WATCH: 0
+
+====================================================================================================
+SYM      SCR RATING   GAP%   RV  MOM% VWAP  ORB  VOL  MTF    ATR      SL      T1    SZ
+====================================================================================================
+NVDA   100.0 HOT      -0.6 12.1x  +3.7    ✅    🚀    ❌    ✅   7.70  210.26  237.21    43
+AMD    100.0 HOT      +1.2  3.6x  +0.7    ✅    ❌    ❌    ✅  27.28  422.81  518.29    12
+TSLA   100.0 HOT      -1.4  6.0x  +4.0    ✅    🚀    ❌    ✅  14.95  416.62  468.94    22
+AVGO    36.9 IGNORE   -0.6  1.8x  +0.4    ❌    ❌    ❌    ✅  15.40  406.27  460.17    21
+====================================================================================================
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined

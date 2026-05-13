@@ -1,0 +1,10 @@
+2026-05-11 13:43:18 | ERROR    | paper_execution | Alpaca POST /v2/orders: 422 {"base_price":"218.0655","code":42210000,"message":"stop_loss.stop_price must be \u003c= base_price - 0.01"}
+2026-05-11 13:43:18 | ERROR    | paper_execution | Order failed for NVDA
+2026-05-11 14:13:20 | ERROR    | paper_execution | Alpaca POST /v2/orders: 422 {"base_price":"219.0231","code":42210000,"message":"stop_loss.stop_price must be \u003c= base_price - 0.01"}
+2026-05-11 14:13:20 | ERROR    | paper_execution | Order failed for NVDA
+2026-05-11 14:43:22 | ERROR    | paper_execution | Alpaca POST /v2/orders: 422 {"base_price":"219.275","code":42210000,"message":"stop_loss.stop_price must be \u003c= base_price - 0.01"}
+2026-05-11 14:43:22 | ERROR    | paper_execution | Order failed for NVDA
+2026-05-11 15:13:24 | ERROR    | paper_execution | Alpaca POST /v2/orders: 422 {"base_price":"221.14","code":42210000,"message":"stop_loss.stop_price must be \u003c= base_price - 0.01"}
+2026-05-11 15:13:24 | ERROR    | paper_execution | Order failed for NVDA
+2026-05-11 15:14:28 | ERROR    | paper_execution | Alpaca POST /v2/orders: 422 {"base_price":"221.025","code":42210000,"message":"stop_loss.stop_price must be \u003c= base_price - 0.01"}
+2026-05-11 15:14:28 | ERROR    | paper_execution | Order failed for NVDA

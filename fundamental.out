@@ -1,0 +1,14 @@
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: UNRATE"}}}
+$UNRATE: possibly delisted; no price data found  (period=3mo) (Yahoo error = "No data found, symbol may be delisted")
+
+1 Failed download:
+['UNRATE']: possibly delisted; no price data found  (period=3mo) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: UNRATE"}}}
+$UNRATE: possibly delisted; no price data found  (period=3mo) (Yahoo error = "No data found, symbol may be delisted")
+
+1 Failed download:
+['UNRATE']: possibly delisted; no price data found  (period=3mo) (Yahoo error = "No data found, symbol may be delisted")
+$UNRATE: possibly delisted; no price data found  (period=3mo) (Yahoo error = "No data found, symbol may be delisted")
+
+1 Failed download:
+['UNRATE']: possibly delisted; no price data found  (period=3mo) (Yahoo error = "No data found, symbol may be delisted")

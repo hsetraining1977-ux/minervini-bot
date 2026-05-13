@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-05-11 06:25:02.244975",
+  "events": [],
+  "fed": {
+    "tone": "محايد ⚪",
+    "hawkish_score": 0,
+    "dovish_score": 0,
+    "signal": "neutral",
+    "action": "لا تغيير في الاستراتيجية"
+  },
+  "real_yield": {
+    "nominal_yield": 43.64,
+    "inflation_exp": -3.83,
+    "real_yield": 47.47,
+    "signal": "positive_real",
+    "impact": "ضغط على أسهم النمو والذهب 🔴"
+  },
+  "risk_regime": {
+    "regime": "Risk-On معتدل 🟢",
+    "score": 3,
+    "signals": [
+      "✅ SPY يتفوق على الذهب — Risk-On",
+      "✅ HYG > LQD — Risk-On"
+    ],
+    "action": "تداول طبيعي مع تفضيل النمو"
+  },
+  "breadth": {
+    "above_ma50": 18,
+    "above_ma200": 14,
+    "new_highs": 8,
+    "breadth_pct": 66.7,
+    "verdict": "سوق صحي 🟢",
+    "signal": "healthy"
+  },
+  "qt_qe": {
+    "policy": "محايد ⚪",
+    "signal": "neutral",
+    "details": [
+      "TLT -0.6% — لا اتجاه واضح",
+      "✅ MOVE طبيعي (67)"
+    ]
+  },
+  "macro": {
+    "economic_phase": "نمو معتدل 📈",
+    "indicators": {
+      "ثقة المستهلك": "إيجابية ✅ (XLY>-3.2%)",
+      "النحاس (PMI proxy)": "+6.2% ✅ نمو",
+      "الصناعة (PMI proxy)": "-0.0% ⚪"
+    },
+    "score": 3
+  },
+  "market_val": {
+    "market_pe": 27.7,
+    "verdict": "مرتفع نسبياً ⚠️",
+    "signal": "elevated",
+    "bubble_risk": false
+  },
+  "cot": {
+    "commercial_bias": "ميل للشراء 🟢",
+    "signals": [
+      "🔴 P/C Ratio=1.20 — مؤسسات تتحوط",
+      "✅ أموال تتحرك من سندات لأسهم",
+      "✅ أسهم تتفوق على الذهب"
+    ],
+    "score": 1
+  }
+}

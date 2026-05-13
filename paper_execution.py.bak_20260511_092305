@@ -1,0 +1,526 @@
+#!/usr/bin/env python3
+"""
+paper_execution.py — Paper Auto Execution Engine (Alpaca Paper Trading)
+PAPER TRADING ONLY — NO REAL MONEY — NO LIVE TRADING
+Uses Alpaca Paper Trading API for realistic paper execution.
+"""
+
+import os, json, time, requests
+from datetime import datetime, timedelta
+from typing import Optional
+
+try:
+    from logger import get_logger
+    log = get_logger("paper_execution")
+except ImportError:
+    import logging
+    log = logging.getLogger("paper_execution")
+    logging.basicConfig(level=logging.INFO)
+
+from dotenv import load_dotenv
+load_dotenv("/root/.env")
+
+# ═══════════════════════════════════════════════════
+# ⚠️  PAPER TRADING ONLY — ALPACA PAPER API
+# ═══════════════════════════════════════════════════
+
+PAPER_ONLY   = True   # NEVER change this
+PAPER_BASE   = "https://paper-api.alpaca.markets"
+DATA_BASE    = "https://data.alpaca.markets"
+PORTFOLIO    = 50000
+
+ALPACA_KEY    = os.getenv("ALPACA_API_KEY")    or os.getenv("ALPACA_KEY")
+ALPACA_SECRET = os.getenv("ALPACA_SECRET_KEY") or os.getenv("ALPACA_SECRET")
+
+HEADERS = {
+    "APCA-API-KEY-ID":     ALPACA_KEY    or "",
+    "APCA-API-SECRET-KEY": ALPACA_SECRET or "",
+    "Content-Type":        "application/json",
+}
+
+# ── Files ─────────────────────────────────────────────────────
+TRADES_FILE      = "/root/logs/paper_trades.json"
+PERFORMANCE_FILE = "/root/logs/paper_performance.json"
+KILL_SWITCH_FILE = "/root/logs/kill_switch.json"
+os.makedirs("/root/logs", exist_ok=True)
+
+# ── Risk Rules ────────────────────────────────────────────────
+MAX_RISK_PCT    = 0.01
+MAX_TRADES      = 3
+DAILY_DD_LIMIT  = 0.03
+MIN_EXEC_SCORE  = 85
+BLOCKED_REGIMES = {"RISK_OFF", "CRISIS", "STRONG_RISK_OFF"}
+
+
+# ── Alpaca Paper API ──────────────────────────────────────────
+def alpaca_get(endpoint: str) -> Optional[dict]:
+    try:
+        r = requests.get(f"{PAPER_BASE}{endpoint}", headers=HEADERS, timeout=10)
+        if r.status_code == 200:
+            return r.json()
+        log.error(f"Alpaca GET {endpoint}: {r.status_code} {r.text[:100]}")
+    except Exception as e:
+        log.error(f"Alpaca GET error: {e}")
+    return None
+
+
+def alpaca_post(endpoint: str, data: dict) -> Optional[dict]:
+    assert PAPER_ONLY, "PAPER ONLY"
+    try:
+        r = requests.post(
+            f"{PAPER_BASE}{endpoint}",
+            headers=HEADERS, json=data, timeout=10
+        )
+        if r.status_code in (200, 201):
+            return r.json()
+        log.error(f"Alpaca POST {endpoint}: {r.status_code} {r.text[:200]}")
+    except Exception as e:
+        log.error(f"Alpaca POST error: {e}")
+    return None
+
+
+def alpaca_delete(endpoint: str) -> bool:
+    assert PAPER_ONLY, "PAPER ONLY"
+    try:
+        r = requests.delete(
+            f"{PAPER_BASE}{endpoint}", headers=HEADERS, timeout=10
+        )
+        return r.status_code in (200, 204)
+    except Exception as e:
+        log.error(f"Alpaca DELETE error: {e}")
+    return False
+
+
+def get_account() -> Optional[dict]:
+    return alpaca_get("/v2/account")
+
+
+def get_positions() -> list:
+    result = alpaca_get("/v2/positions")
+    return result if isinstance(result, list) else []
+
+
+def get_orders(status: str = "open") -> list:
+    result = alpaca_get(f"/v2/orders?status={status}&limit=50")
+    return result if isinstance(result, list) else []
+
+
+def get_current_price(symbol: str) -> Optional[float]:
+    try:
+        r = requests.get(
+            f"{DATA_BASE}/v2/stocks/{symbol}/trades/latest",
+            headers=HEADERS, timeout=10
+        )
+        if r.status_code == 200:
+            price = float(r.json().get("trade", {}).get("p", 0))
+            if price > 0:
+                return price
+    except Exception:
+        pass
+    try:
+        import yfinance as yf
+        hist = yf.Ticker(symbol).history(period="1d", interval="1m")
+        if not hist.empty:
+            return float(hist["Close"].iloc[-1])
+    except Exception:
+        pass
+    return None
+
+
+def is_market_open() -> bool:
+    data = alpaca_get("/v2/clock")
+    if data:
+        return data.get("is_open", False)
+    return False
+
+
+# ── Kill Switch ───────────────────────────────────────────────
+def is_kill_switch_active() -> bool:
+    try:
+        if os.path.exists(KILL_SWITCH_FILE):
+            with open(KILL_SWITCH_FILE) as f:
+                return json.load(f).get("active", False)
+    except Exception:
+        pass
+    return False
+
+
+def activate_kill_switch(reason: str):
+    with open(KILL_SWITCH_FILE, "w") as f:
+        json.dump({"active": True, "reason": reason,
+                   "timestamp": datetime.now().isoformat()}, f)
+    log.error(f"🚨 KILL SWITCH: {reason}")
+    _send_telegram(
+        f"🚨 <b>KILL SWITCH ACTIVATED</b>\n"
+        f"Reason: {reason}\n"
+        f"⚠️ <i>PAPER TRADING HALTED</i>"
+    )
+
+
+def deactivate_kill_switch():
+    with open(KILL_SWITCH_FILE, "w") as f:
+        json.dump({"active": False,
+                   "timestamp": datetime.now().isoformat()}, f)
+    log.info("Kill switch deactivated")
+
+
+# ── Telegram ──────────────────────────────────────────────────
+def _send_telegram(msg: str):
+    token   = os.getenv("TELEGRAM_BOT_TOKEN") or os.getenv("TELEGRAM_TOKEN")
+    chat_id = os.getenv("TELEGRAM_CHAT_ID", "")
+    if not token or not chat_id:
+        return
+    try:
+        requests.post(
+            f"https://api.telegram.org/bot{token}/sendMessage",
+            json={"chat_id": chat_id, "text": msg, "parse_mode": "HTML"},
+            timeout=10
+        )
+    except Exception as e:
+        log.error(f"Telegram failed: {e}")
+
+
+# ── Data Store ────────────────────────────────────────────────
+def load_trades() -> dict:
+    try:
+        if os.path.exists(TRADES_FILE):
+            with open(TRADES_FILE) as f:
+                return json.load(f)
+    except Exception:
+        pass
+    return {}
+
+
+def save_trades(trades: dict):
+    try:
+        with open(TRADES_FILE, "w") as f:
+            json.dump(trades, f, indent=2, default=str)
+    except Exception as e:
+        log.error(f"Save trades failed: {e}")
+
+
+def load_performance() -> dict:
+    try:
+        if os.path.exists(PERFORMANCE_FILE):
+            with open(PERFORMANCE_FILE) as f:
+                return json.load(f)
+    except Exception:
+        pass
+    return {
+        "total_trades": 0, "wins": 0, "losses": 0,
+        "total_pnl": 0.0, "max_drawdown": 0.0,
+        "equity_curve": [], "daily_pnl": {},
+        "best_trade": None, "worst_trade": None,
+        "regime_perf": {},
+    }
+
+
+def save_performance(perf: dict):
+    try:
+        with open(PERFORMANCE_FILE, "w") as f:
+            json.dump(perf, f, indent=2, default=str)
+    except Exception as e:
+        log.error(f"Save performance failed: {e}")
+
+
+# ── Position Sizing ───────────────────────────────────────────
+def calc_position(entry: float, stop: float, portfolio: float = PORTFOLIO) -> dict:
+    risk_usd   = portfolio * MAX_RISK_PCT
+    risk_share = abs(entry - stop)
+    if risk_share == 0:
+        return {"shares": 0, "risk_usd": 0}
+    shares = max(1, int(risk_usd / risk_share))
+    return {"shares": shares, "risk_usd": round(shares * risk_share, 2)}
+
+
+# ── Entry Validation ──────────────────────────────────────────
+def validate_entry(plan: dict) -> tuple[bool, str]:
+    if is_kill_switch_active():
+        return False, "Kill switch active"
+    if not is_market_open():
+        return False, "Market closed"
+    if plan.get("execution_score", 0) < MIN_EXEC_SCORE:
+        return False, f"Exec score {plan.get('execution_score')} < {MIN_EXEC_SCORE}"
+    if plan.get("regime", "") in BLOCKED_REGIMES:
+        return False, f"Regime blocked: {plan.get('regime')}"
+
+    cl = plan.get("checklist", {})
+    for check in ["regime_ok", "liquidity_ok", "volume_confirmed",
+                  "atr_valid", "risk_acceptable"]:
+        if not cl.get(check, False):
+            return False, f"Checklist failed: {check}"
+
+    positions = get_positions()
+    if len(positions) >= MAX_TRADES:
+        return False, f"Max positions ({MAX_TRADES}) reached"
+
+    for pos in positions:
+        if pos.get("symbol") == plan.get("symbol"):
+            return False, f"Already in {plan.get('symbol')}"
+
+    perf  = load_performance()
+    today = datetime.now().strftime("%Y-%m-%d")
+    if perf.get("daily_pnl", {}).get(today, 0) < -(PORTFOLIO * DAILY_DD_LIMIT):
+        activate_kill_switch("Daily DD limit hit")
+        return False, "Daily drawdown limit hit"
+
+    return True, "OK"
+
+
+# ── Execute on Alpaca Paper ───────────────────────────────────
+def execute_paper_trade(plan: dict) -> Optional[dict]:
+    assert PAPER_ONLY, "PAPER ONLY"
+
+    valid, reason = validate_entry(plan)
+    if not valid:
+        log.info(f"Rejected — {plan.get('symbol')}: {reason}")
+        return None
+
+    symbol = plan["symbol"]
+    sl     = plan["stop_loss"]
+    tp2    = plan["take_profit_2"]
+
+    current = get_current_price(symbol)
+    actual_entry = current if current else plan["entry"]
+
+    account = get_account()
+    equity  = float(account.get("equity", PORTFOLIO)) if account else PORTFOLIO
+
+    pos = calc_position(actual_entry, sl, equity)
+    if pos["shares"] == 0:
+        log.warning(f"Position size 0 for {symbol}")
+        return None
+
+    # Submit bracket order to Alpaca Paper
+    order_data = {
+        "symbol":        symbol,
+        "qty":           str(pos["shares"]),
+        "side":          "buy",
+        "type":          "market",
+        "time_in_force": "day",
+        "order_class":   "bracket",
+        "stop_loss":     {"stop_price": str(round(sl, 2))},
+        "take_profit":   {"limit_price": str(round(tp2, 2))},
+    }
+
+    order = alpaca_post("/v2/orders", order_data)
+    if not order:
+        log.error(f"Order failed for {symbol}")
+        return None
+
+    order_id = order.get("id", "")
+
+    trade = {
+        "trade_id":       f"PT_{symbol}_{datetime.now().strftime('%Y%m%d_%H%M%S')}",
+        "order_id":       order_id,
+        "plan_id":        plan.get("plan_id", ""),
+        "symbol":         symbol,
+        "trade_type":     plan.get("trade_type", "SWING"),
+        "direction":      "LONG",
+        "status":         "EXECUTED",
+        "entry_price":    round(actual_entry, 2),
+        "entry_time":     datetime.now().isoformat(),
+        "shares":         pos["shares"],
+        "position_value": round(pos["shares"] * actual_entry, 2),
+        "stop_loss":      sl,
+        "take_profit_1":  plan.get("take_profit_1", tp2),
+        "take_profit_2":  tp2,
+        "take_profit_3":  plan.get("take_profit_3", tp2),
+        "risk_per_share": round(actual_entry - sl, 2),
+        "max_risk_usd":   pos["risk_usd"],
+        "current_price":  round(actual_entry, 2),
+        "unrealized_pnl": 0.0,
+        "unrealized_pct": 0.0,
+        "realized_pnl":   0.0,
+        "exit_price":     0.0,
+        "exit_time":      "",
+        "exit_reason":    "",
+        "execution_score":plan.get("execution_score", 0),
+        "regime":         plan.get("regime", ""),
+        "setup":          plan.get("setup", ""),
+        "alpaca_order_id":order_id,
+    }
+
+    trades = load_trades()
+    trades[trade["trade_id"]] = trade
+    save_trades(trades)
+
+    log.info(f"✅ ORDER ON ALPACA PAPER: {symbol} x{pos['shares']} | {order_id[:8]}")
+
+    _send_telegram(
+        f"📋 <b>PAPER ORDER — ALPACA</b>\n"
+        f"{'━'*28}\n"
+        f"🏷 <b>{symbol}</b> | {trade['trade_type']} LONG\n"
+        f"📐 Shares:  {pos['shares']:,}\n"
+        f"💰 Entry:   <code>~${actual_entry:.2f}</code>\n"
+        f"🛑 Stop:    <code>${sl:.2f}</code>\n"
+        f"🎯 Target:  <code>${tp2:.2f}</code>\n"
+        f"💸 Risk:    ${pos['risk_usd']:,.0f}\n"
+        f"⚡ Score:   {plan.get('execution_score',0)}/100\n"
+        f"🆔 <code>{order_id[:20]}</code>\n"
+        f"{'━'*28}\n"
+        f"⚠️ <i>PAPER ONLY — ALPACA PAPER API</i>"
+    )
+
+    return trade
+
+
+# ── Sync with Alpaca ──────────────────────────────────────────
+def sync_with_alpaca():
+    """Sync local records with Alpaca Paper positions."""
+    positions = get_positions()
+    trades    = load_trades()
+    perf      = load_performance()
+    updated   = False
+
+    pos_map = {p["symbol"]: p for p in positions}
+
+    for tid, trade in trades.items():
+        if trade["status"] not in ("EXECUTED", "ACTIVE"):
+            continue
+
+        symbol = trade["symbol"]
+
+        if symbol in pos_map:
+            pos = pos_map[symbol]
+            trade["current_price"]  = round(float(pos.get("current_price", trade["entry_price"])), 2)
+            trade["unrealized_pnl"] = round(float(pos.get("unrealized_pl", 0)), 2)
+            trade["unrealized_pct"] = round(float(pos.get("unrealized_plpc", 0)) * 100, 2)
+            trade["status"]         = "ACTIVE"
+            trades[tid]             = trade
+            updated = True
+        else:
+            # Check if closed
+            closed_orders = alpaca_get(f"/v2/orders?status=closed&symbols={symbol}&limit=5")
+            if isinstance(closed_orders, list):
+                for order in closed_orders:
+                    if (order.get("status") == "filled" and
+                            order.get("side") == "sell"):
+                        exit_price = float(order.get("filled_avg_price", 0) or 0)
+                        if exit_price > 0:
+                            realized = (exit_price - trade["entry_price"]) * trade["shares"]
+                            pct      = (exit_price - trade["entry_price"]) / trade["entry_price"] * 100
+                            reason   = ("TP_HIT" if exit_price >= trade["take_profit_2"] * 0.99
+                                        else "SL_HIT" if exit_price <= trade["stop_loss"] * 1.01
+                                        else "CLOSED")
+
+                            trade.update({
+                                "status": reason, "exit_price": round(exit_price, 2),
+                                "exit_time": datetime.now().isoformat(),
+                                "realized_pnl": round(realized, 2),
+                                "realized_pct": round(pct, 2),
+                                "exit_reason": reason, "unrealized_pnl": 0.0,
+                            })
+                            trades[tid] = trade
+                            _update_performance(perf, trade, realized, pct)
+                            updated = True
+
+                            emoji = "🏆" if reason == "TP_HIT" else "🔴"
+                            _send_telegram(
+                                f"{emoji} <b>PAPER CLOSED — {reason}</b>\n"
+                                f"🏷 {symbol} | ${realized:+.2f} ({pct:+.2f}%)\n"
+                                f"⚠️ <i>PAPER ONLY</i>"
+                            )
+                            break
+
+    if updated:
+        save_trades(trades)
+        save_performance(perf)
+
+
+def _update_performance(perf: dict, trade: dict, realized: float, pct: float):
+    perf["total_trades"] = perf.get("total_trades", 0) + 1
+    perf["total_pnl"]    = round(perf.get("total_pnl", 0) + realized, 2)
+    today = datetime.now().strftime("%Y-%m-%d")
+    daily = perf.get("daily_pnl", {})
+    daily[today] = round(daily.get(today, 0) + realized, 2)
+    perf["daily_pnl"] = daily
+    if realized > 0: perf["wins"] = perf.get("wins", 0) + 1
+    else:            perf["losses"] = perf.get("losses", 0) + 1
+    eq = perf.get("equity_curve", [])
+    eq.append({"ts": datetime.now().isoformat(),
+                "equity": round(PORTFOLIO + perf["total_pnl"], 2),
+                "pnl": realized, "symbol": trade["symbol"]})
+    perf["equity_curve"] = eq[-200:]
+    if perf["total_pnl"] < perf.get("max_drawdown", 0):
+        perf["max_drawdown"] = perf["total_pnl"]
+    if not perf.get("best_trade") or realized > perf["best_trade"].get("pnl", 0):
+        perf["best_trade"] = {"symbol": trade["symbol"], "pnl": realized, "pct": pct}
+    if not perf.get("worst_trade") or realized < perf["worst_trade"].get("pnl", 0):
+        perf["worst_trade"] = {"symbol": trade["symbol"], "pnl": realized, "pct": pct}
+    regime = trade.get("regime", "UNKNOWN")
+    rp = perf.get("regime_perf", {})
+    rp.setdefault(regime, {"trades": 0, "wins": 0, "pnl": 0.0})
+    rp[regime]["trades"] += 1
+    rp[regime]["pnl"] = round(rp[regime]["pnl"] + realized, 2)
+    if realized > 0: rp[regime]["wins"] += 1
+    perf["regime_perf"] = rp
+    if daily.get(today, 0) < -(PORTFOLIO * DAILY_DD_LIMIT):
+        activate_kill_switch(f"Daily DD: ${daily.get(today,0):.0f}")
+
+
+# ── Scanner ───────────────────────────────────────────────────
+def scan_and_execute():
+    if is_kill_switch_active() or not is_market_open():
+        return
+    try:
+        from trade_plan_generator import load_plans
+        plans = load_plans()
+    except ImportError:
+        return
+
+    trades   = load_trades()
+    executed = {t["plan_id"] for t in trades.values()
+                if t["status"] not in ("SL_HIT","TP_HIT","CLOSED","EXPIRED")}
+
+    for pid, plan in plans.items():
+        if pid in executed: continue
+        if plan.get("status") != "READY": continue
+        if plan.get("execution_score", 0) < MIN_EXEC_SCORE: continue
+        trade = execute_paper_trade(plan)
+        if trade:
+            time.sleep(3)
+
+
+# ── Main ──────────────────────────────────────────────────────
+def run_paper_engine():
+    log.info("⚠️ PAPER ENGINE STARTED — ALPACA PAPER API")
+    acc = get_account()
+    if not acc:
+        log.error("Cannot connect to Alpaca Paper API")
+        return
+    equity = float(acc.get("equity", 0))
+    log.info(f"Alpaca Paper: ${equity:,.2f}")
+    _send_telegram(
+        f"📋 <b>PAPER ENGINE — ALPACA PAPER</b>\n"
+        f"Equity: ${equity:,.2f}\n"
+        f"⚠️ <i>PAPER ONLY — No Real Money</i>"
+    )
+    cycle = 0
+    while True:
+        try:
+            if not is_kill_switch_active():
+                sync_with_alpaca()
+                if cycle % 6 == 0:
+                    scan_and_execute()
+            cycle += 1
+        except Exception:
+            log.error("Engine error", exc_info=True)
+        time.sleep(300)
+
+
+if __name__ == "__main__":
+    import sys
+    if "--status" in sys.argv:
+        acc = get_account()
+        if acc:
+            print(f"✅ Alpaca Paper: ${float(acc.get('equity',0)):,.2f}")
+            for p in get_positions():
+                print(f"  {p['symbol']}: {p['qty']} | PnL:${float(p.get('unrealized_pl',0)):+.2f}")
+        else:
+            print("❌ Cannot connect")
+    elif "--scan"   in sys.argv: scan_and_execute()
+    elif "--sync"   in sys.argv: sync_with_alpaca(); print("Synced")
+    elif "--kill"   in sys.argv: activate_kill_switch("Manual")
+    elif "--unkill" in sys.argv: deactivate_kill_switch(); print("OFF")
+    else: run_paper_engine()

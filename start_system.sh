@@ -192,3 +192,8 @@ echo -e "  • Status:  ps aux | grep python | grep -v grep"
 echo -e "  • Errors:  tail -f /root/logs/errors.log"
 echo -e "  • Health:  cat /root/logs/health_status.json"
 echo -e "${CYAN}═══════════════════════════════════════${NC}"
+
+# Starting Macro Intelligence
+nohup python3 /root/macro_intelligence.py >> /root/macro.out 2>&1 &
+echo "   Macro Intelligence started (PID: $!)"
+

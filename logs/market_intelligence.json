@@ -1,0 +1,498 @@
+{
+  "timestamp": "2026-05-12T04:44:12.578089",
+  "duration_sec": 9.9,
+  "assets": {
+    "SPY": {
+      "ticker": "SPY",
+      "price": 739.3,
+      "chg_1d": 0.23,
+      "chg_1w": 2.15,
+      "chg_1m": 7.75,
+      "chg_3m": 8.81,
+      "ma50": 684.833,
+      "above_ma": true
+    },
+    "QQQ": {
+      "ticker": "QQQ",
+      "price": 713.29,
+      "chg_1d": 0.29,
+      "chg_1w": 4.65,
+      "chg_1m": 15.53,
+      "chg_3m": 18.9,
+      "ma50": 622.803,
+      "above_ma": true
+    },
+    "IWM": {
+      "ticker": "IWM",
+      "price": 285.33,
+      "chg_1d": 0.41,
+      "chg_1w": 0.98,
+      "chg_1m": 7.64,
+      "chg_3m": 10.13,
+      "ma50": 262.02,
+      "above_ma": true
+    },
+    "DXY": {
+      "ticker": "UUP",
+      "price": 27.35,
+      "chg_1d": 0.04,
+      "chg_1w": -0.55,
+      "chg_1m": -0.11,
+      "chg_3m": 1.98,
+      "ma50": 27.549,
+      "above_ma": false
+    },
+    "TNX": {
+      "ticker": "TLT",
+      "price": 85.56,
+      "chg_1d": -0.6,
+      "chg_1w": 0.15,
+      "chg_1m": -1.01,
+      "chg_3m": -3.05,
+      "ma50": 86.383,
+      "above_ma": false
+    },
+    "GLD": {
+      "ticker": "GLD",
+      "price": 434.65,
+      "chg_1d": 0.2,
+      "chg_1w": 3.92,
+      "chg_1m": -0.16,
+      "chg_3m": -3.71,
+      "ma50": 438.146,
+      "above_ma": false
+    },
+    "USO": {
+      "ticker": "USO",
+      "price": 138.66,
+      "chg_1d": 3.8,
+      "chg_1w": -3.82,
+      "chg_1m": 7.93,
+      "chg_3m": 81.54,
+      "ma50": 123.759,
+      "above_ma": true
+    },
+    "BTC": {
+      "ticker": "IBIT",
+      "price": 46.47,
+      "chg_1d": 2.24,
+      "chg_1w": 0.41,
+      "chg_1m": 11.73,
+      "chg_3m": 25.43,
+      "ma50": 41.513,
+      "above_ma": true
+    },
+    "VIX": {
+      "ticker": "UVXY",
+      "price": 36.98,
+      "chg_1d": 2.44,
+      "chg_1w": -1.28,
+      "chg_1m": -6.55,
+      "chg_3m": -6.92,
+      "ma50": 44.394,
+      "above_ma": false
+    },
+    "XLK": {
+      "ticker": "XLK",
+      "price": 177.88,
+      "chg_1d": 1.34,
+      "chg_1w": 7.4,
+      "chg_1m": 22.16,
+      "chg_3m": 27.94,
+      "ma50": 146.677,
+      "above_ma": true
+    },
+    "XLF": {
+      "ticker": "XLF",
+      "price": 51.18,
+      "chg_1d": -0.12,
+      "chg_1w": -0.79,
+      "chg_1m": -0.93,
+      "chg_3m": -0.48,
+      "ma50": 50.584,
+      "above_ma": true
+    },
+    "XLE": {
+      "ticker": "XLE",
+      "price": 57.17,
+      "chg_1d": 2.64,
+      "chg_1w": -3.84,
+      "chg_1m": 0.11,
+      "chg_3m": 6.6,
+      "ma50": 57.839,
+      "above_ma": false
+    },
+    "XLV": {
+      "ticker": "XLV",
+      "price": 143.04,
+      "chg_1d": -0.31,
+      "chg_1w": -1.56,
+      "chg_1m": -3.33,
+      "chg_3m": -7.93,
+      "ma50": 147.531,
+      "above_ma": false
+    },
+    "XLI": {
+      "ticker": "XLI",
+      "price": 175.04,
+      "chg_1d": 1.06,
+      "chg_1w": 1.53,
+      "chg_1m": 1.34,
+      "chg_3m": 1.61,
+      "ma50": 169.174,
+      "above_ma": true
+    },
+    "XLRE": {
+      "ticker": "XLRE",
+      "price": 44.57,
+      "chg_1d": 0.36,
+      "chg_1w": 0.91,
+      "chg_1m": 3.6,
+      "chg_3m": 4.66,
+      "ma50": 42.727,
+      "above_ma": true
+    }
+  },
+  "correlation": {
+    "risk_on_signals": 4,
+    "risk_off_signals": 0,
+    "risk_on_pct": 100.0,
+    "quality": "STRONG_RISK_ON"
+  },
+  "rs_rankings": [
+    {
+      "symbol": "NVDA",
+      "price": 219.44,
+      "chg_1d": 1.97,
+      "chg_1m": 15.92,
+      "chg_3m": 17.39,
+      "rs_vs_spy": 8.58,
+      "momentum": 11.86,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "AMD",
+      "price": 458.79,
+      "chg_1d": 0.79,
+      "chg_1m": 85.87,
+      "chg_3m": 122.78,
+      "rs_vs_spy": 113.97,
+      "momentum": 51.84,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "AVGO",
+      "price": 428.43,
+      "chg_1d": -0.37,
+      "chg_1m": 12.82,
+      "chg_3m": 29.64,
+      "rs_vs_spy": 20.83,
+      "momentum": 6.41,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "ARM",
+      "price": 212.65,
+      "chg_1d": -0.29,
+      "chg_1m": 34.95,
+      "chg_3m": 74.03,
+      "rs_vs_spy": 65.22,
+      "momentum": 17.96,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "MRVL",
+      "price": 170.84,
+      "chg_1d": 0.42,
+      "chg_1m": 30.11,
+      "chg_3m": 118.49,
+      "rs_vs_spy": 109.68,
+      "momentum": 15.51,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "SMCI",
+      "price": 33.52,
+      "chg_1d": -5.23,
+      "chg_1m": 29.07,
+      "chg_3m": 10.15,
+      "rs_vs_spy": 1.34,
+      "momentum": 19.62,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "TSM",
+      "price": 404.54,
+      "chg_1d": -1.73,
+      "chg_1m": 9.46,
+      "chg_3m": 10.21,
+      "rs_vs_spy": 1.4,
+      "momentum": 5.16,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "AAPL",
+      "price": 292.68,
+      "chg_1d": -0.13,
+      "chg_1m": 13.02,
+      "chg_3m": 11.93,
+      "rs_vs_spy": 3.12,
+      "momentum": 7.41,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "GOOGL",
+      "price": 388.64,
+      "chg_1d": -3.03,
+      "chg_1m": 20.95,
+      "chg_3m": 25.86,
+      "rs_vs_spy": 17.05,
+      "momentum": 9.88,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "AMZN",
+      "price": 268.99,
+      "chg_1d": -1.35,
+      "chg_1m": 12.13,
+      "chg_3m": 34.76,
+      "rs_vs_spy": 25.95,
+      "momentum": 5.29,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "ORCL",
+      "price": 193.84,
+      "chg_1d": -1.08,
+      "chg_1m": 24.56,
+      "chg_3m": 24.31,
+      "rs_vs_spy": 15.5,
+      "momentum": 13.44,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "UNH",
+      "price": 384.44,
+      "chg_1d": 1.17,
+      "chg_1m": 22.82,
+      "chg_3m": 36.24,
+      "rs_vs_spy": 27.43,
+      "momentum": 13.34,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "MSFT",
+      "price": 412.66,
+      "chg_1d": -0.59,
+      "chg_1m": 7.36,
+      "chg_3m": 2.93,
+      "rs_vs_spy": -5.88,
+      "momentum": 3.66,
+      "leadership": 99,
+      "above_ma50": true
+    },
+    {
+      "symbol": "LLY",
+      "price": 966.99,
+      "chg_1d": 1.95,
+      "chg_1m": 4.03,
+      "chg_3m": -6.71,
+      "rs_vs_spy": -15.52,
+      "momentum": 1.74,
+      "leadership": 74,
+      "above_ma50": true
+    },
+    {
+      "symbol": "NFLX",
+      "price": 85.45,
+      "chg_1d": -2.33,
+      "chg_1m": -17.17,
+      "chg_3m": 12.64,
+      "rs_vs_spy": 3.83,
+      "momentum": -9.89,
+      "leadership": 28,
+      "above_ma50": false
+    },
+    {
+      "symbol": "CRM",
+      "price": 177.49,
+      "chg_1d": -2.38,
+      "chg_1m": 2.7,
+      "chg_3m": -4.04,
+      "rs_vs_spy": -12.85,
+      "momentum": -0.65,
+      "leadership": 23,
+      "above_ma50": false
+    },
+    {
+      "symbol": "ABBV",
+      "price": 202.78,
+      "chg_1d": 0.61,
+      "chg_1m": -0.97,
+      "chg_3m": -10.13,
+      "rs_vs_spy": -18.94,
+      "momentum": -0.85,
+      "leadership": 10,
+      "above_ma50": false
+    },
+    {
+      "symbol": "META",
+      "price": 598.86,
+      "chg_1d": -1.77,
+      "chg_1m": -5.62,
+      "chg_3m": -7.76,
+      "rs_vs_spy": -16.57,
+      "momentum": -3.47,
+      "leadership": 7,
+      "above_ma50": false
+    },
+    {
+      "symbol": "ANET",
+      "price": 136.43,
+      "chg_1d": -3.77,
+      "chg_1m": -10.26,
+      "chg_3m": 0.97,
+      "rs_vs_spy": -7.84,
+      "momentum": -11.84,
+      "leadership": 0,
+      "above_ma50": false
+    },
+    {
+      "symbol": "TMO",
+      "price": 452.6,
+      "chg_1d": -2.67,
+      "chg_1m": -11.98,
+      "chg_3m": -11.14,
+      "rs_vs_spy": -19.95,
+      "momentum": -7.43,
+      "leadership": 0,
+      "above_ma50": false
+    }
+  ],
+  "narrative": "DAILY MARKET NARRATIVE \u2014 2026-05-12\n\nREGIME: STRONG_RISK_ON\nThe market is in RISK-ON mode with broad institutional participation.\n\nBREADTH: NEUTRAL (63.7/100)\nMarket breadth confirms price action.\nBroad participation supports the trend.\n\nLIQUIDITY: Liquidity flow is BALANCED. Sector-specific rotation dominant.\n\nSECTOR LEADERSHIP: Leading sectors: Tech, Energy, Industrials\n\nINSTITUTIONAL LEADERS: NVDA, AMD, AVGO, ARM, MRVL\n\nSWING ENVIRONMENT: Environment is FAVORABLE for swing trades. Focus on momentum leaders.\nINTRADAY: Intraday opportunities exist in high-momentum tech and growth names.\n\nHEALTH CHECK: \u2705 Market structure intact",
+  "top_leaders": [
+    {
+      "symbol": "NVDA",
+      "price": 219.44,
+      "chg_1d": 1.97,
+      "chg_1m": 15.92,
+      "chg_3m": 17.39,
+      "rs_vs_spy": 8.58,
+      "momentum": 11.86,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "AMD",
+      "price": 458.79,
+      "chg_1d": 0.79,
+      "chg_1m": 85.87,
+      "chg_3m": 122.78,
+      "rs_vs_spy": 113.97,
+      "momentum": 51.84,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "AVGO",
+      "price": 428.43,
+      "chg_1d": -0.37,
+      "chg_1m": 12.82,
+      "chg_3m": 29.64,
+      "rs_vs_spy": 20.83,
+      "momentum": 6.41,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "ARM",
+      "price": 212.65,
+      "chg_1d": -0.29,
+      "chg_1m": 34.95,
+      "chg_3m": 74.03,
+      "rs_vs_spy": 65.22,
+      "momentum": 17.96,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "MRVL",
+      "price": 170.84,
+      "chg_1d": 0.42,
+      "chg_1m": 30.11,
+      "chg_3m": 118.49,
+      "rs_vs_spy": 109.68,
+      "momentum": 15.51,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "SMCI",
+      "price": 33.52,
+      "chg_1d": -5.23,
+      "chg_1m": 29.07,
+      "chg_3m": 10.15,
+      "rs_vs_spy": 1.34,
+      "momentum": 19.62,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "TSM",
+      "price": 404.54,
+      "chg_1d": -1.73,
+      "chg_1m": 9.46,
+      "chg_3m": 10.21,
+      "rs_vs_spy": 1.4,
+      "momentum": 5.16,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "AAPL",
+      "price": 292.68,
+      "chg_1d": -0.13,
+      "chg_1m": 13.02,
+      "chg_3m": 11.93,
+      "rs_vs_spy": 3.12,
+      "momentum": 7.41,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "GOOGL",
+      "price": 388.64,
+      "chg_1d": -3.03,
+      "chg_1m": 20.95,
+      "chg_3m": 25.86,
+      "rs_vs_spy": 17.05,
+      "momentum": 9.88,
+      "leadership": 100,
+      "above_ma50": true
+    },
+    {
+      "symbol": "AMZN",
+      "price": 268.99,
+      "chg_1d": -1.35,
+      "chg_1m": 12.13,
+      "chg_3m": 34.76,
+      "rs_vs_spy": 25.95,
+      "momentum": 5.29,
+      "leadership": 100,
+      "above_ma50": true
+    }
+  ],
+  "risk_quality": "STRONG_RISK_ON"
+}

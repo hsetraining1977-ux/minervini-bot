@@ -1,0 +1,32 @@
+{
+  "PT_NVDA_20260511_153526": {
+    "trade_id": "PT_NVDA_20260511_153526",
+    "order_id": "15a974b5-83c0-4254-b674-00870e67a587",
+    "plan_id": "NVDA_20260511_153320",
+    "symbol": "NVDA",
+    "trade_type": "SWING",
+    "direction": "LONG",
+    "status": "ACTIVE",
+    "entry_price": 221.31,
+    "entry_time": "2026-05-11T15:35:26.007037",
+    "shares": 51,
+    "position_value": 11286.56,
+    "stop_loss": 211.54,
+    "take_profit_1": 241.54,
+    "take_profit_2": 251.54,
+    "take_profit_3": 271.54,
+    "risk_per_share": 9.77,
+    "max_risk_usd": 498.02,
+    "current_price": 218.22,
+    "unrealized_pnl": -157.59,
+    "unrealized_pct": -1.4,
+    "realized_pnl": 0.0,
+    "exit_price": 0.0,
+    "exit_time": "",
+    "exit_reason": "",
+    "execution_score": 92,
+    "regime": "RISK_ON",
+    "setup": "Minervini SEPA Stage 2",
+    "alpaca_order_id": "15a974b5-83c0-4254-b674-00870e67a587"
+  }
+}

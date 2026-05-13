@@ -1,0 +1,408 @@
+[DB] 2026-05-11 15:45:49,934 INFO: Connection pool created
+[DB] 2026-05-11 15:45:49,937 INFO: Market snapshot inserted
+
+=======================================================
+  🧠 MASTER AI ORCHESTRATOR
+=======================================================
+  2026-05-11 11:45 ET
+=======================================================
+[Orchestrator] Reading market state...
+
+  Regime:  RISK_ON (score:75)
+  VIX:     17.9
+  SPY:     Above VWAP | Mom:+0.46%
+  Lockdown:False
+
+  Mode:    SWING_FOCUS
+  Capital: 80% Swing | 20% Intraday
+
+  ⚠️ Warnings:
+    ⚠️ Market EUPHORIC — risk of reversal
+
+  📈 Running Swing Engine...
+  🔍 Running Intraday Engine (partial)...
+
+===========================================================================
+  🏦 Institutional Intraday Scanner | 2026-05-11 15:45
+===========================================================================
+[Regime] RISK_ON | SPY VWAP: ✅ | Mom: +0.47% | VIX: 17.9
+
+  Scanning 10 symbols...
+
+  🔥 NVDA   | 100.0 | HOT    | Gap:-0.6% RV:11.6x Mom:+3.4% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:7.69 SL:209.71 T1:236.62
+  🔥 AMD    | 100.0 | HOT    | Gap:+1.2% RV:4.3x Mom:+0.4% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:27.28 SL:421.31 T1:516.79
+  🔥 TSLA   | 100.0 | HOT    | Gap:-1.4% RV:2.5x Mom:+4.5% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:14.92 SL:418.77 T1:470.99
+  🔥 AAPL   |  94.6 | HOT    | Gap:-0.5% RV:3.7x Mom:+0.4% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:6.64 SL:283.29 T1:306.53
+  ❌ META   |  22.0 | IGNORE | Gap:-0.8% RV:1.4x Mom:-0.3% VWAP:✅ ➡️In VOL:❌ MTF:❌ ATR:18.2 SL:575.22 T1:638.92
+  👀 MSFT   |  67.1 | WATCH  | Gap:-1.8% RV:3.4x Mom:+0.8% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:11.8 SL:393.15 T1:434.45
+  👀 AVGO   |  61.6 | WATCH  | Gap:-0.6% RV:1.2x Mom:+0.6% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:15.4 SL:407.26 T1:461.16
+  ❌ SMCI   |  43.5 | IGNORE | Gap:-0.8% RV:1.6x Mom:+0.8% VWAP:❌ ➡️In VOL:❌ MTF:✅ ATR:2.24 SL:32.01 T1:39.85
+  ❌ GOOGL  |  38.5 | IGNORE | Gap:-1.7% RV:4.6x Mom:-0.0% VWAP:❌ ➡️In VOL:❌ MTF:✅ ATR:10.42 SL:378.2 T1:414.67
+  👀 AMZN   |  57.2 | WATCH  | Gap:-1.0% RV:1.0x Mom:+1.0% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:7.18 SL:261.74 T1:286.87
+
+  ✅ HOT: 4 | STRONG: 0 | WATCH: 3
+
+====================================================================================================
+SYM      SCR RATING   GAP%   RV  MOM% VWAP  ORB  VOL  MTF    ATR      SL      T1    SZ
+====================================================================================================
+NVDA   100.0 HOT      -0.6 11.6x  +3.4    ✅    🚀    ❌    ✅   7.69  209.71  236.62    43
+AMD    100.0 HOT      +1.2  4.3x  +0.4    ✅    ❌    ❌    ✅  27.28  421.31  516.79    12
+TSLA   100.0 HOT      -1.4  2.5x  +4.5    ✅    🚀    ❌    ✅  14.92  418.77  470.99    22
+AAPL    94.6 HOT      -0.5  3.7x  +0.4    ✅    🚀    ❌    ✅   6.64  283.29  306.53    50
+MSFT    67.1 WATCH    -1.8  3.4x  +0.8    ✅    ❌    ❌    ✅  11.80  393.15  434.45    28
+AVGO    61.6 WATCH    -0.6  1.2x  +0.6    ✅    ❌    ❌    ✅  15.40  407.26  461.16    21
+AMZN    57.2 WATCH    -1.0  1.0x  +1.0    ✅    ❌    ❌    ✅   7.18  261.74  286.87    46
+SMCI    43.5 IGNORE   -0.8  1.6x  +0.8    ❌    ❌    ❌    ✅   2.24   32.01   39.85   148
+GOOGL   38.5 IGNORE   -1.7  4.6x  -0.0    ❌    ❌    ❌    ✅  10.42  378.20  414.67    31
+META    22.0 IGNORE   -0.8  1.4x  -0.3    ✅    ❌    ❌    ❌  18.20  575.22  638.92    18
+====================================================================================================
+
+=======================================================
+  CAPITAL ALLOCATION: 80% Swing | 20% Intraday
+
+  🔥 Top Intraday (4):
+    NVDA   | Score:100.0 | HOT
+    AMD    | Score:100.0 | HOT
+    TSLA   | Score:100.0 | HOT
+    AAPL   | Score: 94.6 | HOT
+=======================================================
+
+[DB] 2026-05-11 15:47:12,205 INFO: Connection pool created
+[DB] 2026-05-11 15:47:12,209 INFO: Market snapshot inserted
+
+=======================================================
+  🧠 MASTER AI ORCHESTRATOR
+=======================================================
+  2026-05-11 11:47 ET
+=======================================================
+[Orchestrator] Reading market state...
+
+  Regime:  RISK_ON (score:75)
+  VIX:     17.9
+  SPY:     Above VWAP | Mom:+0.48%
+  Lockdown:False
+
+  Mode:    SWING_FOCUS
+  Capital: 80% Swing | 20% Intraday
+
+  ⚠️ Warnings:
+    ⚠️ Market EUPHORIC — risk of reversal
+
+  📈 Running Swing Engine...
+  🔍 Running Intraday Engine (partial)...
+
+===========================================================================
+  🏦 Institutional Intraday Scanner | 2026-05-11 15:47
+===========================================================================
+[Regime] RISK_ON | SPY VWAP: ✅ | Mom: +0.48% | VIX: 17.9
+
+  Scanning 10 symbols...
+
+  🔥 NVDA   | 100.0 | HOT    | Gap:-0.6% RV:11.7x Mom:+3.4% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:7.69 SL:209.69 T1:236.61
+  🔥 AMD    | 100.0 | HOT    | Gap:+1.2% RV:4.3x Mom:+0.5% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:27.28 SL:422.01 T1:517.49
+  🔥 TSLA   | 100.0 | HOT    | Gap:-1.4% RV:2.5x Mom:+4.2% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:14.95 SL:417.37 T1:469.69
+  🔥 AAPL   |  94.6 | HOT    | Gap:-0.5% RV:3.7x Mom:+0.5% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:6.64 SL:283.34 T1:306.58
+  ❌ META   |  22.0 | IGNORE | Gap:-0.8% RV:1.5x Mom:-0.3% VWAP:✅ ➡️In VOL:❌ MTF:❌ ATR:18.2 SL:575.37 T1:639.07
+  💪 MSFT   |  78.1 | STRONG | Gap:-1.8% RV:4.4x Mom:+0.7% VWAP:✅ ➡️In VOL:🔥 MTF:✅ ATR:11.8 SL:393.0 T1:434.3
+  👀 AVGO   |  61.6 | WATCH  | Gap:-0.6% RV:1.2x Mom:+0.6% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:15.4 SL:406.91 T1:460.81
+  ❌ SMCI   |  36.9 | IGNORE | Gap:-0.8% RV:1.6x Mom:+0.8% VWAP:❌ ➡️In VOL:❌ MTF:✅ ATR:2.24 SL:32.0 T1:39.84
+  ❌ GOOGL  |  38.5 | IGNORE | Gap:-1.7% RV:4.6x Mom:-0.1% VWAP:❌ ➡️In VOL:❌ MTF:✅ ATR:10.42 SL:378.09 T1:414.56
+  👀 AMZN   |  57.2 | WATCH  | Gap:-1.0% RV:1.0x Mom:+1.0% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:7.18 SL:261.68 T1:286.81
+
+  ✅ HOT: 4 | STRONG: 1 | WATCH: 2
+
+====================================================================================================
+SYM      SCR RATING   GAP%   RV  MOM% VWAP  ORB  VOL  MTF    ATR      SL      T1    SZ
+====================================================================================================
+NVDA   100.0 HOT      -0.6 11.7x  +3.4    ✅    🚀    ❌    ✅   7.69  209.69  236.61    43
+AMD    100.0 HOT      +1.2  4.3x  +0.5    ✅    ❌    ❌    ✅  27.28  422.01  517.49    12
+TSLA   100.0 HOT      -1.4  2.5x  +4.2    ✅    🚀    ❌    ✅  14.95  417.37  469.69    22
+AAPL    94.6 HOT      -0.5  3.7x  +0.5    ✅    🚀    ❌    ✅   6.64  283.34  306.58    50
+MSFT    78.1 STRONG   -1.8  4.4x  +0.7    ✅    ❌    🔥    ✅  11.80  393.00  434.30    28
+AVGO    61.6 WATCH    -0.6  1.2x  +0.6    ✅    ❌    ❌    ✅  15.40  406.91  460.81    21
+AMZN    57.2 WATCH    -1.0  1.0x  +1.0    ✅    ❌    ❌    ✅   7.18  261.68  286.81    46
+GOOGL   38.5 IGNORE   -1.7  4.6x  -0.1    ❌    ❌    ❌    ✅  10.42  378.09  414.56    31
+SMCI    36.9 IGNORE   -0.8  1.6x  +0.8    ❌    ❌    ❌    ✅   2.24   32.00   39.84   148
+META    22.0 IGNORE   -0.8  1.4x  -0.3    ✅    ❌    ❌    ❌  18.20  575.37  639.07    18
+====================================================================================================
+
+=======================================================
+  CAPITAL ALLOCATION: 80% Swing | 20% Intraday
+
+  🔥 Top Intraday (5):
+    NVDA   | Score:100.0 | HOT
+    AMD    | Score:100.0 | HOT
+    TSLA   | Score:100.0 | HOT
+    AAPL   | Score: 94.6 | HOT
+    MSFT   | Score: 78.1 | STRONG
+=======================================================
+
+[DB] 2026-05-11 15:51:13,274 INFO: Connection pool created
+[DB] 2026-05-11 15:51:13,278 INFO: Market snapshot inserted
+
+=======================================================
+  🧠 MASTER AI ORCHESTRATOR
+=======================================================
+  2026-05-11 11:50 ET
+=======================================================
+[Orchestrator] Reading market state...
+
+  Regime:  RISK_ON (score:75)
+  VIX:     17.9
+  SPY:     Above VWAP | Mom:+0.47%
+  Lockdown:False
+
+  Mode:    SWING_FOCUS
+  Capital: 80% Swing | 20% Intraday
+
+  ⚠️ Warnings:
+    ⚠️ Market EUPHORIC — risk of reversal
+
+  📈 Running Swing Engine...
+  🔍 Running Intraday Engine (partial)...
+
+===========================================================================
+  🏦 Institutional Intraday Scanner | 2026-05-11 15:51
+===========================================================================
+[Regime] RISK_ON | SPY VWAP: ✅ | Mom: +0.45% | VIX: 18.0
+
+  Scanning 10 symbols...
+
+  🔥 NVDA   | 100.0 | HOT    | Gap:-0.6% RV:11.3x Mom:+3.4% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:7.69 SL:209.77 T1:236.68
+  🔥 AMD    | 100.0 | HOT    | Gap:+1.2% RV:4.2x Mom:+0.6% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:27.28 SL:422.58 T1:518.06
+  🔥 TSLA   | 100.0 | HOT    | Gap:-1.4% RV:2.5x Mom:+3.7% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:14.95 SL:415.53 T1:467.86
+  🔥 AAPL   |  94.6 | HOT    | Gap:-0.5% RV:3.6x Mom:+0.3% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:6.64 SL:282.96 T1:306.2
+  ❌ META   |  22.0 | IGNORE | Gap:-0.8% RV:1.4x Mom:-0.2% VWAP:✅ ➡️In VOL:❌ MTF:❌ ATR:18.2 SL:575.88 T1:639.58
+  ❌ MSFT   |  23.1 | IGNORE | Gap:-1.8% RV:4.3x Mom:+0.6% VWAP:❌ ➡️In VOL:❌ MTF:❌ ATR:11.8 SL:392.69 T1:433.99
+  👀 AVGO   |  61.6 | WATCH  | Gap:-0.6% RV:1.2x Mom:+0.7% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:15.4 SL:407.48 T1:461.38
+  ❌ SMCI   |  36.9 | IGNORE | Gap:-0.8% RV:1.6x Mom:+0.8% VWAP:❌ ➡️In VOL:❌ MTF:✅ ATR:2.24 SL:32.0 T1:39.84
+  ❌ GOOGL  |  38.5 | IGNORE | Gap:-1.7% RV:4.4x Mom:-0.1% VWAP:❌ ➡️In VOL:❌ MTF:✅ ATR:10.42 SL:378.08 T1:414.55
+  👀 AMZN   |  57.2 | WATCH  | Gap:-1.0% RV:1.0x Mom:+0.9% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:7.18 SL:261.42 T1:286.55
+
+  ✅ HOT: 4 | STRONG: 0 | WATCH: 2
+
+====================================================================================================
+SYM      SCR RATING   GAP%   RV  MOM% VWAP  ORB  VOL  MTF    ATR      SL      T1    SZ
+====================================================================================================
+NVDA   100.0 HOT      -0.6 11.3x  +3.5    ✅    🚀    ❌    ✅   7.69  209.77  236.68    43
+AMD    100.0 HOT      +1.2  4.2x  +0.6    ✅    ❌    ❌    ✅  27.28  422.58  518.06    12
+TSLA   100.0 HOT      -1.4  2.5x  +3.7    ✅    🚀    ❌    ✅  14.95  415.53  467.86    22
+AAPL    94.6 HOT      -0.5  3.6x  +0.3    ✅    🚀    ❌    ✅   6.64  282.96  306.20    50
+AVGO    61.6 WATCH    -0.6  1.2x  +0.7    ✅    ❌    ❌    ✅  15.40  407.48  461.38    21
+AMZN    57.2 WATCH    -1.0  1.0x  +0.9    ✅    ❌    ❌    ✅   7.18  261.42  286.55    46
+GOOGL   38.5 IGNORE   -1.7  4.4x  -0.1    ❌    ❌    ❌    ✅  10.42  378.08  414.55    31
+SMCI    36.9 IGNORE   -0.8  1.6x  +0.8    ❌    ❌    ❌    ✅   2.24   32.00   39.84   148
+MSFT    23.1 IGNORE   -1.8  4.3x  +0.6    ❌    ❌    ❌    ❌  11.80  392.69  433.99    28
+META    22.0 IGNORE   -0.8  1.4x  -0.2    ✅    ❌    ❌    ❌  18.20  575.88  639.58    18
+====================================================================================================
+
+=======================================================
+  CAPITAL ALLOCATION: 80% Swing | 20% Intraday
+
+  🔥 Top Intraday (4):
+    NVDA   | Score:100.0 | HOT
+    AMD    | Score:100.0 | HOT
+    TSLA   | Score:100.0 | HOT
+    AAPL   | Score: 94.6 | HOT
+=======================================================
+
+[DB] 2026-05-11 16:19:28,004 INFO: Connection pool created
+[DB] 2026-05-11 16:19:28,007 INFO: Market snapshot inserted
+[DB] 2026-05-11 16:20:20,693 INFO: Connection pool created
+[DB] 2026-05-11 16:20:20,697 INFO: Market snapshot inserted
+
+=======================================================
+  🧠 MASTER AI ORCHESTRATOR
+=======================================================
+  2026-05-11 12:20 ET
+=======================================================
+[Orchestrator] Reading market state...
+
+  Regime:  RISK_ON (score:75)
+  VIX:     18.0
+  SPY:     Above VWAP | Mom:+0.49%
+  Lockdown:False
+
+  Mode:    SWING_FOCUS
+  Capital: 80% Swing | 20% Intraday
+
+  ⚠️ Warnings:
+    ⚠️ Market EUPHORIC — risk of reversal
+
+  📈 Running Swing Engine...
+  🔍 Running Intraday Engine (partial)...
+
+===========================================================================
+  🏦 Institutional Intraday Scanner | 2026-05-11 16:20
+===========================================================================
+[Regime] RISK_ON | SPY VWAP: ✅ | Mom: +0.50% | VIX: 18.0
+
+  Scanning 10 symbols...
+
+  🔥 NVDA   | 100.0 | HOT    | Gap:-0.6% RV:12.1x Mom:+3.7% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:7.7 SL:210.28 T1:237.23
+  🔥 AMD    | 100.0 | HOT    | Gap:+1.2% RV:3.6x Mom:+0.7% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:27.28 SL:422.81 T1:518.29
+  🔥 TSLA   | 100.0 | HOT    | Gap:-1.4% RV:6.0x Mom:+4.0% VWAP:✅ 🚀ORB VOL:❌ MTF:✅ ATR:14.95 SL:416.59 T1:468.92
+  ❌ AAPL   |  38.5 | IGNORE | Gap:-0.5% RV:4.7x Mom:+0.1% VWAP:❌ ➡️In VOL:❌ MTF:✅ ATR:6.64 SL:282.34 T1:305.58
+  ❌ META   |  22.0 | IGNORE | Gap:-0.8% RV:1.2x Mom:-0.2% VWAP:✅ ➡️In VOL:❌ MTF:❌ ATR:18.2 SL:576.22 T1:639.92
+  👀 MSFT   |  67.1 | WATCH  | Gap:-1.8% RV:4.4x Mom:+0.8% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:11.8 SL:393.23 T1:434.53
+  ❌ AVGO   |  36.9 | IGNORE | Gap:-0.6% RV:1.8x Mom:+0.4% VWAP:❌ ➡️In VOL:❌ MTF:✅ ATR:15.4 SL:406.27 T1:460.18
+  ❌ SMCI   |  22.0 | IGNORE | Gap:-0.8% RV:1.4x Mom:+0.1% VWAP:❌ ➡️In VOL:❌ MTF:✅ ATR:2.24 SL:31.74 T1:39.58
+  ❌ GOOGL  |  38.5 | IGNORE | Gap:-1.7% RV:5.4x Mom:+0.0% VWAP:❌ ➡️In VOL:❌ MTF:✅ ATR:10.42 SL:378.41 T1:414.88
+  👀 AMZN   |  57.2 | WATCH  | Gap:-1.0% RV:0.9x Mom:+0.9% VWAP:✅ ➡️In VOL:❌ MTF:✅ ATR:7.18 SL:261.5 T1:286.63
+
+  ✅ HOT: 3 | STRONG: 0 | WATCH: 2
+
+====================================================================================================
+SYM      SCR RATING   GAP%   RV  MOM% VWAP  ORB  VOL  MTF    ATR      SL      T1    SZ
+====================================================================================================
+NVDA   100.0 HOT      -0.6 12.1x  +3.7    ✅    🚀    ❌    ✅   7.70  210.28  237.23    43
+AMD    100.0 HOT      +1.2  3.6x  +0.7    ✅    ❌    ❌    ✅  27.28  422.81  518.29    12
+TSLA   100.0 HOT      -1.4  6.0x  +4.0    ✅    🚀    ❌    ✅  14.95  416.59  468.92    22
+MSFT    67.1 WATCH    -1.8  4.4x  +0.8    ✅    ❌    ❌    ✅  11.80  393.23  434.53    28
+AMZN    57.2 WATCH    -1.0  0.9x  +0.9    ✅    ❌    ❌    ✅   7.18  261.50  286.63    46
+AAPL    38.5 IGNORE   -0.5  4.7x  +0.1    ❌    ❌    ❌    ✅   6.64  282.34  305.58    50
+GOOGL   38.5 IGNORE   -1.7  5.4x  +0.0    ❌    ❌    ❌    ✅  10.42  378.41  414.88    31
+AVGO    36.9 IGNORE   -0.6  1.8x  +0.4    ❌    ❌    ❌    ✅  15.40  406.27  460.18    21
+META    22.0 IGNORE   -0.8  1.2x  -0.2    ✅    ❌    ❌    ❌  18.20  576.22  639.92    18
+SMCI    22.0 IGNORE   -0.8  1.4x  +0.1    ❌    ❌    ❌    ✅   2.24   31.74   39.58   148
+====================================================================================================
+
+=======================================================
+  CAPITAL ALLOCATION: 80% Swing | 20% Intraday
+
+  🔥 Top Intraday (3):
+    NVDA   | Score:100.0 | HOT
+    AMD    | Score:100.0 | HOT
+    TSLA   | Score:100.0 | HOT
+=======================================================
+
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined
+Error: name 'main' is not defined

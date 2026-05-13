@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-05-13 02:00:21",
+  "processes": {
+    "telegram_bot": true,
+    "streamlit": true,
+    "ai_layer": true,
+    "event_awareness": true,
+    "institutional": true
+  },
+  "streamlit_http": true,
+  "database": {
+    "connected": true,
+    "latency_ms": 0.0
+  },
+  "telegram_api": true,
+  "alpaca_api": true,
+  "resources": {
+    "cpu": 82.4,
+    "ram": 58.9,
+    "disk": 24.1
+  },
+  "healthy": true
+}

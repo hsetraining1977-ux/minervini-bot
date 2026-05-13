@@ -1,0 +1,30 @@
+{
+  "market_regime": "risk_on",
+  "liquidity_state": "neutral",
+  "fed_expectation": "neutral",
+  "recession_probability": 0.25,
+  "inflation_trend": "stable",
+  "recommended_exposure": 0.75,
+  "confidence": 0.72,
+  "preferred_sectors": [
+    "technology",
+    "semiconductors",
+    "AI/ML"
+  ],
+  "avoid_sectors": [
+    "utilities",
+    "consumer_staples"
+  ],
+  "allow_new_trades": true,
+  "position_size_multiplier": 1.1,
+  "key_risks": [
+    "NVDA valuation stretched at 43x P/E despite strong growth",
+    "VIX at 17.19 suggests complacency risk",
+    "DXY weakness at 98.12 may signal dollar instability",
+    "10Y yield at 4.36% creating equity competition"
+  ],
+  "opportunity": "NVDA shows exceptional fundamentals with 95.6% EPS growth and 73.2% revenue growth. Current price offers 15-20% upside to analyst target of $269. AI infrastructure demand remains robust. Macro score of 6 with BUY_AGGRESSIVE signal supports entry.",
+  "reasoning": "Risk-on environment confirmed by positive SPY momentum (+0.83%), moderate VIX, and gold weakness (-0.93%). NVDA's high P/E is justified by extraordinary growth metrics far exceeding sector averages. Fed neutral stance and stable macro conditions support aggressive tech positioning. Dollar weakness benefits multinational tech earnings. Position size multiplier elevated to 1.1 given strong macro action signal, but capped due to valuation concerns and incomplete macro data.",
+  "timestamp": "2026-05-11 04:43:02.792443",
+  "source": "claude_ai"
+}

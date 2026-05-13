@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-05-11T07:00:39.138934",
+  "duration_sec": 12.8,
+  "spy": {
+    "label": "SPY",
+    "total": 30,
+    "advances": 11,
+    "declines": 18,
+    "unchanged": 1,
+    "ad_ratio": 36.7,
+    "above_50ma": 53.3,
+    "above_200ma": 60.0,
+    "new_highs": 8,
+    "new_lows": 1,
+    "breadth_score": 51.2,
+    "quality": "NEUTRAL"
+  },
+  "qqq": {
+    "label": "QQQ",
+    "total": 20,
+    "advances": 13,
+    "declines": 7,
+    "unchanged": 0,
+    "ad_ratio": 65.0,
+    "above_50ma": 80.0,
+    "above_200ma": 70.0,
+    "new_highs": 12,
+    "new_lows": 0,
+    "breadth_score": 76.2,
+    "quality": "STRONG"
+  },
+  "overall_score": 63.7,
+  "overall_quality": "NEUTRAL",
+  "market_health": "Market breadth is GOOD \u2014 majority of stocks participating"
+}

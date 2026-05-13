@@ -1,0 +1,12 @@
+{
+  "total_trades": 0,
+  "wins": 0,
+  "losses": 0,
+  "total_pnl": 0.0,
+  "max_drawdown": 0.0,
+  "equity_curve": [],
+  "daily_pnl": {},
+  "best_trade": null,
+  "worst_trade": null,
+  "regime_perf": {}
+}

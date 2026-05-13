@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-05-13T01:56:22.709804",
+  "restarts": {
+    "telegram_commands": 0,
+    "streamlit": 0
+  },
+  "last_restart": {
+    "telegram_commands": null,
+    "streamlit": null
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "timestamp": "2026-05-11T07:00:35.568573",
+  "duration_sec": 5.1,
+  "scanned": 10,
+  "flow_bias": "INSTITUTIONAL_BUYING",
+  "strong_buy": [],
+  "accumulating": [
+    {
+      "symbol": "AMD",
+      "price": 455.19,
+      "vol_ratio": 1.24,
+      "unusual_vol": false,
+      "vol_pressure": "ACCUMULATION",
+      "cmf": 0.349,
+      "price_5d_chg": 33.28,
+      "inst_score": 65,
+      "signal": "ACCUMULATING"
+    },
+    {
+      "symbol": "AAPL",
+      "price": 293.32,
+      "vol_ratio": 1.08,
+      "unusual_vol": false,
+      "vol_pressure": "ACCUMULATION",
+      "cmf": 0.101,
+      "price_5d_chg": 5.96,
+      "inst_score": 65,
+      "signal": "ACCUMULATING"
+    },
+    {
+      "symbol": "TSLA",
+      "price": 428.35,
+      "vol_ratio": 1.02,
+      "unusual_vol": false,
+      "vol_pressure": "ACCUMULATION",
+      "cmf": 0.256,
+      "price_5d_chg": 9.13,
+      "inst_score": 65,
+      "signal": "ACCUMULATING"
+    },
+    {
+      "symbol": "GOOGL",
+      "price": 400.8,
+      "vol_ratio": 0.78,
+      "unusual_vol": false,
+      "vol_pressure": "ACCUMULATION",
+      "cmf": 0.51,
+      "price_5d_chg": 4.58,
+      "inst_score": 55,
+      "signal": "ACCUMULATING"
+    }
+  ],
+  "distributing": [],
+  "unusual_volume": [],
+  "top_leaders": [
+    {
+      "symbol": "AMD",
+      "price": 455.19,
+      "vol_ratio": 1.24,
+      "unusual_vol": false,
+      "vol_pressure": "ACCUMULATION",
+      "cmf": 0.349,
+      "price_5d_chg": 33.28,
+      "inst_score": 65,
+      "signal": "ACCUMULATING"
+    },
+    {
+      "symbol": "AAPL",
+      "price": 293.32,
+      "vol_ratio": 1.08,
+      "unusual_vol": false,
+      "vol_pressure": "ACCUMULATION",
+      "cmf": 0.101,
+      "price_5d_chg": 5.96,
+      "inst_score": 65,
+      "signal": "ACCUMULATING"
+    },
+    {
+      "symbol": "TSLA",
+      "price": 428.35,
+      "vol_ratio": 1.02,
+      "unusual_vol": false,
+      "vol_pressure": "ACCUMULATION",
+      "cmf": 0.256,
+      "price_5d_chg": 9.13,
+      "inst_score": 65,
+      "signal": "ACCUMULATING"
+    },
+    {
+      "symbol": "GOOGL",
+      "price": 400.8,
+      "vol_ratio": 0.78,
+      "unusual_vol": false,
+      "vol_pressure": "ACCUMULATION",
+      "cmf": 0.51,
+      "price_5d_chg": 4.58,
+      "inst_score": 55,
+      "signal": "ACCUMULATING"
+    },
+    {
+      "symbol": "AVGO",
+      "price": 430.0,
+      "vol_ratio": 1.1,
+      "unusual_vol": false,
+      "vol_pressure": "NEUTRAL",
+      "cmf": 0.187,
+      "price_5d_chg": 3.24,
+      "inst_score": 35,
+      "signal": "NEUTRAL"
+    },
+    {
+      "symbol": "NVDA",
+      "price": 215.2,
+      "vol_ratio": 0.9,
+      "unusual_vol": false,
+      "vol_pressure": "NEUTRAL",
+      "cmf": 0.067,
+      "price_5d_chg": 8.42,
+      "inst_score": 25,
+      "signal": "NEUTRAL"
+    },
+    {
+      "symbol": "AMZN",
+      "price": 272.68,
+      "vol_ratio": 0.71,
+      "unusual_vol": false,
+      "vol_pressure": "ACCUMULATION",
+      "cmf": -0.067,
+      "price_5d_chg": 0.23,
+      "inst_score": 20,
+      "signal": "NEUTRAL"
+    },
+    {
+      "symbol": "ARM",
+      "price": 213.27,
+      "vol_ratio": 1.08,
+      "unusual_vol": false,
+      "vol_pressure": "DISTRIBUTION",
+      "cmf": -0.075,
+      "price_5d_chg": 4.92,
+      "inst_score": 15,
+      "signal": "NEUTRAL"
+    },
+    {
+      "symbol": "MSFT",
+      "price": 415.12,
+      "vol_ratio": 0.93,
+      "unusual_vol": false,
+      "vol_pressure": "DISTRIBUTION",
+      "cmf": 0.068,
+      "price_5d_chg": 0.36,
+      "inst_score": 0,
+      "signal": "NEUTRAL"
+    },
+    {
+      "symbol": "META",
+      "price": 609.63,
+      "vol_ratio": 0.85,
+      "unusual_vol": false,
+      "vol_pressure": "DISTRIBUTION",
+      "cmf": -0.026,
+      "price_5d_chg": -0.13,
+      "inst_score": 0,
+      "signal": "NEUTRAL"
+    }
+  ],
+  "summary": "Smart money is BUYING. Leaders: AMD, AAPL, TSLA."
+}

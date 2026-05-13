@@ -1,0 +1,85 @@
+python3: can't open file '/root/smart_execution_engine.py': [Errno 2] No such file or directory
+INFO:smart_execution:============================================================
+INFO:smart_execution:  SMART EXECUTION ENGINE — PAPER TRADING ONLY
+INFO:smart_execution:============================================================
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[NVDA] Entry conditions failed: ['Volume weak: 1.0x < 1.5x']
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[NVDA] Entry conditions failed: ['Volume weak: 1.0x < 1.5x']
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[NVDA] Entry conditions failed: ['Volume weak: 1.0x < 1.5x']
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[NVDA] Entry conditions failed: ['Volume weak: 1.0x < 1.5x']
+INFO:smart_execution:============================================================
+INFO:smart_execution:  SMART EXECUTION ENGINE — PAPER TRADING ONLY
+INFO:smart_execution:============================================================
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[NVDA] Entry conditions failed: ['Volume weak: 1.0x < 1.5x']
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[NVDA] Entry conditions failed: ['Volume weak: 1.0x < 1.5x']
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[NVDA] Entry conditions failed: ['Volume weak: 1.0x < 1.5x']
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[NVDA] Entry conditions failed: ['Volume weak: 1.0x < 1.5x']
+INFO:smart_execution:============================================================
+INFO:smart_execution:  SMART EXECUTION ENGINE — PAPER TRADING ONLY
+INFO:smart_execution:============================================================
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[NVDA] Entry conditions failed: ['Volume weak: 1.0x < 1.5x']
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[NVDA] Entry conditions failed: ['Volume weak: 1.0x < 1.5x']
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[NVDA] Entry conditions failed: ['Volume weak: 1.0x < 1.5x']
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[NVDA] Entry conditions failed: ['Volume weak: 1.0x < 1.5x']
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[NVDA] Entry conditions failed: ['Volume weak: 1.0x < 1.5x']
+INFO:smart_execution:============================================================
+INFO:smart_execution:  SMART EXECUTION ENGINE — PAPER TRADING ONLY
+INFO:smart_execution:============================================================
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio
+INFO:smart_execution:[NVDA] Executing Stage 1 entry | Score=92.0 | Regime=NEUTRAL
+INFO:smart_execution:[Portfolio BLOCKED] NVDA - NVDA already in portfolio

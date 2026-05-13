@@ -1,0 +1,56 @@
+{
+  "NVDA": {
+    "symbol": "NVDA",
+    "final_score": 100,
+    "agent_scores": {
+      "macro": 98,
+      "technical": 80,
+      "smart_money": 60,
+      "sector": 85,
+      "sentiment": 92,
+      "earnings": 90,
+      "risk": 70
+    },
+    "trade_decision": "FULL",
+    "size_pct": 1.0,
+    "decision_emoji": "🟢🟢",
+    "ai_boost": 8,
+    "timestamp": "2026-05-11 04:43:03.552104"
+  },
+  "MSFT": {
+    "symbol": "MSFT",
+    "final_score": 99.5,
+    "agent_scores": {
+      "macro": 98,
+      "technical": 80,
+      "smart_money": 60,
+      "sector": 85,
+      "sentiment": 92,
+      "earnings": 75,
+      "risk": 70
+    },
+    "trade_decision": "FULL",
+    "size_pct": 1.0,
+    "decision_emoji": "🟢🟢",
+    "ai_boost": 8,
+    "timestamp": "2026-05-11 04:43:04.036276"
+  },
+  "AAPL": {
+    "symbol": "AAPL",
+    "final_score": 97.8,
+    "agent_scores": {
+      "macro": 98,
+      "technical": 80,
+      "smart_money": 60,
+      "sector": 85,
+      "sentiment": 77,
+      "earnings": 75,
+      "risk": 70
+    },
+    "trade_decision": "FULL",
+    "size_pct": 1.0,
+    "decision_emoji": "🟢🟢",
+    "ai_boost": 8,
+    "timestamp": "2026-05-11 04:43:04.568311"
+  }
+}

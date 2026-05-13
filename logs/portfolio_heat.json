@@ -1,0 +1,42 @@
+{
+  "portfolio_value": 49990.26,
+  "total_market_value": 13237.28,
+  "total_unrealized": -4.84,
+  "total_open_risk": 657.26,
+  "portfolio_heat_pct": 1.31,
+  "cash_pct": 73.52,
+  "capital_utilized": 26.48,
+  "sector_exposure": {
+    "Crypto": 3.95,
+    "Technology": 22.53
+  },
+  "positions": [
+    {
+      "symbol": "BTCUSD",
+      "sector": "Crypto",
+      "qty": 0.02415554,
+      "entry": 80946.78,
+      "current": 81675.3,
+      "market_value": 1972.91,
+      "unrealized": 17.6,
+      "open_risk": 115.36,
+      "risk_pct": 0.23,
+      "weight": 3.95
+    },
+    {
+      "symbol": "NVDA",
+      "sector": "Technology",
+      "qty": 51.0,
+      "entry": 221.31,
+      "current": 220.87,
+      "market_value": 11264.37,
+      "unrealized": -22.44,
+      "open_risk": 541.9,
+      "risk_pct": 1.08,
+      "weight": 22.53
+    }
+  ],
+  "position_count": 2,
+  "timestamp": "2026-05-11T16:51:54.569363",
+  "paper_only": true
+}

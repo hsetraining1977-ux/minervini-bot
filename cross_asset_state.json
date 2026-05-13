@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-05-12T21:11:50.634620-04:00",
+  "risk_score": 50,
+  "cross_signal": "NEUTRAL",
+  "signals": {
+    "SPY": {
+      "name": "S&P 500",
+      "change_pct": -0.15
+    },
+    "TLT": {
+      "name": "Bonds (20Y)",
+      "change_pct": -0.67
+    },
+    "GLD": {
+      "name": "Gold",
+      "change_pct": -0.4
+    },
+    "USO": {
+      "name": "Oil",
+      "change_pct": 4.07
+    },
+    "UUP": {
+      "name": "Dollar",
+      "change_pct": 0.37
+    },
+    "HYG": {
+      "name": "High Yield Credit",
+      "change_pct": -0.14
+    },
+    "VXX": {
+      "name": "Volatility",
+      "change_pct": -2.42
+    },
+    "BTC-USD": {
+      "name": "Crypto (Risk Appetite)",
+      "change_pct": -0.99
+    }
+  },
+  "interpretations": []
+}
