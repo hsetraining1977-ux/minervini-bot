@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-05-13T09:13:55.942529",
+    "start_date": "2025-11-13",
+    "end_date": "2025-11-27",
+    "symbols": 10,
+    "sessions": 11,
+    "total_candles": 8275,
+    "total_setups": 4114,
+    "total_trades": 4114,
+    "setups_tracked": 4878,
+    "best_setup": "MOMENTUM_BURST_UP"
+  },
+  {
+    "timestamp": "2026-05-13T09:16:21.349578",
+    "start_date": "2025-11-28",
+    "end_date": "2025-12-12",
+    "symbols": 10,
+    "sessions": 11,
+    "total_candles": 8593,
+    "total_setups": 3485,
+    "total_trades": 3485,
+    "setups_tracked": 10,
+    "best_setup": "ORB_BREAKDOWN"
+  }
+]

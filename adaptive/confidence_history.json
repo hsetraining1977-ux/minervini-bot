@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "2026-05-13T09:25:02.452159",
+    "setup": "ORB_BREAKDOWN",
+    "old_value": 1.0,
+    "new_value": 0.98,
+    "delta": -0.02,
+    "reason": "Weak performance WR=0.0% Exp=-0.53%"
+  },
+  {
+    "timestamp": "2026-05-13T09:25:18.566935",
+    "setup": "ORB_BREAKDOWN",
+    "old_value": 0.98,
+    "new_value": 0.96,
+    "delta": -0.02,
+    "reason": "Weak performance WR=0.0% Exp=-0.53%"
+  }
+]

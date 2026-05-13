@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2026-05-13T09:25:02.457402",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 1 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "ORB_BREAKDOWN: 1.000 \u2192 0.980 (Weak performance WR=0.0% Exp=-0.53%)"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T09:25:18.576241",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 1 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "ORB_BREAKDOWN: 0.980 \u2192 0.960 (Weak performance WR=0.0% Exp=-0.53%)"
+      ]
+    },
+    "status": "applied"
+  }
+]

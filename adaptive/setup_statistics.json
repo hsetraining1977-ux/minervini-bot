@@ -1,0 +1,37 @@
+{
+  "MOMENTUM_BURST_DOWN": {
+    "total": 6,
+    "wins": 3,
+    "losses": 3,
+    "total_pnl": 0.44959999999999994,
+    "by_regime": {
+      "PANIC": {
+        "wins": 1,
+        "losses": 2,
+        "pnl": -0.20030000000000003
+      },
+      "STRONG_RISK_ON": {
+        "wins": 2,
+        "losses": 1,
+        "pnl": 0.6498999999999999
+      }
+    },
+    "last_updated": "2026-05-13T09:13:55.938061",
+    "source": "historical_blend"
+  },
+  "ORB_BREAKDOWN": {
+    "total": 10,
+    "wins": 0,
+    "losses": 10,
+    "total_pnl": -5.3006,
+    "by_regime": {
+      "CHOPPY": {
+        "wins": 0,
+        "losses": 10,
+        "pnl": -5.3006
+      }
+    },
+    "last_updated": "2026-05-13T09:16:21.337547",
+    "source": "historical_blend"
+  }
+}

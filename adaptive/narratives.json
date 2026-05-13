@@ -20,5 +20,82 @@
       "missed_narrative": "Zero filtered trades suggests overly permissive entry criteria or lack of opportunity flow; unable to assess filter effectiveness without baseline activity.",
       "recommendation": "Extend observation period to accumulate minimum 20-30 trades across identifiable regime conditions before drawing performance conclusions or adjusting adaptive weights."
     }
+  },
+  {
+    "timestamp": "2026-05-13T08:11:03.803089",
+    "source": "manual",
+    "narrative": {
+      "headline": "System in bootstrap phase with insufficient data for meaningful performance assessment across 3 trades in undefined market regime.",
+      "setup_narrative": "No established setup patterns yet identified; system requires minimum sample size to validate edge across Minervini criteria including stage analysis, relative strength, and volume characteristics.",
+      "regime_narrative": "All trades classified as UNKNOWN regime with 0% win rate indicates either regime detection failure or legitimately choppy market conditions preventing clear bull/bear/consolidation classification.",
+      "missed_narrative": "Zero filtered trades suggests overly permissive entry criteria or lack of active filtration mechanisms; no opportunity cost analysis available.",
+      "recommendation": "Accumulate minimum 20-30 trades before drawing conclusions while verifying regime classification logic is properly categorizing market conditions using volatility and trend strength metrics."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T08:25:08.814906",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Minervini AI system in initial data collection phase with insufficient trade history for statistical analysis across all measured dimensions.",
+      "setup_narrative": "No setup patterns have generated statistically significant performance data yet; system requires minimum trade threshold before identifying edge in breakout, pullback, or continuation configurations.",
+      "regime_narrative": "All four trades classified as UNKNOWN regime with 0% win rate indicates either adverse market conditions during sample period or setup criteria misalignment; insufficient data prevents meaningful regime detection or adaptation.",
+      "missed_narrative": "Zero filtered trades suggests conservative entry criteria are not causing opportunity loss; underperformance stems from executed trade quality rather than selection overfitting.",
+      "recommendation": "Continue live data collection through 20-30 additional trades before enabling adaptive weight modifications; current sample size creates overfitting risk and prevents statistically valid regime classification."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T08:33:47.690358",
+    "source": "manual",
+    "narrative": {
+      "headline": "System in cold-start phase with minimal data: 5 trades executed under UNKNOWN regime conditions showing 0% win rate on adaptive weights version 1.",
+      "setup_narrative": "No setup patterns have emerged yet with insufficient trade sample size to identify statistically significant edge or performance differentiation across strategies.",
+      "regime_narrative": "All 5 trades occurred during UNKNOWN market regime with 0% win rate, indicating either regime classification failure or need for regime detection calibration before pattern recognition becomes viable.",
+      "missed_narrative": "Zero filtered trades suggests overly permissive entry criteria or lack of active filtering mechanisms, missing no opportunities but potentially accepting low-probability setups.",
+      "recommendation": "Accumulate minimum 30-50 trades before drawing conclusions; immediately implement regime classification logic to categorize market conditions (trending/ranging/volatile) and enable meaningful performance attribution."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T08:34:45.801921",
+    "source": "manual",
+    "narrative": {
+      "headline": "System in cold-start phase with minimal data capture across 6 trades, all classified as UNKNOWN regime with zero wins recorded.",
+      "setup_narrative": "No performing setups identified yet; insufficient trade sample size to establish statistical significance or pattern recognition across Minervini-style VCP, flat base, or momentum structures.",
+      "regime_narrative": "All 6 trades occurred during UNKNOWN regime conditions with 0% win rate, indicating either improper regime classification, adverse market conditions during initial deployment, or setup calibration issues preventing edge capture.",
+      "missed_narrative": "Zero filtered trades suggests overly permissive entry criteria or lack of active opportunity scanning; no evidence of system protecting capital by avoiding marginal setups.",
+      "recommendation": "Immediately verify regime detection logic is functioning correctly and increase sample size to minimum 20-30 trades before drawing statistical conclusions; consider tightening entry filters to establish baseline setup quality."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T08:55:16.962467",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "System in cold-start initialization phase with insufficient data for adaptive learning across 7 early-stage trades.",
+      "setup_narrative": "No statistically significant setup patterns have emerged yet; all trades currently classified under baseline parameters without performance differentiation.",
+      "regime_narrative": "Market regime detection non-functional with 100% UNKNOWN classification and 0% win rate indicating either inadequate volatility/trend signals or premature evaluation period.",
+      "missed_narrative": "Zero filtered trades suggests overly permissive entry criteria currently active, potentially allowing low-quality setups through without proper regime confirmation.",
+      "recommendation": "Require minimum 20-trade sample size before adaptive weight adjustments and implement regime classification validation using VIX/trend metrics to exit UNKNOWN state."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T09:25:10.164768",
+    "source": "manual",
+    "narrative": {
+      "headline": "System operating with critically low sample size across bearish setups, showing 50% win rate on momentum reversals but unreliable signal quality in undefined regime conditions.",
+      "setup_narrative": "MOMENTUM_BURST_DOWN demonstrates 50% success across 6 trades suggesting viable mean-reversion potential, while ORB_BREAKDOWN shows complete failure across 10 trades indicating breakdown trades are mispriced or hitting in adverse conditions.",
+      "regime_narrative": "UNKNOWN regime classification with 0% win rate across 8 trades signals critical failure in market state detection\u2014system is trading blind without proper volatility, trend, or structure context.",
+      "missed_narrative": "Zero filtered trades indicates overly permissive entry criteria rather than disciplined selectivity, suggesting quality control mechanisms are not functioning.",
+      "recommendation": "Immediately implement regime classification logic (trend/volatility filters) and pause ORB_BREAKDOWN entries until minimum 15-trade sample confirms edge exists under defined market conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T09:25:27.263753",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive learning system shows critical early-stage instability with only 16 total trades across 2 adaptations, revealing insufficient data for reliable pattern recognition.",
+      "setup_narrative": "MOMENTUM_BURST_DOWN demonstrates 50% win rate across 6 trades, suggesting potential downside momentum capture capability, while ORB_BREAKDOWN shows complete failure at 0% across 10 trades, indicating either poor breakout confirmation logic or adverse market conditions for gap-down scenarios.",
+      "regime_narrative": "All 9 regime-classified trades occurred under UNKNOWN conditions with 0% win rate, signaling the regime detection module is either non-functional or market conditions fall outside trained parameters, creating blind trading without contextual awareness.",
+      "missed_narrative": "Zero filtered trades indicates the system is not defensive enough, allowing all signals through without quality filters during what appears to be a challenging trading environment based on overall poor performance metrics.",
+      "recommendation": "Immediately implement regime classification diagnostics to resolve UNKNOWN status, increase minimum sample size requirements to 25+ trades per setup before adaptation, and add volatility-based filters to ORB_BREAKDOWN to prevent low-probability entries."
+    }
   }
 ]

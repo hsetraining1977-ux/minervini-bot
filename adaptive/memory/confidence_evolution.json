@@ -1,0 +1,162 @@
+[
+  {
+    "timestamp": "2026-05-13T09:13:55.942000",
+    "setups": {
+      "ORB_BREAKOUT": {
+        "win_rate": 43.6,
+        "expectancy": 0.0306,
+        "profit_factor": 1.203,
+        "total_trades": 1615,
+        "trend": "STABLE"
+      },
+      "VOLUME_SPIKE": {
+        "win_rate": 41.19,
+        "expectancy": 0.0599,
+        "profit_factor": 1.291,
+        "total_trades": 420,
+        "trend": "STABLE"
+      },
+      "VWAP_CROSS_UP": {
+        "win_rate": 37.11,
+        "expectancy": 0.0314,
+        "profit_factor": 1.153,
+        "total_trades": 256,
+        "trend": "STABLE"
+      },
+      "TIGHT_CONSOLIDATION_BREAK": {
+        "win_rate": 38.6,
+        "expectancy": 0.0046,
+        "profit_factor": 1.026,
+        "total_trades": 603,
+        "trend": "STABLE"
+      },
+      "MOMENTUM_BURST_UP": {
+        "win_rate": 33.33,
+        "expectancy": 0.0793,
+        "profit_factor": 1.277,
+        "total_trades": 9,
+        "trend": "INSUFFICIENT_DATA"
+      },
+      "RELATIVE_STRENGTH_LEADER": {
+        "win_rate": 37.5,
+        "expectancy": 0.0067,
+        "profit_factor": 1.023,
+        "total_trades": 24,
+        "trend": "DECLINING"
+      },
+      "ORB_BREAKDOWN": {
+        "win_rate": 35.0,
+        "expectancy": 0.041,
+        "profit_factor": 1.175,
+        "total_trades": 1685,
+        "trend": "STABLE"
+      },
+      "VWAP_CROSS_DOWN": {
+        "win_rate": 43.85,
+        "expectancy": 0.0753,
+        "profit_factor": 1.399,
+        "total_trades": 260,
+        "trend": "DECLINING"
+      },
+      "MOMENTUM_BURST_DOWN": {
+        "win_rate": 50.0,
+        "expectancy": 0.075,
+        "profit_factor": 1.276,
+        "total_trades": 6,
+        "trend": "INSUFFICIENT_DATA"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-13T09:13:55.953722",
+    "setups": {
+      "ORB_BREAKOUT": {
+        "win_rate": 43.6,
+        "expectancy": 0.0306,
+        "profit_factor": 1.203,
+        "total_trades": 1615,
+        "trend": "STABLE"
+      },
+      "VOLUME_SPIKE": {
+        "win_rate": 41.19,
+        "expectancy": 0.0599,
+        "profit_factor": 1.291,
+        "total_trades": 420,
+        "trend": "STABLE"
+      },
+      "VWAP_CROSS_UP": {
+        "win_rate": 37.11,
+        "expectancy": 0.0314,
+        "profit_factor": 1.153,
+        "total_trades": 256,
+        "trend": "STABLE"
+      },
+      "TIGHT_CONSOLIDATION_BREAK": {
+        "win_rate": 38.6,
+        "expectancy": 0.0046,
+        "profit_factor": 1.026,
+        "total_trades": 603,
+        "trend": "STABLE"
+      },
+      "MOMENTUM_BURST_UP": {
+        "win_rate": 33.33,
+        "expectancy": 0.0793,
+        "profit_factor": 1.277,
+        "total_trades": 9,
+        "trend": "INSUFFICIENT_DATA"
+      },
+      "RELATIVE_STRENGTH_LEADER": {
+        "win_rate": 37.5,
+        "expectancy": 0.0067,
+        "profit_factor": 1.023,
+        "total_trades": 24,
+        "trend": "DECLINING"
+      },
+      "ORB_BREAKDOWN": {
+        "win_rate": 35.0,
+        "expectancy": 0.041,
+        "profit_factor": 1.175,
+        "total_trades": 1685,
+        "trend": "STABLE"
+      },
+      "VWAP_CROSS_DOWN": {
+        "win_rate": 43.85,
+        "expectancy": 0.0753,
+        "profit_factor": 1.399,
+        "total_trades": 260,
+        "trend": "DECLINING"
+      },
+      "MOMENTUM_BURST_DOWN": {
+        "win_rate": 50.0,
+        "expectancy": 0.075,
+        "profit_factor": 1.276,
+        "total_trades": 6,
+        "trend": "INSUFFICIENT_DATA"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-13T09:16:21.348324",
+    "setups": {
+      "ORB_BREAKDOWN": {
+        "win_rate": 0.0,
+        "expectancy": -0.5301,
+        "profit_factor": 0.0,
+        "total_trades": 10,
+        "trend": "STABLE"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-13T09:16:21.352096",
+    "setups": {
+      "ORB_BREAKDOWN": {
+        "win_rate": 0.0,
+        "expectancy": -0.5301,
+        "profit_factor": 0.0,
+        "total_trades": 10,
+        "trend": "STABLE"
+      }
+    }
+  }
+]

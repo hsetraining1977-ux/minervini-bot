@@ -1,0 +1,23 @@
+nohup: ignoring input
+[2026-05-13 09:14:32] =======================================================
+[2026-05-13 09:14:32]   HISTORICAL LEARNING DAEMON
+[2026-05-13 09:14:32]   Alpaca (5m/years) + Yahoo (1d/any date)
+[2026-05-13 09:14:32]   Low Priority — Non-Blocking — Advisory Only
+[2026-05-13 09:14:32] =======================================================
+[2026-05-13 09:14:32] 
+  ── Cycle 1 ──────────────────────────────
+[2026-05-13 09:14:32]   Phase: PHASE_0_INITIALIZING
+[2026-05-13 09:14:32]   Bootstrap — 6 months @ 5min via Alpaca
+[2026-05-13 09:14:32]   Interval: 5m | Source: Alpaca
+[2026-05-13 09:14:32]   Replaying 2025-11-28 → 2025-12-12 | 10 symbols
+[2026-05-13 09:15:42] Phase 2 — Last 2 years @ daily (Yahoo)
+[2026-05-13 09:16:21]   ✔ Cycle 2 | Trades: 3485 | Total: 7599
+[2026-05-13 09:16:21]   Suggestions: 0
+[2026-05-13 09:16:21]   Sleeping 30 min...
+[2026-05-13 09:24:19]   ── STATUS REPORT ────────────────────────────────
+[2026-05-13 09:24:19]   Phase:         PHASE_3_MULTI_REGIME
+[2026-05-13 09:24:19]   Total trades:  12327
+[2026-05-13 09:24:19]   Best setup:    MOMENTUM_BURST_UP (+0.18%)
+[2026-05-13 09:24:19]   Regimes mapped:5
+[2026-05-13 09:24:19]   Cycles run:    2
+[2026-05-13 09:24:19]   Phase progress:12327/99999 (12.3%)

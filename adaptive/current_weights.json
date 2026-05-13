@@ -1,13 +1,13 @@
 {
-  "version": 1,
-  "updated_at": "2026-05-13T07:53:27.028311",
+  "version": 3,
+  "updated_at": "2026-05-13T09:25:18.574414",
   "setup_modifiers": {
     "ORB_BREAKOUT": 1.0,
     "VOLUME_SPIKE": 1.0,
     "VWAP_CROSS_UP": 1.0,
     "MOMENTUM_BURST_UP": 1.0,
     "TIGHT_CONSOLIDATION_BREAK": 1.0,
-    "ORB_BREAKDOWN": 1.0,
+    "ORB_BREAKDOWN": 0.96,
     "VWAP_CROSS_DOWN": 1.0,
     "MOMENTUM_BURST_DOWN": 1.0
   },
