@@ -1257,3 +1257,23 @@
   ✔ Learning cycle complete
 [2026-05-14 08:17:09]     Adaptations: 4
 [2026-05-14 08:17:09]     Suggestions: 0
+[2026-05-14 08:47:11] 
+=======================================================
+[2026-05-14 08:47:11]   ADAPTIVE LEARNING CYCLE — SCHEDULED_30MIN
+[2026-05-14 08:47:11] =======================================================
+[2026-05-14 08:47:11]   [Learn] Processing replay trades...
+[2026-05-14 08:47:11]   [Learn] No replay trades found
+[2026-05-14 08:47:11]   [Learn] Processing paper trades...
+[2026-05-14 08:47:11]   [Learn] Processed 1 paper trades
+[2026-05-14 08:47:11]   [Learn] Analyzing missed opportunities...
+[2026-05-14 08:47:11]   Total trades processed: 1
+[2026-05-14 08:47:11] 
+  Phase 2: Level 1 Auto-Adaptation...
+[2026-05-14 08:47:11] 
+  Phase 3: Level 2 Suggestions...
+[2026-05-14 08:47:11] 
+  Phase 4: Generating AI narrative...
+[2026-05-14 08:47:12] 
+  ✔ Learning cycle complete
+[2026-05-14 08:47:12]     Adaptations: 4
+[2026-05-14 08:47:12]     Suggestions: 0

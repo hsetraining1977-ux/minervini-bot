@@ -654,5 +654,21 @@
     "new_value": 0.85,
     "delta": -0.02,
     "reason": "Weak performance WR=38.9% Exp=+0.43%"
+  },
+  {
+    "timestamp": "2026-05-14T08:47:11.413961",
+    "setup": "VWAP_CROSS_UP",
+    "old_value": 0.88,
+    "new_value": 0.86,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.3% Exp=+0.00%"
+  },
+  {
+    "timestamp": "2026-05-14T08:47:11.422767",
+    "setup": "MOMENTUM_BURST_UP",
+    "old_value": 0.88,
+    "new_value": 0.86,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.9% Exp=+0.43%"
   }
 ]

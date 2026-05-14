@@ -526,6 +526,84 @@ def sync_cross_asset(regime_data: dict) -> bool:
         log.warning(f"  cross_asset sync warning: {e}")
         return False
 
+
+def sync_liquidity_label(regime_data: dict) -> bool:
+    """
+    Read liquidity_state.json (written by liquidity_engine / 8504),
+    map its state to a unified label, and write it into
+    liquidity_state.json so master_orchestrator (8501) picks up
+    the same label that 8504 displays.
+
+    Mapping:
+        THIN        -> THIN       (RVOL < 0.7)
+        NORMAL      -> NORMAL
+        THICK/HIGH  -> EXPANDING
+        CONTRACTING -> TIGHTENING
+    """
+    import json, os
+    from datetime import datetime
+
+    LIQUIDITY_PATH  = "/root/adaptive/liquidity_state.json"
+    MARKET_INT_PATH = "/root/market_intelligence.json"
+
+    try:
+        # Read what 8504 knows
+        liq = {}
+        if os.path.exists(LIQUIDITY_PATH):
+            with open(LIQUIDITY_PATH, "r") as f:
+                liq = json.load(f)
+
+        raw_state = liq.get("state", liq.get("liquidity_state", "NORMAL"))
+        rvol       = liq.get("spy_rvol", liq.get("rvol", 1.0))
+
+        # Unified mapping → same labels in both 8501 and 8504
+        label_map = {
+            "THIN":         "THIN",
+            "LOW":          "THIN",
+            "NORMAL":       "NORMAL",
+            "MODERATE":     "NORMAL",
+            "HIGH":         "EXPANDING",
+            "THICK":        "EXPANDING",
+            "EXPANDING":    "EXPANDING",
+            "CONTRACTING":  "TIGHTENING",
+            "TIGHTENING":   "TIGHTENING",
+        }
+        unified = label_map.get(raw_state.upper(), raw_state)
+
+        # Override with RVOL if state missing
+        if raw_state in ("", "UNKNOWN") or raw_state not in label_map:
+            if rvol < 0.7:
+                unified = "THIN"
+            elif rvol < 1.3:
+                unified = "NORMAL"
+            else:
+                unified = "EXPANDING"
+
+        # Write back unified label
+        liq["state"]           = unified
+        liq["liquidity_state"] = unified
+        liq["unified_label"]   = unified
+        liq["synced_at"]       = datetime.now().isoformat()
+
+        with open(LIQUIDITY_PATH, "w") as f:
+            json.dump(liq, f, indent=2)
+
+        # Also patch market_intelligence.json (read by 8501)
+        if os.path.exists(MARKET_INT_PATH):
+            with open(MARKET_INT_PATH, "r") as f:
+                mi = json.load(f)
+            mi["liquidity"]       = unified
+            mi["liquidity_state"] = unified
+            with open(MARKET_INT_PATH, "w") as f:
+                json.dump(mi, f, indent=2)
+
+        log.info(f"  Liquidity unified: {raw_state} → {unified} (RVOL {rvol:.2f}x)")
+        return True
+
+    except Exception as e:
+        log.warning(f"  Liquidity sync warning: {e}")
+        return False
+
 def run_sync() -> dict:
     log.info("=" * 60)
     log.info("REGIME SYNC CYCLE STARTING")

@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-05-14T08:39:36.178885",
+  "timestamp": "2026-05-14T09:08:27.863858",
   "market_regime": "RISK_ON",
   "regime_detail": "STRONG_RISK_ON",
   "regime_confidence": 0.48,
   "risk_on": true,
-  "vix": 17.8,
+  "vix": 17.81,
   "vix_label": "Low",
   "risk_score": 25,
   "liquidity": "TIGHTENING",

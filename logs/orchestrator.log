@@ -648,3 +648,4 @@ SMCI     5.5 IGNORE   +0.3  0.6x  -2.8    ❌    ❌    🔥    ✅   2.29   28.
   🔥 AAPL   | 100.0 | HOT    | Gap:-0.4% RV:0.8x Mom:+1.8% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:6.52 SL:289.1 T1:311.92
   💪 META   |  77.0 | STRONG | Gap:-0.7% RV:0.8x Mom:+3.0% VWAP:✅ 🚀ORB VOL:🔥 MTF:❌ ATR:18.55 SL:588.77 T1:653.69
 [DB] 2026-05-14 07:49:08,898 INFO: Market snapshot inserted
+[DB] 2026-05-14 08:49:30,981 INFO: Market snapshot inserted

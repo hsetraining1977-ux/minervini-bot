@@ -439,5 +439,12 @@
     "trades_analyzed": 23991,
     "changes_made": 4,
     "summary": "Level 1 cycle: 4 changes. VWAP_CROSS_UP: 0.870 \u2192 0.850 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.870 \u2192 0.850 (Weak performance WR=38.9% Exp=+0.43%), Regime STRONG_RISK_ON: 0.920 \u2192 0.910"
+  },
+  {
+    "timestamp": "2026-05-14T08:47:11.434799",
+    "source": "scheduled_30min",
+    "trades_analyzed": 23991,
+    "changes_made": 4,
+    "summary": "Level 1 cycle: 4 changes. VWAP_CROSS_UP: 0.880 \u2192 0.860 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.880 \u2192 0.860 (Weak performance WR=38.9% Exp=+0.43%), Regime STRONG_RISK_ON: 0.910 \u2192 0.900"
   }
 ]

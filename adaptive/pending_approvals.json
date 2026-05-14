@@ -13,20 +13,5 @@
     "status": "PENDING",
     "approved_at": null,
     "rejected_at": null
-  },
-  {
-    "id": "APR_20260513_130638",
-    "timestamp": "2026-05-13T13:06:38.472617",
-    "title": "VWAP_CROSS_DOWN excels in PANIC",
-    "description": "VWAP_CROSS_DOWN achieves 74.1% WR during PANIC conditions. Consider prioritizing this setup when regime is PANIC.",
-    "proposed_change": {
-      "regime_boost": {
-        "PANIC": 0.1
-      }
-    },
-    "level": 2,
-    "status": "PENDING",
-    "approved_at": null,
-    "rejected_at": null
   }
 ]
