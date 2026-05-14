@@ -338,7 +338,7 @@ def sync_regime_performance(regime_data: dict) -> bool:
     if ok:
         log.info(f"  ✅ Updated {len(perf)} regimes in regime_performance.json")
         for r, v in perf.items():
-            log.info(f"    {r}: {v['total']} trades, WR={v['win_rate']}%"
+            log.info(f"    {r}: {v.get('total',0)} trades, WR={v.get('win_rate',0)}%"
                      f"{' ← CURRENT' if v.get('is_current') else ''}")
     return ok
 
@@ -506,6 +506,7 @@ def run_sync() -> dict:
     results["adaptive_memory"]     = sync_adaptive_memory_regime(regime_data)
     results["data_freshness"]      = refresh_data_freshness(regime_data)
     results["narrative"]           = sync_adaptive_narrative(regime_data)
+    results["cross_asset"]         = sync_cross_asset(regime_data)
 
     # Save status
     save_sync_status(regime, results)
