@@ -1,1 +1,25 @@
+# Secrets
 .env
+.env.*
+*.backup
+backups/
+
+# Logs
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Runtime JSON data ( )
+market_intelligence.json
+portfolio_heat.json
+trade_plans.json
+cross_asset_state.json
+adaptive/*.json
+
+# Old files
+dashboard_old_backup.py
+backup.sh
