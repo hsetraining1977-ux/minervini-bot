@@ -1,0 +1,35 @@
+nohup: ignoring input
+2026-05-14 08:39:36,174 [RegimeSync] Starting Regime Sync Daemon (every 5 min)
+2026-05-14 08:39:36,175 [RegimeSync] Syncs: 8504 → 8501 + 8503
+2026-05-14 08:39:36,175 [RegimeSync] ============================================================
+2026-05-14 08:39:36,176 [RegimeSync] REGIME SYNC CYCLE STARTING
+2026-05-14 08:39:36,176 [RegimeSync] ============================================================
+2026-05-14 08:39:36,177 [RegimeSync] Loaded regime: STRONG_RISK_ON (confidence: 48%, age: 1min)
+2026-05-14 08:39:36,177 [RegimeSync] Syncing market_intelligence.json (8501)...
+2026-05-14 08:39:36,255 [RegimeSync]   ✅ 8501 regime updated: RISK_ON (from STRONG_RISK_ON) | VIX: 17.8 | Liquidity: TIGHTENING | Psychology: EUPHORIC
+2026-05-14 08:39:36,255 [RegimeSync] Syncing paper trades regime tags (8503)...
+2026-05-14 08:39:36,255 [RegimeSync]   ✓ All trades already have regime labels
+2026-05-14 08:39:36,255 [RegimeSync] Syncing regime_performance.json (8503)...
+2026-05-14 08:39:36,256 [RegimeSync]   ✅ Updated 6 regimes in regime_performance.json
+2026-05-14 08:39:36,258 [RegimeSync]     UNKNOWN: 62 trades, WR=0%
+2026-05-14 08:39:36,258 [RegimeSync]     RISK_ON: 6890 trades, WR=40.1%
+2026-05-14 08:39:36,259 [RegimeSync]     PANIC: 1156 trades, WR=47.1%
+2026-05-14 08:39:36,259 [RegimeSync]     STRONG_RISK_ON: 12887 trades, WR=39.6% ← CURRENT
+2026-05-14 08:39:36,260 [RegimeSync]     NEUTRAL: 1785 trades, WR=32.4%
+2026-05-14 08:39:36,260 [RegimeSync]     RISK_OFF: 1273 trades, WR=44.6%
+2026-05-14 08:39:36,264 [RegimeSync]   ✅ adaptive_memory regime_perf updated: ['UNKNOWN', 'RISK_ON', 'PANIC', 'STRONG_RISK_ON', 'NEUTRAL', 'RISK_OFF']
+2026-05-14 08:39:36,265 [RegimeSync] Refreshing data freshness (8501 STALE fix)...
+2026-05-14 08:39:36,267 [RegimeSync]   ✅ Updated 0 trade plans with regime context
+2026-05-14 08:39:36,268 [RegimeSync]   ✅ Data freshness timestamps refreshed
+2026-05-14 08:39:36,356 [RegimeSync]   ✅ Narrative synced: regime=STRONG_RISK_ON, best=['ORB_BREAKOUT', 'TIGHT_CONSOLIDATION_BREAK']
+2026-05-14 08:39:36,358 [RegimeSync]   cross_asset_state.json: RISK_ON (from STRONG_RISK_ON)
+2026-05-14 08:39:36,360 [RegimeSync] Sync status: 7/7 ✅
+2026-05-14 08:39:36,360 [RegimeSync] ============================================================
+2026-05-14 08:39:36,361 [RegimeSync] SYNC COMPLETE — Regime: STRONG_RISK_ON
+2026-05-14 08:39:36,361 [RegimeSync]   8501 (Control Center):     ✅
+2026-05-14 08:39:36,361 [RegimeSync]   8503 (Adaptive Intel):     ✅
+2026-05-14 08:39:36,362 [RegimeSync]   8504 (Institutional):      ✅ (source)
+2026-05-14 08:39:36,362 [RegimeSync] ============================================================
+2026-05-14 08:39:36,363 [RegimeSync] Next sync in 5 minutes...
+14 08:39:36,362 [RegimeSync] ============================================================
+2026-05-14 08:39:36,363 [RegimeSync] Next sync in 5 minutes...

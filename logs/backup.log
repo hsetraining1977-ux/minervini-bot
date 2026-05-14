@@ -8946,3 +8946,18 @@ remote: warning: GH001: Large files detected. You may want to try Git Large File
 To https://github.com/hsetraining1977-ux/minervini-bot.git
    5dfcaeb..fad4e74  main -> main
 Backup done: Wed May 13 02:02:15 AM UTC 2026
+[main 210a703] auto-backup 2026-05-14_02:00
+ 56 files changed, 59116 insertions(+), 2969 deletions(-)
+ rewrite adaptive/daemon.log (66%)
+ rewrite adaptive/memory/historical_rankings.json (93%)
+ rewrite adaptive/memory/memory_summary.json (99%)
+ rewrite adaptive/memory/regime_performance.json (68%)
+ create mode 100644 adaptive/pending_approvals.json
+ create mode 100644 adaptive/setup_library.json
+ create mode 100644 logs/ai.log
+ rewrite logs/institutional.log (99%)
+ rewrite logs/orchestrator.log (94%)
+ rewrite logs/resource_metrics.json (63%)
+To https://github.com/hsetraining1977-ux/minervini-bot.git
+   fdff6f5..210a703  main -> main
+Backup done: Thu May 14 02:00:13 AM UTC 2026

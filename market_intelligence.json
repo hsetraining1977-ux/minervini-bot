@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-05-14T08:39:36.178885",
+  "market_regime": "RISK_ON",
+  "regime_detail": "STRONG_RISK_ON",
+  "regime_confidence": 0.48,
+  "risk_on": true,
+  "vix": 17.8,
+  "vix_label": "Low",
+  "risk_score": 25,
+  "liquidity": "TIGHTENING",
+  "psychology": "EUPHORIC",
+  "fear_score": 15,
+  "breadth_score": 87.1,
+  "participation": 90.8,
+  "trend_quality": 50,
+  "tech_leadership": true,
+  "leading_sectors": [
+    "XLK",
+    "XLP",
+    "XLE"
+  ],
+  "rotation_signal": "RISK_ON_GROWTH",
+  "volatility_regime": "NORMAL_VOL",
+  "trend_day_prob": 0.65,
+  "institutional_participation": 66.5,
+  "best_setups": [
+    "ORB_BREAKOUT",
+    "TIGHT_CONSOLIDATION_BREAK",
+    "MOMENTUM_BURST_UP",
+    "RELATIVE_STRENGTH_LEADER",
+    "VWAP_CROSS_UP",
+    "VOLUME_SPIKE"
+  ],
+  "setups_to_avoid": [
+    "ORB_BREAKDOWN",
+    "MOMENTUM_BURST_DOWN"
+  ],
+  "ai_narrative": "Market is broadly bullish with strong institutional participation (confidence: 48%). Breadth is strong at 87/100 with broad participation (91/100), confirming institutional conviction. Technology and semiconductors are leading, a hallmark of institutional risk appetite. Best setups for current conditions: ORB_BREAKOUT, TIGHT_CONSOLIDATION_BREAK, MOMENTUM_BURST_UP. Setups to avoid: ORB_BREAKDOWN, MOMENTUM_BURST_DOWN.",
+  "cross_asset": "NEUTRAL",
+  "event_lockdown": false,
+  "source": "institutional_regime_classifier"
+}

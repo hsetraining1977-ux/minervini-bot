@@ -1,0 +1,94 @@
+{
+  "timestamp": "2026-05-14T08:38:22.388831",
+  "breadth_score": 87.1,
+  "participation_score": 90.8,
+  "trend_quality_score": 83.8,
+  "advance_decline": {
+    "advances": 8,
+    "declines": 4,
+    "ratio": 2.0
+  },
+  "vwap_analysis": {
+    "SPY": "above",
+    "QQQ": "above",
+    "IWM": "above",
+    "DIA": "above",
+    "XLK": "above",
+    "XLF": "below",
+    "XLE": "above",
+    "XLV": "above",
+    "XLI": "above",
+    "XLY": "above",
+    "XLP": "above",
+    "XLU": "above"
+  },
+  "ma_analysis": {
+    "SPY": {
+      "above_20ma": true,
+      "above_50ma": true,
+      "above_200ma": true
+    },
+    "QQQ": {
+      "above_20ma": true,
+      "above_50ma": true,
+      "above_200ma": true
+    },
+    "IWM": {
+      "above_20ma": true,
+      "above_50ma": true,
+      "above_200ma": true
+    },
+    "DIA": {
+      "above_20ma": true,
+      "above_50ma": true,
+      "above_200ma": true
+    },
+    "XLK": {
+      "above_20ma": true,
+      "above_50ma": true,
+      "above_200ma": true
+    },
+    "XLF": {
+      "above_20ma": false,
+      "above_50ma": true,
+      "above_200ma": false
+    },
+    "XLE": {
+      "above_20ma": true,
+      "above_50ma": false,
+      "above_200ma": true
+    },
+    "XLV": {
+      "above_20ma": true,
+      "above_50ma": false,
+      "above_200ma": true
+    },
+    "XLI": {
+      "above_20ma": true,
+      "above_50ma": true,
+      "above_200ma": true
+    },
+    "XLY": {
+      "above_20ma": true,
+      "above_50ma": true,
+      "above_200ma": true
+    },
+    "XLP": {
+      "above_20ma": true,
+      "above_50ma": true,
+      "above_200ma": true
+    },
+    "XLU": {
+      "above_20ma": false,
+      "above_50ma": false,
+      "above_200ma": true
+    }
+  },
+  "breadth_momentum": "STRONG_EXPANSION",
+  "market_participation": "BROAD",
+  "data_quality": "good",
+  "pct_above_vwap": 91.7,
+  "pct_above_20ma": 83.3,
+  "pct_above_50ma": 75.0,
+  "pct_above_200ma": 91.7
+}

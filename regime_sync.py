@@ -485,6 +485,47 @@ def save_sync_status(regime: str, results: dict):
 # ══════════════════════════════════════════════════════════════════
 # MAIN SYNC CYCLE
 # ══════════════════════════════════════════════════════════════════
+
+def sync_cross_asset(regime_data: dict) -> bool:
+    """Sync regime signal into cross_asset_state.json so master_orchestrator reads correct regime."""
+    import json, os
+    from datetime import datetime
+    cross_asset_path = "/root/cross_asset_state.json"
+    try:
+        regime = regime_data.get("regime", "NEUTRAL")
+        # Map regime to cross_asset signal
+        cross_map = {
+            "STRONG_RISK_ON": "RISK_ON",
+            "RISK_ON":        "RISK_ON",
+            "NEUTRAL":        "NEUTRAL",
+            "CHOPPY":         "NEUTRAL",
+            "RISK_OFF":       "RISK_OFF",
+            "PANIC":          "RISK_OFF",
+        }
+        cross_signal = cross_map.get(regime, "NEUTRAL")
+
+        # Read existing file to preserve other fields
+        cross = {}
+        if os.path.exists(cross_asset_path):
+            try:
+                with open(cross_asset_path, "r") as f:
+                    cross = json.load(f)
+            except Exception:
+                cross = {}
+
+        cross["regime"]        = regime
+        cross["cross_signal"]  = cross_signal
+        cross["regime_detail"] = regime
+        cross["timestamp"]     = datetime.now().isoformat()
+
+        ok = _write(cross_asset_path, cross)
+        if ok:
+            log.info(f"  cross_asset_state.json: {cross_signal} (from {regime})")
+        return ok
+    except Exception as e:
+        log.warning(f"  cross_asset sync warning: {e}")
+        return False
+
 def run_sync() -> dict:
     log.info("=" * 60)
     log.info("REGIME SYNC CYCLE STARTING")

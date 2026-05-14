@@ -1,0 +1,190 @@
+{
+  "timestamp": "2026-05-14T08:38:34.521691",
+  "sector_data": {
+    "XLK": {
+      "name": "Technology",
+      "return_1m": 19.541708249977606,
+      "relative_strength": 12.65,
+      "volume_ratio": 0.91,
+      "momentum_score": 13.82,
+      "composite_score": 12.632927062494403
+    },
+    "XLF": {
+      "name": "Financials",
+      "return_1m": -1.5256800298456996,
+      "relative_strength": -8.42,
+      "volume_ratio": 1.0,
+      "momentum_score": -1.77,
+      "composite_score": -3.7709200074614246
+    },
+    "XLE": {
+      "name": "Energy",
+      "return_1m": 3.0026814696463733,
+      "relative_strength": -3.89,
+      "volume_ratio": 0.55,
+      "momentum_score": 3.32,
+      "composite_score": -0.4558296325884067
+    },
+    "XLV": {
+      "name": "Healthcare",
+      "return_1m": -1.4244406981826274,
+      "relative_strength": -8.31,
+      "volume_ratio": 1.78,
+      "momentum_score": -1.07,
+      "composite_score": -2.3621101745456565
+    },
+    "XLI": {
+      "name": "Industrials",
+      "return_1m": 0.15574791125800846,
+      "relative_strength": -6.73,
+      "volume_ratio": 0.7,
+      "momentum_score": 0.46,
+      "composite_score": -2.651563022185498
+    },
+    "XLY": {
+      "name": "ConsumerDisc",
+      "return_1m": 1.9580889140260904,
+      "relative_strength": -4.93,
+      "volume_ratio": 0.6,
+      "momentum_score": 0.35,
+      "composite_score": -1.7484777714934774
+    },
+    "XLP": {
+      "name": "ConsumerStaples",
+      "return_1m": 3.9891984181953166,
+      "relative_strength": -2.9,
+      "volume_ratio": 0.9,
+      "momentum_score": 0.96,
+      "composite_score": 0.07229960454882928
+    },
+    "XLU": {
+      "name": "Utilities",
+      "return_1m": -3.873473218149781,
+      "relative_strength": -10.76,
+      "volume_ratio": 1.33,
+      "momentum_score": -2.01,
+      "composite_score": -4.741868304537444
+    },
+    "XLB": {
+      "name": "Materials",
+      "return_1m": 0.09614122932419811,
+      "relative_strength": -6.79,
+      "volume_ratio": 0.8,
+      "momentum_score": 0.38,
+      "composite_score": -2.55746469266895
+    },
+    "XLRE": {
+      "name": "RealEstate",
+      "return_1m": 1.7959907294863964,
+      "relative_strength": -5.09,
+      "volume_ratio": 1.03,
+      "momentum_score": 0.82,
+      "composite_score": -1.0825023176284008
+    },
+    "XLC": {
+      "name": "Communications",
+      "return_1m": 0.17158938042716176,
+      "relative_strength": -6.72,
+      "volume_ratio": 0.88,
+      "momentum_score": -0.27,
+      "composite_score": -2.5566026548932093
+    }
+  },
+  "sector_rankings": [
+    {
+      "rank": 1,
+      "ticker": "XLK",
+      "name": "Technology",
+      "score": 12.63,
+      "rs": 12.65
+    },
+    {
+      "rank": 2,
+      "ticker": "XLP",
+      "name": "ConsumerStaples",
+      "score": 0.07,
+      "rs": -2.9
+    },
+    {
+      "rank": 3,
+      "ticker": "XLE",
+      "name": "Energy",
+      "score": -0.46,
+      "rs": -3.89
+    },
+    {
+      "rank": 4,
+      "ticker": "XLRE",
+      "name": "RealEstate",
+      "score": -1.08,
+      "rs": -5.09
+    },
+    {
+      "rank": 5,
+      "ticker": "XLY",
+      "name": "ConsumerDisc",
+      "score": -1.75,
+      "rs": -4.93
+    },
+    {
+      "rank": 6,
+      "ticker": "XLV",
+      "name": "Healthcare",
+      "score": -2.36,
+      "rs": -8.31
+    },
+    {
+      "rank": 7,
+      "ticker": "XLC",
+      "name": "Communications",
+      "score": -2.56,
+      "rs": -6.72
+    },
+    {
+      "rank": 8,
+      "ticker": "XLB",
+      "name": "Materials",
+      "score": -2.56,
+      "rs": -6.79
+    },
+    {
+      "rank": 9,
+      "ticker": "XLI",
+      "name": "Industrials",
+      "score": -2.65,
+      "rs": -6.73
+    },
+    {
+      "rank": 10,
+      "ticker": "XLF",
+      "name": "Financials",
+      "score": -3.77,
+      "rs": -8.42
+    },
+    {
+      "rank": 11,
+      "ticker": "XLU",
+      "name": "Utilities",
+      "score": -4.74,
+      "rs": -10.76
+    }
+  ],
+  "leading_sectors": [
+    "XLK",
+    "XLP",
+    "XLE"
+  ],
+  "lagging_sectors": [
+    "XLI",
+    "XLF",
+    "XLU"
+  ],
+  "rotation_signal": "RISK_ON_GROWTH",
+  "rotation_velocity": "FAST",
+  "tech_leadership": true,
+  "semi_leadership": true,
+  "defensive_rotation": false,
+  "offensive_rotation": true,
+  "market_character": "MOMENTUM_GROWTH",
+  "data_quality": "good"
+}

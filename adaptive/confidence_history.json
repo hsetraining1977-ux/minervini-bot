@@ -478,5 +478,181 @@
     "new_value": 0.8,
     "delta": -0.02,
     "reason": "Weak performance WR=38.3% Exp=+0.01%"
+  },
+  {
+    "timestamp": "2026-05-14T04:39:02.775382",
+    "setup": "VWAP_CROSS_UP",
+    "old_value": 0.83,
+    "new_value": 0.81,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.3% Exp=+0.00%"
+  },
+  {
+    "timestamp": "2026-05-14T04:39:02.864315",
+    "setup": "MOMENTUM_BURST_UP",
+    "old_value": 0.83,
+    "new_value": 0.81,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.9% Exp=+0.43%"
+  },
+  {
+    "timestamp": "2026-05-14T04:46:46.470893",
+    "setup": "VWAP_CROSS_UP",
+    "old_value": 0.82,
+    "new_value": 0.8,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.3% Exp=+0.00%"
+  },
+  {
+    "timestamp": "2026-05-14T04:46:46.477472",
+    "setup": "MOMENTUM_BURST_UP",
+    "old_value": 0.82,
+    "new_value": 0.8,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.9% Exp=+0.43%"
+  },
+  {
+    "timestamp": "2026-05-14T05:16:45.576118",
+    "setup": "VWAP_CROSS_UP",
+    "old_value": 0.83,
+    "new_value": 0.81,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.3% Exp=+0.00%"
+  },
+  {
+    "timestamp": "2026-05-14T05:16:45.661714",
+    "setup": "MOMENTUM_BURST_UP",
+    "old_value": 0.83,
+    "new_value": 0.81,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.9% Exp=+0.43%"
+  },
+  {
+    "timestamp": "2026-05-14T05:16:49.372211",
+    "setup": "VWAP_CROSS_UP",
+    "old_value": 0.81,
+    "new_value": 0.8,
+    "delta": -0.01,
+    "reason": "Weak performance WR=38.3% Exp=+0.00%"
+  },
+  {
+    "timestamp": "2026-05-14T05:16:49.379674",
+    "setup": "MOMENTUM_BURST_UP",
+    "old_value": 0.81,
+    "new_value": 0.8,
+    "delta": -0.01,
+    "reason": "Weak performance WR=38.9% Exp=+0.43%"
+  },
+  {
+    "timestamp": "2026-05-14T05:46:52.715017",
+    "setup": "VWAP_CROSS_UP",
+    "old_value": 0.83,
+    "new_value": 0.81,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.3% Exp=+0.00%"
+  },
+  {
+    "timestamp": "2026-05-14T05:46:52.719674",
+    "setup": "MOMENTUM_BURST_UP",
+    "old_value": 0.83,
+    "new_value": 0.81,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.9% Exp=+0.43%"
+  },
+  {
+    "timestamp": "2026-05-14T06:16:55.585598",
+    "setup": "VWAP_CROSS_UP",
+    "old_value": 0.84,
+    "new_value": 0.82,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.3% Exp=+0.00%"
+  },
+  {
+    "timestamp": "2026-05-14T06:16:55.590020",
+    "setup": "MOMENTUM_BURST_UP",
+    "old_value": 0.84,
+    "new_value": 0.82,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.9% Exp=+0.43%"
+  },
+  {
+    "timestamp": "2026-05-14T06:46:58.246910",
+    "setup": "VWAP_CROSS_UP",
+    "old_value": 0.85,
+    "new_value": 0.83,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.3% Exp=+0.00%"
+  },
+  {
+    "timestamp": "2026-05-14T06:46:58.249520",
+    "setup": "MOMENTUM_BURST_UP",
+    "old_value": 0.85,
+    "new_value": 0.83,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.9% Exp=+0.43%"
+  },
+  {
+    "timestamp": "2026-05-14T07:17:00.965961",
+    "setup": "VWAP_CROSS_UP",
+    "old_value": 0.86,
+    "new_value": 0.84,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.3% Exp=+0.00%"
+  },
+  {
+    "timestamp": "2026-05-14T07:17:00.975923",
+    "setup": "MOMENTUM_BURST_UP",
+    "old_value": 0.86,
+    "new_value": 0.84,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.9% Exp=+0.43%"
+  },
+  {
+    "timestamp": "2026-05-14T07:44:53.259874",
+    "setup": "VWAP_CROSS_UP",
+    "old_value": 0.88,
+    "new_value": 0.86,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.3% Exp=+0.00%"
+  },
+  {
+    "timestamp": "2026-05-14T07:44:53.264255",
+    "setup": "MOMENTUM_BURST_UP",
+    "old_value": 0.88,
+    "new_value": 0.86,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.9% Exp=+0.43%"
+  },
+  {
+    "timestamp": "2026-05-14T07:47:05.824398",
+    "setup": "VWAP_CROSS_UP",
+    "old_value": 0.87,
+    "new_value": 0.85,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.3% Exp=+0.00%"
+  },
+  {
+    "timestamp": "2026-05-14T07:47:05.860253",
+    "setup": "MOMENTUM_BURST_UP",
+    "old_value": 0.87,
+    "new_value": 0.85,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.9% Exp=+0.43%"
+  },
+  {
+    "timestamp": "2026-05-14T08:17:08.514382",
+    "setup": "VWAP_CROSS_UP",
+    "old_value": 0.87,
+    "new_value": 0.85,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.3% Exp=+0.00%"
+  },
+  {
+    "timestamp": "2026-05-14T08:17:08.526514",
+    "setup": "MOMENTUM_BURST_UP",
+    "old_value": 0.87,
+    "new_value": 0.85,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.9% Exp=+0.43%"
   }
 ]

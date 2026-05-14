@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-05-13T21:52:45.005877-04:00",
+  "timestamp": "2026-05-14T08:39:36.357513",
   "risk_score": 65,
-  "cross_signal": "NEUTRAL",
+  "cross_signal": "RISK_ON",
   "signals": {
     "SPY": {
       "name": "S&P 500",
@@ -33,10 +33,12 @@
     },
     "BTC-USD": {
       "name": "Crypto (Risk Appetite)",
-      "change_pct": -1.1
+      "change_pct": 0.67
     }
   },
   "interpretations": [
     "\u2705 SPY\u2191 + TLT\u2193 = Risk-On \u062d\u0642\u064a\u0642\u064a"
-  ]
+  ],
+  "regime": "STRONG_RISK_ON",
+  "regime_detail": "STRONG_RISK_ON"
 }

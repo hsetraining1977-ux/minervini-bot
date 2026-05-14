@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-05-14T08:39:36.359187",
+  "regime": "STRONG_RISK_ON",
+  "syncs_completed": 7,
+  "syncs_total": 7,
+  "results": {
+    "market_intelligence": true,
+    "paper_trades": true,
+    "regime_performance": true,
+    "adaptive_memory": true,
+    "data_freshness": true,
+    "narrative": true,
+    "cross_asset": true
+  },
+  "dashboards_updated": [
+    "8501",
+    "8503",
+    "8504"
+  ]
+}

@@ -22631,3 +22631,2025 @@
 2026-05-14 01:59:06 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
 2026-05-14 01:59:26 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:69.6% Disk:24.2% Threads:1
 2026-05-14 01:59:57 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:69.6% Disk:24.2% Threads:1
+2026-05-14 02:00:06 | INFO     | health_monitor | Running health check...
+2026-05-14 02:00:06 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:00:09 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-14 02:00:10 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:00:28 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:71.6% Disk:24.2% Threads:1
+2026-05-14 02:00:59 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.6% Disk:24.2% Threads:1
+2026-05-14 02:01:10 | INFO     | health_monitor | Running health check...
+2026-05-14 02:01:10 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:01:12 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:01:30 | INFO     | resource_monitor | Resources OK | CPU:24.0% RAM:71.7% Disk:24.2% Threads:1
+2026-05-14 02:02:01 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.6% Disk:24.2% Threads:1
+2026-05-14 02:02:12 | INFO     | health_monitor | Running health check...
+2026-05-14 02:02:12 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:02:15 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:02:32 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.7% Disk:24.2% Threads:1
+2026-05-14 02:03:03 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.7% Disk:24.2% Threads:1
+2026-05-14 02:03:15 | INFO     | health_monitor | Running health check...
+2026-05-14 02:03:15 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:03:17 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:03:35 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.7% Disk:24.2% Threads:1
+2026-05-14 02:04:06 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.6% Disk:24.2% Threads:1
+2026-05-14 02:04:17 | INFO     | health_monitor | Running health check...
+2026-05-14 02:04:17 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:04:19 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:04:37 | INFO     | resource_monitor | Resources OK | CPU:19.8% RAM:71.7% Disk:24.2% Threads:1
+2026-05-14 02:05:08 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.7% Disk:24.2% Threads:1
+2026-05-14 02:05:19 | INFO     | health_monitor | Running health check...
+2026-05-14 02:05:19 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:05:23 | ERROR    | health_monitor | CPU critical: 99.0%
+2026-05-14 02:05:24 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:05:39 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 02:05:41 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:73.5% Disk:24.2% Threads:1
+2026-05-14 02:06:12 | WARNING  | resource_monitor | CPU WARNING: 91.9%
+2026-05-14 02:06:12 | INFO     | resource_monitor | Resources OK | CPU:91.9% RAM:71.4% Disk:24.2% Threads:1
+2026-05-14 02:06:24 | INFO     | health_monitor | Running health check...
+2026-05-14 02:06:24 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:06:27 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-14 02:06:27 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:06:43 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.4% Disk:24.2% Threads:1
+2026-05-14 02:07:14 | INFO     | resource_monitor | Resources OK | CPU:15.0% RAM:71.6% Disk:24.2% Threads:1
+2026-05-14 02:07:27 | INFO     | health_monitor | Running health check...
+2026-05-14 02:07:27 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:07:30 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:07:45 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.4% Disk:24.2% Threads:1
+2026-05-14 02:08:16 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.4% Disk:24.2% Threads:1
+2026-05-14 02:08:30 | INFO     | health_monitor | Running health check...
+2026-05-14 02:08:30 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:08:32 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:08:48 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.5% Disk:24.2% Threads:1
+2026-05-14 02:09:19 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.5% Disk:24.2% Threads:1
+2026-05-14 02:09:32 | INFO     | health_monitor | Running health check...
+2026-05-14 02:09:32 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:09:34 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:09:50 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.5% Disk:24.2% Threads:1
+2026-05-14 02:10:21 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.5% Disk:24.2% Threads:1
+2026-05-14 02:10:34 | INFO     | health_monitor | Running health check...
+2026-05-14 02:10:34 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:10:36 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:10:52 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.5% Disk:24.2% Threads:1
+2026-05-14 02:11:23 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.5% Disk:24.2% Threads:1
+2026-05-14 02:11:36 | INFO     | health_monitor | Running health check...
+2026-05-14 02:11:36 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:11:38 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:11:54 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.5% Disk:24.2% Threads:1
+2026-05-14 02:12:25 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.5% Disk:24.2% Threads:1
+2026-05-14 02:12:38 | INFO     | health_monitor | Running health check...
+2026-05-14 02:12:38 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:12:40 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:12:56 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.5% Disk:24.2% Threads:1
+2026-05-14 02:13:27 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.4% Disk:24.2% Threads:1
+2026-05-14 02:13:40 | INFO     | health_monitor | Running health check...
+2026-05-14 02:13:40 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:13:42 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:13:59 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.4% Disk:24.2% Threads:1
+2026-05-14 02:14:30 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:71.4% Disk:24.2% Threads:1
+2026-05-14 02:14:42 | INFO     | health_monitor | Running health check...
+2026-05-14 02:14:42 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:14:44 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:15:01 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.4% Disk:24.2% Threads:1
+2026-05-14 02:15:32 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.4% Disk:24.2% Threads:1
+2026-05-14 02:15:44 | INFO     | health_monitor | Running health check...
+2026-05-14 02:15:44 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:15:46 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:16:03 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.4% Disk:24.2% Threads:1
+2026-05-14 02:16:34 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.4% Disk:24.2% Threads:1
+2026-05-14 02:16:46 | INFO     | health_monitor | Running health check...
+2026-05-14 02:16:46 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:16:48 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:17:05 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.4% Disk:24.2% Threads:1
+2026-05-14 02:17:36 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.4% Disk:24.2% Threads:1
+2026-05-14 02:17:48 | INFO     | health_monitor | Running health check...
+2026-05-14 02:17:48 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:17:51 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:18:07 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.4% Disk:24.2% Threads:1
+2026-05-14 02:18:38 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.4% Disk:24.2% Threads:1
+2026-05-14 02:18:51 | INFO     | health_monitor | Running health check...
+2026-05-14 02:18:51 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:18:53 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:19:10 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.4% Disk:24.2% Threads:1
+2026-05-14 02:19:41 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:19:53 | INFO     | health_monitor | Running health check...
+2026-05-14 02:19:53 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:19:55 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:20:12 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:20:43 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:20:55 | INFO     | health_monitor | Running health check...
+2026-05-14 02:20:55 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:20:57 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:21:14 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:21:45 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:21:57 | INFO     | health_monitor | Running health check...
+2026-05-14 02:21:57 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:21:59 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:22:16 | INFO     | resource_monitor | Resources OK | CPU:22.8% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:22:47 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:22:59 | INFO     | health_monitor | Running health check...
+2026-05-14 02:22:59 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:23:01 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:23:18 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:23:49 | INFO     | resource_monitor | Resources OK | CPU:22.5% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:24:01 | INFO     | health_monitor | Running health check...
+2026-05-14 02:24:01 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:24:03 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:24:21 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:24:52 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:25:03 | INFO     | health_monitor | Running health check...
+2026-05-14 02:25:04 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:25:05 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:25:23 | INFO     | resource_monitor | Resources OK | CPU:23.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:25:54 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:26:05 | INFO     | health_monitor | Running health check...
+2026-05-14 02:26:06 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:26:07 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:26:25 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:26:56 | INFO     | resource_monitor | Resources OK | CPU:23.2% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:27:08 | INFO     | health_monitor | Running health check...
+2026-05-14 02:27:08 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:27:09 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:27:27 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:27:58 | WARNING  | resource_monitor | CPU WARNING: 92.6%
+2026-05-14 02:27:58 | INFO     | resource_monitor | Resources OK | CPU:92.6% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:28:09 | INFO     | health_monitor | Running health check...
+2026-05-14 02:28:10 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:28:12 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:28:30 | INFO     | resource_monitor | Resources OK | CPU:21.2% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:29:01 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:29:12 | INFO     | health_monitor | Running health check...
+2026-05-14 02:29:12 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:29:14 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:29:32 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:30:03 | INFO     | resource_monitor | Resources OK | CPU:23.8% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:30:14 | INFO     | health_monitor | Running health check...
+2026-05-14 02:30:14 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:30:16 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:30:34 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:31:05 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:31:16 | INFO     | health_monitor | Running health check...
+2026-05-14 02:31:16 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:31:18 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:31:36 | INFO     | resource_monitor | Resources OK | CPU:23.8% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:32:07 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:32:18 | INFO     | health_monitor | Running health check...
+2026-05-14 02:32:18 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:32:20 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:32:38 | INFO     | resource_monitor | Resources OK | CPU:24.2% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:33:10 | INFO     | resource_monitor | Resources OK | CPU:18.9% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:33:20 | INFO     | health_monitor | Running health check...
+2026-05-14 02:33:20 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:33:23 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:33:41 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:34:12 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:34:23 | INFO     | health_monitor | Running health check...
+2026-05-14 02:34:23 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:34:25 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:34:43 | INFO     | resource_monitor | Resources OK | CPU:20.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:35:14 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:35:25 | INFO     | health_monitor | Running health check...
+2026-05-14 02:35:25 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:35:27 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:35:45 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:36:16 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:36:27 | INFO     | health_monitor | Running health check...
+2026-05-14 02:36:27 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:36:29 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:36:48 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:37:19 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:37:29 | INFO     | health_monitor | Running health check...
+2026-05-14 02:37:29 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:37:31 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:37:50 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:38:21 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:38:31 | INFO     | health_monitor | Running health check...
+2026-05-14 02:38:31 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:38:34 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:38:52 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:39:23 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:39:34 | INFO     | health_monitor | Running health check...
+2026-05-14 02:39:34 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:39:36 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:39:54 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:40:25 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:40:36 | INFO     | health_monitor | Running health check...
+2026-05-14 02:40:36 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:40:38 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:40:56 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:41:27 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:41:38 | INFO     | health_monitor | Running health check...
+2026-05-14 02:41:38 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:41:40 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:41:59 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:42:30 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:42:40 | INFO     | health_monitor | Running health check...
+2026-05-14 02:42:40 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:42:42 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:43:01 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:43:32 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:43:42 | INFO     | health_monitor | Running health check...
+2026-05-14 02:43:42 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:43:45 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:44:03 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:44:34 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:44:45 | INFO     | health_monitor | Running health check...
+2026-05-14 02:44:45 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:44:47 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:45:05 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:45:07 | INFO     | log_rotator | Starting log rotation cycle...
+2026-05-14 02:45:07 | INFO     | log_rotator | Rotation cycle complete. Rotated: 0 files
+2026-05-14 02:45:36 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:45:47 | INFO     | health_monitor | Running health check...
+2026-05-14 02:45:47 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:45:49 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:46:07 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:46:38 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:46:49 | INFO     | health_monitor | Running health check...
+2026-05-14 02:46:49 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:46:51 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:47:10 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.3% Disk:24.2% Threads:1
+2026-05-14 02:47:41 | INFO     | resource_monitor | Resources OK | CPU:21.7% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:47:51 | INFO     | health_monitor | Running health check...
+2026-05-14 02:47:51 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:47:53 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:48:12 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:48:43 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:48:53 | INFO     | health_monitor | Running health check...
+2026-05-14 02:48:53 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:48:55 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:49:14 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:49:45 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:49:55 | INFO     | health_monitor | Running health check...
+2026-05-14 02:49:56 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:49:57 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:50:16 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:50:47 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:50:58 | INFO     | health_monitor | Running health check...
+2026-05-14 02:50:58 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:50:59 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:51:19 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:51:50 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:51:59 | INFO     | health_monitor | Running health check...
+2026-05-14 02:52:00 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:52:02 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:52:21 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:52:52 | INFO     | resource_monitor | Resources OK | CPU:21.8% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:53:02 | INFO     | health_monitor | Running health check...
+2026-05-14 02:53:02 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:53:04 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:53:23 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:53:54 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:54:04 | INFO     | health_monitor | Running health check...
+2026-05-14 02:54:04 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:54:06 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:54:25 | INFO     | resource_monitor | Resources OK | CPU:22.2% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:54:56 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:55:06 | INFO     | health_monitor | Running health check...
+2026-05-14 02:55:06 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:55:08 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:55:27 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:55:59 | INFO     | resource_monitor | Resources OK | CPU:22.8% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:56:08 | INFO     | health_monitor | Running health check...
+2026-05-14 02:56:08 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:56:10 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:56:30 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:57:01 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:57:10 | INFO     | health_monitor | Running health check...
+2026-05-14 02:57:10 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:57:12 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:57:32 | INFO     | resource_monitor | Resources OK | CPU:23.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:58:03 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:58:12 | INFO     | health_monitor | Running health check...
+2026-05-14 02:58:12 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:58:14 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:58:34 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:59:05 | INFO     | resource_monitor | Resources OK | CPU:24.1% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 02:59:14 | INFO     | health_monitor | Running health check...
+2026-05-14 02:59:14 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 02:59:17 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 02:59:37 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:00:08 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:00:17 | INFO     | health_monitor | Running health check...
+2026-05-14 03:00:17 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:00:19 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:00:39 | INFO     | resource_monitor | Resources OK | CPU:19.8% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:01:10 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:01:19 | INFO     | health_monitor | Running health check...
+2026-05-14 03:01:19 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:01:21 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:01:41 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:02:12 | INFO     | resource_monitor | Resources OK | CPU:22.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:02:21 | INFO     | health_monitor | Running health check...
+2026-05-14 03:02:21 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:02:23 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:02:43 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:03:14 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:03:23 | INFO     | health_monitor | Running health check...
+2026-05-14 03:03:23 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:03:25 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:03:46 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:04:17 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:04:25 | INFO     | health_monitor | Running health check...
+2026-05-14 03:04:25 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:04:27 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:04:48 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:05:19 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:05:27 | INFO     | health_monitor | Running health check...
+2026-05-14 03:05:27 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:05:29 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:05:50 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:06:21 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:06:29 | INFO     | health_monitor | Running health check...
+2026-05-14 03:06:29 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:06:31 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:06:52 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:07:23 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:07:31 | INFO     | health_monitor | Running health check...
+2026-05-14 03:07:31 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:07:33 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:07:54 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:08:26 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:08:33 | INFO     | health_monitor | Running health check...
+2026-05-14 03:08:34 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:08:35 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:08:57 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:09:28 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:09:36 | INFO     | health_monitor | Running health check...
+2026-05-14 03:09:36 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:09:38 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:09:59 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:10:30 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:10:38 | INFO     | health_monitor | Running health check...
+2026-05-14 03:10:38 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:10:40 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:11:01 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:11:32 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 03:11:40 | INFO     | health_monitor | Running health check...
+2026-05-14 03:11:40 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:11:42 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:12:03 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:12:34 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:12:42 | INFO     | health_monitor | Running health check...
+2026-05-14 03:12:42 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:12:44 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:13:06 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:13:37 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:13:44 | INFO     | health_monitor | Running health check...
+2026-05-14 03:13:44 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:13:46 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:14:08 | INFO     | resource_monitor | Resources OK | CPU:2.9% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:14:39 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:14:46 | INFO     | health_monitor | Running health check...
+2026-05-14 03:14:46 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:14:48 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:15:10 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:15:41 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:15:48 | INFO     | health_monitor | Running health check...
+2026-05-14 03:15:48 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:15:50 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:16:12 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:16:43 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:16:50 | INFO     | health_monitor | Running health check...
+2026-05-14 03:16:50 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:16:52 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:17:14 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:17:45 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:17:52 | INFO     | health_monitor | Running health check...
+2026-05-14 03:17:52 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:17:54 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:18:17 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:18:48 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:18:54 | INFO     | health_monitor | Running health check...
+2026-05-14 03:18:54 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:18:57 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:19:19 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:19:50 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:19:57 | INFO     | health_monitor | Running health check...
+2026-05-14 03:19:57 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:19:59 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:20:21 | INFO     | resource_monitor | Resources OK | CPU:12.1% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:20:52 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:20:59 | INFO     | health_monitor | Running health check...
+2026-05-14 03:20:59 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:21:01 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:21:23 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:21:54 | INFO     | resource_monitor | Resources OK | CPU:14.1% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:22:01 | INFO     | health_monitor | Running health check...
+2026-05-14 03:22:01 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:22:03 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:22:26 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:22:57 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:23:03 | INFO     | health_monitor | Running health check...
+2026-05-14 03:23:03 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:23:05 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:23:28 | INFO     | resource_monitor | Resources OK | CPU:22.2% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:23:59 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:24:05 | INFO     | health_monitor | Running health check...
+2026-05-14 03:24:05 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:24:07 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:24:30 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:25:01 | INFO     | resource_monitor | Resources OK | CPU:22.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:25:07 | INFO     | health_monitor | Running health check...
+2026-05-14 03:25:08 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:25:10 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:25:32 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:26:03 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:26:10 | INFO     | health_monitor | Running health check...
+2026-05-14 03:26:10 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:26:12 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:26:34 | INFO     | resource_monitor | Resources OK | CPU:23.8% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:27:06 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:27:12 | INFO     | health_monitor | Running health check...
+2026-05-14 03:27:12 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:27:14 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:27:37 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:28:08 | INFO     | resource_monitor | Resources OK | CPU:19.6% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:28:14 | INFO     | health_monitor | Running health check...
+2026-05-14 03:28:14 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:28:16 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:28:39 | INFO     | resource_monitor | Resources OK | CPU:5.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:29:10 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:29:16 | INFO     | health_monitor | Running health check...
+2026-05-14 03:29:16 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:29:18 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:29:41 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:30:12 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:30:18 | INFO     | health_monitor | Running health check...
+2026-05-14 03:30:18 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:30:20 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:30:43 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:31:14 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:31:20 | INFO     | health_monitor | Running health check...
+2026-05-14 03:31:21 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:31:22 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:31:46 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:32:17 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:32:22 | INFO     | health_monitor | Running health check...
+2026-05-14 03:32:23 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:32:25 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:32:48 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:33:19 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:33:25 | INFO     | health_monitor | Running health check...
+2026-05-14 03:33:25 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:33:26 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:33:50 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:34:21 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:34:27 | INFO     | health_monitor | Running health check...
+2026-05-14 03:34:27 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:34:28 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:34:52 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:35:23 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:35:28 | INFO     | health_monitor | Running health check...
+2026-05-14 03:35:29 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:35:31 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:35:54 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:36:26 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:36:31 | INFO     | health_monitor | Running health check...
+2026-05-14 03:36:31 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:36:33 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:36:57 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.1% Disk:24.2% Threads:1
+2026-05-14 03:37:28 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:37:33 | INFO     | health_monitor | Running health check...
+2026-05-14 03:37:33 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:37:35 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:37:59 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:38:30 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:38:35 | INFO     | health_monitor | Running health check...
+2026-05-14 03:38:35 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:38:37 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:39:01 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:39:32 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:39:37 | INFO     | health_monitor | Running health check...
+2026-05-14 03:39:37 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:39:39 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:40:03 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:40:34 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:40:39 | INFO     | health_monitor | Running health check...
+2026-05-14 03:40:39 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:40:42 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:41:05 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:41:37 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:41:42 | INFO     | health_monitor | Running health check...
+2026-05-14 03:41:42 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:41:44 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:42:08 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:42:39 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:42:44 | INFO     | health_monitor | Running health check...
+2026-05-14 03:42:44 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:42:46 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:43:10 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:43:41 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:43:46 | INFO     | health_monitor | Running health check...
+2026-05-14 03:43:46 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:43:48 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:44:12 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:44:43 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:44:48 | INFO     | health_monitor | Running health check...
+2026-05-14 03:44:48 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:44:50 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:45:07 | INFO     | log_rotator | Starting log rotation cycle...
+2026-05-14 03:45:07 | INFO     | log_rotator | Rotation cycle complete. Rotated: 0 files
+2026-05-14 03:45:14 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:45:45 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:45:50 | INFO     | health_monitor | Running health check...
+2026-05-14 03:45:50 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:45:52 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:46:16 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:46:48 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:46:52 | INFO     | health_monitor | Running health check...
+2026-05-14 03:46:52 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:46:54 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:47:19 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:47:50 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:47:54 | INFO     | health_monitor | Running health check...
+2026-05-14 03:47:54 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:47:56 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:48:21 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:48:52 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:48:56 | INFO     | health_monitor | Running health check...
+2026-05-14 03:48:56 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:48:59 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:49:23 | INFO     | resource_monitor | Resources OK | CPU:22.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:49:54 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:49:59 | INFO     | health_monitor | Running health check...
+2026-05-14 03:49:59 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:50:01 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:50:25 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:50:56 | INFO     | resource_monitor | Resources OK | CPU:22.8% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:51:01 | INFO     | health_monitor | Running health check...
+2026-05-14 03:51:01 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:51:03 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:51:28 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:51:59 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:52:03 | INFO     | health_monitor | Running health check...
+2026-05-14 03:52:03 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:52:05 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:52:30 | INFO     | resource_monitor | Resources OK | CPU:15.8% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:53:01 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:53:05 | INFO     | health_monitor | Running health check...
+2026-05-14 03:53:05 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:53:07 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:53:32 | INFO     | resource_monitor | Resources OK | CPU:69.2% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:54:03 | INFO     | resource_monitor | Resources OK | CPU:18.3% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:54:07 | INFO     | health_monitor | Running health check...
+2026-05-14 03:54:07 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:54:09 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:54:35 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:55:06 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:55:09 | INFO     | health_monitor | Running health check...
+2026-05-14 03:55:09 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:55:11 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:55:37 | INFO     | resource_monitor | Resources OK | CPU:14.1% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:56:08 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:56:11 | INFO     | health_monitor | Running health check...
+2026-05-14 03:56:11 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:56:14 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:56:39 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:57:10 | INFO     | resource_monitor | Resources OK | CPU:22.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:57:14 | INFO     | health_monitor | Running health check...
+2026-05-14 03:57:14 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:57:16 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:57:41 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:58:12 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:58:16 | INFO     | health_monitor | Running health check...
+2026-05-14 03:58:16 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:58:18 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:58:44 | INFO     | resource_monitor | Resources OK | CPU:10.6% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:59:15 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:71.0% Disk:24.2% Threads:1
+2026-05-14 03:59:18 | INFO     | health_monitor | Running health check...
+2026-05-14 03:59:18 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 03:59:20 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 03:59:46 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:70.9% Disk:24.2% Threads:1
+2026-05-14 04:00:17 | INFO     | resource_monitor | Resources OK | CPU:20.4% RAM:70.9% Disk:24.2% Threads:1
+2026-05-14 04:00:20 | INFO     | health_monitor | Running health check...
+2026-05-14 04:00:20 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:00:22 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:00:48 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:70.9% Disk:24.2% Threads:1
+2026-05-14 04:01:19 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:70.9% Disk:24.2% Threads:1
+2026-05-14 04:01:22 | INFO     | health_monitor | Running health check...
+2026-05-14 04:01:22 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:01:24 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:01:50 | INFO     | resource_monitor | Resources OK | CPU:21.5% RAM:70.9% Disk:24.2% Threads:1
+2026-05-14 04:02:22 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:70.0% Disk:24.2% Threads:1
+2026-05-14 04:02:24 | INFO     | health_monitor | Running health check...
+2026-05-14 04:02:24 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:02:27 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:02:53 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:70.1% Disk:24.2% Threads:1
+2026-05-14 04:03:24 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:70.0% Disk:24.2% Threads:1
+2026-05-14 04:03:27 | INFO     | health_monitor | Running health check...
+2026-05-14 04:03:27 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:03:29 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:03:55 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:70.0% Disk:24.2% Threads:1
+2026-05-14 04:04:26 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:70.0% Disk:24.2% Threads:1
+2026-05-14 04:04:29 | INFO     | health_monitor | Running health check...
+2026-05-14 04:04:29 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:04:31 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:04:57 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:70.0% Disk:24.2% Threads:1
+2026-05-14 04:05:28 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:70.0% Disk:24.2% Threads:1
+2026-05-14 04:05:31 | INFO     | health_monitor | Running health check...
+2026-05-14 04:05:31 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:05:33 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:05:59 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:70.0% Disk:24.2% Threads:1
+2026-05-14 04:06:30 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:69.5% Disk:24.2% Threads:1
+2026-05-14 04:06:33 | INFO     | health_monitor | Running health check...
+2026-05-14 04:06:33 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:06:35 | ERROR    | health_monitor | CPU critical: 95.9%
+2026-05-14 04:06:36 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:07:02 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:69.5% Disk:24.2% Threads:1
+2026-05-14 04:07:33 | INFO     | resource_monitor | Resources OK | CPU:15.2% RAM:69.5% Disk:24.2% Threads:1
+2026-05-14 04:07:36 | INFO     | health_monitor | Running health check...
+2026-05-14 04:07:37 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:07:39 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:08:04 | INFO     | resource_monitor | Resources OK | CPU:37.8% RAM:69.5% Disk:24.2% Threads:1
+2026-05-14 04:08:35 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:69.5% Disk:24.2% Threads:1
+2026-05-14 04:08:39 | INFO     | health_monitor | Running health check...
+2026-05-14 04:08:40 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:08:43 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:09:06 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:69.5% Disk:24.2% Threads:1
+2026-05-14 04:09:37 | WARNING  | resource_monitor | CPU WARNING: 94.9%
+2026-05-14 04:09:38 | INFO     | resource_monitor | Resources OK | CPU:94.9% RAM:69.5% Disk:24.2% Threads:1
+2026-05-14 04:09:43 | INFO     | health_monitor | Running health check...
+2026-05-14 04:09:43 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:09:45 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:10:09 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:69.7% Disk:24.2% Threads:1
+2026-05-14 04:10:40 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 04:10:41 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:69.7% Disk:24.2% Threads:1
+2026-05-14 04:10:45 | INFO     | health_monitor | Running health check...
+2026-05-14 04:10:45 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:10:47 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:11:12 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:69.6% Disk:24.2% Threads:1
+2026-05-14 04:11:43 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:69.6% Disk:24.2% Threads:1
+2026-05-14 04:11:47 | INFO     | health_monitor | Running health check...
+2026-05-14 04:11:47 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:11:50 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:12:15 | INFO     | resource_monitor | Resources OK | CPU:14.2% RAM:69.6% Disk:24.2% Threads:1
+2026-05-14 04:12:46 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:69.6% Disk:24.2% Threads:1
+2026-05-14 04:12:50 | INFO     | health_monitor | Running health check...
+2026-05-14 04:12:50 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:12:52 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:13:17 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:69.6% Disk:24.2% Threads:1
+2026-05-14 04:13:48 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:69.6% Disk:24.2% Threads:1
+2026-05-14 04:13:52 | INFO     | health_monitor | Running health check...
+2026-05-14 04:13:52 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:13:54 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:14:19 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:69.6% Disk:24.2% Threads:1
+2026-05-14 04:14:50 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:69.6% Disk:24.2% Threads:1
+2026-05-14 04:14:54 | INFO     | health_monitor | Running health check...
+2026-05-14 04:14:54 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:14:56 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:15:21 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:69.6% Disk:24.2% Threads:1
+2026-05-14 04:15:52 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:69.6% Disk:24.2% Threads:1
+2026-05-14 04:15:56 | INFO     | health_monitor | Running health check...
+2026-05-14 04:15:56 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:15:58 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:16:23 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:69.6% Disk:24.2% Threads:1
+2026-05-14 04:16:55 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:69.6% Disk:24.2% Threads:1
+2026-05-14 04:16:58 | INFO     | health_monitor | Running health check...
+2026-05-14 04:16:58 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:17:00 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:17:26 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:69.6% Disk:24.2% Threads:1
+2026-05-14 04:17:57 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:69.6% Disk:24.2% Threads:1
+2026-05-14 04:18:01 | INFO     | health_monitor | Running health check...
+2026-05-14 04:18:01 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:18:03 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:18:28 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:69.7% Disk:24.2% Threads:1
+2026-05-14 04:18:59 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:69.7% Disk:24.2% Threads:1
+2026-05-14 04:19:03 | INFO     | health_monitor | Running health check...
+2026-05-14 04:19:03 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:19:05 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:19:30 | INFO     | resource_monitor | Resources OK | CPU:14.1% RAM:69.7% Disk:24.2% Threads:1
+2026-05-14 04:20:01 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:69.7% Disk:24.2% Threads:1
+2026-05-14 04:20:05 | INFO     | health_monitor | Running health check...
+2026-05-14 04:20:05 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:20:08 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:20:32 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:70.1% Disk:24.2% Threads:1
+2026-05-14 04:21:03 | INFO     | resource_monitor | Resources OK | CPU:45.1% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 04:21:08 | INFO     | health_monitor | Running health check...
+2026-05-14 04:21:08 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:21:11 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-14 04:21:11 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:21:35 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.2% Disk:24.2% Threads:1
+2026-05-14 04:22:06 | INFO     | resource_monitor | Resources OK | CPU:53.9% RAM:70.1% Disk:24.2% Threads:1
+2026-05-14 04:22:11 | INFO     | health_monitor | Running health check...
+2026-05-14 04:22:11 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:22:14 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:22:37 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 04:22:38 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:72.2% Disk:24.2% Threads:1
+2026-05-14 04:23:09 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 04:23:09 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:70.9% Disk:24.2% Threads:1
+2026-05-14 04:23:14 | INFO     | health_monitor | Running health check...
+2026-05-14 04:23:14 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:23:16 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:23:40 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 04:23:41 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 04:24:12 | INFO     | resource_monitor | Resources OK | CPU:22.0% RAM:72.2% Disk:24.2% Threads:1
+2026-05-14 04:24:16 | INFO     | health_monitor | Running health check...
+2026-05-14 04:24:16 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:24:18 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:24:43 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 04:25:14 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 04:25:18 | INFO     | health_monitor | Running health check...
+2026-05-14 04:25:18 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:25:20 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:25:45 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 04:26:16 | INFO     | resource_monitor | Resources OK | CPU:78.4% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:26:20 | INFO     | health_monitor | Running health check...
+2026-05-14 04:26:20 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:26:22 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:26:48 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:27:19 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:27:22 | INFO     | health_monitor | Running health check...
+2026-05-14 04:27:22 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:27:25 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:27:50 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:28:21 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:28:25 | INFO     | health_monitor | Running health check...
+2026-05-14 04:28:25 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:28:27 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:28:52 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:29:23 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:29:27 | INFO     | health_monitor | Running health check...
+2026-05-14 04:29:27 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:29:29 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:29:54 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:30:25 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:30:29 | INFO     | health_monitor | Running health check...
+2026-05-14 04:30:29 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:30:31 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:30:57 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:31:28 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:31:31 | INFO     | health_monitor | Running health check...
+2026-05-14 04:31:31 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:31:33 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:31:59 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:32:30 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:32:33 | INFO     | health_monitor | Running health check...
+2026-05-14 04:32:33 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:32:36 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:33:01 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:33:32 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:33:36 | INFO     | health_monitor | Running health check...
+2026-05-14 04:33:36 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:33:38 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:34:03 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:34:34 | INFO     | resource_monitor | Resources OK | CPU:31.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 04:34:38 | INFO     | health_monitor | Running health check...
+2026-05-14 04:34:38 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:34:40 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:35:05 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:70.3% Disk:24.2% Threads:1
+2026-05-14 04:35:37 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:70.6% Disk:24.2% Threads:1
+2026-05-14 04:35:40 | INFO     | health_monitor | Running health check...
+2026-05-14 04:35:40 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:35:43 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:36:08 | INFO     | resource_monitor | Resources OK | CPU:22.4% RAM:72.0% Disk:24.2% Threads:1
+2026-05-14 04:36:39 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 04:36:43 | INFO     | health_monitor | Running health check...
+2026-05-14 04:36:43 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:36:45 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:37:10 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.2% Disk:24.2% Threads:1
+2026-05-14 04:37:41 | INFO     | resource_monitor | Resources OK | CPU:21.6% RAM:72.2% Disk:24.2% Threads:1
+2026-05-14 04:37:45 | INFO     | health_monitor | Running health check...
+2026-05-14 04:37:45 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:37:48 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:38:12 | INFO     | resource_monitor | Resources OK | CPU:46.6% RAM:72.2% Disk:24.2% Threads:1
+2026-05-14 04:38:43 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:72.0% Disk:24.2% Threads:1
+2026-05-14 04:38:48 | INFO     | health_monitor | Running health check...
+2026-05-14 04:38:48 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:38:50 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:39:14 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 04:39:46 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 04:39:50 | INFO     | health_monitor | Running health check...
+2026-05-14 04:39:50 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:39:52 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:40:17 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 04:40:48 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 04:40:52 | INFO     | health_monitor | Running health check...
+2026-05-14 04:40:52 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:40:54 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:41:19 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 04:41:50 | INFO     | resource_monitor | Resources OK | CPU:24.2% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 04:41:55 | INFO     | health_monitor | Running health check...
+2026-05-14 04:41:55 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:41:56 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:42:21 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 04:42:52 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 04:42:57 | INFO     | health_monitor | Running health check...
+2026-05-14 04:42:57 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:42:59 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:43:23 | INFO     | resource_monitor | Resources OK | CPU:64.4% RAM:72.5% Disk:24.2% Threads:1
+2026-05-14 04:43:55 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 04:43:56 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:72.5% Disk:24.2% Threads:1
+2026-05-14 04:43:59 | INFO     | health_monitor | Running health check...
+2026-05-14 04:43:59 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:44:01 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:44:27 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.5% Disk:24.2% Threads:1
+2026-05-14 04:44:58 | INFO     | resource_monitor | Resources OK | CPU:49.0% RAM:72.5% Disk:24.2% Threads:1
+2026-05-14 04:45:01 | INFO     | health_monitor | Running health check...
+2026-05-14 04:45:01 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:45:04 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:45:07 | INFO     | log_rotator | Starting log rotation cycle...
+2026-05-14 04:45:07 | INFO     | log_rotator | Rotation cycle complete. Rotated: 0 files
+2026-05-14 04:45:29 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.5% Disk:24.2% Threads:1
+2026-05-14 04:46:00 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.5% Disk:24.2% Threads:1
+2026-05-14 04:46:04 | INFO     | health_monitor | Running health check...
+2026-05-14 04:46:04 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:46:05 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:46:31 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.5% Disk:24.2% Threads:1
+2026-05-14 04:47:03 | INFO     | resource_monitor | Resources OK | CPU:3.9% RAM:72.5% Disk:24.2% Threads:1
+2026-05-14 04:47:06 | INFO     | health_monitor | Running health check...
+2026-05-14 04:47:06 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:47:08 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:47:34 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.5% Disk:24.2% Threads:1
+2026-05-14 04:48:05 | INFO     | resource_monitor | Resources OK | CPU:33.6% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 04:48:08 | INFO     | health_monitor | Running health check...
+2026-05-14 04:48:08 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:48:10 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:48:36 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 04:49:07 | INFO     | resource_monitor | Resources OK | CPU:22.4% RAM:72.8% Disk:24.2% Threads:1
+2026-05-14 04:49:10 | INFO     | health_monitor | Running health check...
+2026-05-14 04:49:10 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:49:12 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:49:38 | WARNING  | resource_monitor | CPU WARNING: 87.7%
+2026-05-14 04:49:38 | INFO     | resource_monitor | Resources OK | CPU:87.7% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 04:50:10 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 04:50:12 | INFO     | health_monitor | Running health check...
+2026-05-14 04:50:12 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:50:15 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-14 04:50:17 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:50:41 | INFO     | resource_monitor | Resources OK | CPU:56.1% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 04:51:12 | INFO     | resource_monitor | Resources OK | CPU:50.5% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 04:51:17 | INFO     | health_monitor | Running health check...
+2026-05-14 04:51:17 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:51:19 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:51:44 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 04:51:45 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 04:52:16 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 04:52:19 | INFO     | health_monitor | Running health check...
+2026-05-14 04:52:19 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:52:21 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:52:47 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 04:53:18 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 04:53:21 | INFO     | health_monitor | Running health check...
+2026-05-14 04:53:21 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:53:23 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:53:49 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 04:54:21 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 04:54:23 | INFO     | health_monitor | Running health check...
+2026-05-14 04:54:23 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:54:26 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:54:52 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 04:55:23 | INFO     | resource_monitor | Resources OK | CPU:15.9% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 04:55:26 | INFO     | health_monitor | Running health check...
+2026-05-14 04:55:26 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:55:28 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:55:54 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 04:56:25 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 04:56:28 | INFO     | health_monitor | Running health check...
+2026-05-14 04:56:28 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:56:30 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:56:56 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 04:57:27 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 04:57:30 | INFO     | health_monitor | Running health check...
+2026-05-14 04:57:30 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:57:32 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:57:58 | INFO     | resource_monitor | Resources OK | CPU:46.2% RAM:76.0% Disk:24.2% Threads:1
+2026-05-14 04:58:30 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.4% Disk:24.2% Threads:1
+2026-05-14 04:58:32 | INFO     | health_monitor | Running health check...
+2026-05-14 04:58:32 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:58:35 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 04:59:01 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.4% Disk:24.2% Threads:1
+2026-05-14 04:59:32 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:74.4% Disk:24.2% Threads:1
+2026-05-14 04:59:35 | INFO     | health_monitor | Running health check...
+2026-05-14 04:59:35 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 04:59:37 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:00:03 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 05:00:04 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:74.4% Disk:24.2% Threads:1
+2026-05-14 05:00:35 | INFO     | resource_monitor | Resources OK | CPU:6.9% RAM:74.4% Disk:24.2% Threads:1
+2026-05-14 05:00:37 | INFO     | health_monitor | Running health check...
+2026-05-14 05:00:37 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:00:39 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:01:06 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.4% Disk:24.2% Threads:1
+2026-05-14 05:01:37 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.4% Disk:24.2% Threads:1
+2026-05-14 05:01:39 | INFO     | health_monitor | Running health check...
+2026-05-14 05:01:39 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:01:41 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:02:08 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.4% Disk:24.2% Threads:1
+2026-05-14 05:02:39 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.4% Disk:24.2% Threads:1
+2026-05-14 05:02:41 | INFO     | health_monitor | Running health check...
+2026-05-14 05:02:41 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:02:43 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:03:11 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:03:42 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:03:43 | INFO     | health_monitor | Running health check...
+2026-05-14 05:03:43 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:03:45 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:04:13 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:04:44 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:04:46 | INFO     | health_monitor | Running health check...
+2026-05-14 05:04:46 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:04:47 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:05:15 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:05:46 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:05:48 | INFO     | health_monitor | Running health check...
+2026-05-14 05:05:48 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:05:50 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:06:18 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 05:06:18 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:06:50 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:06:50 | INFO     | health_monitor | Running health check...
+2026-05-14 05:06:50 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:06:52 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:07:21 | WARNING  | resource_monitor | CPU WARNING: 90.1%
+2026-05-14 05:07:21 | INFO     | resource_monitor | Resources OK | CPU:90.1% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:07:52 | INFO     | health_monitor | Running health check...
+2026-05-14 05:07:52 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:07:52 | WARNING  | resource_monitor | CPU WARNING: 81.7%
+2026-05-14 05:07:52 | INFO     | resource_monitor | Resources OK | CPU:81.7% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:07:55 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:08:24 | WARNING  | resource_monitor | CPU WARNING: 93.0%
+2026-05-14 05:08:24 | INFO     | resource_monitor | Resources OK | CPU:93.0% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:08:55 | INFO     | health_monitor | Running health check...
+2026-05-14 05:08:55 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 05:08:55 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:08:55 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:08:58 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:09:26 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:09:58 | INFO     | resource_monitor | Resources OK | CPU:25.0% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:09:58 | INFO     | health_monitor | Running health check...
+2026-05-14 05:09:58 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:10:00 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:10:29 | INFO     | resource_monitor | Resources OK | CPU:36.8% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:11:00 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:11:00 | INFO     | health_monitor | Running health check...
+2026-05-14 05:11:00 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:11:02 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:11:31 | INFO     | resource_monitor | Resources OK | CPU:45.2% RAM:74.3% Disk:24.2% Threads:1
+2026-05-14 05:12:02 | INFO     | health_monitor | Running health check...
+2026-05-14 05:12:02 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:12:03 | INFO     | resource_monitor | Resources OK | CPU:13.1% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 05:12:04 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:12:34 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 05:13:05 | INFO     | health_monitor | Running health check...
+2026-05-14 05:13:05 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:13:05 | INFO     | resource_monitor | Resources OK | CPU:25.0% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 05:13:07 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:13:36 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 05:14:07 | INFO     | health_monitor | Running health check...
+2026-05-14 05:14:07 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:14:07 | INFO     | resource_monitor | Resources OK | CPU:18.9% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 05:14:10 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:14:39 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 05:15:10 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 05:15:10 | INFO     | health_monitor | Running health check...
+2026-05-14 05:15:10 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:15:12 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:15:41 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 05:16:12 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 05:16:12 | INFO     | health_monitor | Running health check...
+2026-05-14 05:16:12 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:16:14 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:16:43 | INFO     | resource_monitor | Resources OK | CPU:67.0% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 05:17:14 | INFO     | resource_monitor | Resources OK | CPU:28.3% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 05:17:15 | INFO     | health_monitor | Running health check...
+2026-05-14 05:17:15 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:17:17 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:17:45 | INFO     | resource_monitor | Resources OK | CPU:5.0% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 05:18:17 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 05:18:17 | INFO     | health_monitor | Running health check...
+2026-05-14 05:18:17 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:18:19 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:18:48 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 05:19:19 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 05:19:19 | INFO     | health_monitor | Running health check...
+2026-05-14 05:19:19 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:19:22 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:19:50 | INFO     | resource_monitor | Resources OK | CPU:21.2% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 05:20:21 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 05:20:22 | INFO     | health_monitor | Running health check...
+2026-05-14 05:20:22 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:20:24 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:20:52 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 05:21:23 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 05:21:24 | INFO     | health_monitor | Running health check...
+2026-05-14 05:21:24 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:21:26 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:21:54 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 05:22:26 | INFO     | health_monitor | Running health check...
+2026-05-14 05:22:26 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:22:27 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 05:22:28 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 05:22:29 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:22:59 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 05:23:29 | INFO     | health_monitor | Running health check...
+2026-05-14 05:23:29 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:23:30 | INFO     | resource_monitor | Resources OK | CPU:47.5% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 05:23:31 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:24:01 | INFO     | resource_monitor | Resources OK | CPU:12.1% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 05:24:31 | INFO     | health_monitor | Running health check...
+2026-05-14 05:24:31 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:24:32 | INFO     | resource_monitor | Resources OK | CPU:41.7% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 05:24:34 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:25:04 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 05:25:34 | INFO     | health_monitor | Running health check...
+2026-05-14 05:25:34 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:25:35 | INFO     | resource_monitor | Resources OK | CPU:64.2% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 05:25:36 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:26:06 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 05:26:37 | INFO     | health_monitor | Running health check...
+2026-05-14 05:26:37 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:26:37 | INFO     | resource_monitor | Resources OK | CPU:53.5% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 05:26:39 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:27:08 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 05:27:39 | INFO     | health_monitor | Running health check...
+2026-05-14 05:27:39 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:27:40 | WARNING  | resource_monitor | CPU WARNING: 83.0%
+2026-05-14 05:27:40 | INFO     | resource_monitor | Resources OK | CPU:83.0% RAM:67.0% Disk:24.2% Threads:1
+2026-05-14 05:27:41 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-14 05:27:42 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:28:11 | INFO     | resource_monitor | Resources OK | CPU:52.0% RAM:70.3% Disk:24.2% Threads:1
+2026-05-14 05:28:42 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 05:28:42 | INFO     | health_monitor | Running health check...
+2026-05-14 05:28:42 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:28:43 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 05:28:45 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:29:15 | WARNING  | resource_monitor | CPU WARNING: 91.7%
+2026-05-14 05:29:15 | INFO     | resource_monitor | Resources OK | CPU:91.7% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:29:45 | INFO     | health_monitor | Running health check...
+2026-05-14 05:29:46 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:29:46 | INFO     | resource_monitor | Resources OK | CPU:20.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:29:48 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:30:17 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:30:48 | INFO     | health_monitor | Running health check...
+2026-05-14 05:30:48 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:30:49 | INFO     | resource_monitor | Resources OK | CPU:29.2% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:30:50 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:31:20 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.5% Disk:24.2% Threads:1
+2026-05-14 05:31:50 | INFO     | health_monitor | Running health check...
+2026-05-14 05:31:50 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:31:51 | INFO     | resource_monitor | Resources OK | CPU:28.4% RAM:73.5% Disk:24.2% Threads:1
+2026-05-14 05:31:53 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:32:22 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.5% Disk:24.2% Threads:1
+2026-05-14 05:32:53 | INFO     | health_monitor | Running health check...
+2026-05-14 05:32:53 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:32:53 | INFO     | resource_monitor | Resources OK | CPU:70.5% RAM:73.5% Disk:24.2% Threads:1
+2026-05-14 05:32:55 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:33:24 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.5% Disk:24.2% Threads:1
+2026-05-14 05:33:55 | INFO     | health_monitor | Running health check...
+2026-05-14 05:33:55 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:33:56 | INFO     | resource_monitor | Resources OK | CPU:68.2% RAM:67.5% Disk:24.2% Threads:1
+2026-05-14 05:33:58 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-14 05:33:59 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:34:27 | INFO     | resource_monitor | Resources OK | CPU:21.3% RAM:70.2% Disk:24.2% Threads:1
+2026-05-14 05:34:59 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 05:34:59 | INFO     | health_monitor | Running health check...
+2026-05-14 05:34:59 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:35:02 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:35:30 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.1% Disk:24.2% Threads:1
+2026-05-14 05:36:01 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:73.1% Disk:24.2% Threads:1
+2026-05-14 05:36:02 | INFO     | health_monitor | Running health check...
+2026-05-14 05:36:02 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:36:04 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:36:32 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:73.1% Disk:24.2% Threads:1
+2026-05-14 05:37:03 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 05:37:04 | INFO     | health_monitor | Running health check...
+2026-05-14 05:37:04 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:37:05 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:73.3% Disk:24.2% Threads:1
+2026-05-14 05:37:07 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:37:36 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.3% Disk:24.2% Threads:1
+2026-05-14 05:38:07 | INFO     | resource_monitor | Resources OK | CPU:32.7% RAM:73.3% Disk:24.2% Threads:1
+2026-05-14 05:38:07 | INFO     | health_monitor | Running health check...
+2026-05-14 05:38:08 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:38:11 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-14 05:38:11 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:38:38 | INFO     | resource_monitor | Resources OK | CPU:27.3% RAM:73.3% Disk:24.2% Threads:1
+2026-05-14 05:39:09 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.3% Disk:24.2% Threads:1
+2026-05-14 05:39:11 | INFO     | health_monitor | Running health check...
+2026-05-14 05:39:11 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:39:14 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:39:41 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:40:12 | ERROR    | resource_monitor | CPU CRITICAL: 95.2%
+2026-05-14 05:40:12 | INFO     | resource_monitor | Resources OK | CPU:95.2% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:40:14 | INFO     | health_monitor | Running health check...
+2026-05-14 05:40:15 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:40:18 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:40:44 | WARNING  | resource_monitor | CPU WARNING: 83.8%
+2026-05-14 05:40:44 | INFO     | resource_monitor | Resources OK | CPU:83.8% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:41:15 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 05:41:15 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:41:18 | INFO     | health_monitor | Running health check...
+2026-05-14 05:41:18 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:41:20 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:41:47 | INFO     | resource_monitor | Resources OK | CPU:8.7% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:42:18 | INFO     | resource_monitor | Resources OK | CPU:2.9% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:42:20 | INFO     | health_monitor | Running health check...
+2026-05-14 05:42:20 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:42:22 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:42:49 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:43:20 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:43:22 | INFO     | health_monitor | Running health check...
+2026-05-14 05:43:22 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:43:24 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:43:51 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:44:22 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:44:25 | INFO     | health_monitor | Running health check...
+2026-05-14 05:44:25 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:44:27 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:44:53 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:45:08 | INFO     | log_rotator | Starting log rotation cycle...
+2026-05-14 05:45:08 | INFO     | log_rotator | Rotation cycle complete. Rotated: 0 files
+2026-05-14 05:45:24 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:45:27 | INFO     | health_monitor | Running health check...
+2026-05-14 05:45:27 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:45:29 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:45:55 | INFO     | resource_monitor | Resources OK | CPU:22.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:46:26 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:46:29 | INFO     | health_monitor | Running health check...
+2026-05-14 05:46:29 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:46:31 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:46:58 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 05:47:29 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.5% Disk:24.2% Threads:1
+2026-05-14 05:47:31 | INFO     | health_monitor | Running health check...
+2026-05-14 05:47:31 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:47:33 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:48:00 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.5% Disk:24.2% Threads:1
+2026-05-14 05:48:31 | INFO     | resource_monitor | Resources OK | CPU:28.0% RAM:73.5% Disk:24.2% Threads:1
+2026-05-14 05:48:33 | INFO     | health_monitor | Running health check...
+2026-05-14 05:48:34 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:48:36 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:49:02 | INFO     | resource_monitor | Resources OK | CPU:24.0% RAM:73.5% Disk:24.2% Threads:1
+2026-05-14 05:49:33 | INFO     | resource_monitor | Resources OK | CPU:16.7% RAM:73.6% Disk:24.2% Threads:1
+2026-05-14 05:49:36 | INFO     | health_monitor | Running health check...
+2026-05-14 05:49:36 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:49:39 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:50:04 | INFO     | resource_monitor | Resources OK | CPU:30.7% RAM:73.6% Disk:24.2% Threads:1
+2026-05-14 05:50:35 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.7% Disk:24.2% Threads:1
+2026-05-14 05:50:39 | INFO     | health_monitor | Running health check...
+2026-05-14 05:50:40 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:50:43 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:51:06 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.6% Disk:24.2% Threads:1
+2026-05-14 05:51:38 | INFO     | resource_monitor | Resources OK | CPU:14.1% RAM:73.7% Disk:24.2% Threads:1
+2026-05-14 05:51:43 | INFO     | health_monitor | Running health check...
+2026-05-14 05:51:43 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:51:45 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:52:09 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.7% Disk:24.2% Threads:1
+2026-05-14 05:52:40 | INFO     | resource_monitor | Resources OK | CPU:68.6% RAM:73.7% Disk:24.2% Threads:1
+2026-05-14 05:52:45 | INFO     | health_monitor | Running health check...
+2026-05-14 05:52:45 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:52:48 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:53:12 | INFO     | resource_monitor | Resources OK | CPU:52.0% RAM:73.7% Disk:24.2% Threads:1
+2026-05-14 05:53:43 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.7% Disk:24.2% Threads:1
+2026-05-14 05:53:48 | INFO     | health_monitor | Running health check...
+2026-05-14 05:53:48 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:53:50 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:54:15 | ERROR    | resource_monitor | CPU CRITICAL: 99.0%
+2026-05-14 05:54:16 | INFO     | resource_monitor | Resources OK | CPU:99.0% RAM:73.7% Disk:24.2% Threads:1
+2026-05-14 05:54:47 | INFO     | resource_monitor | Resources OK | CPU:23.0% RAM:73.7% Disk:24.2% Threads:1
+2026-05-14 05:54:50 | INFO     | health_monitor | Running health check...
+2026-05-14 05:54:50 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:54:52 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:55:18 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.8% Disk:24.2% Threads:1
+2026-05-14 05:55:49 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.8% Disk:24.2% Threads:1
+2026-05-14 05:55:52 | INFO     | health_monitor | Running health check...
+2026-05-14 05:55:52 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:55:54 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:56:20 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.8% Disk:24.2% Threads:1
+2026-05-14 05:56:51 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.8% Disk:24.2% Threads:1
+2026-05-14 05:56:54 | INFO     | health_monitor | Running health check...
+2026-05-14 05:56:54 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:56:56 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:57:22 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.8% Disk:24.2% Threads:1
+2026-05-14 05:57:53 | INFO     | resource_monitor | Resources OK | CPU:14.3% RAM:73.8% Disk:24.2% Threads:1
+2026-05-14 05:57:57 | INFO     | health_monitor | Running health check...
+2026-05-14 05:57:57 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:57:59 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:58:24 | INFO     | resource_monitor | Resources OK | CPU:3.1% RAM:73.8% Disk:24.2% Threads:1
+2026-05-14 05:58:56 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:73.8% Disk:24.2% Threads:1
+2026-05-14 05:58:59 | INFO     | health_monitor | Running health check...
+2026-05-14 05:58:59 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 05:59:01 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 05:59:27 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 05:59:58 | INFO     | resource_monitor | Resources OK | CPU:29.9% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 06:00:01 | INFO     | health_monitor | Running health check...
+2026-05-14 06:00:01 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:00:03 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:00:29 | INFO     | resource_monitor | Resources OK | CPU:23.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 06:01:01 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 06:01:02 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:01:03 | INFO     | health_monitor | Running health check...
+2026-05-14 06:01:03 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:01:07 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-14 06:01:08 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:01:33 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 06:01:33 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:02:05 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 06:02:05 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:02:08 | INFO     | health_monitor | Running health check...
+2026-05-14 06:02:08 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:02:10 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:02:36 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:03:07 | INFO     | resource_monitor | Resources OK | CPU:5.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:03:10 | INFO     | health_monitor | Running health check...
+2026-05-14 06:03:10 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:03:12 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:03:38 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:04:09 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:04:12 | INFO     | health_monitor | Running health check...
+2026-05-14 06:04:12 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:04:14 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:04:41 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 06:04:41 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:05:12 | INFO     | resource_monitor | Resources OK | CPU:34.9% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:05:15 | INFO     | health_monitor | Running health check...
+2026-05-14 06:05:15 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:05:17 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:05:43 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 06:06:15 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 06:06:16 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 06:06:17 | INFO     | health_monitor | Running health check...
+2026-05-14 06:06:17 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:06:24 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:06:48 | INFO     | resource_monitor | Resources OK | CPU:5.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 06:07:19 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 06:07:25 | INFO     | health_monitor | Running health check...
+2026-05-14 06:07:25 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:07:27 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:07:50 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 06:08:21 | INFO     | resource_monitor | Resources OK | CPU:2.9% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 06:08:27 | INFO     | health_monitor | Running health check...
+2026-05-14 06:08:27 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:08:29 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:08:52 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 06:09:23 | INFO     | resource_monitor | Resources OK | CPU:5.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 06:09:29 | INFO     | health_monitor | Running health check...
+2026-05-14 06:09:29 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:09:31 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:09:54 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 06:10:26 | INFO     | resource_monitor | Resources OK | CPU:31.7% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 06:10:31 | INFO     | health_monitor | Running health check...
+2026-05-14 06:10:31 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:10:33 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:10:57 | INFO     | resource_monitor | Resources OK | CPU:13.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 06:11:28 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 06:11:33 | INFO     | health_monitor | Running health check...
+2026-05-14 06:11:33 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:11:36 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:11:59 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:12:30 | INFO     | resource_monitor | Resources OK | CPU:25.3% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:12:36 | INFO     | health_monitor | Running health check...
+2026-05-14 06:12:36 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:12:38 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:13:01 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:13:32 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:13:38 | INFO     | health_monitor | Running health check...
+2026-05-14 06:13:38 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:13:40 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:14:03 | INFO     | resource_monitor | Resources OK | CPU:24.8% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:14:35 | INFO     | resource_monitor | Resources OK | CPU:58.8% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:14:40 | INFO     | health_monitor | Running health check...
+2026-05-14 06:14:40 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:14:42 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:15:06 | ERROR    | resource_monitor | CPU CRITICAL: 98.1%
+2026-05-14 06:15:07 | INFO     | resource_monitor | Resources OK | CPU:98.1% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:15:38 | WARNING  | resource_monitor | CPU WARNING: 93.5%
+2026-05-14 06:15:38 | INFO     | resource_monitor | Resources OK | CPU:93.5% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 06:15:42 | INFO     | health_monitor | Running health check...
+2026-05-14 06:15:42 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:15:44 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:16:10 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 06:16:10 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 06:16:41 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 06:16:41 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 06:16:44 | INFO     | health_monitor | Running health check...
+2026-05-14 06:16:44 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:16:46 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:17:12 | INFO     | resource_monitor | Resources OK | CPU:24.0% RAM:74.2% Disk:24.2% Threads:1
+2026-05-14 06:17:43 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:17:46 | INFO     | health_monitor | Running health check...
+2026-05-14 06:17:46 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:17:48 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:18:15 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:18:46 | INFO     | resource_monitor | Resources OK | CPU:43.1% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:18:48 | INFO     | health_monitor | Running health check...
+2026-05-14 06:18:49 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:18:52 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:19:17 | INFO     | resource_monitor | Resources OK | CPU:6.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:19:49 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:19:52 | INFO     | health_monitor | Running health check...
+2026-05-14 06:19:52 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:19:56 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-14 06:19:58 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:20:20 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:20:51 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:20:58 | INFO     | health_monitor | Running health check...
+2026-05-14 06:20:58 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:21:01 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:21:22 | INFO     | resource_monitor | Resources OK | CPU:54.4% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:21:53 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:22:01 | INFO     | health_monitor | Running health check...
+2026-05-14 06:22:01 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:22:05 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-14 06:22:05 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:22:25 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:22:56 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:23:05 | INFO     | health_monitor | Running health check...
+2026-05-14 06:23:06 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:23:08 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-14 06:23:08 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:23:27 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:23:58 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:74.1% Disk:24.2% Threads:1
+2026-05-14 06:24:09 | INFO     | health_monitor | Running health check...
+2026-05-14 06:24:09 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:24:13 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-14 06:24:13 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:24:29 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 06:25:00 | INFO     | resource_monitor | Resources OK | CPU:5.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 06:25:13 | INFO     | health_monitor | Running health check...
+2026-05-14 06:25:13 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:25:15 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:25:31 | INFO     | resource_monitor | Resources OK | CPU:5.9% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 06:26:03 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 06:26:16 | INFO     | health_monitor | Running health check...
+2026-05-14 06:26:16 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:26:18 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:26:34 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 06:27:05 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 06:27:18 | INFO     | health_monitor | Running health check...
+2026-05-14 06:27:18 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:27:20 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:27:36 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 06:28:07 | INFO     | resource_monitor | Resources OK | CPU:24.8% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 06:28:20 | INFO     | health_monitor | Running health check...
+2026-05-14 06:28:20 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:28:22 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:28:38 | WARNING  | resource_monitor | CPU WARNING: 90.3%
+2026-05-14 06:28:38 | INFO     | resource_monitor | Resources OK | CPU:90.3% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 06:29:09 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 06:29:22 | INFO     | health_monitor | Running health check...
+2026-05-14 06:29:22 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:29:25 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:29:41 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 06:29:42 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 06:30:13 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 06:30:25 | INFO     | health_monitor | Running health check...
+2026-05-14 06:30:25 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:30:27 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:30:44 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 06:31:15 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 06:31:27 | INFO     | health_monitor | Running health check...
+2026-05-14 06:31:27 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:31:29 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:31:46 | INFO     | resource_monitor | Resources OK | CPU:18.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 06:32:17 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.4% Disk:24.2% Threads:1
+2026-05-14 06:32:29 | INFO     | health_monitor | Running health check...
+2026-05-14 06:32:29 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:32:31 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:32:48 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:73.3% Disk:24.2% Threads:1
+2026-05-14 06:33:19 | INFO     | resource_monitor | Resources OK | CPU:5.0% RAM:73.3% Disk:24.2% Threads:1
+2026-05-14 06:33:32 | INFO     | health_monitor | Running health check...
+2026-05-14 06:33:32 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:33:34 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:33:50 | INFO     | resource_monitor | Resources OK | CPU:26.0% RAM:73.3% Disk:24.2% Threads:1
+2026-05-14 06:34:21 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:73.3% Disk:24.2% Threads:1
+2026-05-14 06:34:34 | INFO     | health_monitor | Running health check...
+2026-05-14 06:34:34 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:34:36 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:34:53 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.3% Disk:24.2% Threads:1
+2026-05-14 06:35:24 | INFO     | resource_monitor | Resources OK | CPU:23.8% RAM:73.3% Disk:24.2% Threads:1
+2026-05-14 06:35:36 | INFO     | health_monitor | Running health check...
+2026-05-14 06:35:36 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:35:38 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:35:55 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.3% Disk:24.2% Threads:1
+2026-05-14 06:36:26 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 06:36:38 | INFO     | health_monitor | Running health check...
+2026-05-14 06:36:38 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:36:40 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:36:57 | INFO     | resource_monitor | Resources OK | CPU:5.0% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 06:37:28 | INFO     | resource_monitor | Resources OK | CPU:6.9% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 06:37:40 | INFO     | health_monitor | Running health check...
+2026-05-14 06:37:41 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:37:43 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:37:59 | INFO     | resource_monitor | Resources OK | CPU:5.1% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 06:38:30 | ERROR    | resource_monitor | CPU CRITICAL: 95.5%
+2026-05-14 06:38:32 | INFO     | resource_monitor | Resources OK | CPU:95.5% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 06:38:43 | INFO     | health_monitor | Running health check...
+2026-05-14 06:38:43 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:38:45 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:39:03 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 06:39:03 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 06:39:34 | INFO     | resource_monitor | Resources OK | CPU:52.5% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 06:39:45 | INFO     | health_monitor | Running health check...
+2026-05-14 06:39:45 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:39:47 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:40:05 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 06:40:37 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 06:40:37 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 06:40:47 | INFO     | health_monitor | Running health check...
+2026-05-14 06:40:47 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:40:49 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:41:08 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 06:41:39 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 06:41:49 | INFO     | health_monitor | Running health check...
+2026-05-14 06:41:50 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:41:51 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:42:10 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 06:42:10 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 06:42:42 | INFO     | resource_monitor | Resources OK | CPU:28.7% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 06:42:52 | INFO     | health_monitor | Running health check...
+2026-05-14 06:42:52 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:42:54 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:43:13 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 06:43:44 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 06:43:54 | INFO     | health_monitor | Running health check...
+2026-05-14 06:43:54 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:43:56 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:44:15 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.4% Disk:24.2% Threads:1
+2026-05-14 06:44:46 | INFO     | resource_monitor | Resources OK | CPU:5.9% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 06:44:56 | INFO     | health_monitor | Running health check...
+2026-05-14 06:44:56 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:44:58 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:45:08 | INFO     | log_rotator | Starting log rotation cycle...
+2026-05-14 06:45:08 | INFO     | log_rotator | Rotation cycle complete. Rotated: 0 files
+2026-05-14 06:45:17 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 06:45:48 | INFO     | resource_monitor | Resources OK | CPU:22.8% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 06:45:58 | INFO     | health_monitor | Running health check...
+2026-05-14 06:45:58 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:46:00 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:46:19 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 06:46:50 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 06:47:00 | INFO     | health_monitor | Running health check...
+2026-05-14 06:47:00 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:47:02 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:47:22 | INFO     | resource_monitor | Resources OK | CPU:19.8% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 06:47:53 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 06:48:02 | INFO     | health_monitor | Running health check...
+2026-05-14 06:48:02 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:48:05 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:48:24 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 06:48:55 | INFO     | resource_monitor | Resources OK | CPU:2.9% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 06:49:05 | INFO     | health_monitor | Running health check...
+2026-05-14 06:49:05 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:49:07 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:49:26 | WARNING  | resource_monitor | CPU WARNING: 88.9%
+2026-05-14 06:49:26 | INFO     | resource_monitor | Resources OK | CPU:88.9% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 06:49:57 | INFO     | resource_monitor | Resources OK | CPU:70.6% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 06:50:07 | INFO     | health_monitor | Running health check...
+2026-05-14 06:50:07 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:50:09 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:50:29 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 06:50:30 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 06:51:01 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 06:51:09 | INFO     | health_monitor | Running health check...
+2026-05-14 06:51:09 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:51:11 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:51:32 | WARNING  | resource_monitor | CPU WARNING: 91.3%
+2026-05-14 06:51:32 | INFO     | resource_monitor | Resources OK | CPU:91.3% RAM:72.3% Disk:24.2% Threads:1
+2026-05-14 06:52:03 | ERROR    | resource_monitor | CPU CRITICAL: 99.0%
+2026-05-14 06:52:04 | INFO     | resource_monitor | Resources OK | CPU:99.0% RAM:73.1% Disk:24.2% Threads:1
+2026-05-14 06:52:11 | INFO     | health_monitor | Running health check...
+2026-05-14 06:52:12 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:52:14 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-14 06:52:16 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:52:35 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 06:53:06 | INFO     | resource_monitor | Resources OK | CPU:43.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 06:53:16 | INFO     | health_monitor | Running health check...
+2026-05-14 06:53:16 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:53:18 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:53:37 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 06:54:08 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 06:54:18 | INFO     | health_monitor | Running health check...
+2026-05-14 06:54:18 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:54:20 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:54:39 | INFO     | resource_monitor | Resources OK | CPU:19.4% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 06:55:11 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 06:55:20 | INFO     | health_monitor | Running health check...
+2026-05-14 06:55:20 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:55:22 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:55:42 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 06:56:13 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 06:56:22 | INFO     | health_monitor | Running health check...
+2026-05-14 06:56:22 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:56:24 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:56:44 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 06:57:15 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 06:57:24 | INFO     | health_monitor | Running health check...
+2026-05-14 06:57:24 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:57:26 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:57:46 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 06:58:17 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 06:58:26 | INFO     | health_monitor | Running health check...
+2026-05-14 06:58:26 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:58:29 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:58:48 | INFO     | resource_monitor | Resources OK | CPU:5.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 06:59:19 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 06:59:29 | INFO     | health_monitor | Running health check...
+2026-05-14 06:59:29 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 06:59:31 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 06:59:50 | INFO     | resource_monitor | Resources OK | CPU:3.9% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 07:00:22 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 07:00:31 | INFO     | health_monitor | Running health check...
+2026-05-14 07:00:31 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:00:33 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:00:53 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 07:01:24 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 07:01:33 | INFO     | health_monitor | Running health check...
+2026-05-14 07:01:33 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:01:35 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:01:55 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 07:02:26 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 07:02:35 | INFO     | health_monitor | Running health check...
+2026-05-14 07:02:35 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:02:37 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:02:57 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 07:03:28 | INFO     | resource_monitor | Resources OK | CPU:42.6% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 07:03:37 | INFO     | health_monitor | Running health check...
+2026-05-14 07:03:37 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:03:40 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:03:59 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 07:04:30 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 07:04:40 | INFO     | health_monitor | Running health check...
+2026-05-14 07:04:40 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:04:42 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:05:02 | INFO     | resource_monitor | Resources OK | CPU:24.2% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 07:05:33 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 07:05:42 | INFO     | health_monitor | Running health check...
+2026-05-14 07:05:42 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:05:44 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:06:04 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 07:06:35 | INFO     | resource_monitor | Resources OK | CPU:22.7% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 07:06:44 | INFO     | health_monitor | Running health check...
+2026-05-14 07:06:44 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:06:46 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:07:06 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:73.0% Disk:24.2% Threads:1
+2026-05-14 07:07:37 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:07:46 | INFO     | health_monitor | Running health check...
+2026-05-14 07:07:47 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:07:48 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:08:08 | INFO     | resource_monitor | Resources OK | CPU:22.0% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:08:39 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:08:49 | INFO     | health_monitor | Running health check...
+2026-05-14 07:08:49 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:08:51 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:09:10 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:09:41 | INFO     | resource_monitor | Resources OK | CPU:22.8% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:09:51 | INFO     | health_monitor | Running health check...
+2026-05-14 07:09:51 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:09:53 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:10:13 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:10:44 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:10:53 | INFO     | health_monitor | Running health check...
+2026-05-14 07:10:53 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:10:55 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:11:15 | INFO     | resource_monitor | Resources OK | CPU:24.5% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:11:46 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:11:55 | INFO     | health_monitor | Running health check...
+2026-05-14 07:11:55 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:11:57 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:12:17 | INFO     | resource_monitor | Resources OK | CPU:51.5% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:12:49 | INFO     | resource_monitor | Resources OK | CPU:21.3% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:12:57 | INFO     | health_monitor | Running health check...
+2026-05-14 07:12:57 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:13:01 | ERROR    | health_monitor | CPU critical: 96.1%
+2026-05-14 07:13:02 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:13:20 | INFO     | resource_monitor | Resources OK | CPU:7.0% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:13:51 | INFO     | resource_monitor | Resources OK | CPU:26.4% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:14:02 | INFO     | health_monitor | Running health check...
+2026-05-14 07:14:02 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:14:06 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-14 07:14:06 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:14:22 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:14:53 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:15:06 | INFO     | health_monitor | Running health check...
+2026-05-14 07:15:06 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:15:09 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:15:24 | INFO     | resource_monitor | Resources OK | CPU:22.2% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:15:56 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 07:15:57 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:16:09 | INFO     | health_monitor | Running health check...
+2026-05-14 07:16:09 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:16:11 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:16:28 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:16:59 | INFO     | resource_monitor | Resources OK | CPU:70.1% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:17:11 | INFO     | health_monitor | Running health check...
+2026-05-14 07:17:11 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:17:13 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:17:30 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:18:01 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.9% Disk:24.2% Threads:1
+2026-05-14 07:18:13 | INFO     | health_monitor | Running health check...
+2026-05-14 07:18:14 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:18:16 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:18:33 | INFO     | resource_monitor | Resources OK | CPU:27.4% RAM:73.8% Disk:24.2% Threads:1
+2026-05-14 07:19:04 | INFO     | resource_monitor | Resources OK | CPU:16.0% RAM:73.9% Disk:24.2% Threads:1
+2026-05-14 07:19:16 | INFO     | health_monitor | Running health check...
+2026-05-14 07:19:16 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:19:19 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:19:35 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:20:06 | INFO     | resource_monitor | Resources OK | CPU:51.9% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:20:19 | INFO     | health_monitor | Running health check...
+2026-05-14 07:20:19 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:20:21 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:20:37 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:21:08 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:21:21 | INFO     | health_monitor | Running health check...
+2026-05-14 07:21:21 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:21:23 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:21:39 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:22:10 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:22:23 | INFO     | health_monitor | Running health check...
+2026-05-14 07:22:23 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:22:25 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:22:42 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:23:13 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:23:25 | INFO     | health_monitor | Running health check...
+2026-05-14 07:23:26 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:23:28 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:23:44 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:24:15 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:24:28 | INFO     | health_monitor | Running health check...
+2026-05-14 07:24:28 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:24:31 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:24:46 | INFO     | resource_monitor | Resources OK | CPU:30.4% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:25:17 | INFO     | resource_monitor | Resources OK | CPU:23.2% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:25:31 | INFO     | health_monitor | Running health check...
+2026-05-14 07:25:31 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:25:33 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:25:48 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:26:19 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:26:33 | INFO     | health_monitor | Running health check...
+2026-05-14 07:26:33 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:26:35 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:26:50 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:27:21 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:27:35 | INFO     | health_monitor | Running health check...
+2026-05-14 07:27:35 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:27:37 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:27:53 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:28:24 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:28:37 | INFO     | health_monitor | Running health check...
+2026-05-14 07:28:37 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:28:40 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:28:55 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:29:26 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 07:29:27 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:29:40 | INFO     | health_monitor | Running health check...
+2026-05-14 07:29:40 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:29:43 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:29:58 | INFO     | resource_monitor | Resources OK | CPU:67.3% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:30:30 | INFO     | resource_monitor | Resources OK | CPU:50.5% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:30:43 | INFO     | health_monitor | Running health check...
+2026-05-14 07:30:43 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:30:44 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:31:01 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 07:31:01 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:31:32 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:31:45 | INFO     | health_monitor | Running health check...
+2026-05-14 07:31:45 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:31:47 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:32:03 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:32:35 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:32:47 | INFO     | health_monitor | Running health check...
+2026-05-14 07:32:47 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:32:49 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:33:06 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:33:37 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:33:49 | INFO     | health_monitor | Running health check...
+2026-05-14 07:33:49 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:33:51 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:34:08 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:34:39 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:34:51 | INFO     | health_monitor | Running health check...
+2026-05-14 07:34:51 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:34:55 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-14 07:34:56 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:35:10 | INFO     | resource_monitor | Resources OK | CPU:9.2% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:35:41 | INFO     | resource_monitor | Resources OK | CPU:20.2% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:35:56 | INFO     | health_monitor | Running health check...
+2026-05-14 07:35:56 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:35:58 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:36:13 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.1% Disk:24.2% Threads:1
+2026-05-14 07:36:44 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.0% Disk:24.2% Threads:1
+2026-05-14 07:36:58 | INFO     | health_monitor | Running health check...
+2026-05-14 07:36:58 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:37:00 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:37:15 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:72.0% Disk:24.2% Threads:1
+2026-05-14 07:37:46 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.0% Disk:24.2% Threads:1
+2026-05-14 07:38:00 | INFO     | health_monitor | Running health check...
+2026-05-14 07:38:00 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:38:02 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:38:17 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.0% Disk:24.2% Threads:1
+2026-05-14 07:38:48 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.0% Disk:24.2% Threads:1
+2026-05-14 07:39:02 | INFO     | health_monitor | Running health check...
+2026-05-14 07:39:02 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:39:04 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:39:19 | INFO     | resource_monitor | Resources OK | CPU:4.0% RAM:72.0% Disk:24.2% Threads:1
+2026-05-14 07:39:51 | INFO     | resource_monitor | Resources OK | CPU:21.4% RAM:71.8% Disk:24.2% Threads:1
+2026-05-14 07:40:04 | INFO     | health_monitor | Running health check...
+2026-05-14 07:40:04 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:40:07 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:40:22 | INFO     | resource_monitor | Resources OK | CPU:40.4% RAM:71.8% Disk:24.2% Threads:1
+2026-05-14 07:40:53 | WARNING  | resource_monitor | CPU WARNING: 88.9%
+2026-05-14 07:40:53 | INFO     | resource_monitor | Resources OK | CPU:88.9% RAM:71.8% Disk:24.2% Threads:1
+2026-05-14 07:41:07 | INFO     | health_monitor | Running health check...
+2026-05-14 07:41:07 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:41:09 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:41:24 | INFO     | resource_monitor | Resources OK | CPU:23.0% RAM:71.8% Disk:24.2% Threads:1
+2026-05-14 07:41:55 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:71.8% Disk:24.2% Threads:1
+2026-05-14 07:42:09 | INFO     | health_monitor | Running health check...
+2026-05-14 07:42:09 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:42:11 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:42:26 | INFO     | resource_monitor | Resources OK | CPU:7.0% RAM:71.8% Disk:24.2% Threads:1
+2026-05-14 07:42:58 | WARNING  | resource_monitor | CPU WARNING: 94.9%
+2026-05-14 07:42:58 | INFO     | resource_monitor | Resources OK | CPU:94.9% RAM:71.8% Disk:24.2% Threads:1
+2026-05-14 07:43:11 | INFO     | health_monitor | Running health check...
+2026-05-14 07:43:11 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:43:13 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:43:29 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:71.8% Disk:24.2% Threads:1
+2026-05-14 07:44:00 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 07:44:01 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:73.5% Disk:24.2% Threads:1
+2026-05-14 07:44:13 | INFO     | health_monitor | Running health check...
+2026-05-14 07:44:13 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:44:15 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:44:33 | INFO     | resource_monitor | Resources OK | CPU:60.6% RAM:73.8% Disk:24.2% Threads:1
+2026-05-14 07:45:04 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.8% Disk:24.2% Threads:1
+2026-05-14 07:45:08 | INFO     | log_rotator | Starting log rotation cycle...
+2026-05-14 07:45:08 | INFO     | log_rotator | Rotation cycle complete. Rotated: 0 files
+2026-05-14 07:45:15 | INFO     | health_monitor | Running health check...
+2026-05-14 07:45:16 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:45:19 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:45:35 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:72.8% Disk:24.2% Threads:1
+2026-05-14 07:46:06 | INFO     | resource_monitor | Resources OK | CPU:29.1% RAM:72.8% Disk:24.2% Threads:1
+2026-05-14 07:46:19 | INFO     | health_monitor | Running health check...
+2026-05-14 07:46:19 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:46:21 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:46:37 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.8% Disk:24.2% Threads:1
+2026-05-14 07:47:08 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:72.8% Disk:24.2% Threads:1
+2026-05-14 07:47:21 | INFO     | health_monitor | Running health check...
+2026-05-14 07:47:21 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:47:23 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:47:40 | WARNING  | resource_monitor | CPU WARNING: 90.8%
+2026-05-14 07:47:40 | INFO     | resource_monitor | Resources OK | CPU:90.8% RAM:72.8% Disk:24.2% Threads:1
+2026-05-14 07:48:11 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 07:48:11 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:48:23 | INFO     | health_monitor | Running health check...
+2026-05-14 07:48:23 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:48:26 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:48:43 | INFO     | resource_monitor | Resources OK | CPU:23.2% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:49:14 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:49:26 | INFO     | health_monitor | Running health check...
+2026-05-14 07:49:26 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:49:28 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:49:45 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:50:16 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:50:28 | INFO     | health_monitor | Running health check...
+2026-05-14 07:50:28 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:50:31 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:50:47 | ERROR    | resource_monitor | CPU CRITICAL: 97.1%
+2026-05-14 07:50:48 | INFO     | resource_monitor | Resources OK | CPU:97.1% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:51:19 | WARNING  | resource_monitor | CPU WARNING: 80.8%
+2026-05-14 07:51:19 | INFO     | resource_monitor | Resources OK | CPU:80.8% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:51:31 | INFO     | health_monitor | Running health check...
+2026-05-14 07:51:31 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:51:33 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:51:51 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:52:22 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:52:33 | INFO     | health_monitor | Running health check...
+2026-05-14 07:52:33 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:52:35 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:52:53 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:53:24 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:53:35 | INFO     | health_monitor | Running health check...
+2026-05-14 07:53:35 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:53:37 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:53:55 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 07:53:55 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:54:27 | INFO     | resource_monitor | Resources OK | CPU:13.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:54:37 | INFO     | health_monitor | Running health check...
+2026-05-14 07:54:37 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:54:39 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:54:58 | INFO     | resource_monitor | Resources OK | CPU:53.5% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:55:29 | WARNING  | resource_monitor | CPU WARNING: 87.5%
+2026-05-14 07:55:29 | INFO     | resource_monitor | Resources OK | CPU:87.5% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:55:39 | INFO     | health_monitor | Running health check...
+2026-05-14 07:55:39 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:55:41 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:56:00 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 07:56:01 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:56:32 | INFO     | resource_monitor | Resources OK | CPU:38.8% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:56:41 | INFO     | health_monitor | Running health check...
+2026-05-14 07:56:42 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:56:43 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:57:03 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:57:34 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:57:44 | INFO     | health_monitor | Running health check...
+2026-05-14 07:57:44 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:57:45 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:58:05 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:58:36 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:58:45 | INFO     | health_monitor | Running health check...
+2026-05-14 07:58:46 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:58:47 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 07:59:07 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:59:39 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 07:59:47 | INFO     | health_monitor | Running health check...
+2026-05-14 07:59:48 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 07:59:49 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:00:10 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 08:00:41 | INFO     | resource_monitor | Resources OK | CPU:21.2% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 08:00:49 | INFO     | health_monitor | Running health check...
+2026-05-14 08:00:50 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:00:52 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:01:12 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 08:01:43 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.7% Disk:24.2% Threads:1
+2026-05-14 08:01:52 | INFO     | health_monitor | Running health check...
+2026-05-14 08:01:52 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:01:54 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:02:14 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:02:45 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:02:54 | INFO     | health_monitor | Running health check...
+2026-05-14 08:02:54 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:02:56 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:03:17 | INFO     | resource_monitor | Resources OK | CPU:28.6% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:03:48 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:03:56 | INFO     | health_monitor | Running health check...
+2026-05-14 08:03:56 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:03:58 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:04:19 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:04:50 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:04:58 | INFO     | health_monitor | Running health check...
+2026-05-14 08:04:58 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:05:00 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:05:21 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:05:52 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:06:00 | INFO     | health_monitor | Running health check...
+2026-05-14 08:06:00 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:06:03 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:06:23 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:06:55 | INFO     | resource_monitor | Resources OK | CPU:11.9% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:07:03 | INFO     | health_monitor | Running health check...
+2026-05-14 08:07:03 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:07:05 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:07:26 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:07:57 | INFO     | resource_monitor | Resources OK | CPU:22.2% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:08:05 | INFO     | health_monitor | Running health check...
+2026-05-14 08:08:05 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:08:07 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:08:28 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:08:59 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:09:07 | INFO     | health_monitor | Running health check...
+2026-05-14 08:09:08 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:09:11 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:09:30 | INFO     | resource_monitor | Resources OK | CPU:22.2% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:10:01 | INFO     | resource_monitor | Resources OK | CPU:8.6% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:10:11 | INFO     | health_monitor | Running health check...
+2026-05-14 08:10:11 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:10:13 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:10:32 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:11:03 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:11:13 | INFO     | health_monitor | Running health check...
+2026-05-14 08:11:13 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:11:15 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:11:34 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:12:06 | INFO     | resource_monitor | Resources OK | CPU:21.2% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:12:15 | INFO     | health_monitor | Running health check...
+2026-05-14 08:12:15 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:12:17 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:12:37 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:13:08 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:13:18 | INFO     | health_monitor | Running health check...
+2026-05-14 08:13:18 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:13:20 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:13:39 | INFO     | resource_monitor | Resources OK | CPU:9.5% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:14:10 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:14:20 | INFO     | health_monitor | Running health check...
+2026-05-14 08:14:20 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:14:22 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:14:41 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:15:13 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:15:22 | INFO     | health_monitor | Running health check...
+2026-05-14 08:15:22 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:15:24 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:15:44 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:16:15 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 08:16:16 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:16:24 | INFO     | health_monitor | Running health check...
+2026-05-14 08:16:24 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:16:26 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:16:48 | WARNING  | resource_monitor | CPU WARNING: 94.9%
+2026-05-14 08:16:48 | INFO     | resource_monitor | Resources OK | CPU:94.9% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:17:19 | INFO     | resource_monitor | Resources OK | CPU:56.1% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:17:26 | INFO     | health_monitor | Running health check...
+2026-05-14 08:17:26 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:17:28 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:17:51 | INFO     | resource_monitor | Resources OK | CPU:70.7% RAM:72.6% Disk:24.2% Threads:1
+2026-05-14 08:18:22 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 08:18:22 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 08:18:28 | INFO     | health_monitor | Running health check...
+2026-05-14 08:18:28 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:18:30 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:18:53 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 08:19:24 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 08:19:30 | INFO     | health_monitor | Running health check...
+2026-05-14 08:19:30 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:19:32 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:19:55 | INFO     | resource_monitor | Resources OK | CPU:15.2% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 08:20:26 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 08:20:32 | INFO     | health_monitor | Running health check...
+2026-05-14 08:20:32 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:20:34 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:20:57 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 08:21:29 | INFO     | resource_monitor | Resources OK | CPU:21.8% RAM:74.0% Disk:24.2% Threads:1
+2026-05-14 08:21:34 | INFO     | health_monitor | Running health check...
+2026-05-14 08:21:34 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:21:37 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:22:00 | INFO     | resource_monitor | Resources OK | CPU:32.0% RAM:77.0% Disk:24.2% Threads:1
+2026-05-14 08:22:31 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:77.3% Disk:24.2% Threads:1
+2026-05-14 08:22:37 | INFO     | health_monitor | Running health check...
+2026-05-14 08:22:37 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:22:39 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:23:02 | INFO     | resource_monitor | Resources OK | CPU:5.0% RAM:77.3% Disk:24.2% Threads:1
+2026-05-14 08:23:33 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:77.3% Disk:24.2% Threads:1
+2026-05-14 08:23:39 | INFO     | health_monitor | Running health check...
+2026-05-14 08:23:39 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:23:41 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:24:04 | INFO     | resource_monitor | Resources OK | CPU:12.2% RAM:77.3% Disk:24.2% Threads:1
+2026-05-14 08:24:36 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:77.3% Disk:24.2% Threads:1
+2026-05-14 08:24:41 | INFO     | health_monitor | Running health check...
+2026-05-14 08:24:41 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:24:43 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:25:07 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:77.2% Disk:24.2% Threads:1
+2026-05-14 08:25:38 | INFO     | resource_monitor | Resources OK | CPU:22.2% RAM:77.2% Disk:24.2% Threads:1
+2026-05-14 08:25:43 | INFO     | health_monitor | Running health check...
+2026-05-14 08:25:43 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:25:45 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:26:09 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 08:26:10 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:77.2% Disk:24.2% Threads:1
+2026-05-14 08:26:41 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:77.2% Disk:24.2% Threads:1
+2026-05-14 08:26:45 | INFO     | health_monitor | Running health check...
+2026-05-14 08:26:45 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:26:48 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:27:12 | INFO     | resource_monitor | Resources OK | CPU:11.3% RAM:77.2% Disk:24.2% Threads:1
+2026-05-14 08:27:43 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:77.2% Disk:24.2% Threads:1
+2026-05-14 08:27:48 | INFO     | health_monitor | Running health check...
+2026-05-14 08:27:48 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:27:50 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:28:14 | INFO     | resource_monitor | Resources OK | CPU:8.0% RAM:77.2% Disk:24.2% Threads:1
+2026-05-14 08:28:46 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:77.2% Disk:24.2% Threads:1
+2026-05-14 08:28:50 | INFO     | health_monitor | Running health check...
+2026-05-14 08:28:50 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:28:52 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:29:17 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:77.2% Disk:24.2% Threads:1
+2026-05-14 08:29:48 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:77.2% Disk:24.2% Threads:1
+2026-05-14 08:29:52 | INFO     | health_monitor | Running health check...
+2026-05-14 08:29:52 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:29:54 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:30:19 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 08:30:19 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:76.6% Disk:24.2% Threads:1
+2026-05-14 08:30:50 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-14 08:30:50 | INFO     | resource_monitor | Resources OK | CPU:100.0% RAM:76.6% Disk:24.2% Threads:1
+2026-05-14 08:30:54 | INFO     | health_monitor | Running health check...
+2026-05-14 08:30:54 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:30:56 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:31:22 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:76.7% Disk:24.2% Threads:1
+2026-05-14 08:31:53 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:76.7% Disk:24.2% Threads:1
+2026-05-14 08:31:56 | INFO     | health_monitor | Running health check...
+2026-05-14 08:31:56 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:31:59 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:32:24 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:76.7% Disk:24.2% Threads:1
+2026-05-14 08:32:55 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:76.7% Disk:24.2% Threads:1
+2026-05-14 08:32:59 | INFO     | health_monitor | Running health check...
+2026-05-14 08:32:59 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:33:00 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:33:26 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:76.7% Disk:24.2% Threads:1
+2026-05-14 08:33:57 | INFO     | resource_monitor | Resources OK | CPU:19.4% RAM:76.7% Disk:24.2% Threads:1
+2026-05-14 08:34:00 | INFO     | health_monitor | Running health check...
+2026-05-14 08:34:00 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:34:02 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:34:28 | INFO     | resource_monitor | Resources OK | CPU:24.5% RAM:76.7% Disk:24.2% Threads:1
+2026-05-14 08:34:59 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:76.7% Disk:24.2% Threads:1
+2026-05-14 08:35:03 | INFO     | health_monitor | Running health check...
+2026-05-14 08:35:03 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:35:04 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:35:31 | INFO     | resource_monitor | Resources OK | CPU:2.0% RAM:76.7% Disk:24.2% Threads:1
+2026-05-14 08:36:02 | INFO     | resource_monitor | Resources OK | CPU:19.0% RAM:76.8% Disk:24.2% Threads:1
+2026-05-14 08:36:05 | INFO     | health_monitor | Running health check...
+2026-05-14 08:36:05 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:36:06 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:36:33 | INFO     | resource_monitor | Resources OK | CPU:0.0% RAM:76.8% Disk:24.2% Threads:1
+2026-05-14 08:37:04 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:76.8% Disk:24.2% Threads:1
+2026-05-14 08:37:06 | INFO     | health_monitor | Running health check...
+2026-05-14 08:37:07 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:37:10 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:37:35 | INFO     | resource_monitor | Resources OK | CPU:40.6% RAM:76.9% Disk:24.2% Threads:1
+2026-05-14 08:38:06 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:76.9% Disk:24.2% Threads:1
+2026-05-14 08:38:10 | INFO     | health_monitor | Running health check...
+2026-05-14 08:38:10 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:38:12 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:38:38 | INFO     | resource_monitor | Resources OK | CPU:32.3% RAM:76.9% Disk:24.2% Threads:1
+2026-05-14 08:39:09 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:76.9% Disk:24.2% Threads:1
+2026-05-14 08:39:12 | INFO     | health_monitor | Running health check...
+2026-05-14 08:39:12 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:39:14 | ERROR    | health_monitor | FAILED processes: ['ai_layer']
+2026-05-14 08:39:40 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:76.9% Disk:24.2% Threads:1
+2026-05-14 08:40:11 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:76.9% Disk:24.2% Threads:1
+2026-05-14 08:40:14 | INFO     | health_monitor | Running health check...
+2026-05-14 08:40:14 | ERROR    | health_monitor | Process DOWN: ai_layer (run_ai_layer)
+2026-05-14 08:40:16 | ERROR    | health_monitor | FAILED processes: ['ai_layer']

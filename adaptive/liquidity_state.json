@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-05-14T08:38:46.055950",
+  "liquidity_state": "THIN",
+  "liquidity_score": 25.0,
+  "relative_volume_spy": 0.63,
+  "etf_participation": 11.1,
+  "opening_participation": 10.36,
+  "closing_participation": 17.36,
+  "volume_trend": "STABLE",
+  "dollar_volume_spy": 32.76,
+  "per_etf_rvol": {
+    "SPY": 0.63,
+    "QQQ": 0.78,
+    "IWM": 0.58,
+    "DIA": 0.59
+  },
+  "institutional_signal": false,
+  "panic_signal": false,
+  "setup_implications": {
+    "ORB_BREAKOUT": "REDUCED",
+    "TIGHT_CONSOLIDATION_BREAK": "REDUCED",
+    "MOMENTUM_BURST_UP": "REDUCED",
+    "VOLUME_SPIKE": "AVOID"
+  },
+  "data_quality": "good"
+}

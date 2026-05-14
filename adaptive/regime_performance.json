@@ -1,9 +1,74 @@
 {
   "UNKNOWN": {
-    "total": 45,
+    "total": 62,
     "wins": 0,
-    "losses": 45,
+    "losses": 62,
     "total_pnl": 0.0,
-    "last_updated": "2026-05-14T01:46:35.370545"
+    "last_updated": "2026-05-14T08:17:08.506049"
+  },
+  "RISK_ON": {
+    "total": 6890,
+    "wins": 2762,
+    "losses": 4128,
+    "total_pnl": 175.8018,
+    "win_rate": 40.1,
+    "aggressiveness": 0.98,
+    "sizing_modifier": 1.0,
+    "confidence_floor": 0.65,
+    "last_updated": "2026-05-14T08:39:36.256402",
+    "source": "regime_sync",
+    "is_current": false
+  },
+  "PANIC": {
+    "total": 1156,
+    "wins": 544,
+    "losses": 612,
+    "total_pnl": 167.8585,
+    "win_rate": 47.1,
+    "aggressiveness": 0.9,
+    "sizing_modifier": 1.0,
+    "confidence_floor": 0.75,
+    "last_updated": "2026-05-14T08:39:36.256373",
+    "source": "regime_sync",
+    "is_current": false
+  },
+  "STRONG_RISK_ON": {
+    "total": 12887,
+    "wins": 5097,
+    "losses": 7790,
+    "total_pnl": 347.404,
+    "win_rate": 39.6,
+    "aggressiveness": 1.01,
+    "sizing_modifier": 1.0,
+    "confidence_floor": 0.65,
+    "last_updated": "2026-05-14T08:39:36.262395",
+    "source": "regime_sync",
+    "is_current": true
+  },
+  "NEUTRAL": {
+    "total": 1785,
+    "wins": 579,
+    "losses": 1206,
+    "total_pnl": -42.5477,
+    "win_rate": 32.4,
+    "aggressiveness": 0.92,
+    "sizing_modifier": 1.0,
+    "confidence_floor": 0.7,
+    "last_updated": "2026-05-14T08:39:36.256383",
+    "source": "regime_sync",
+    "is_current": false
+  },
+  "RISK_OFF": {
+    "total": 1273,
+    "wins": 568,
+    "losses": 705,
+    "total_pnl": 108.8144,
+    "win_rate": 44.6,
+    "aggressiveness": 0.9,
+    "sizing_modifier": 1.0,
+    "confidence_floor": 0.75,
+    "last_updated": "2026-05-14T08:39:36.256355",
+    "source": "regime_sync",
+    "is_current": false
   }
 }

@@ -295,3 +295,356 @@ nohup: ignoring input
 [DB] 2026-05-13 23:47:38,164 INFO: Market snapshot inserted
 [DB] 2026-05-14 00:47:39,122 INFO: Market snapshot inserted
 [DB] 2026-05-14 01:47:40,037 INFO: Market snapshot inserted
+[DB] 2026-05-14 02:47:41,082 INFO: Market snapshot inserted
+[DB] 2026-05-14 03:47:42,158 INFO: Market snapshot inserted
+[DB] 2026-05-14 04:48:06,869 INFO: Market snapshot inserted
+
+=======================================================
+  CAPITAL ALLOCATION: 80% Cash | 20% Defensive Watchlist
+=======================================================
+
+
+=======================================================
+  🧠 MASTER AI ORCHESTRATOR
+=======================================================
+  2026-05-13 20:47 ET
+=======================================================
+[Orchestrator] Reading market state...
+
+  Regime:  RISK_ON (score:75)
+  VIX:     17.9
+  SPY:     Above VWAP | Mom:+0.52%
+  Lockdown:True
+
+  Mode:    DEFENSIVE
+  Capital: 80% Cash | 20% Defensive Watchlist
+
+  ⚠️ Warnings:
+    🔴 Event Lockdown active — no new trades
+    ⚠️ Market EUPHORIC — risk of reversal
+
+  🛡️ DEFENSIVE — No new trades
+
+=======================================================
+  CAPITAL ALLOCATION: 80% Cash | 20% Defensive Watchlist
+=======================================================
+
+
+=======================================================
+  🧠 MASTER AI ORCHESTRATOR
+=======================================================
+  2026-05-13 21:47 ET
+=======================================================
+[Orchestrator] Reading market state...
+
+  Regime:  RISK_ON (score:75)
+  VIX:     17.9
+  SPY:     Above VWAP | Mom:+0.52%
+  Lockdown:True
+
+  Mode:    DEFENSIVE
+  Capital: 80% Cash | 20% Defensive Watchlist
+
+  ⚠️ Warnings:
+    🔴 Event Lockdown active — no new trades
+    ⚠️ Market EUPHORIC — risk of reversal
+
+  🛡️ DEFENSIVE — No new trades
+
+=======================================================
+  CAPITAL ALLOCATION: 80% Cash | 20% Defensive Watchlist
+=======================================================
+
+
+=======================================================
+  🧠 MASTER AI ORCHESTRATOR
+=======================================================
+  2026-05-13 22:47 ET
+=======================================================
+[Orchestrator] Reading market state...
+
+  Regime:  RISK_ON (score:75)
+  VIX:     17.9
+  SPY:     Above VWAP | Mom:+0.52%
+  Lockdown:True
+
+  Mode:    DEFENSIVE
+  Capital: 80% Cash | 20% Defensive Watchlist
+
+  ⚠️ Warnings:
+    🔴 Event Lockdown active — no new trades
+    ⚠️ Market EUPHORIC — risk of reversal
+
+  🛡️ DEFENSIVE — No new trades
+
+=======================================================
+  CAPITAL ALLOCATION: 80% Cash | 20% Defensive Watchlist
+=======================================================
+
+
+=======================================================
+  🧠 MASTER AI ORCHESTRATOR
+=======================================================
+  2026-05-13 23:47 ET
+=======================================================
+[Orchestrator] Reading market state...
+
+  Regime:  RISK_ON (score:75)
+  VIX:     17.9
+  SPY:     Above VWAP | Mom:+0.52%
+  Lockdown:True
+
+  Mode:    DEFENSIVE
+  Capital: 80% Cash | 20% Defensive Watchlist
+
+  ⚠️ Warnings:
+    🔴 Event Lockdown active — no new trades
+    ⚠️ Market EUPHORIC — risk of reversal
+
+  🛡️ DEFENSIVE — No new trades
+
+=======================================================
+  CAPITAL ALLOCATION: 80% Cash | 20% Defensive Watchlist
+=======================================================
+
+
+=======================================================
+  🧠 MASTER AI ORCHESTRATOR
+=======================================================
+  2026-05-14 00:47 ET
+=======================================================
+[Orchestrator] Reading market state...
+
+  Regime:  RISK_ON (score:75)
+  VIX:     17.9
+  SPY:     Above VWAP | Mom:+0.52%
+  Lockdown:False
+
+  Mode:    SWING_FOCUS
+  Capital: 80% Swing | 20% Intraday
+
+  ⚠️ Warnings:
+    ⚠️ Market EUPHORIC — risk of reversal
+
+  📈 Running Swing Engine...
+  🔍 Running Intraday Engine (partial)...
+
+===========================================================================
+  🏦 Institutional Intraday Scanner | 2026-05-14 04:47
+===========================================================================
+[Regime] RISK_ON | SPY VWAP: ✅ | Mom: +0.52% | VIX: 17.9
+
+  Scanning 10 symbols...
+
+  👀 NVDA   |  58.3 | WATCH  | Gap:+1.9% RV:0.9x Mom:+0.4% VWAP:❌ ➡️In VOL:🔥 MTF:✅ ATR:8.11 SL:213.7 T1:242.09
+  ❌ AMD    |  44.0 | IGNORE | Gap:+2.1% RV:0.6x Mom:-2.7% VWAP:❌ ➡️In VOL:🔥 MTF:✅ ATR:29.48 SL:401.16 T1:504.34
+  💪 TSLA   |  83.6 | STRONG | Gap:+0.7% RV:0.9x Mom:+1.9% VWAP:❌ 🚀ORB VOL:🔥 MTF:✅ ATR:17.05 SL:419.61 T1:479.28
+  🔥 AAPL   | 100.0 | HOT    | Gap:-0.4% RV:0.8x Mom:+1.8% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:6.52 SL:289.1 T1:311.92
+  💪 META   |  77.0 | STRONG | Gap:-0.7% RV:0.8x Mom:+3.0% VWAP:✅ 🚀ORB VOL:🔥 MTF:❌ ATR:18.55 SL:588.77 T1:653.69
+  👀 MSFT   |  67.1 | WATCH  | Gap:-1.2% RV:0.6x Mom:+0.5% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:10.66 SL:389.13 T1:426.44
+  👀 AVGO   |  67.1 | WATCH  | Gap:-0.9% RV:0.6x Mom:+0.3% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:15.61 SL:393.48 T1:448.12
+  ❌ SMCI   |   5.5 | IGNORE | Gap:+0.3% RV:0.6x Mom:-2.8% VWAP:❌ 🔻Brk VOL:🔥 MTF:✅ ATR:2.29 SL:28.55 T1:36.57
+  🔥 GOOGL  | 100.0 | HOT    | Gap:-0.5% RV:0.8x Mom:+4.5% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:11.45 SL:385.47 T1:425.54
+  🔥 AMZN   |  92.4 | HOT    | Gap:-0.5% RV:0.7x Mom:+2.1% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:7.38 SL:259.01 T1:284.84
+
+  ✅ HOT: 3 | STRONG: 2 | WATCH: 3
+
+====================================================================================================
+SYM      SCR RATING   GAP%   RV  MOM% VWAP  ORB  VOL  MTF    ATR      SL      T1    SZ
+====================================================================================================
+AAPL   100.0 HOT      -0.4  0.8x  +1.8    ✅    🚀    🔥    ✅   6.52  289.10  311.92    51
+GOOGL  100.0 HOT      -0.5  0.8x  +4.5    ✅    🚀    🔥    ✅  11.45  385.47  425.54    29
+AMZN    92.4 HOT      -0.5  0.7x  +2.1    ✅    🚀    🔥    ✅   7.38  259.01  284.84    45
+TSLA    83.6 STRONG   +0.8  0.9x  +1.9    ❌    🚀    🔥    ✅  17.05  419.61  479.28    19
+META    77.0 STRONG   -0.7  0.8x  +3.0    ✅    🚀    🔥    ❌  18.55  588.77  653.69    17
+MSFT    67.1 WATCH    -1.2  0.6x  +0.5    ✅    🚀    🔥    ✅  10.66  389.13  426.44    31
+AVGO    67.1 WATCH    -0.9  0.6x  +0.3    ✅    🚀    🔥    ✅  15.61  393.48  448.12    21
+NVDA    58.3 WATCH    +1.9  0.9x  +0.4    ❌    ❌    🔥    ✅   8.11  213.70  242.09    41
+AMD     44.0 IGNORE   +2.1  0.6x  -2.7    ❌    ❌    🔥    ✅  29.48  401.16  504.34    11
+SMCI     5.5 IGNORE   +0.3  0.6x  -2.8    ❌    ❌    🔥    ✅   2.29   28.55   36.57   145
+====================================================================================================
+
+=======================================================
+  CAPITAL ALLOCATION: 80% Swing | 20% Intraday
+
+  🔥 Top Intraday (5):
+    AAPL   | Score:100.0 | HOT
+    GOOGL  | Score:100.0 | HOT
+    AMZN   | Score: 92.4 | HOT
+    TSLA   | Score: 83.6 | STRONG
+    META   | Score: 77.0 | STRONG
+=======================================================
+
+
+=======================================================
+  🧠 MASTER AI ORCHESTRATOR
+=======================================================
+  2026-05-14 01:48 ET
+=======================================================
+[Orchestrator] Reading market state...
+
+  Regime:  RISK_ON (score:75)
+  VIX:     17.9
+  SPY:     Above VWAP | Mom:+0.52%
+  Lockdown:False
+
+  Mode:    SWING_FOCUS
+  Capital: 80% Swing | 20% Intraday
+
+  ⚠️ Warnings:
+    ⚠️ Market EUPHORIC — risk of reversal
+
+  📈 Running Swing Engine...
+  🔍 Running Intraday Engine (partial)...
+
+===========================================================================
+  🏦 Institutional Intraday Scanner | 2026-05-14 05:48
+===========================================================================
+[Regime] RISK_ON | SPY VWAP: ✅ | Mom: +0.52% | VIX: 17.9
+
+  Scanning 10 symbols...
+
+  👀 NVDA   |  58.3 | WATCH  | Gap:+1.9% RV:0.9x Mom:+0.4% VWAP:❌ ➡️In VOL:🔥 MTF:✅ ATR:8.11 SL:213.7 T1:242.09
+  ❌ AMD    |  44.0 | IGNORE | Gap:+2.1% RV:0.6x Mom:-2.7% VWAP:❌ ➡️In VOL:🔥 MTF:✅ ATR:29.48 SL:401.16 T1:504.34
+[DB] 2026-05-14 05:48:31,754 INFO: Market snapshot inserted
+[DB] 2026-05-14 06:48:49,971 INFO: Market snapshot inserted
+  💪 TSLA   |  83.6 | STRONG | Gap:+0.7% RV:0.9x Mom:+1.9% VWAP:❌ 🚀ORB VOL:🔥 MTF:✅ ATR:17.05 SL:419.61 T1:479.28
+  🔥 AAPL   | 100.0 | HOT    | Gap:-0.4% RV:0.8x Mom:+1.8% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:6.52 SL:289.1 T1:311.92
+  💪 META   |  77.0 | STRONG | Gap:-0.7% RV:0.8x Mom:+3.0% VWAP:✅ 🚀ORB VOL:🔥 MTF:❌ ATR:18.55 SL:588.77 T1:653.69
+  👀 MSFT   |  67.1 | WATCH  | Gap:-1.2% RV:0.6x Mom:+0.5% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:10.66 SL:389.13 T1:426.44
+  👀 AVGO   |  67.1 | WATCH  | Gap:-0.9% RV:0.6x Mom:+0.3% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:15.61 SL:393.48 T1:448.12
+  ❌ SMCI   |   5.5 | IGNORE | Gap:+0.3% RV:0.6x Mom:-2.8% VWAP:❌ 🔻Brk VOL:🔥 MTF:✅ ATR:2.29 SL:28.55 T1:36.57
+  🔥 GOOGL  | 100.0 | HOT    | Gap:-0.5% RV:0.8x Mom:+4.5% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:11.45 SL:385.47 T1:425.54
+  🔥 AMZN   |  92.4 | HOT    | Gap:-0.5% RV:0.7x Mom:+2.1% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:7.38 SL:259.01 T1:284.84
+
+  ✅ HOT: 3 | STRONG: 2 | WATCH: 3
+
+====================================================================================================
+SYM      SCR RATING   GAP%   RV  MOM% VWAP  ORB  VOL  MTF    ATR      SL      T1    SZ
+====================================================================================================
+AAPL   100.0 HOT      -0.4  0.8x  +1.8    ✅    🚀    🔥    ✅   6.52  289.10  311.92    51
+GOOGL  100.0 HOT      -0.5  0.8x  +4.5    ✅    🚀    🔥    ✅  11.45  385.47  425.54    29
+AMZN    92.4 HOT      -0.5  0.7x  +2.1    ✅    🚀    🔥    ✅   7.38  259.01  284.84    45
+TSLA    83.6 STRONG   +0.8  0.9x  +1.9    ❌    🚀    🔥    ✅  17.05  419.61  479.28    19
+META    77.0 STRONG   -0.7  0.8x  +3.0    ✅    🚀    🔥    ❌  18.55  588.77  653.69    17
+MSFT    67.1 WATCH    -1.2  0.6x  +0.5    ✅    🚀    🔥    ✅  10.66  389.13  426.44    31
+AVGO    67.1 WATCH    -0.9  0.6x  +0.3    ✅    🚀    🔥    ✅  15.61  393.48  448.12    21
+NVDA    58.3 WATCH    +1.9  0.9x  +0.4    ❌    ❌    🔥    ✅   8.11  213.70  242.09    41
+AMD     44.0 IGNORE   +2.1  0.6x  -2.7    ❌    ❌    🔥    ✅  29.48  401.16  504.34    11
+SMCI     5.5 IGNORE   +0.3  0.6x  -2.8    ❌    ❌    🔥    ✅   2.29   28.55   36.57   145
+====================================================================================================
+
+=======================================================
+  CAPITAL ALLOCATION: 80% Swing | 20% Intraday
+
+  🔥 Top Intraday (5):
+    AAPL   | Score:100.0 | HOT
+    GOOGL  | Score:100.0 | HOT
+    AMZN   | Score: 92.4 | HOT
+    TSLA   | Score: 83.6 | STRONG
+    META   | Score: 77.0 | STRONG
+=======================================================
+
+
+=======================================================
+  🧠 MASTER AI ORCHESTRATOR
+=======================================================
+  2026-05-14 02:48 ET
+=======================================================
+[Orchestrator] Reading market state...
+
+  Regime:  RISK_ON (score:75)
+  VIX:     17.9
+  SPY:     Above VWAP | Mom:+0.52%
+  Lockdown:False
+
+  Mode:    SWING_FOCUS
+  Capital: 80% Swing | 20% Intraday
+
+  ⚠️ Warnings:
+    ⚠️ Market EUPHORIC — risk of reversal
+
+  📈 Running Swing Engine...
+  🔍 Running Intraday Engine (partial)...
+
+===========================================================================
+  🏦 Institutional Intraday Scanner | 2026-05-14 06:48
+===========================================================================
+[Regime] RISK_ON | SPY VWAP: ✅ | Mom: +0.52% | VIX: 17.9
+
+  Scanning 10 symbols...
+
+  👀 NVDA   |  58.3 | WATCH  | Gap:+1.9% RV:0.9x Mom:+0.4% VWAP:❌ ➡️In VOL:🔥 MTF:✅ ATR:8.11 SL:213.7 T1:242.09
+  ❌ AMD    |  44.0 | IGNORE | Gap:+2.1% RV:0.6x Mom:-2.7% VWAP:❌ ➡️In VOL:🔥 MTF:✅ ATR:29.48 SL:401.16 T1:504.34
+  💪 TSLA   |  83.6 | STRONG | Gap:+0.7% RV:0.9x Mom:+1.9% VWAP:❌ 🚀ORB VOL:🔥 MTF:✅ ATR:17.05 SL:419.61 T1:479.28
+  🔥 AAPL   | 100.0 | HOT    | Gap:-0.4% RV:0.8x Mom:+1.8% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:6.52 SL:289.1 T1:311.92
+  💪 META   |  77.0 | STRONG | Gap:-0.7% RV:0.8x Mom:+3.0% VWAP:✅ 🚀ORB VOL:🔥 MTF:❌ ATR:18.55 SL:588.77 T1:653.69
+  👀 MSFT   |  67.1 | WATCH  | Gap:-1.2% RV:0.6x Mom:+0.5% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:10.66 SL:389.13 T1:426.44
+  👀 AVGO   |  67.1 | WATCH  | Gap:-0.9% RV:0.6x Mom:+0.3% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:15.61 SL:393.48 T1:448.12
+  ❌ SMCI   |   5.5 | IGNORE | Gap:+0.3% RV:0.6x Mom:-2.8% VWAP:❌ 🔻Brk VOL:🔥 MTF:✅ ATR:2.29 SL:28.55 T1:36.57
+  🔥 GOOGL  | 100.0 | HOT    | Gap:-0.5% RV:0.8x Mom:+4.5% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:11.45 SL:385.47 T1:425.54
+  🔥 AMZN   |  92.4 | HOT    | Gap:-0.5% RV:0.7x Mom:+2.1% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:7.38 SL:259.01 T1:284.84
+
+  ✅ HOT: 3 | STRONG: 2 | WATCH: 3
+
+====================================================================================================
+SYM      SCR RATING   GAP%   RV  MOM% VWAP  ORB  VOL  MTF    ATR      SL      T1    SZ
+====================================================================================================
+AAPL   100.0 HOT      -0.4  0.8x  +1.8    ✅    🚀    🔥    ✅   6.52  289.10  311.92    51
+GOOGL  100.0 HOT      -0.5  0.8x  +4.5    ✅    🚀    🔥    ✅  11.45  385.47  425.54    29
+AMZN    92.4 HOT      -0.5  0.7x  +2.1    ✅    🚀    🔥    ✅   7.38  259.01  284.84    45
+TSLA    83.6 STRONG   +0.8  0.9x  +1.9    ❌    🚀    🔥    ✅  17.05  419.61  479.28    19
+META    77.0 STRONG   -0.7  0.8x  +3.0    ✅    🚀    🔥    ❌  18.55  588.77  653.69    17
+MSFT    67.1 WATCH    -1.2  0.6x  +0.5    ✅    🚀    🔥    ✅  10.66  389.13  426.44    31
+AVGO    67.1 WATCH    -0.9  0.6x  +0.3    ✅    🚀    🔥    ✅  15.61  393.48  448.12    21
+NVDA    58.3 WATCH    +1.9  0.9x  +0.4    ❌    ❌    🔥    ✅   8.11  213.70  242.09    41
+AMD     44.0 IGNORE   +2.1  0.6x  -2.7    ❌    ❌    🔥    ✅  29.48  401.16  504.34    11
+SMCI     5.5 IGNORE   +0.3  0.6x  -2.8    ❌    ❌    🔥    ✅   2.29   28.55   36.57   145
+====================================================================================================
+
+=======================================================
+  CAPITAL ALLOCATION: 80% Swing | 20% Intraday
+
+  🔥 Top Intraday (5):
+    AAPL   | Score:100.0 | HOT
+    GOOGL  | Score:100.0 | HOT
+    AMZN   | Score: 92.4 | HOT
+    TSLA   | Score: 83.6 | STRONG
+    META   | Score: 77.0 | STRONG
+=======================================================
+
+
+=======================================================
+  🧠 MASTER AI ORCHESTRATOR
+=======================================================
+  2026-05-14 03:48 ET
+=======================================================
+[Orchestrator] Reading market state...
+
+  Regime:  RISK_ON (score:95)
+  VIX:     17.8
+  SPY:     Above VWAP | Mom:+0.52%
+  Lockdown:False
+
+  Mode:    SWING_FOCUS
+  Capital: 80% Swing | 20% Intraday
+
+  ⚠️ Warnings:
+    ⚠️ Market EUPHORIC — risk of reversal
+
+  📈 Running Swing Engine...
+  🔍 Running Intraday Engine (partial)...
+
+===========================================================================
+  🏦 Institutional Intraday Scanner | 2026-05-14 07:48
+===========================================================================
+[Regime] RISK_ON | SPY VWAP: ✅ | Mom: +0.52% | VIX: 17.8
+
+  Scanning 10 symbols...
+
+  👀 NVDA   |  58.3 | WATCH  | Gap:+1.9% RV:0.9x Mom:+0.4% VWAP:❌ ➡️In VOL:🔥 MTF:✅ ATR:8.11 SL:213.7 T1:242.09
+  ❌ AMD    |  44.0 | IGNORE | Gap:+2.1% RV:0.6x Mom:-2.7% VWAP:❌ ➡️In VOL:🔥 MTF:✅ ATR:29.48 SL:401.16 T1:504.34
+  💪 TSLA   |  83.6 | STRONG | Gap:+0.7% RV:0.9x Mom:+1.9% VWAP:❌ 🚀ORB VOL:🔥 MTF:✅ ATR:17.05 SL:419.61 T1:479.28
+  🔥 AAPL   | 100.0 | HOT    | Gap:-0.4% RV:0.8x Mom:+1.8% VWAP:✅ 🚀ORB VOL:🔥 MTF:✅ ATR:6.52 SL:289.1 T1:311.92
+  💪 META   |  77.0 | STRONG | Gap:-0.7% RV:0.8x Mom:+3.0% VWAP:✅ 🚀ORB VOL:🔥 MTF:❌ ATR:18.55 SL:588.77 T1:653.69
+[DB] 2026-05-14 07:49:08,898 INFO: Market snapshot inserted

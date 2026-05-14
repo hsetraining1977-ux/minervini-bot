@@ -307,5 +307,478 @@
       ]
     },
     "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T04:23:03.787897",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 4 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T04:24:09.703796",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 4 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T04:34:38.135193",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 4 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T04:39:02.873239",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 2 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VWAP_CROSS_UP: 0.830 \u2192 0.810 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.830 \u2192 0.810 (Weak performance WR=38.9% Exp=+0.43%)"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T04:45:14.538879",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 4 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T04:46:46.567337",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 2 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VWAP_CROSS_UP: 0.820 \u2192 0.800 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.820 \u2192 0.800 (Weak performance WR=38.9% Exp=+0.43%)"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T04:55:50.680479",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 4 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T04:58:23.418724",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 4 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T05:06:30.059186",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 4 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T05:16:45.670245",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 4 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VWAP_CROSS_UP: 0.830 \u2192 0.810 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.830 \u2192 0.810 (Weak performance WR=38.9% Exp=+0.43%)",
+        "Regime STRONG_RISK_ON: 1.000 \u2192 0.990",
+        "Regime NEUTRAL: 1.000 \u2192 0.990"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T05:16:49.672501",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 4 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VWAP_CROSS_UP: 0.810 \u2192 0.800 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.810 \u2192 0.800 (Weak performance WR=38.9% Exp=+0.43%)",
+        "Regime STRONG_RISK_ON: 0.990 \u2192 0.980",
+        "Regime NEUTRAL: 0.990 \u2192 0.980"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T05:17:19.161661",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 4 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T05:28:12.215723",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 4 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T05:38:50.008599",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 4 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T05:46:52.727322",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 4 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VWAP_CROSS_UP: 0.830 \u2192 0.810 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.830 \u2192 0.810 (Weak performance WR=38.9% Exp=+0.43%)",
+        "Regime STRONG_RISK_ON: 0.980 \u2192 0.970",
+        "Regime NEUTRAL: 0.980 \u2192 0.970"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T05:49:51.915866",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T06:00:24.762877",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T06:10:55.291274",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T06:16:55.598054",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 4 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VWAP_CROSS_UP: 0.840 \u2192 0.820 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.840 \u2192 0.820 (Weak performance WR=38.9% Exp=+0.43%)",
+        "Regime STRONG_RISK_ON: 0.970 \u2192 0.960",
+        "Regime NEUTRAL: 0.970 \u2192 0.960"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T06:21:34.157029",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T06:32:08.424720",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T06:42:44.314862",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T06:46:58.254871",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 4 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VWAP_CROSS_UP: 0.850 \u2192 0.830 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.850 \u2192 0.830 (Weak performance WR=38.9% Exp=+0.43%)",
+        "Regime STRONG_RISK_ON: 0.960 \u2192 0.950",
+        "Regime NEUTRAL: 0.960 \u2192 0.950"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T06:53:13.288521",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T07:03:42.876357",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T07:14:19.352598",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T07:17:01.065133",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 4 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VWAP_CROSS_UP: 0.860 \u2192 0.840 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.860 \u2192 0.840 (Weak performance WR=38.9% Exp=+0.43%)",
+        "Regime STRONG_RISK_ON: 0.950 \u2192 0.940",
+        "Regime NEUTRAL: 0.950 \u2192 0.940"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T07:19:21.664269",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T07:24:54.117389",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T07:35:35.559953",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T07:44:37.112495",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T07:44:53.272242",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 4 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VWAP_CROSS_UP: 0.880 \u2192 0.860 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.880 \u2192 0.860 (Weak performance WR=38.9% Exp=+0.43%)",
+        "Regime STRONG_RISK_ON: 0.940 \u2192 0.930",
+        "Regime NEUTRAL: 0.940 \u2192 0.930"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T07:46:14.867502",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T07:47:05.878575",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 4 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VWAP_CROSS_UP: 0.870 \u2192 0.850 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.870 \u2192 0.850 (Weak performance WR=38.9% Exp=+0.43%)",
+        "Regime STRONG_RISK_ON: 0.930 \u2192 0.920",
+        "Regime NEUTRAL: 0.930 \u2192 0.920"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T07:56:45.502201",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T08:07:15.195120",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T08:17:08.572526",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 4 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VWAP_CROSS_UP: 0.870 \u2192 0.850 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.870 \u2192 0.850 (Weak performance WR=38.9% Exp=+0.43%)",
+        "Regime STRONG_RISK_ON: 0.920 \u2192 0.910",
+        "Regime NEUTRAL: 0.920 \u2192 0.910"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T08:17:48.966065",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T08:28:22.269950",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-14T08:38:51.137193",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime STRONG_RISK_ON (48%) \u2192 adjusted 2 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
   }
 ]
