@@ -1,245 +1,288 @@
 #!/usr/bin/env python3
 """
-breadth_engine.py — Market Breadth Engine
-INSTITUTIONAL MARKET INTELLIGENCE LAYER
-Measures: A/D ratio, new highs/lows, % above MAs, breadth score.
+╔══════════════════════════════════════════════════════════════════╗
+║   MINERVINI AI — BREADTH ENGINE                                  ║
+║   Measures internal market strength & participation              ║
+║   ANALYTICS ONLY — NO LIVE TRADING MODIFICATION                  ║
+╚══════════════════════════════════════════════════════════════════╝
 """
 
-import os, json, time
-from datetime import datetime
+import json
+import os
+import time
+import logging
+from datetime import datetime, timedelta
 from typing import Optional
 
-try:
-    from logger import get_logger
-    log = get_logger("breadth_engine")
-except ImportError:
-    import logging
-    log = logging.getLogger("breadth_engine")
-    logging.basicConfig(level=logging.INFO)
+import numpy as np
 
-from dotenv import load_dotenv
-load_dotenv("/root/.env")
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [Breadth] %(message)s")
+log = logging.getLogger("breadth_engine")
 
-BREADTH_FILE = "/root/logs/breadth_data.json"
-os.makedirs("/root/logs", exist_ok=True)
+# ── Config ────────────────────────────────────────────────────────
+OUTPUT_PATH = "/root/adaptive/breadth_metrics.json"
+CACHE_TTL   = 600   # 10 minutes
 
-# ── Universe for breadth sampling ────────────────────────────
-SPY_COMPONENTS = [
-    "AAPL","MSFT","NVDA","AMZN","META","GOOGL","GOOG","BRK-B","LLY","AVGO",
-    "JPM","TSLA","UNH","V","XOM","MA","JNJ","PG","HD","COST",
-    "MRK","ABBV","CVX","CRM","BAC","NFLX","AMD","PEP","KO","TMO",
-    "WMT","ACN","MCD","LIN","CSCO","ABT","TXN","ADBE","PM","GE",
-    "DHR","ISRG","CAT","INTU","QCOM","RTX","GS","VZ","SPGI","MS"
-]
+ETFS = ["SPY", "QQQ", "IWM", "DIA",
+        "XLK", "XLF", "XLE", "XLV",
+        "XLI", "XLY", "XLP", "XLU"]
 
-QQQ_COMPONENTS = [
-    "AAPL","MSFT","NVDA","AMZN","META","GOOGL","GOOG","AVGO","TSLA","COST",
-    "NFLX","AMD","ADBE","QCOM","TXN","INTU","ISRG","CSCO","AMAT","MU",
-    "LRCX","KLAC","SNPS","CDNS","MRVL","PANW","CRWD","FTNT","DDOG","ZS"
-]
+os.makedirs("/root/adaptive", exist_ok=True)
 
 
-def get_price_data(symbol: str) -> Optional[dict]:
-    """Fetch price data using yfinance."""
+# ── Data Fetch ────────────────────────────────────────────────────
+def _fetch(tickers: list, period: str = "5d", interval: str = "1d") -> dict:
+    """Fetch OHLCV data via yfinance with error handling."""
     try:
         import yfinance as yf
-        ticker = yf.Ticker(symbol)
-        hist   = ticker.history(period="1y")
-        if hist.empty:
-            return None
-        current = float(hist["Close"].iloc[-1])
-        ma50    = float(hist["Close"].tail(50).mean())
-        ma200   = float(hist["Close"].tail(200).mean()) if len(hist) >= 200 else ma50
-        prev    = float(hist["Close"].iloc[-2]) if len(hist) >= 2 else current
-        high52  = float(hist["Close"].max())
-        low52   = float(hist["Close"].min())
-        return {
-            "symbol":  symbol,
-            "price":   round(current, 2),
-            "prev":    round(prev, 2),
-            "ma50":    round(ma50, 2),
-            "ma200":   round(ma200, 2),
-            "high52":  round(high52, 2),
-            "low52":   round(low52, 2),
-            "change":  round((current - prev) / prev * 100, 2),
-        }
+        data = yf.download(tickers, period=period, interval=interval,
+                           progress=False, threads=True)
+        return data
     except Exception as e:
-        log.error(f"Price fetch failed for {symbol}: {e}")
+        log.warning(f"yfinance fetch error: {e}")
+        return {}
+
+
+def _fetch_intraday(ticker: str, period: str = "1d", interval: str = "5m") -> Optional[object]:
+    try:
+        import yfinance as yf
+        t = yf.Ticker(ticker)
+        return t.history(period=period, interval=interval)
+    except Exception:
         return None
 
 
-def calculate_breadth(universe: list, label: str = "SPY") -> dict:
-    """Calculate breadth metrics for a universe of stocks."""
-    log.info(f"Calculating breadth for {label} ({len(universe)} stocks)...")
-
-    advances = declines = unchanged = 0
-    above_50  = above_200 = 0
-    new_highs = new_lows  = 0
-    total     = 0
-
-    for sym in universe[:30]:  # Limit for speed
-        data = get_price_data(sym)
-        if not data:
-            continue
-        total += 1
-
-        # Advance/Decline
-        if data["change"] > 0.1:    advances  += 1
-        elif data["change"] < -0.1: declines  += 1
-        else:                        unchanged += 1
-
-        # Above MAs
-        if data["price"] > data["ma50"]:   above_50  += 1
-        if data["price"] > data["ma200"]:  above_200 += 1
-
-        # New highs/lows (within 2% of 52w)
-        if data["price"] >= data["high52"] * 0.98: new_highs += 1
-        if data["price"] <= data["low52"]  * 1.02: new_lows  += 1
-
-        time.sleep(0.1)  # Rate limit
-
-    if total == 0:
-        return {}
-
-    pct_above_50  = round(above_50  / total * 100, 1)
-    pct_above_200 = round(above_200 / total * 100, 1)
-    ad_ratio      = round(advances  / total * 100, 1)
-
-    # Breadth Score /100
-    score = (
-        pct_above_50  * 0.30 +
-        pct_above_200 * 0.30 +
-        ad_ratio      * 0.25 +
-        min(100, new_highs / total * 200) * 0.15
-    )
-
-    # Breadth quality
-    if score >= 70:   quality = "STRONG"
-    elif score >= 50: quality = "NEUTRAL"
-    elif score >= 30: quality = "WEAK"
-    else:             quality = "BEARISH"
-
-    return {
-        "label":        label,
-        "total":        total,
-        "advances":     advances,
-        "declines":     declines,
-        "unchanged":    unchanged,
-        "ad_ratio":     ad_ratio,
-        "above_50ma":   pct_above_50,
-        "above_200ma":  pct_above_200,
-        "new_highs":    new_highs,
-        "new_lows":     new_lows,
-        "breadth_score":round(score, 1),
-        "quality":      quality,
-    }
+# ── VWAP Calculation ──────────────────────────────────────────────
+def _compute_vwap(df) -> Optional[float]:
+    try:
+        if df is None or df.empty:
+            return None
+        typical = (df["High"] + df["Low"] + df["Close"]) / 3
+        vwap = (typical * df["Volume"]).cumsum() / df["Volume"].cumsum()
+        return float(vwap.iloc[-1])
+    except Exception:
+        return None
 
 
-def run_breadth_analysis() -> dict:
-    """Full breadth analysis for SPY and QQQ."""
-    log.info("Starting full breadth analysis...")
-    start = time.time()
+def _price_vs_vwap(ticker: str) -> Optional[str]:
+    """Return 'above' or 'below' VWAP for given ticker."""
+    try:
+        df = _fetch_intraday(ticker)
+        if df is None or df.empty:
+            return None
+        vwap  = _compute_vwap(df)
+        price = float(df["Close"].iloc[-1])
+        return "above" if price > vwap else "below"
+    except Exception:
+        return None
 
-    spy_breadth = calculate_breadth(SPY_COMPONENTS, "SPY")
-    qqq_breadth = calculate_breadth(QQQ_COMPONENTS[:20], "QQQ")
 
-    # Combined score
-    combined = 0
-    count    = 0
-    if spy_breadth:
-        combined += spy_breadth.get("breadth_score", 0)
-        count    += 1
-    if qqq_breadth:
-        combined += qqq_breadth.get("breadth_score", 0)
-        count    += 1
+# ── Moving Average Analysis ───────────────────────────────────────
+def _ma_position(prices: list, ma_period: int) -> Optional[str]:
+    """Return 'above' or 'below' given MA."""
+    try:
+        if len(prices) < ma_period:
+            return None
+        ma = np.mean(prices[-ma_period:])
+        return "above" if prices[-1] > ma else "below"
+    except Exception:
+        return None
 
-    overall_score   = round(combined / count, 1) if count > 0 else 0
-    overall_quality = (
-        "STRONG"  if overall_score >= 70 else
-        "NEUTRAL" if overall_score >= 50 else
-        "WEAK"    if overall_score >= 30 else
-        "BEARISH"
-    )
+
+# ── Breadth Metrics ───────────────────────────────────────────────
+def compute_breadth() -> dict:
+    log.info("Computing market breadth...")
 
     result = {
-        "timestamp":       datetime.now().isoformat(),
-        "duration_sec":    round(time.time() - start, 1),
-        "spy":             spy_breadth,
-        "qqq":             qqq_breadth,
-        "overall_score":   overall_score,
-        "overall_quality": overall_quality,
-        "market_health":   _interpret_breadth(spy_breadth, qqq_breadth),
+        "timestamp":          datetime.now().isoformat(),
+        "breadth_score":      50.0,
+        "participation_score":50.0,
+        "trend_quality_score":50.0,
+        "advance_decline":    {},
+        "vwap_analysis":      {},
+        "ma_analysis":        {},
+        "breadth_momentum":   "NEUTRAL",
+        "market_participation":"MODERATE",
+        "data_quality":       "partial",
     }
 
+    # ── VWAP Analysis ─────────────────────────────────────────────
+    vwap_results = {}
+    above_vwap   = 0
+    total_vwap   = 0
+
+    for etf in ETFS:
+        pos = _price_vs_vwap(etf)
+        if pos:
+            vwap_results[etf] = pos
+            total_vwap += 1
+            if pos == "above":
+                above_vwap += 1
+        time.sleep(0.1)   # rate limit
+
+    result["vwap_analysis"] = vwap_results
+    pct_above_vwap = (above_vwap / max(total_vwap, 1)) * 100
+
+    # ── MA Analysis ───────────────────────────────────────────────
+    ma_results = {}
+    above_20ma  = 0
+    above_50ma  = 0
+    above_200ma = 0
+    total_ma    = 0
+
+    try:
+        import yfinance as yf
+        for etf in ETFS:
+            try:
+                df = yf.Ticker(etf).history(period="1y", interval="1d")
+                if df.empty:
+                    continue
+                closes = df["Close"].tolist()
+                pos20  = _ma_position(closes, 20)
+                pos50  = _ma_position(closes, 50)
+                pos200 = _ma_position(closes, 200)
+                ma_results[etf] = {
+                    "above_20ma":  pos20 == "above",
+                    "above_50ma":  pos50 == "above",
+                    "above_200ma": pos200 == "above",
+                }
+                total_ma += 1
+                if pos20  == "above": above_20ma  += 1
+                if pos50  == "above": above_50ma  += 1
+                if pos200 == "above": above_200ma += 1
+                time.sleep(0.15)
+            except Exception:
+                continue
+    except ImportError:
+        pass
+
+    result["ma_analysis"] = ma_results
+    pct_above_20  = (above_20ma  / max(total_ma, 1)) * 100
+    pct_above_50  = (above_50ma  / max(total_ma, 1)) * 100
+    pct_above_200 = (above_200ma / max(total_ma, 1)) * 100
+
+    # ── Advance/Decline Proxy ─────────────────────────────────────
+    try:
+        import yfinance as yf
+        advances = 0
+        declines = 0
+        for etf in ETFS:
+            try:
+                df = yf.Ticker(etf).history(period="2d", interval="1d")
+                if len(df) >= 2:
+                    chg = df["Close"].iloc[-1] - df["Close"].iloc[-2]
+                    if chg > 0: advances += 1
+                    else:       declines += 1
+                time.sleep(0.1)
+            except Exception:
+                continue
+        result["advance_decline"] = {
+            "advances": advances,
+            "declines": declines,
+            "ratio":    round(advances / max(declines, 1), 2),
+        }
+    except ImportError:
+        result["advance_decline"] = {"advances": 0, "declines": 0, "ratio": 1.0}
+
+    # ── Score Calculation ─────────────────────────────────────────
+    ad_ratio   = result["advance_decline"].get("ratio", 1.0)
+    ad_score   = min(100, ad_ratio * 50)
+
+    breadth_score = (
+        pct_above_vwap * 0.30 +
+        pct_above_20   * 0.25 +
+        pct_above_50   * 0.25 +
+        ad_score       * 0.20
+    )
+
+    participation_score = (
+        pct_above_vwap * 0.50 +
+        pct_above_20   * 0.30 +
+        ad_score       * 0.20
+    )
+
+    trend_quality_score = (
+        pct_above_200  * 0.40 +
+        pct_above_50   * 0.35 +
+        pct_above_20   * 0.25
+    )
+
+    result["breadth_score"]       = round(breadth_score, 1)
+    result["participation_score"] = round(participation_score, 1)
+    result["trend_quality_score"] = round(trend_quality_score, 1)
+
+    result["pct_above_vwap"]  = round(pct_above_vwap, 1)
+    result["pct_above_20ma"]  = round(pct_above_20, 1)
+    result["pct_above_50ma"]  = round(pct_above_50, 1)
+    result["pct_above_200ma"] = round(pct_above_200, 1)
+
+    # ── Breadth Momentum Classification ──────────────────────────
+    if breadth_score >= 75:
+        result["breadth_momentum"] = "STRONG_EXPANSION"
+    elif breadth_score >= 60:
+        result["breadth_momentum"] = "EXPANDING"
+    elif breadth_score >= 40:
+        result["breadth_momentum"] = "NEUTRAL"
+    elif breadth_score >= 25:
+        result["breadth_momentum"] = "CONTRACTING"
+    else:
+        result["breadth_momentum"] = "WEAK"
+
+    # ── Participation Classification ──────────────────────────────
+    if participation_score >= 70:
+        result["market_participation"] = "BROAD"
+    elif participation_score >= 50:
+        result["market_participation"] = "MODERATE"
+    elif participation_score >= 30:
+        result["market_participation"] = "NARROW"
+    else:
+        result["market_participation"] = "VERY_NARROW"
+
+    result["data_quality"] = "good" if total_vwap >= 8 else "partial"
+
+    log.info(f"Breadth: {result['breadth_score']:.1f} | "
+             f"Participation: {result['participation_score']:.1f} | "
+             f"Trend: {result['trend_quality_score']:.1f} | "
+             f"Momentum: {result['breadth_momentum']}")
+
     _save(result)
-    log.info(f"Breadth analysis complete: {overall_quality} ({overall_score}/100)")
     return result
 
 
-def _interpret_breadth(spy: dict, qqq: dict) -> str:
-    """Generate market health interpretation."""
-    spy_score = spy.get("breadth_score", 50)
-    qqq_score = qqq.get("breadth_score", 50)
-    avg       = (spy_score + qqq_score) / 2
-
-    if avg >= 75:
-        return "Market breadth is STRONG — broad participation, healthy rally"
-    if avg >= 60:
-        return "Market breadth is GOOD — majority of stocks participating"
-    if avg >= 45:
-        return "Market breadth is MIXED — selective leadership, proceed cautiously"
-    if avg >= 30:
-        return "Market breadth is WEAK — narrow leadership, risk increasing"
-    return "Market breadth is BEARISH — distribution phase, defensive posture advised"
+# ── Cache-Aware Runner ────────────────────────────────────────────
+def get_breadth(force: bool = False) -> dict:
+    if not force and os.path.exists(OUTPUT_PATH):
+        try:
+            with open(OUTPUT_PATH) as f:
+                cached = json.load(f)
+            ts  = datetime.fromisoformat(cached.get("timestamp", "2000-01-01"))
+            age = (datetime.now() - ts).total_seconds()
+            if age < CACHE_TTL:
+                return cached
+        except Exception:
+            pass
+    return compute_breadth()
 
 
 def _save(data: dict):
     try:
-        with open(BREADTH_FILE, "w") as f:
+        with open(OUTPUT_PATH, "w") as f:
             json.dump(data, f, indent=2, default=str)
+        log.info(f"Saved → {OUTPUT_PATH}")
     except Exception as e:
-        log.error(f"Save failed: {e}")
+        log.error(f"Save error: {e}")
 
 
-def load_breadth() -> dict:
-    try:
-        if os.path.exists(BREADTH_FILE):
-            with open(BREADTH_FILE) as f:
-                return json.load(f)
-    except Exception:
-        pass
-    return {}
-
-
-def format_telegram_breadth(data: dict) -> str:
-    spy = data.get("spy", {})
-    qqq = data.get("qqq", {})
-    return f"""
-📊 <b>MARKET BREADTH REPORT</b>
-{datetime.now().strftime('%Y-%m-%d %H:%M ET')}
-{'━'*28}
-
-🏆 Overall: <b>{data.get('overall_quality','?')}</b> ({data.get('overall_score',0)}/100)
-
-<b>SPY Breadth:</b>
-├ A/D Ratio:    {spy.get('ad_ratio',0):.0f}% advancing
-├ Above 50MA:   {spy.get('above_50ma',0):.0f}%
-├ Above 200MA:  {spy.get('above_200ma',0):.0f}%
-├ New Highs:    {spy.get('new_highs',0)}
-└ Score:        {spy.get('breadth_score',0)}/100
-
-<b>QQQ Breadth:</b>
-├ A/D Ratio:    {qqq.get('ad_ratio',0):.0f}% advancing
-├ Above 50MA:   {qqq.get('above_50ma',0):.0f}%
-└ Score:        {qqq.get('breadth_score',0)}/100
-
-💡 {data.get('market_health','')}
-{'━'*28}
-⚠️ <i>Intelligence Only</i>""".strip()
-
-
+# ── Standalone ────────────────────────────────────────────────────
 if __name__ == "__main__":
-    result = run_breadth_analysis()
-    print(f"\n✅ Breadth Score: {result['overall_score']}/100 — {result['overall_quality']}")
-    print(f"SPY: {result['spy'].get('breadth_score','N/A')} | QQQ: {result['qqq'].get('breadth_score','N/A')}")
-    print(f"Health: {result['market_health']}")
+    print("── Breadth Engine ──────────────────────────────────")
+    metrics = compute_breadth()
+    print(f"  Breadth Score:       {metrics['breadth_score']}")
+    print(f"  Participation Score: {metrics['participation_score']}")
+    print(f"  Trend Quality:       {metrics['trend_quality_score']}")
+    print(f"  Momentum:            {metrics['breadth_momentum']}")
+    print(f"  Participation:       {metrics['market_participation']}")
+    print(f"  Above VWAP:          {metrics.get('pct_above_vwap', 0)}%")
+    print(f"  Above 20MA:          {metrics.get('pct_above_20ma', 0)}%")
+    print(f"  Above 200MA:         {metrics.get('pct_above_200ma', 0)}%")
+    print("  ✔ Done")
