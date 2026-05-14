@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "type": "REDUCE_SETUP",
+    "setup": "VOLUME_SPIKE",
+    "level": 1,
+    "confidence": 0.64,
+    "trades": 1872
+  },
+  {
+    "type": "REDUCE_SETUP",
+    "setup": "RELATIVE_STRENGTH_LEADER",
+    "level": 1,
+    "confidence": 0.69,
+    "trades": 45
+  },
+  {
+    "type": "REDUCE_SETUP",
+    "setup": "MOMENTUM_BURST_DOWN",
+    "level": 1,
+    "confidence": 0.82,
+    "trades": 22
+  }
+]

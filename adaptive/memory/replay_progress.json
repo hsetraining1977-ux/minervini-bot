@@ -22,5 +22,77 @@
     "total_trades": 3485,
     "setups_tracked": 10,
     "best_setup": "ORB_BREAKDOWN"
+  },
+  {
+    "timestamp": "2026-05-13T09:46:32.948271",
+    "start_date": "2025-12-13",
+    "end_date": "2026-02-11",
+    "symbols": 10,
+    "sessions": 43,
+    "total_candles": 0,
+    "total_setups": 0,
+    "total_trades": 0,
+    "setups_tracked": 73,
+    "best_setup": "VWAP_CROSS_DOWN"
+  },
+  {
+    "timestamp": "2026-05-13T09:48:24.920415",
+    "start_date": "2025-12-13",
+    "end_date": "2025-12-27",
+    "symbols": 10,
+    "sessions": 10,
+    "total_candles": 5922,
+    "total_setups": 2237,
+    "total_trades": 2237,
+    "setups_tracked": 8,
+    "best_setup": "TIGHT_CONSOLIDATION_BREAK"
+  },
+  {
+    "timestamp": "2026-05-13T10:01:01.675841",
+    "start_date": "2025-12-28",
+    "end_date": "2026-02-26",
+    "symbols": 10,
+    "sessions": 44,
+    "total_candles": 0,
+    "total_setups": 0,
+    "total_trades": 0,
+    "setups_tracked": 14636,
+    "best_setup": "MOMENTUM_BURST_UP"
+  },
+  {
+    "timestamp": "2026-05-13T10:20:36.904425",
+    "start_date": "2025-12-28",
+    "end_date": "2026-01-11",
+    "symbols": 10,
+    "sessions": 10,
+    "total_candles": 6741,
+    "total_setups": 2600,
+    "total_trades": 2600,
+    "setups_tracked": 17,
+    "best_setup": "ORB_BREAKOUT"
+  },
+  {
+    "timestamp": "2026-05-13T10:35:34.935961",
+    "start_date": "2024-05-12",
+    "end_date": "2026-05-12",
+    "symbols": 28,
+    "sessions": 522,
+    "total_candles": 0,
+    "total_setups": 0,
+    "total_trades": 0,
+    "setups_tracked": 0,
+    "best_setup": "N/A"
+  },
+  {
+    "timestamp": "2026-05-13T10:52:52.612978",
+    "start_date": "2026-01-12",
+    "end_date": "2026-03-13",
+    "symbols": 10,
+    "sessions": 45,
+    "total_candles": 0,
+    "total_setups": 0,
+    "total_trades": 0,
+    "setups_tracked": 0,
+    "best_setup": "N/A"
   }
 ]

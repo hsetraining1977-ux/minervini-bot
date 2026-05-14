@@ -8,5 +8,30 @@
     "timestamp": "2026-05-13T09:16:21.337909",
     "ingested": 1,
     "total_setups": 10
+  },
+  {
+    "timestamp": "2026-05-13T09:46:32.930533",
+    "ingested": 6,
+    "total_setups": 10
+  },
+  {
+    "timestamp": "2026-05-13T09:48:24.908969",
+    "ingested": 2,
+    "total_setups": 10
+  },
+  {
+    "timestamp": "2026-05-13T09:52:30.819832",
+    "ingested": 9,
+    "total_setups": 10
+  },
+  {
+    "timestamp": "2026-05-13T10:01:01.647925",
+    "ingested": 9,
+    "total_setups": 10
+  },
+  {
+    "timestamp": "2026-05-13T10:01:41.108682",
+    "ingested": 9,
+    "total_setups": 10
   }
 ]

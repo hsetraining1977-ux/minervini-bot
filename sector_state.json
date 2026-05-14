@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-12 05:08:06.048491",
+  "updated": "2026-05-13 13:46:17.964636",
   "sectors": {
     "أشباه الموصلات": {
-      "score": 26.58,
+      "score": 23.74,
       "is_leading": true,
-      "ret_1m": 30.0,
-      "rs_1m": 22.2,
+      "ret_1m": 24.7,
+      "rs_1m": 19.4,
       "stocks": [
         "NVDA",
         "AVGO",
@@ -18,10 +18,10 @@
       ]
     },
     "التكنولوجيا": {
-      "score": 16.29,
+      "score": 13.64,
       "is_leading": true,
-      "ret_1m": 22.2,
-      "rs_1m": 14.4,
+      "ret_1m": 16.5,
+      "rs_1m": 11.2,
       "stocks": [
         "NVDA",
         "MSFT",
@@ -34,10 +34,10 @@
       ]
     },
     "السيبراني": {
-      "score": 5.82,
+      "score": 2.81,
       "is_leading": true,
-      "ret_1m": 14.9,
-      "rs_1m": 7.1,
+      "ret_1m": 10.4,
+      "rs_1m": 5.1,
       "stocks": [
         "CRWD",
         "PANW",
@@ -50,10 +50,10 @@
       ]
     },
     "البرمجيات والسحابة": {
-      "score": 5.77,
-      "is_leading": true,
-      "ret_1m": 15.2,
-      "rs_1m": 7.5,
+      "score": -0.74,
+      "is_leading": false,
+      "ret_1m": 5.6,
+      "rs_1m": 0.4,
       "stocks": [
         "ADBE",
         "CRM",
@@ -64,11 +64,35 @@
         "HUBS"
       ]
     },
-    "الاستهلاكي": {
-      "score": -4.11,
+    "الطاقة": {
+      "score": -2.4,
       "is_leading": false,
-      "ret_1m": 4.8,
-      "rs_1m": -3.0,
+      "ret_1m": 2.7,
+      "rs_1m": -2.5,
+      "stocks": [
+        "XOM",
+        "CVX",
+        "OXY"
+      ]
+    },
+    "الصناعي": {
+      "score": -5.2,
+      "is_leading": false,
+      "ret_1m": 1.9,
+      "rs_1m": -3.4,
+      "stocks": [
+        "CAT",
+        "HON",
+        "GE",
+        "LMT",
+        "NOC"
+      ]
+    },
+    "الاستهلاكي": {
+      "score": -6.23,
+      "is_leading": false,
+      "ret_1m": -0.5,
+      "rs_1m": -5.8,
       "stocks": [
         "TSLA",
         "AMZN",
@@ -78,35 +102,11 @@
         "LULU"
       ]
     },
-    "الطاقة": {
-      "score": -5.47,
-      "is_leading": false,
-      "ret_1m": 0.1,
-      "rs_1m": -7.6,
-      "stocks": [
-        "XOM",
-        "CVX",
-        "OXY"
-      ]
-    },
-    "الصناعي": {
-      "score": -6.73,
-      "is_leading": false,
-      "ret_1m": 1.3,
-      "rs_1m": -6.4,
-      "stocks": [
-        "CAT",
-        "HON",
-        "GE",
-        "LMT",
-        "NOC"
-      ]
-    },
     "المالية": {
-      "score": -8.93,
+      "score": -7.82,
       "is_leading": false,
-      "ret_1m": -0.9,
-      "rs_1m": -8.7,
+      "ret_1m": -1.9,
+      "rs_1m": -7.2,
       "stocks": [
         "JPM",
         "GS",
@@ -116,10 +116,10 @@
       ]
     },
     "الصحة والأدوية": {
-      "score": -13.35,
+      "score": -9.62,
       "is_leading": false,
-      "ret_1m": -3.3,
-      "rs_1m": -11.1,
+      "ret_1m": -0.8,
+      "rs_1m": -6.0,
       "stocks": [
         "LLY",
         "UNH",

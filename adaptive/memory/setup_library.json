@@ -1,0 +1,489 @@
+{
+  "ORB_BREAKOUT": {
+    "setup": "ORB_BREAKOUT",
+    "total_trades": 7384,
+    "wins": 3051,
+    "losses": 4333,
+    "win_rate": 41.32,
+    "total_pnl": 44.9317,
+    "expectancy": 0.0061,
+    "profit_factor": 4493.17,
+    "pnl_list": [],
+    "by_regime": {
+      "STRONG_RISK_ON": {
+        "total": 4035,
+        "wins": 1675,
+        "losses": 2360,
+        "total_pnl": 182.02219999999957,
+        "win_rate": 41.5,
+        "pnl": 182.02219999999957
+      },
+      "RISK_ON": {
+        "total": 2167,
+        "wins": 948,
+        "losses": 1219,
+        "total_pnl": 102.67610000000003,
+        "win_rate": 43.7,
+        "pnl": 102.67610000000003
+      },
+      "NEUTRAL": {
+        "total": 566,
+        "wins": 172,
+        "losses": 394,
+        "total_pnl": -27.259699999999967,
+        "win_rate": 30.4,
+        "pnl": -27.259699999999967
+      },
+      "PANIC": {
+        "total": 66,
+        "wins": 2,
+        "losses": 64,
+        "total_pnl": -26.482499999999995,
+        "win_rate": 3.0,
+        "pnl": -26.482499999999995
+      },
+      "RISK_OFF": {
+        "total": 550,
+        "wins": 254,
+        "losses": 296,
+        "total_pnl": 41.80159999999999,
+        "win_rate": 46.2,
+        "pnl": 41.80159999999999
+      }
+    },
+    "last_updated": "2026-05-13T13:01:24.357587",
+    "source": "setup_statistics_sync"
+  },
+  "VOLUME_SPIKE": {
+    "setup": "VOLUME_SPIKE",
+    "total_trades": 1872,
+    "wins": 670,
+    "losses": 1202,
+    "win_rate": 35.79,
+    "total_pnl": -13.7168,
+    "expectancy": -0.0073,
+    "profit_factor": 1371.68,
+    "pnl_list": [],
+    "by_regime": {
+      "STRONG_RISK_ON": {
+        "total": 1024,
+        "wins": 358,
+        "losses": 666,
+        "total_pnl": 15.600299999999967,
+        "win_rate": 35.0,
+        "pnl": 15.600299999999967
+      },
+      "RISK_ON": {
+        "total": 509,
+        "wins": 187,
+        "losses": 322,
+        "total_pnl": 2.6559999999999966,
+        "win_rate": 36.7,
+        "pnl": 2.6559999999999966
+      },
+      "NEUTRAL": {
+        "total": 145,
+        "wins": 48,
+        "losses": 97,
+        "total_pnl": -0.934799999999999,
+        "win_rate": 33.1,
+        "pnl": -0.934799999999999
+      },
+      "PANIC": {
+        "total": 97,
+        "wins": 36,
+        "losses": 61,
+        "total_pnl": 1.9894000000000007,
+        "win_rate": 37.1,
+        "pnl": 1.9894000000000007
+      },
+      "RISK_OFF": {
+        "total": 97,
+        "wins": 41,
+        "losses": 56,
+        "total_pnl": 4.302099999999999,
+        "win_rate": 42.3,
+        "pnl": 4.302099999999999
+      }
+    },
+    "last_updated": "2026-05-13T13:01:24.357623",
+    "source": "setup_statistics_sync"
+  },
+  "VWAP_CROSS_UP": {
+    "setup": "VWAP_CROSS_UP",
+    "total_trades": 1595,
+    "wins": 611,
+    "losses": 984,
+    "win_rate": 38.31,
+    "total_pnl": 7.8086,
+    "expectancy": 0.0049,
+    "profit_factor": 780.86,
+    "pnl_list": [],
+    "by_regime": {
+      "STRONG_RISK_ON": {
+        "total": 901,
+        "wins": 347,
+        "losses": 554,
+        "total_pnl": 13.373799999999996,
+        "win_rate": 38.5,
+        "pnl": 13.373799999999996
+      },
+      "RISK_ON": {
+        "total": 438,
+        "wins": 177,
+        "losses": 261,
+        "total_pnl": 14.378000000000005,
+        "win_rate": 40.4,
+        "pnl": 14.378000000000005
+      },
+      "NEUTRAL": {
+        "total": 133,
+        "wins": 43,
+        "losses": 90,
+        "total_pnl": -1.769400000000001,
+        "win_rate": 32.3,
+        "pnl": -1.769400000000001
+      },
+      "PANIC": {
+        "total": 46,
+        "wins": 8,
+        "losses": 38,
+        "total_pnl": -10.569499999999998,
+        "win_rate": 17.4,
+        "pnl": -10.569499999999998
+      },
+      "RISK_OFF": {
+        "total": 77,
+        "wins": 36,
+        "losses": 41,
+        "total_pnl": 11.863500000000002,
+        "win_rate": 46.8,
+        "pnl": 11.863500000000002
+      }
+    },
+    "last_updated": "2026-05-13T13:01:24.357632",
+    "source": "setup_statistics_sync"
+  },
+  "TIGHT_CONSOLIDATION_BREAK": {
+    "setup": "TIGHT_CONSOLIDATION_BREAK",
+    "total_trades": 4146,
+    "wins": 1719,
+    "losses": 2427,
+    "win_rate": 41.46,
+    "total_pnl": 25.7722,
+    "expectancy": 0.0062,
+    "profit_factor": 2577.22,
+    "pnl_list": [],
+    "by_regime": {
+      "STRONG_RISK_ON": {
+        "total": 2289,
+        "wins": 919,
+        "losses": 1370,
+        "total_pnl": 62.740199999999966,
+        "win_rate": 40.1,
+        "pnl": 62.740199999999966
+      },
+      "RISK_ON": {
+        "total": 1229,
+        "wins": 556,
+        "losses": 673,
+        "total_pnl": 57.95560000000006,
+        "win_rate": 45.2,
+        "pnl": 57.95560000000006
+      },
+      "NEUTRAL": {
+        "total": 341,
+        "wins": 136,
+        "losses": 205,
+        "total_pnl": 8.123799999999992,
+        "win_rate": 39.9,
+        "pnl": 8.123799999999992
+      },
+      "PANIC": {
+        "total": 62,
+        "wins": 12,
+        "losses": 50,
+        "total_pnl": -15.1436,
+        "win_rate": 19.4,
+        "pnl": -15.1436
+      },
+      "RISK_OFF": {
+        "total": 225,
+        "wins": 96,
+        "losses": 129,
+        "total_pnl": 17.296799999999987,
+        "win_rate": 42.7,
+        "pnl": 17.296799999999987
+      }
+    },
+    "last_updated": "2026-05-13T13:01:24.357641",
+    "source": "setup_statistics_sync"
+  },
+  "MOMENTUM_BURST_UP": {
+    "setup": "MOMENTUM_BURST_UP",
+    "total_trades": 18,
+    "wins": 7,
+    "losses": 11,
+    "win_rate": 38.89,
+    "total_pnl": 7.6699,
+    "expectancy": 0.4261,
+    "profit_factor": 766.99,
+    "pnl_list": [],
+    "by_regime": {
+      "NEUTRAL": {
+        "total": 2,
+        "wins": 1,
+        "losses": 1,
+        "total_pnl": 0.5353999999999999,
+        "win_rate": 50.0,
+        "pnl": 0.5353999999999999
+      },
+      "RISK_ON": {
+        "total": 1,
+        "wins": 0,
+        "losses": 1,
+        "total_pnl": -0.5631,
+        "win_rate": 0.0,
+        "pnl": -0.5631
+      },
+      "STRONG_RISK_ON": {
+        "total": 11,
+        "wins": 4,
+        "losses": 7,
+        "total_pnl": 6.586599999999999,
+        "win_rate": 36.4,
+        "pnl": 6.586599999999999
+      },
+      "PANIC": {
+        "total": 2,
+        "wins": 1,
+        "losses": 1,
+        "total_pnl": 0.7531000000000001,
+        "win_rate": 50.0,
+        "pnl": 0.7531000000000001
+      },
+      "RISK_OFF": {
+        "total": 2,
+        "wins": 1,
+        "losses": 1,
+        "total_pnl": 0.35789999999999994,
+        "win_rate": 50.0,
+        "pnl": 0.35789999999999994
+      }
+    },
+    "last_updated": "2026-05-13T13:01:24.357650",
+    "source": "setup_statistics_sync"
+  },
+  "RELATIVE_STRENGTH_LEADER": {
+    "setup": "RELATIVE_STRENGTH_LEADER",
+    "total_trades": 45,
+    "wins": 14,
+    "losses": 31,
+    "win_rate": 31.11,
+    "total_pnl": 1.4758,
+    "expectancy": 0.0328,
+    "profit_factor": 147.58,
+    "pnl_list": [],
+    "by_regime": {
+      "STRONG_RISK_ON": {
+        "total": 26,
+        "wins": 5,
+        "losses": 21,
+        "total_pnl": -2.2298,
+        "win_rate": 19.2,
+        "pnl": -2.2298
+      },
+      "RISK_ON": {
+        "total": 7,
+        "wins": 3,
+        "losses": 4,
+        "total_pnl": 0.6844999999999999,
+        "win_rate": 42.9,
+        "pnl": 0.6844999999999999
+      },
+      "PANIC": {
+        "total": 4,
+        "wins": 2,
+        "losses": 2,
+        "total_pnl": 0.7665,
+        "win_rate": 50.0,
+        "pnl": 0.7665
+      },
+      "RISK_OFF": {
+        "total": 4,
+        "wins": 3,
+        "losses": 1,
+        "total_pnl": 2.2771999999999997,
+        "win_rate": 75.0,
+        "pnl": 2.2771999999999997
+      },
+      "NEUTRAL": {
+        "total": 4,
+        "wins": 1,
+        "losses": 3,
+        "total_pnl": -0.02260000000000005,
+        "win_rate": 25.0,
+        "pnl": -0.02260000000000005
+      }
+    },
+    "last_updated": "2026-05-13T13:01:24.357674",
+    "source": "setup_statistics_sync"
+  },
+  "ORB_BREAKDOWN": {
+    "setup": "ORB_BREAKDOWN",
+    "total_trades": 7312,
+    "wins": 2862,
+    "losses": 4450,
+    "win_rate": 39.14,
+    "total_pnl": 4.0239,
+    "expectancy": 0.0006,
+    "profit_factor": 402.39,
+    "pnl_list": [],
+    "by_regime": {
+      "STRONG_RISK_ON": {
+        "total": 3675,
+        "wins": 1434,
+        "losses": 2241,
+        "total_pnl": 68.23250000000004,
+        "win_rate": 39.0,
+        "pnl": 68.23250000000004
+      },
+      "RISK_ON": {
+        "total": 2130,
+        "wins": 746,
+        "losses": 1384,
+        "total_pnl": -3.3871000000000895,
+        "win_rate": 35.0,
+        "pnl": -3.3871000000000895
+      },
+      "NEUTRAL": {
+        "total": 463,
+        "wins": 130,
+        "losses": 333,
+        "total_pnl": -22.297699999999992,
+        "win_rate": 28.1,
+        "pnl": -22.297699999999992
+      },
+      "PANIC": {
+        "total": 814,
+        "wins": 438,
+        "losses": 376,
+        "total_pnl": 188.69239999999994,
+        "win_rate": 53.8,
+        "pnl": 188.69239999999994
+      },
+      "RISK_OFF": {
+        "total": 230,
+        "wins": 114,
+        "losses": 116,
+        "total_pnl": 38.6543,
+        "win_rate": 49.6,
+        "pnl": 38.6543
+      }
+    },
+    "last_updated": "2026-05-13T13:01:24.357685",
+    "source": "setup_statistics_sync"
+  },
+  "VWAP_CROSS_DOWN": {
+    "setup": "VWAP_CROSS_DOWN",
+    "total_trades": 1597,
+    "wins": 612,
+    "losses": 985,
+    "win_rate": 38.32,
+    "total_pnl": 11.8176,
+    "expectancy": 0.0074,
+    "profit_factor": 1181.76,
+    "pnl_list": [],
+    "by_regime": {
+      "STRONG_RISK_ON": {
+        "total": 915,
+        "wins": 354,
+        "losses": 561,
+        "total_pnl": 6.584100000000001,
+        "win_rate": 38.7,
+        "pnl": 6.584100000000001
+      },
+      "RISK_ON": {
+        "total": 406,
+        "wins": 144,
+        "losses": 262,
+        "total_pnl": 1.5312000000000046,
+        "win_rate": 35.5,
+        "pnl": 1.5312000000000046
+      },
+      "NEUTRAL": {
+        "total": 131,
+        "wins": 48,
+        "losses": 83,
+        "total_pnl": 1.0773000000000013,
+        "win_rate": 36.6,
+        "pnl": 1.0773000000000013
+      },
+      "PANIC": {
+        "total": 58,
+        "wins": 43,
+        "losses": 15,
+        "total_pnl": 28.285499999999995,
+        "win_rate": 74.1,
+        "pnl": 28.285499999999995
+      },
+      "RISK_OFF": {
+        "total": 87,
+        "wins": 23,
+        "losses": 64,
+        "total_pnl": -7.338300000000002,
+        "win_rate": 26.4,
+        "pnl": -7.338300000000002
+      }
+    },
+    "last_updated": "2026-05-13T13:01:24.357694",
+    "source": "setup_statistics_sync"
+  },
+  "MOMENTUM_BURST_DOWN": {
+    "setup": "MOMENTUM_BURST_DOWN",
+    "total_trades": 22,
+    "wins": 4,
+    "losses": 18,
+    "win_rate": 18.18,
+    "total_pnl": -6.4688,
+    "expectancy": -0.294,
+    "profit_factor": 646.88,
+    "pnl_list": [],
+    "by_regime": {
+      "RISK_ON": {
+        "total": 3,
+        "wins": 1,
+        "losses": 2,
+        "total_pnl": -0.12940000000000007,
+        "win_rate": 33.3,
+        "pnl": -0.12940000000000007
+      },
+      "STRONG_RISK_ON": {
+        "total": 11,
+        "wins": 1,
+        "losses": 10,
+        "total_pnl": -5.5059000000000005,
+        "win_rate": 9.1,
+        "pnl": -5.5059000000000005
+      },
+      "PANIC": {
+        "total": 7,
+        "wins": 2,
+        "losses": 5,
+        "total_pnl": -0.4327999999999999,
+        "win_rate": 28.6,
+        "pnl": -0.4327999999999999
+      },
+      "RISK_OFF": {
+        "total": 1,
+        "wins": 0,
+        "losses": 1,
+        "total_pnl": -0.4007,
+        "win_rate": 0.0,
+        "pnl": -0.4007
+      }
+    },
+    "last_updated": "2026-05-13T13:01:24.357702",
+    "source": "setup_statistics_sync"
+  }
+}

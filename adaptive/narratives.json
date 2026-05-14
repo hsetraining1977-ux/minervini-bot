@@ -97,5 +97,401 @@
       "missed_narrative": "Zero filtered trades indicates the system is not defensive enough, allowing all signals through without quality filters during what appears to be a challenging trading environment based on overall poor performance metrics.",
       "recommendation": "Immediately implement regime classification diagnostics to resolve UNKNOWN status, increase minimum sample size requirements to 25+ trades per setup before adaptation, and add volatility-based filters to ORB_BREAKDOWN to prevent low-probability entries."
     }
+  },
+  {
+    "timestamp": "2026-05-13T09:34:39.517496",
+    "source": "manual",
+    "narrative": {
+      "headline": "Adaptive system showing critical underperformance with only 2 active setups and 100% UNKNOWN regime classification indicating severe market regime detection failure.",
+      "setup_narrative": "MOMENTUM_BURST_DOWN shows 50% win rate across 6 trades as the sole performing setup, while ORB_BREAKDOWN has failed completely across 10 trades with 0% success, suggesting breakdown patterns are being caught in false signals or inadequate risk management.",
+      "regime_narrative": "All 10 trades classified as UNKNOWN regime with 0% win rate reveals catastrophic regime identification failure\u2014the system is trading blind without proper market context, directly causing poor trade selection and execution timing.",
+      "missed_narrative": "Zero filtered trades indicates the system is not filtering aggressively enough given the poor performance, suggesting risk controls are insufficient and the system should be MORE selective rather than less.",
+      "recommendation": "Immediately pause live trading and recalibrate regime detection logic\u2014prioritize fixing UNKNOWN classification issue before resuming, as blind trading in unidentified regimes is destroying capital with systematic losses."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T09:37:34.755289",
+    "source": "manual",
+    "narrative": {
+      "headline": "Adaptive system shows minimal edge with 50% win rate on limited momentum-down activity across 16 total trades in undefined market regime.",
+      "setup_narrative": "MOMENTUM_BURST_DOWN demonstrates breakeven performance at 50% over 6 trades, while ORB_BREAKDOWN shows complete failure with 0% win rate across 10 trades, suggesting current parameters are misaligned with downside volatility patterns.",
+      "regime_narrative": "UNKNOWN regime classification with 0% win rate across 11 trades indicates regime detection failure, preventing proper parameter adaptation and creating blind trading conditions without directional context.",
+      "missed_narrative": "Zero filtered trades suggests overly permissive entry criteria, potentially explaining poor win rates as system lacks defensive filtering mechanism.",
+      "recommendation": "Immediately pause live trading to recalibrate regime detection algorithms and implement stricter entry filters, particularly for ORB_BREAKDOWN setups which show systematic failure."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T09:53:32.214008",
+    "source": "manual",
+    "narrative": {
+      "headline": "Adaptive system version 6 shows modest profitability with bearish setups leading performance, though all signals classified under UNKNOWN regime indicating potential regime detection issues.",
+      "setup_narrative": "VWAP_CROSS_DOWN leads with 50% win rate across 10 trades, followed by MOMENTUM_BURST_DOWN at 42.9%, suggesting short-side momentum strategies are capturing effective directional moves in current conditions while bullish TIGHT_CONSOLIDATION_BREAK lags at 33.3%.",
+      "regime_narrative": "All 12 trades classified as UNKNOWN regime with 0% aggregate win rate signals critical regime detection failure, preventing the system from properly adapting position sizing and setup filtering to market conditions.",
+      "missed_narrative": "Zero filtered trades indicates no opportunity cost from overly restrictive filtering, but may suggest insufficient quality controls allowing marginal setups to execute.",
+      "recommendation": "Immediately diagnose regime classification logic as 100% UNKNOWN classification is masking true performance patterns and preventing adaptive weight optimization across market environments."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T09:55:39.152018",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "System in initialization phase with 13 trades executed under unclassified regime conditions and zero winning performance across version 7 adaptive parameters.",
+      "setup_narrative": "No setups have generated positive returns; insufficient sample size or market conditions preventing pattern recognition from establishing statistical edge in current adaptive weight configuration.",
+      "regime_narrative": "All 13 trades classified as UNKNOWN regime indicating market environment detection failure or transitional conditions preventing regime identification; 0% win rate suggests complete strategy-market mismatch.",
+      "missed_narrative": "Zero filtered trades indicates no opportunity cost from overly restrictive parameters; losses stem from execution rather than selection criteria.",
+      "recommendation": "Immediately halt live trading and revert to paper trading mode to recalibrate regime detection thresholds and validate setup entry conditions against historical regime-classified data before risking additional capital."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T09:56:13.766641",
+    "source": "manual",
+    "narrative": {
+      "headline": "System Version 8 shows complete performance breakdown with zero wins across 14 trades in unclassified market regime, indicating critical regime detection failure.",
+      "setup_narrative": "No setups are generating positive returns; empty top performers list suggests either insufficient trade sample size, overly restrictive filtering criteria, or fundamental strategy-market mismatch requiring immediate diagnostic review.",
+      "regime_narrative": "All 14 trades classified as 'UNKNOWN' regime with 0% win rate indicates the regime classification engine is non-functional, preventing adaptive weight optimization and eliminating the system's core edge in regime-specific positioning.",
+      "missed_narrative": "Zero filtered trades suggests the system is not filtering aggressively enough given poor results, or filtering logic is disconnected from actual trade execution; this metric provides no actionable insight in current state.",
+      "recommendation": "Immediately audit regime classification logic to ensure market conditions are being properly identified (trend/consolidation/volatile), then reset adaptive weights to baseline and require minimum 20-trade sample in each identified regime before resuming live adaptation."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T10:02:05.790462",
+    "source": "manual",
+    "narrative": {
+      "headline": "System shows narrow efficacy with single momentum-down setup performing at 14.3% win rate across limited sample size, while regime detection failures indicate fundamental classification issues.",
+      "setup_narrative": "MOMENTUM_BURST_DOWN is the sole performing setup with 14.3% win rate over 14 trades, suggesting the system may be capturing short-term bearish momentum plays, though the win rate remains below institutional threshold for statistical significance.",
+      "regime_narrative": "Critical regime detection failure with 100% of 15 trades classified as UNKNOWN (0% win rate) indicates the market environment classifier is non-functional, preventing context-aware trade selection and likely contributing to poor overall performance.",
+      "missed_narrative": "Zero filtered trades suggests overly permissive entry criteria or insufficient opportunities in current market conditions, requiring tighter pre-trade qualification standards.",
+      "recommendation": "Immediately prioritize fixing regime detection logic before further live deployment, as inability to classify market environment is causing indiscriminate trade execution and preventing adaptive weight optimization from functioning properly."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T10:13:03.871872",
+    "source": "manual",
+    "narrative": {
+      "headline": "Minervini AI system demonstrates robust performance with 41.5% win rate across 18,842 trades, led by tight consolidation and opening range breakout strategies after 9 adaptive optimizations.",
+      "setup_narrative": "Tight consolidation breakouts lead at 41.5% over 4,146 trades, indicating strong momentum capture in volatility compression releases. Opening range strategies (ORB breakout/breakdown) show consistent 39-41% win rates across 14,696 combined trades, reflecting reliable intraday edge during market open volatility windows.",
+      "regime_narrative": "Unknown regime classification for 16 trades with 0% win rate represents a critical blind spot requiring immediate attention, suggesting regime detection failure or edge case scenarios where market conditions fall outside trained parameters.",
+      "missed_narrative": "Zero filtered trades indicates no missed opportunities under current filter settings, suggesting either optimal filter calibration or potentially over-aggressive position acceptance that may benefit from stricter quality controls.",
+      "recommendation": "Immediately investigate and resolve the 16 'UNKNOWN' regime trades to prevent unclassified market conditions from degrading system performance, then implement regime detection validation layer to ensure all trades map to defined market states."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T10:25:49.045820",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Minervini AI system demonstrates robust performance with top setups achieving 39-41% win rates across 19,000+ trades after 10 adaptive optimizations.",
+      "setup_narrative": "Tight consolidation breakouts lead at 41.5% (4,146 trades), closely followed by ORB breakouts at 41.3% (7,384 trades), suggesting strong momentum capture in volatility expansion patterns. The bidirectional ORB performance (breakout/breakdown near parity) indicates effective adaptation to both bullish and bearish intraday moves.",
+      "regime_narrative": "Critical gap identified: UNKNOWN regime shows 0% win rate across 17 trades, indicating regime classification failure that's bleeding capital when market conditions cannot be properly categorized.",
+      "missed_narrative": "Zero filtered trades suggests no opportunity cost from overly restrictive criteria\u2014system is capturing all qualified setups within defined parameters.",
+      "recommendation": "Immediately investigate and recalibrate regime detection logic to eliminate UNKNOWN classification, as these 17 trades represent complete capital loss and signal potential blind spots during market transitions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T10:55:59.887336",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Minervini AI system (v12) demonstrates strong performance with top setups achieving 39-41% win rates across 19,000+ trades, though regime detection appears compromised.",
+      "setup_narrative": "Tight consolidation breaks lead at 41.5% win rate with institutional-quality edge across 4,146 trades, while ORB breakouts/breakdowns maintain consistency above 39% across 14,696 combined executions, indicating robust momentum capture in current volatility conditions.",
+      "regime_narrative": "Critical system failure: all 18 recent trades classified as 'UNKNOWN' regime with 0% win rate suggests regime detection module has degraded or market conditions fall outside trained parameters, creating complete strategy-regime mismatch.",
+      "missed_narrative": "Zero filtered trades indicates aggressive positioning with no opportunity cost from over-filtering, though this may correlate with regime detection failure allowing low-probability trades through.",
+      "recommendation": "Immediately diagnose and recalibrate regime classification logic\u2014implement emergency fallback to historical regime distribution weights until 'UNKNOWN' classification drops below 5% of live trades."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T13:45:44.154693",
+    "source": "startup",
+    "narrative": {
+      "headline": "Adaptive system v13 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T13:49:24.263191",
+    "source": "manual",
+    "narrative": {
+      "headline": "Adaptive system v14 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T14:15:48.868651",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v15 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T14:45:51.296776",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v16 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T15:15:53.832095",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v17 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T15:45:56.102254",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v18 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T16:15:58.711488",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T16:45:01.201036",
+    "source": "post_market_deep",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T16:46:02.297178",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T17:16:04.089558",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T17:46:06.090190",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T18:16:08.055835",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T18:46:09.998586",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T19:16:11.693856",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T19:46:13.387857",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T20:16:15.372226",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T20:46:17.232298",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T21:16:18.981706",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T21:46:21.458344",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T22:16:23.181646",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T22:46:24.788612",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T23:16:26.597606",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-13T23:46:28.485625",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-14T00:16:30.284563",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-14T00:46:32.282652",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-14T01:16:34.090083",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
+  },
+  {
+    "timestamp": "2026-05-14T01:46:35.779822",
+    "source": "scheduled_30min",
+    "narrative": {
+      "headline": "Adaptive system v19 \u2014 TIGHT_CONSOLIDATION_BREAK leading",
+      "setup_narrative": "TIGHT_CONSOLIDATION_BREAK shows strongest performance across tracked sessions.",
+      "regime_narrative": "UNKNOWN conditions produce best outcomes based on current data.",
+      "missed_narrative": "0 opportunities missed by filters this cycle.",
+      "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during UNKNOWN conditions."
+    }
   }
 ]

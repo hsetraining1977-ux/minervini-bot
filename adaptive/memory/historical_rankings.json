@@ -1,42 +1,12 @@
 {
-  "by_win_rate": [
-    {
-      "setup": "ORB_BREAKDOWN",
-      "win_rate": 0.0,
-      "trades": 10
-    }
-  ],
-  "by_expectancy": [
-    {
-      "setup": "ORB_BREAKDOWN",
-      "expectancy": -0.5301,
-      "trades": 10
-    }
-  ],
-  "by_profit_factor": [
-    {
-      "setup": "ORB_BREAKDOWN",
-      "profit_factor": 0.0,
-      "trades": 10
-    }
-  ],
-  "by_sharpe": [
-    {
-      "setup": "ORB_BREAKDOWN",
-      "sharpe": -141.113,
-      "trades": 10
-    }
-  ],
+  "by_win_rate": [],
+  "by_expectancy": [],
+  "by_profit_factor": [],
+  "by_sharpe": [],
   "best_long": [],
-  "best_short": [
-    {
-      "setup": "ORB_BREAKDOWN",
-      "expectancy": -0.5301,
-      "trades": 10
-    }
-  ],
-  "generated_at": "2026-05-13T09:16:21.336011",
+  "best_short": [],
+  "generated_at": "2026-05-13T10:52:52.588960",
   "total_setups": 10,
-  "qualified_setups": 1,
-  "total_trades": 10
+  "qualified_setups": 0,
+  "total_trades": 0
 }

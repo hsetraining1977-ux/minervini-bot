@@ -1,365 +1,446 @@
 {
-  "CHOPPY": {
-    "regime": "CHOPPY",
-    "total_trades": 919,
-    "wins": 413,
-    "losses": 506,
-    "total_pnl": 50.69339999999999,
-    "win_rate": 44.94,
+  "STRONG_RISK_ON": {
+    "regime": "STRONG_RISK_ON",
+    "total_trades": 29076,
+    "wins": 11145,
+    "losses": 17931,
+    "total_pnl": 371.3348999999956,
+    "win_rate": 38.33,
     "by_setup": {
       "ORB_BREAKOUT": {
-        "total": 360,
-        "wins": 157,
-        "losses": 203,
-        "total_pnl": 6.081399999999999,
-        "win_rate": 43.6
-      },
-      "ORB_BREAKDOWN": {
-        "total": 244,
-        "wins": 117,
-        "losses": 127,
-        "total_pnl": 34.08679999999999,
-        "win_rate": 48.0
-      },
-      "TIGHT_CONSOLIDATION_BREAK": {
-        "total": 147,
-        "wins": 58,
-        "losses": 89,
-        "total_pnl": -0.8435999999999982,
-        "win_rate": 39.5
-      },
-      "VOLUME_SPIKE": {
-        "total": 81,
-        "wins": 43,
-        "losses": 38,
-        "total_pnl": 7.127099999999998,
-        "win_rate": 53.1
+        "total": 9844,
+        "wins": 4045,
+        "losses": 5799,
+        "total_pnl": 334.74560000000037,
+        "win_rate": 41.1
       },
       "VWAP_CROSS_UP": {
-        "total": 42,
-        "wins": 22,
-        "losses": 20,
-        "total_pnl": 2.4309999999999996,
-        "win_rate": 52.4
+        "total": 1905,
+        "wins": 766,
+        "losses": 1139,
+        "total_pnl": 54.34589999999991,
+        "win_rate": 40.2
       },
-      "RELATIVE_STRENGTH_LEADER": {
-        "total": 2,
-        "wins": 0,
-        "losses": 2,
-        "total_pnl": -1.258,
-        "win_rate": 0.0
+      "VOLUME_SPIKE": {
+        "total": 2462,
+        "wins": 867,
+        "losses": 1595,
+        "total_pnl": -17.17520000000007,
+        "win_rate": 35.2
+      },
+      "TIGHT_CONSOLIDATION_BREAK": {
+        "total": 4817,
+        "wins": 1907,
+        "losses": 2910,
+        "total_pnl": 78.20770000000017,
+        "win_rate": 39.6
       },
       "VWAP_CROSS_DOWN": {
-        "total": 42,
+        "total": 1823,
+        "wins": 660,
+        "losses": 1163,
+        "total_pnl": 2.2260999999999833,
+        "win_rate": 36.2
+      },
+      "ORB_BREAKDOWN": {
+        "total": 8080,
+        "wins": 2845,
+        "losses": 5235,
+        "total_pnl": -86.14119999999988,
+        "win_rate": 35.2
+      },
+      "RELATIVE_STRENGTH_LEADER": {
+        "total": 83,
+        "wins": 32,
+        "losses": 51,
+        "total_pnl": 3.0799999999999983,
+        "win_rate": 38.6
+      },
+      "MOMENTUM_BURST_UP": {
+        "total": 40,
         "wins": 16,
-        "losses": 26,
-        "total_pnl": 3.7645999999999997,
-        "win_rate": 38.1
+        "losses": 24,
+        "total_pnl": 8.4331,
+        "win_rate": 40.0
       },
       "MOMENTUM_BURST_DOWN": {
-        "total": 1,
-        "wins": 0,
-        "losses": 1,
-        "total_pnl": -0.6959,
-        "win_rate": 0.0
+        "total": 22,
+        "wins": 7,
+        "losses": 15,
+        "total_pnl": -6.387099999999999,
+        "win_rate": 31.8
       }
     },
-    "last_updated": "2026-05-13T09:17:33.629271"
-  },
-  "NEUTRAL": {
-    "regime": "NEUTRAL",
-    "total_trades": 3603,
-    "wins": 1421,
-    "losses": 2182,
-    "total_pnl": 23.313999999999766,
-    "win_rate": 39.44,
-    "by_setup": {
-      "VOLUME_SPIKE": {
-        "total": 277,
-        "wins": 98,
-        "losses": 179,
-        "total_pnl": -19.522399999999973,
-        "win_rate": 35.4
-      },
-      "VWAP_CROSS_DOWN": {
-        "total": 256,
-        "wins": 122,
-        "losses": 134,
-        "total_pnl": 10.355200000000004,
-        "win_rate": 47.7
-      },
-      "MOMENTUM_BURST_DOWN": {
-        "total": 1,
-        "wins": 0,
-        "losses": 1,
-        "total_pnl": -0.4486,
-        "win_rate": 0.0
-      },
-      "VWAP_CROSS_UP": {
-        "total": 250,
-        "wins": 84,
-        "losses": 166,
-        "total_pnl": -7.180299999999997,
-        "win_rate": 33.6
-      },
-      "ORB_BREAKOUT": {
-        "total": 1005,
-        "wins": 360,
-        "losses": 645,
-        "total_pnl": -5.061700000000061,
-        "win_rate": 35.8
-      },
-      "RELATIVE_STRENGTH_LEADER": {
-        "total": 8,
-        "wins": 2,
-        "losses": 6,
-        "total_pnl": -0.8690000000000001,
-        "win_rate": 25.0
-      },
-      "ORB_BREAKDOWN": {
-        "total": 1224,
-        "wins": 556,
-        "losses": 668,
-        "total_pnl": 66.4977000000001,
-        "win_rate": 45.4
-      },
-      "TIGHT_CONSOLIDATION_BREAK": {
-        "total": 581,
-        "wins": 198,
-        "losses": 383,
-        "total_pnl": -22.8194,
-        "win_rate": 34.1
-      },
-      "MOMENTUM_BURST_UP": {
-        "total": 1,
-        "wins": 1,
-        "losses": 0,
-        "total_pnl": 2.3625,
-        "win_rate": 100.0
-      }
-    },
-    "last_updated": "2026-05-13T09:24:50.769362"
-  },
-  "RISK_OFF": {
-    "regime": "RISK_OFF",
-    "total_trades": 758,
-    "wins": 281,
-    "losses": 477,
-    "total_pnl": -3.6581999999999963,
-    "win_rate": 37.07,
-    "by_setup": {
-      "VOLUME_SPIKE": {
-        "total": 65,
-        "wins": 22,
-        "losses": 43,
-        "total_pnl": -3.0816999999999997,
-        "win_rate": 33.8
-      },
-      "VWAP_CROSS_UP": {
-        "total": 76,
-        "wins": 37,
-        "losses": 39,
-        "total_pnl": 2.2980999999999994,
-        "win_rate": 48.7
-      },
-      "VWAP_CROSS_DOWN": {
-        "total": 61,
-        "wins": 13,
-        "losses": 48,
-        "total_pnl": -6.4524,
-        "win_rate": 21.3
-      },
-      "ORB_BREAKDOWN": {
-        "total": 67,
-        "wins": 29,
-        "losses": 38,
-        "total_pnl": 1.7826000000000013,
-        "win_rate": 43.3
-      },
-      "TIGHT_CONSOLIDATION_BREAK": {
-        "total": 142,
-        "wins": 61,
-        "losses": 81,
-        "total_pnl": 8.646700000000003,
-        "win_rate": 43.0
-      },
-      "ORB_BREAKOUT": {
-        "total": 341,
-        "wins": 119,
-        "losses": 222,
-        "total_pnl": -4.337499999999998,
-        "win_rate": 34.9
-      },
-      "MOMENTUM_BURST_DOWN": {
-        "total": 1,
-        "wins": 0,
-        "losses": 1,
-        "total_pnl": -0.7208,
-        "win_rate": 0.0
-      },
-      "RELATIVE_STRENGTH_LEADER": {
-        "total": 4,
-        "wins": 0,
-        "losses": 4,
-        "total_pnl": -1.3731,
-        "win_rate": 0.0
-      },
-      "MOMENTUM_BURST_UP": {
-        "total": 1,
-        "wins": 0,
-        "losses": 1,
-        "total_pnl": -0.4201,
-        "win_rate": 0.0
-      }
-    },
-    "last_updated": "2026-05-13T09:17:02.673831"
+    "last_updated": "2026-05-13T11:02:04.642050"
   },
   "RISK_ON": {
     "regime": "RISK_ON",
-    "total_trades": 4350,
-    "wins": 1865,
-    "losses": 2485,
-    "total_pnl": 306.1952000000014,
-    "win_rate": 42.87,
+    "total_trades": 14721,
+    "wins": 5664,
+    "losses": 9057,
+    "total_pnl": 247.60299999999944,
+    "win_rate": 38.48,
     "by_setup": {
+      "ORB_BREAKOUT": {
+        "total": 4575,
+        "wins": 1703,
+        "losses": 2872,
+        "total_pnl": 47.65929999999988,
+        "win_rate": 37.2
+      },
       "VOLUME_SPIKE": {
-        "total": 342,
-        "wins": 138,
-        "losses": 204,
-        "total_pnl": 18.284299999999995,
-        "win_rate": 40.4
-      },
-      "ORB_BREAKDOWN": {
-        "total": 1460,
-        "wins": 604,
-        "losses": 856,
-        "total_pnl": 119.11819999999992,
-        "win_rate": 41.4
-      },
-      "TIGHT_CONSOLIDATION_BREAK": {
-        "total": 643,
-        "wins": 296,
-        "losses": 347,
-        "total_pnl": 47.66889999999997,
-        "win_rate": 46.0
-      },
-      "VWAP_CROSS_UP": {
-        "total": 259,
-        "wins": 119,
-        "losses": 140,
-        "total_pnl": 18.267099999999992,
-        "win_rate": 45.9
+        "total": 1288,
+        "wins": 472,
+        "losses": 816,
+        "total_pnl": 7.698199999999999,
+        "win_rate": 36.6
       },
       "VWAP_CROSS_DOWN": {
-        "total": 249,
-        "wins": 101,
-        "losses": 148,
-        "total_pnl": 11.135599999999998,
-        "win_rate": 40.6
+        "total": 1083,
+        "wins": 407,
+        "losses": 676,
+        "total_pnl": -10.646000000000011,
+        "win_rate": 37.6
       },
-      "ORB_BREAKOUT": {
-        "total": 1386,
-        "wins": 602,
-        "losses": 784,
-        "total_pnl": 90.17510000000019,
-        "win_rate": 43.4
+      "VWAP_CROSS_UP": {
+        "total": 1038,
+        "wins": 379,
+        "losses": 659,
+        "total_pnl": 13.014700000000001,
+        "win_rate": 36.5
+      },
+      "ORB_BREAKDOWN": {
+        "total": 4418,
+        "wins": 1853,
+        "losses": 2565,
+        "total_pnl": 165.28129999999967,
+        "win_rate": 41.9
+      },
+      "TIGHT_CONSOLIDATION_BREAK": {
+        "total": 2244,
+        "wins": 828,
+        "losses": 1416,
+        "total_pnl": 25.381499999999992,
+        "win_rate": 36.9
       },
       "MOMENTUM_BURST_UP": {
-        "total": 2,
-        "wins": 1,
-        "losses": 1,
-        "total_pnl": -0.5677000000000001,
-        "win_rate": 50.0
+        "total": 14,
+        "wins": 3,
+        "losses": 11,
+        "total_pnl": -1.5402999999999998,
+        "win_rate": 21.4
       },
       "RELATIVE_STRENGTH_LEADER": {
-        "total": 8,
-        "wins": 3,
-        "losses": 5,
-        "total_pnl": 0.0025999999999999357,
-        "win_rate": 37.5
+        "total": 44,
+        "wins": 13,
+        "losses": 31,
+        "total_pnl": -0.04239999999999955,
+        "win_rate": 29.5
+      },
+      "MOMENTUM_BURST_DOWN": {
+        "total": 17,
+        "wins": 6,
+        "losses": 11,
+        "total_pnl": 0.7967,
+        "win_rate": 35.3
+      }
+    },
+    "last_updated": "2026-05-13T11:01:38.839824"
+  },
+  "CHOPPY": {
+    "regime": "CHOPPY",
+    "total_trades": 2556,
+    "wins": 1005,
+    "losses": 1551,
+    "total_pnl": 103.32109999999979,
+    "win_rate": 39.32,
+    "by_setup": {
+      "VOLUME_SPIKE": {
+        "total": 212,
+        "wins": 72,
+        "losses": 140,
+        "total_pnl": 0.7034999999999999,
+        "win_rate": 34.0
+      },
+      "ORB_BREAKDOWN": {
+        "total": 944,
+        "wins": 378,
+        "losses": 566,
+        "total_pnl": 40.42669999999998,
+        "win_rate": 40.0
+      },
+      "VWAP_CROSS_DOWN": {
+        "total": 125,
+        "wins": 55,
+        "losses": 70,
+        "total_pnl": 11.463300000000006,
+        "win_rate": 44.0
+      },
+      "TIGHT_CONSOLIDATION_BREAK": {
+        "total": 301,
+        "wins": 126,
+        "losses": 175,
+        "total_pnl": 6.6021,
+        "win_rate": 41.9
+      },
+      "ORB_BREAKOUT": {
+        "total": 831,
+        "wins": 324,
+        "losses": 507,
+        "total_pnl": 42.6328,
+        "win_rate": 39.0
+      },
+      "VWAP_CROSS_UP": {
+        "total": 131,
+        "wins": 46,
+        "losses": 85,
+        "total_pnl": -0.5980000000000012,
+        "win_rate": 35.1
       },
       "MOMENTUM_BURST_DOWN": {
         "total": 1,
-        "wins": 1,
-        "losses": 0,
-        "total_pnl": 2.1111,
-        "win_rate": 100.0
-      }
-    },
-    "last_updated": "2026-05-13T09:25:38.028507"
-  },
-  "STRONG_RISK_ON": {
-    "regime": "STRONG_RISK_ON",
-    "total_trades": 8341,
-    "wins": 3245,
-    "losses": 5096,
-    "total_pnl": 92.18759999999997,
-    "win_rate": 38.9,
-    "by_setup": {
-      "VWAP_CROSS_DOWN": {
-        "total": 540,
-        "wins": 225,
-        "losses": 315,
-        "total_pnl": 29.43399999999999,
-        "win_rate": 41.7
-      },
-      "VOLUME_SPIKE": {
-        "total": 707,
-        "wins": 264,
-        "losses": 443,
-        "total_pnl": 9.555300000000004,
-        "win_rate": 37.3
-      },
-      "VWAP_CROSS_UP": {
-        "total": 554,
-        "wins": 238,
-        "losses": 316,
-        "total_pnl": 23.09250000000004,
-        "win_rate": 43.0
-      },
-      "TIGHT_CONSOLIDATION_BREAK": {
-        "total": 1477,
-        "wins": 598,
-        "losses": 879,
-        "total_pnl": 42.6161000000001,
-        "win_rate": 40.5
-      },
-      "ORB_BREAKOUT": {
-        "total": 2777,
-        "wins": 1075,
-        "losses": 1702,
-        "total_pnl": -6.644799999999948,
-        "win_rate": 38.7
-      },
-      "ORB_BREAKDOWN": {
-        "total": 2263,
-        "wins": 841,
-        "losses": 1422,
-        "total_pnl": 0.05049999999987627,
-        "win_rate": 37.2
+        "wins": 0,
+        "losses": 1,
+        "total_pnl": -0.3536,
+        "win_rate": 0.0
       },
       "RELATIVE_STRENGTH_LEADER": {
-        "total": 17,
-        "wins": 4,
-        "losses": 13,
-        "total_pnl": -2.4971000000000005,
-        "win_rate": 23.5
+        "total": 7,
+        "wins": 2,
+        "losses": 5,
+        "total_pnl": 0.678,
+        "win_rate": 28.6
       },
       "MOMENTUM_BURST_UP": {
-        "total": 3,
+        "total": 4,
+        "wins": 2,
+        "losses": 2,
+        "total_pnl": 1.7663000000000002,
+        "win_rate": 50.0
+      }
+    },
+    "last_updated": "2026-05-13T10:42:24.547470"
+  },
+  "NEUTRAL": {
+    "regime": "NEUTRAL",
+    "total_trades": 6396,
+    "wins": 2284,
+    "losses": 4112,
+    "total_pnl": -74.19190000000012,
+    "win_rate": 35.71,
+    "by_setup": {
+      "ORB_BREAKDOWN": {
+        "total": 1872,
+        "wins": 692,
+        "losses": 1180,
+        "total_pnl": -14.149300000000034,
+        "win_rate": 37.0
+      },
+      "VOLUME_SPIKE": {
+        "total": 540,
+        "wins": 188,
+        "losses": 352,
+        "total_pnl": -10.835100000000004,
+        "win_rate": 34.8
+      },
+      "VWAP_CROSS_UP": {
+        "total": 412,
+        "wins": 173,
+        "losses": 239,
+        "total_pnl": 29.356400000000004,
+        "win_rate": 42.0
+      },
+      "TIGHT_CONSOLIDATION_BREAK": {
+        "total": 909,
+        "wins": 328,
+        "losses": 581,
+        "total_pnl": 3.577900000000007,
+        "win_rate": 36.1
+      },
+      "VWAP_CROSS_DOWN": {
+        "total": 414,
+        "wins": 137,
+        "losses": 277,
+        "total_pnl": -20.05539999999999,
+        "win_rate": 33.1
+      },
+      "ORB_BREAKOUT": {
+        "total": 2208,
+        "wins": 752,
+        "losses": 1456,
+        "total_pnl": -62.34959999999993,
+        "win_rate": 34.1
+      },
+      "RELATIVE_STRENGTH_LEADER": {
+        "total": 32,
+        "wins": 12,
+        "losses": 20,
+        "total_pnl": 0.845,
+        "win_rate": 37.5
+      },
+      "MOMENTUM_BURST_DOWN": {
+        "total": 2,
         "wins": 0,
-        "losses": 3,
-        "total_pnl": -1.7984,
+        "losses": 2,
+        "total_pnl": -0.7416,
         "win_rate": 0.0
+      },
+      "MOMENTUM_BURST_UP": {
+        "total": 7,
+        "wins": 2,
+        "losses": 5,
+        "total_pnl": 0.15980000000000033,
+        "win_rate": 28.6
+      }
+    },
+    "last_updated": "2026-05-13T10:54:23.917393"
+  },
+  "PANIC": {
+    "regime": "PANIC",
+    "total_trades": 21053,
+    "wins": 8149,
+    "losses": 12904,
+    "total_pnl": 426.46630000000164,
+    "win_rate": 38.71,
+    "by_setup": {
+      "ORB_BREAKOUT": {
+        "total": 5533,
+        "wins": 1996,
+        "losses": 3537,
+        "total_pnl": -6.838899999999992,
+        "win_rate": 36.1
+      },
+      "TIGHT_CONSOLIDATION_BREAK": {
+        "total": 2433,
+        "wins": 921,
+        "losses": 1512,
+        "total_pnl": 31.519700000000167,
+        "win_rate": 37.9
+      },
+      "VOLUME_SPIKE": {
+        "total": 1676,
+        "wins": 597,
+        "losses": 1079,
+        "total_pnl": 14.138200000000019,
+        "win_rate": 35.6
+      },
+      "VWAP_CROSS_DOWN": {
+        "total": 1354,
+        "wins": 560,
+        "losses": 794,
+        "total_pnl": 51.24389999999998,
+        "win_rate": 41.4
+      },
+      "VWAP_CROSS_UP": {
+        "total": 1317,
+        "wins": 441,
+        "losses": 876,
+        "total_pnl": -34.433600000000006,
+        "win_rate": 33.5
+      },
+      "ORB_BREAKDOWN": {
+        "total": 8593,
+        "wins": 3577,
+        "losses": 5016,
+        "total_pnl": 366.86569999999926,
+        "win_rate": 41.6
+      },
+      "RELATIVE_STRENGTH_LEADER": {
+        "total": 82,
+        "wins": 33,
+        "losses": 49,
+        "total_pnl": 10.538799999999998,
+        "win_rate": 40.2
+      },
+      "MOMENTUM_BURST_DOWN": {
+        "total": 29,
+        "wins": 8,
+        "losses": 21,
+        "total_pnl": -10.361600000000003,
+        "win_rate": 27.6
+      },
+      "MOMENTUM_BURST_UP": {
+        "total": 36,
+        "wins": 16,
+        "losses": 20,
+        "total_pnl": 3.7941000000000003,
+        "win_rate": 44.4
+      }
+    },
+    "last_updated": "2026-05-13T10:53:46.718881"
+  },
+  "RISK_OFF": {
+    "regime": "RISK_OFF",
+    "total_trades": 6562,
+    "wins": 2350,
+    "losses": 4212,
+    "total_pnl": -132.28939999999983,
+    "win_rate": 35.81,
+    "by_setup": {
+      "VOLUME_SPIKE": {
+        "total": 513,
+        "wins": 182,
+        "losses": 331,
+        "total_pnl": -10.26300000000001,
+        "win_rate": 35.5
+      },
+      "VWAP_CROSS_UP": {
+        "total": 502,
+        "wins": 162,
+        "losses": 340,
+        "total_pnl": -18.917399999999994,
+        "win_rate": 32.3
+      },
+      "VWAP_CROSS_DOWN": {
+        "total": 529,
+        "wins": 210,
+        "losses": 319,
+        "total_pnl": 1.2592000000000019,
+        "win_rate": 39.7
+      },
+      "TIGHT_CONSOLIDATION_BREAK": {
+        "total": 905,
+        "wins": 271,
+        "losses": 634,
+        "total_pnl": -60.555100000000074,
+        "win_rate": 29.9
+      },
+      "ORB_BREAKDOWN": {
+        "total": 2403,
+        "wins": 951,
+        "losses": 1452,
+        "total_pnl": 14.695500000000003,
+        "win_rate": 39.6
+      },
+      "ORB_BREAKOUT": {
+        "total": 1697,
+        "wins": 569,
+        "losses": 1128,
+        "total_pnl": -58.826599999999985,
+        "win_rate": 33.5
+      },
+      "RELATIVE_STRENGTH_LEADER": {
+        "total": 9,
+        "wins": 3,
+        "losses": 6,
+        "total_pnl": -0.5997000000000005,
+        "win_rate": 33.3
       },
       "MOMENTUM_BURST_DOWN": {
         "total": 3,
-        "wins": 0,
-        "losses": 3,
-        "total_pnl": -1.6204999999999998,
-        "win_rate": 0.0
+        "wins": 1,
+        "losses": 2,
+        "total_pnl": -0.7574000000000001,
+        "win_rate": 33.3
+      },
+      "MOMENTUM_BURST_UP": {
+        "total": 1,
+        "wins": 1,
+        "losses": 0,
+        "total_pnl": 1.6751,
+        "win_rate": 100.0
       }
     },
-    "last_updated": "2026-05-13T09:29:08.666735"
+    "last_updated": "2026-05-13T10:54:06.470296"
   }
 }

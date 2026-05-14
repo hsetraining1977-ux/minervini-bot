@@ -7859,3 +7859,1952 @@ Monitoring positions:
   NVDA $224.25 PL:1.3% Stop:$205.82
 Market CLOSED
 
+=======================================================
+Scan #318 | 2026-05-13 07:41 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $80842.56 PL:-0.1% Stop:$75280.51
+  NVDA $224.4 PL:1.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #319 | 2026-05-13 07:46 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $80905.0 PL:-0.1% Stop:$75280.51
+  NVDA $224.7 PL:1.5% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #320 | 2026-05-13 07:51 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $80905.0 PL:-0.1% Stop:$75280.51
+  NVDA $224.84 PL:1.6% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #321 | 2026-05-13 07:56 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $80905.0 PL:-0.1% Stop:$75280.51
+  NVDA $224.57 PL:1.5% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #322 | 2026-05-13 08:01 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $80968.89 PL:0.0% Stop:$75280.51
+  NVDA $224.67 PL:1.5% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #323 | 2026-05-13 08:06 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81029.7 PL:0.1% Stop:$75280.51
+  NVDA $225.29 PL:1.8% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #324 | 2026-05-13 08:11 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $80950.4 PL:0.0% Stop:$75280.51
+  NVDA $225.75 PL:2.0% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #325 | 2026-05-13 08:16 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $80950.4 PL:0.0% Stop:$75280.51
+  NVDA $225.79 PL:2.0% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #326 | 2026-05-13 08:21 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81016.94 PL:0.1% Stop:$75280.51
+  NVDA $225.95 PL:2.1% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #327 | 2026-05-13 08:26 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81045.54 PL:0.1% Stop:$75280.51
+  NVDA $225.94 PL:2.1% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #328 | 2026-05-13 08:31 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81014.0 PL:0.1% Stop:$75280.51
+  NVDA $225.88 PL:2.1% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #329 | 2026-05-13 08:36 | CLOSED
+=======================================================
+Error: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/account (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3c31757a90>, 'Connection to paper-api.alpaca.markets timed out. (connect timeout=None)'))
+[TG] sent
+
+=======================================================
+Scan #330 | 2026-05-13 08:40 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81000.6 PL:0.1% Stop:$75280.51
+  NVDA $225.59 PL:1.9% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #331 | 2026-05-13 08:45 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81183.91 PL:0.3% Stop:$75280.51
+  NVDA $225.64 PL:2.0% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #332 | 2026-05-13 08:50 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81207.04 PL:0.3% Stop:$75280.51
+  NVDA $225.61 PL:1.9% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #333 | 2026-05-13 08:55 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81207.04 PL:0.3% Stop:$75280.51
+  NVDA $225.61 PL:1.9% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #334 | 2026-05-13 09:00 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81212.4 PL:0.3% Stop:$75280.51
+  NVDA $225.75 PL:2.0% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #335 | 2026-05-13 09:05 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81231.4 PL:0.4% Stop:$75280.51
+  NVDA $225.68 PL:2.0% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #336 | 2026-05-13 09:10 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81299.92 PL:0.4% Stop:$75280.51
+  NVDA $225.79 PL:2.0% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #337 | 2026-05-13 09:15 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81292.42 PL:0.4% Stop:$75280.51
+  NVDA $225.7 PL:2.0% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #338 | 2026-05-13 09:20 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81175.9 PL:0.3% Stop:$75280.51
+  NVDA $225.82 PL:2.0% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #339 | 2026-05-13 09:25 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81043.0 PL:0.1% Stop:$75280.51
+  NVDA $226.1 PL:2.2% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #340 | 2026-05-13 09:30 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81177.06 PL:0.3% Stop:$75280.51
+  NVDA $226.06 PL:2.1% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #341 | 2026-05-13 09:35 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81140.8 PL:0.2% Stop:$75280.51
+  NVDA $226.13 PL:2.2% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #342 | 2026-05-13 09:40 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81195.56 PL:0.3% Stop:$75280.51
+  NVDA $226.62 PL:2.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #343 | 2026-05-13 09:45 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81195.56 PL:0.3% Stop:$75280.51
+  NVDA $226.49 PL:2.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #344 | 2026-05-13 09:50 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81195.56 PL:0.3% Stop:$75280.51
+  NVDA $226.6 PL:2.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #345 | 2026-05-13 09:55 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81228.06 PL:0.3% Stop:$75280.51
+  NVDA $226.35 PL:2.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #346 | 2026-05-13 10:00 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $81264.57 PL:0.4% Stop:$75280.51
+  NVDA $226.25 PL:2.2% Stop:$205.82
+Market CLOSED
+
+=======================================================
+bash: -c: line 1: syntax error near unexpected token `2'
+bash: -c: line 1: `/root/institutional.out >>  2>&1'
+bash: -c: line 1: syntax error near unexpected token `2'
+bash: -c: line 1: `/root/orchestrator.out >>  2>&1'
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+[TG] sent
+SEPA + Smart Money Running
+
+=======================================================
+Scan #1 | 2026-05-13 13:46 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79635.47 PL:-1.6% Stop:$75280.51
+  NVDA $223.54 PL:1.0% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #2 | 2026-05-13 13:52 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79640.73 PL:-1.6% Stop:$75280.51
+  NVDA $223.25 PL:0.9% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #3 | 2026-05-13 13:58 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79546.1 PL:-1.7% Stop:$75280.51
+  NVDA $223.96 PL:1.2% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #4 | 2026-05-13 14:03 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79646.2 PL:-1.6% Stop:$75280.51
+  NVDA $223.41 PL:0.9% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #5 | 2026-05-13 14:08 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79621.34 PL:-1.6% Stop:$75280.51
+  NVDA $223.42 PL:1.0% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #6 | 2026-05-13 14:14 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79705.3 PL:-1.5% Stop:$75280.51
+  NVDA $224.05 PL:1.2% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #7 | 2026-05-13 14:19 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79633.39 PL:-1.6% Stop:$75280.51
+  NVDA $224.34 PL:1.4% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #8 | 2026-05-13 14:24 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79757.87 PL:-1.5% Stop:$75280.51
+  NVDA $224.87 PL:1.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #9 | 2026-05-13 14:29 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79791.3 PL:-1.4% Stop:$75280.51
+  NVDA $224.57 PL:1.5% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #10 | 2026-05-13 14:35 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79791.3 PL:-1.4% Stop:$75280.51
+  NVDA $224.6 PL:1.5% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #11 | 2026-05-13 14:40 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79697.6 PL:-1.5% Stop:$75280.51
+  NVDA $224.44 PL:1.4% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #12 | 2026-05-13 14:45 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79763.5 PL:-1.5% Stop:$75280.51
+  NVDA $224.67 PL:1.5% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #13 | 2026-05-13 14:50 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79652.7 PL:-1.6% Stop:$75280.51
+  NVDA $225.22 PL:1.8% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #14 | 2026-05-13 14:56 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79759.4 PL:-1.5% Stop:$75280.51
+  NVDA $226.07 PL:2.2% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #15 | 2026-05-13 15:01 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79707.9 PL:-1.5% Stop:$75280.51
+  NVDA $226.4 PL:2.3% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #16 | 2026-05-13 15:06 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79656.27 PL:-1.6% Stop:$75280.51
+  NVDA $226.97 PL:2.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #17 | 2026-05-13 15:12 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79473.58 PL:-1.8% Stop:$75280.51
+  NVDA $226.89 PL:2.5% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #18 | 2026-05-13 15:17 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79490.99 PL:-1.8% Stop:$75280.51
+  NVDA $227.07 PL:2.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #19 | 2026-05-13 15:22 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79263.7 PL:-2.1% Stop:$75280.51
+  NVDA $226.41 PL:2.3% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #20 | 2026-05-13 15:28 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79280.26 PL:-2.1% Stop:$75280.51
+  NVDA $226.02 PL:2.1% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #21 | 2026-05-13 15:33 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79266.24 PL:-2.1% Stop:$75280.51
+  NVDA $225.88 PL:2.1% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #22 | 2026-05-13 15:38 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79234.5 PL:-2.1% Stop:$75280.51
+  NVDA $226.27 PL:2.2% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #23 | 2026-05-13 15:44 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79260.04 PL:-2.1% Stop:$75280.51
+  NVDA $227.12 PL:2.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #24 | 2026-05-13 15:49 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79184.26 PL:-2.2% Stop:$75280.51
+  NVDA $227.03 PL:2.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #25 | 2026-05-13 15:54 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79053.1 PL:-2.3% Stop:$75280.51
+  NVDA $227.25 PL:2.7% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #26 | 2026-05-13 16:00 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $78771.7 PL:-2.7% Stop:$75280.51
+  NVDA $226.59 PL:2.4% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #27 | 2026-05-13 16:05 | OPEN
+=======================================================
+[TG] sent
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+$ARKK: possibly delisted; no price data found  (period=300d)
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+Monitoring positions:
+  BTCUSD $78877.54 PL:-2.6% Stop:$75280.51
+  NVDA $227.09 PL:2.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #28 | 2026-05-13 16:10 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $78786.32 PL:-2.7% Stop:$75280.51
+  NVDA $227.16 PL:2.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #29 | 2026-05-13 16:16 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $78833.74 PL:-2.6% Stop:$75280.51
+  NVDA $227.4 PL:2.8% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #30 | 2026-05-13 16:21 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $78907.27 PL:-2.5% Stop:$75280.51
+  NVDA $226.96 PL:2.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #31 | 2026-05-13 16:26 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $78987.0 PL:-2.4% Stop:$75280.51
+  NVDA $227.38 PL:2.7% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #32 | 2026-05-13 16:32 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79041.38 PL:-2.4% Stop:$75280.51
+  NVDA $227.29 PL:2.7% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #33 | 2026-05-13 16:37 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79096.2 PL:-2.3% Stop:$75280.51
+  NVDA $227.59 PL:2.8% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #34 | 2026-05-13 16:43 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79161.04 PL:-2.2% Stop:$75280.51
+  NVDA $227.21 PL:2.7% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #35 | 2026-05-13 16:48 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79213.67 PL:-2.1% Stop:$75280.51
+  NVDA $226.69 PL:2.4% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #36 | 2026-05-13 16:53 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79043.57 PL:-2.4% Stop:$75280.51
+  NVDA $226.93 PL:2.5% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #37 | 2026-05-13 16:59 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79015.4 PL:-2.4% Stop:$75280.51
+  NVDA $226.88 PL:2.5% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #38 | 2026-05-13 17:04 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79186.4 PL:-2.2% Stop:$75280.51
+  NVDA $226.94 PL:2.5% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #39 | 2026-05-13 17:09 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79193.3 PL:-2.2% Stop:$75280.51
+  NVDA $226.91 PL:2.5% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #40 | 2026-05-13 17:15 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79221.8 PL:-2.1% Stop:$75280.51
+  NVDA $227.19 PL:2.7% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #41 | 2026-05-13 17:20 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79292.79 PL:-2.0% Stop:$75280.51
+  NVDA $227.19 PL:2.7% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #42 | 2026-05-13 17:25 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79270.7 PL:-2.1% Stop:$75280.51
+  NVDA $226.98 PL:2.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #43 | 2026-05-13 17:31 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79374.43 PL:-1.9% Stop:$75280.51
+  NVDA $226.62 PL:2.4% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #44 | 2026-05-13 17:36 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79273.32 PL:-2.1% Stop:$75280.51
+  NVDA $226.18 PL:2.2% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #45 | 2026-05-13 17:41 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79288.3 PL:-2.0% Stop:$75280.51
+  NVDA $226.2 PL:2.2% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #46 | 2026-05-13 17:47 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79340.09 PL:-2.0% Stop:$75280.51
+  NVDA $226.41 PL:2.3% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #47 | 2026-05-13 17:52 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79391.61 PL:-1.9% Stop:$75280.51
+  NVDA $225.96 PL:2.1% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #48 | 2026-05-13 17:57 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79391.61 PL:-1.9% Stop:$75280.51
+  NVDA $226.06 PL:2.1% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #49 | 2026-05-13 18:03 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79572.88 PL:-1.7% Stop:$75280.51
+  NVDA $226.19 PL:2.2% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #50 | 2026-05-13 18:08 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79515.83 PL:-1.8% Stop:$75280.51
+  NVDA $226.38 PL:2.3% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #51 | 2026-05-13 18:13 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79606.4 PL:-1.7% Stop:$75280.51
+  NVDA $226.71 PL:2.4% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #52 | 2026-05-13 18:19 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79545.4 PL:-1.7% Stop:$75280.51
+  NVDA $227.14 PL:2.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #53 | 2026-05-13 18:24 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79733.45 PL:-1.5% Stop:$75280.51
+  NVDA $227.21 PL:2.7% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SOXX"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+=======================================================
+Scan #54 | 2026-05-13 18:29 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79758.8 PL:-1.5% Stop:$75280.51
+  NVDA $226.97 PL:2.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #55 | 2026-05-13 18:35 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79758.8 PL:-1.5% Stop:$75280.51
+  NVDA $227.11 PL:2.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #56 | 2026-05-13 18:40 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79742.2 PL:-1.5% Stop:$75280.51
+  NVDA $227.11 PL:2.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #57 | 2026-05-13 18:46 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79794.4 PL:-1.4% Stop:$75280.51
+  NVDA $226.99 PL:2.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #58 | 2026-05-13 18:51 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79794.4 PL:-1.4% Stop:$75280.51
+  NVDA $226.78 PL:2.5% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #59 | 2026-05-13 18:56 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79794.4 PL:-1.4% Stop:$75280.51
+  NVDA $227.11 PL:2.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #60 | 2026-05-13 19:02 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79794.4 PL:-1.4% Stop:$75280.51
+  NVDA $226.65 PL:2.4% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #61 | 2026-05-13 19:07 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79618.27 PL:-1.6% Stop:$75280.51
+  NVDA $226.61 PL:2.4% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #62 | 2026-05-13 19:12 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79540.2 PL:-1.7% Stop:$75280.51
+  NVDA $227.04 PL:2.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #63 | 2026-05-13 19:18 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79455.16 PL:-1.8% Stop:$75280.51
+  NVDA $227.1 PL:2.6% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #64 | 2026-05-13 19:23 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79455.16 PL:-1.8% Stop:$75280.51
+  NVDA $226.52 PL:2.4% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #65 | 2026-05-13 19:28 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79501.2 PL:-1.8% Stop:$75280.51
+  NVDA $226.57 PL:2.4% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #66 | 2026-05-13 19:34 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79501.2 PL:-1.8% Stop:$75280.51
+  NVDA $226.54 PL:2.4% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #67 | 2026-05-13 19:39 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79550.48 PL:-1.7% Stop:$75280.51
+  NVDA $226.37 PL:2.3% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #68 | 2026-05-13 19:44 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79584.94 PL:-1.7% Stop:$75280.51
+  NVDA $226.25 PL:2.2% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #69 | 2026-05-13 19:50 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79454.43 PL:-1.8% Stop:$75280.51
+  NVDA $225.65 PL:2.0% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #70 | 2026-05-13 19:55 | OPEN
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79454.43 PL:-1.8% Stop:$75280.51
+  NVDA $225.57 PL:1.9% Stop:$205.82
+Scanning 49 stocks...
+[TG] sent
+No opportunities
+
+=======================================================
+Scan #71 | 2026-05-13 20:00 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79584.8 PL:-1.7% Stop:$75280.51
+  NVDA $225.79 PL:2.0% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #72 | 2026-05-13 20:05 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79584.8 PL:-1.7% Stop:$75280.51
+  NVDA $226.07 PL:2.2% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #73 | 2026-05-13 20:10 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79584.8 PL:-1.7% Stop:$75280.51
+  NVDA $226.12 PL:2.2% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #74 | 2026-05-13 20:15 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79639.5 PL:-1.6% Stop:$75280.51
+  NVDA $226.4 PL:2.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #75 | 2026-05-13 20:20 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79639.5 PL:-1.6% Stop:$75280.51
+  NVDA $226.4 PL:2.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #76 | 2026-05-13 20:25 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79668.3 PL:-1.6% Stop:$75280.51
+  NVDA $226.41 PL:2.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #77 | 2026-05-13 20:31 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79616.99 PL:-1.6% Stop:$75280.51
+  NVDA $226.63 PL:2.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #78 | 2026-05-13 20:36 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79616.99 PL:-1.6% Stop:$75280.51
+  NVDA $226.55 PL:2.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #79 | 2026-05-13 20:41 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79615.76 PL:-1.6% Stop:$75280.51
+  NVDA $226.69 PL:2.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #80 | 2026-05-13 20:46 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79615.76 PL:-1.6% Stop:$75280.51
+  NVDA $226.63 PL:2.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #81 | 2026-05-13 20:51 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79615.76 PL:-1.6% Stop:$75280.51
+  NVDA $226.45 PL:2.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #82 | 2026-05-13 20:56 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79674.46 PL:-1.6% Stop:$75280.51
+  NVDA $226.43 PL:2.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #83 | 2026-05-13 21:01 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79706.69 PL:-1.5% Stop:$75280.51
+  NVDA $226.6 PL:2.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #84 | 2026-05-13 21:06 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79603.62 PL:-1.7% Stop:$75280.51
+  NVDA $226.39 PL:2.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #85 | 2026-05-13 21:11 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79489.07 PL:-1.8% Stop:$75280.51
+  NVDA $226.5 PL:2.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #86 | 2026-05-13 21:16 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79489.07 PL:-1.8% Stop:$75280.51
+  NVDA $226.53 PL:2.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #87 | 2026-05-13 21:21 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79489.07 PL:-1.8% Stop:$75280.51
+  NVDA $226.41 PL:2.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #88 | 2026-05-13 21:26 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79417.92 PL:-1.9% Stop:$75280.51
+  NVDA $226.38 PL:2.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #89 | 2026-05-13 21:31 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79425.9 PL:-1.9% Stop:$75280.51
+  NVDA $226.33 PL:2.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #90 | 2026-05-13 21:36 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79425.9 PL:-1.9% Stop:$75280.51
+  NVDA $226.43 PL:2.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #91 | 2026-05-13 21:41 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79425.9 PL:-1.9% Stop:$75280.51
+  NVDA $226.47 PL:2.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #92 | 2026-05-13 21:46 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79486.6 PL:-1.8% Stop:$75280.51
+  NVDA $226.57 PL:2.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #93 | 2026-05-13 21:51 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79486.53 PL:-1.8% Stop:$75280.51
+  NVDA $226.58 PL:2.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #94 | 2026-05-13 21:56 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79511.15 PL:-1.8% Stop:$75280.51
+  NVDA $226.67 PL:2.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #95 | 2026-05-13 22:01 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79511.15 PL:-1.8% Stop:$75280.51
+  NVDA $226.6 PL:2.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #96 | 2026-05-13 22:06 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79300.0 PL:-2.0% Stop:$75280.51
+  NVDA $227.06 PL:2.6% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #97 | 2026-05-13 22:11 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79268.92 PL:-2.1% Stop:$75280.51
+  NVDA $227.0 PL:2.6% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #98 | 2026-05-13 22:16 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79404.3 PL:-1.9% Stop:$75280.51
+  NVDA $227.1 PL:2.6% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #99 | 2026-05-13 22:21 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79396.35 PL:-1.9% Stop:$75280.51
+  NVDA $226.99 PL:2.6% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #100 | 2026-05-13 22:26 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79396.35 PL:-1.9% Stop:$75280.51
+  NVDA $226.96 PL:2.6% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #101 | 2026-05-13 22:31 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79396.35 PL:-1.9% Stop:$75280.51
+  NVDA $227.09 PL:2.6% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #102 | 2026-05-13 22:36 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79275.1 PL:-2.1% Stop:$75280.51
+  NVDA $227.02 PL:2.6% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #103 | 2026-05-13 22:41 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79390.05 PL:-1.9% Stop:$75280.51
+  NVDA $227.09 PL:2.6% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #104 | 2026-05-13 22:46 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79390.05 PL:-1.9% Stop:$75280.51
+  NVDA $227.21 PL:2.7% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #105 | 2026-05-13 22:51 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79370.6 PL:-1.9% Stop:$75280.51
+  NVDA $227.39 PL:2.7% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #106 | 2026-05-13 22:56 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79467.47 PL:-1.8% Stop:$75280.51
+  NVDA $227.32 PL:2.7% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #107 | 2026-05-13 23:01 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79467.47 PL:-1.8% Stop:$75280.51
+  NVDA $227.46 PL:2.8% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #108 | 2026-05-13 23:06 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79391.6 PL:-1.9% Stop:$75280.51
+  NVDA $227.6 PL:2.8% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #109 | 2026-05-13 23:11 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79390.23 PL:-1.9% Stop:$75280.51
+  NVDA $227.38 PL:2.7% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #110 | 2026-05-13 23:16 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79393.0 PL:-1.9% Stop:$75280.51
+  NVDA $227.44 PL:2.8% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #111 | 2026-05-13 23:21 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79393.0 PL:-1.9% Stop:$75280.51
+  NVDA $227.3 PL:2.7% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #112 | 2026-05-13 23:26 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79393.0 PL:-1.9% Stop:$75280.51
+  NVDA $227.22 PL:2.7% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #113 | 2026-05-13 23:31 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79393.0 PL:-1.9% Stop:$75280.51
+  NVDA $227.25 PL:2.7% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #114 | 2026-05-13 23:36 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79266.8 PL:-2.1% Stop:$75280.51
+  NVDA $227.3 PL:2.7% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #115 | 2026-05-13 23:41 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79266.8 PL:-2.1% Stop:$75280.51
+  NVDA $227.31 PL:2.7% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #116 | 2026-05-13 23:46 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79297.15 PL:-2.0% Stop:$75280.51
+  NVDA $227.5 PL:2.8% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #117 | 2026-05-13 23:51 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79302.6 PL:-2.0% Stop:$75280.51
+  NVDA $227.31 PL:2.7% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #118 | 2026-05-13 23:56 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79320.26 PL:-2.0% Stop:$75280.51
+  NVDA $227.56 PL:2.8% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #119 | 2026-05-14 00:01 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79307.41 PL:-2.0% Stop:$75280.51
+  NVDA $227.8 PL:2.9% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #120 | 2026-05-14 00:06 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79409.5 PL:-1.9% Stop:$75280.51
+  NVDA $227.85 PL:3.0% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #121 | 2026-05-14 00:11 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79485.95 PL:-1.8% Stop:$75280.51
+  NVDA $227.61 PL:2.8% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #122 | 2026-05-14 00:16 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79430.69 PL:-1.9% Stop:$75280.51
+  NVDA $227.84 PL:3.0% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #123 | 2026-05-14 00:22 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79430.69 PL:-1.9% Stop:$75280.51
+  NVDA $227.93 PL:3.0% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #124 | 2026-05-14 00:27 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79413.0 PL:-1.9% Stop:$75280.51
+  NVDA $228.4 PL:3.2% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #125 | 2026-05-14 00:32 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79413.0 PL:-1.9% Stop:$75280.51
+  NVDA $228.7 PL:3.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #126 | 2026-05-14 00:37 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79499.38 PL:-1.8% Stop:$75280.51
+  NVDA $228.6 PL:3.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #127 | 2026-05-14 00:42 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79617.1 PL:-1.6% Stop:$75280.51
+  NVDA $228.45 PL:3.2% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #128 | 2026-05-14 00:47 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79656.2 PL:-1.6% Stop:$75280.51
+  NVDA $228.79 PL:3.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #129 | 2026-05-14 00:52 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79506.37 PL:-1.8% Stop:$75280.51
+  NVDA $228.93 PL:3.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #130 | 2026-05-14 00:57 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79603.6 PL:-1.7% Stop:$75280.51
+  NVDA $228.87 PL:3.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #131 | 2026-05-14 01:02 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79532.12 PL:-1.7% Stop:$75280.51
+  NVDA $228.76 PL:3.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #132 | 2026-05-14 01:07 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79532.12 PL:-1.7% Stop:$75280.51
+  NVDA $228.61 PL:3.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #133 | 2026-05-14 01:12 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79532.12 PL:-1.7% Stop:$75280.51
+  NVDA $228.57 PL:3.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #134 | 2026-05-14 01:17 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79532.12 PL:-1.7% Stop:$75280.51
+  NVDA $228.74 PL:3.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #135 | 2026-05-14 01:22 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79636.2 PL:-1.6% Stop:$75280.51
+  NVDA $228.73 PL:3.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #136 | 2026-05-14 01:27 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79585.29 PL:-1.7% Stop:$75280.51
+  NVDA $228.82 PL:3.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #137 | 2026-05-14 01:32 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79504.84 PL:-1.8% Stop:$75280.51
+  NVDA $228.76 PL:3.4% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #138 | 2026-05-14 01:37 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79427.14 PL:-1.9% Stop:$75280.51
+  NVDA $228.65 PL:3.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #139 | 2026-05-14 01:42 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79412.3 PL:-1.9% Stop:$75280.51
+  NVDA $228.7 PL:3.3% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #140 | 2026-05-14 01:47 | CLOSED
+=======================================================
+[TG] sent
+Monitoring positions:
+  BTCUSD $79435.12 PL:-1.9% Stop:$75280.51
+  NVDA $228.41 PL:3.2% Stop:$205.82
+Market CLOSED
+
+=======================================================
+Scan #141 | 2026-05-14 01:52 | CLOSED

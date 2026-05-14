@@ -1,21 +1,22 @@
 {
-  "version": 3,
-  "updated_at": "2026-05-13T09:25:18.574414",
+  "version": 19,
+  "updated_at": "2026-05-13T16:15:58.310933",
   "setup_modifiers": {
     "ORB_BREAKOUT": 1.0,
-    "VOLUME_SPIKE": 1.0,
-    "VWAP_CROSS_UP": 1.0,
-    "MOMENTUM_BURST_UP": 1.0,
+    "VOLUME_SPIKE": 0.8,
+    "VWAP_CROSS_UP": 0.8,
+    "MOMENTUM_BURST_UP": 0.8,
     "TIGHT_CONSOLIDATION_BREAK": 1.0,
-    "ORB_BREAKDOWN": 0.96,
-    "VWAP_CROSS_DOWN": 1.0,
-    "MOMENTUM_BURST_DOWN": 1.0
+    "ORB_BREAKDOWN": 0.8,
+    "VWAP_CROSS_DOWN": 0.8,
+    "MOMENTUM_BURST_DOWN": 0.8
   },
   "regime_aggressiveness": {
     "RISK_ON": 1.0,
     "NEUTRAL": 1.0,
     "RISK_OFF": 1.0,
-    "TRANSITION": 1.0
+    "TRANSITION": 1.0,
+    "UNKNOWN": 0.85
   },
   "sizing_modifiers": {
     "RISK_ON": 1.0,

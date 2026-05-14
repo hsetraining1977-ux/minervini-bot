@@ -1,8 +1,8 @@
 {
-  "phase": "PHASE_0_INITIALIZING",
-  "last_replay_end": "2025-12-12",
-  "total_cycles": 2,
-  "total_trades": 7599,
+  "phase": "PHASE_3_MULTI_REGIME",
+  "last_replay_end": "2026-03-13",
+  "total_cycles": 5,
+  "total_trades": 12436,
   "started_at": "2026-05-13T09:12:32.741451",
-  "last_cycle_at": "2026-05-13T09:16:21.349970"
+  "last_cycle_at": "2026-05-13T10:52:52.613755"
 }

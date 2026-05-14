@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-05-13 09:28:26",
+  "timestamp": "2026-05-14 01:59:04",
   "processes": {
     "telegram_bot": true,
     "streamlit": true,
-    "ai_layer": true,
+    "ai_layer": false,
     "event_awareness": true,
     "institutional": true
   },
@@ -15,9 +15,9 @@
   "telegram_api": true,
   "alpaca_api": true,
   "resources": {
-    "cpu": 100.0,
-    "ram": 75.3,
-    "disk": 24.1
+    "cpu": 1.0,
+    "ram": 69.6,
+    "disk": 24.2
   },
-  "healthy": true
+  "healthy": false
 }

@@ -158,5 +158,419 @@
         "trend": "STABLE"
       }
     }
+  },
+  {
+    "timestamp": "2026-05-13T09:46:32.944123",
+    "setups": {
+      "ORB_BREAKOUT": {
+        "win_rate": 41.18,
+        "expectancy": -0.0313,
+        "profit_factor": 0.733,
+        "total_trades": 17,
+        "trend": "STABLE"
+      },
+      "VOLUME_SPIKE": {
+        "win_rate": 22.22,
+        "expectancy": -0.1034,
+        "profit_factor": 0.593,
+        "total_trades": 9,
+        "trend": "INSUFFICIENT_DATA"
+      },
+      "VWAP_CROSS_UP": {
+        "win_rate": 20.0,
+        "expectancy": -0.1347,
+        "profit_factor": 0.501,
+        "total_trades": 10,
+        "trend": "STABLE"
+      },
+      "TIGHT_CONSOLIDATION_BREAK": {
+        "win_rate": 36.36,
+        "expectancy": -0.0627,
+        "profit_factor": 0.64,
+        "total_trades": 11,
+        "trend": "STABLE"
+      },
+      "ORB_BREAKDOWN": {
+        "win_rate": 31.25,
+        "expectancy": -0.1844,
+        "profit_factor": 0.145,
+        "total_trades": 16,
+        "trend": "IMPROVING"
+      },
+      "VWAP_CROSS_DOWN": {
+        "win_rate": 50.0,
+        "expectancy": 0.0786,
+        "profit_factor": 1.561,
+        "total_trades": 10,
+        "trend": "STABLE"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-13T09:46:32.981427",
+    "setups": {
+      "ORB_BREAKOUT": {
+        "win_rate": 41.18,
+        "expectancy": -0.0313,
+        "profit_factor": 0.733,
+        "total_trades": 17,
+        "trend": "STABLE"
+      },
+      "VOLUME_SPIKE": {
+        "win_rate": 22.22,
+        "expectancy": -0.1034,
+        "profit_factor": 0.593,
+        "total_trades": 9,
+        "trend": "INSUFFICIENT_DATA"
+      },
+      "VWAP_CROSS_UP": {
+        "win_rate": 20.0,
+        "expectancy": -0.1347,
+        "profit_factor": 0.501,
+        "total_trades": 10,
+        "trend": "STABLE"
+      },
+      "TIGHT_CONSOLIDATION_BREAK": {
+        "win_rate": 36.36,
+        "expectancy": -0.0627,
+        "profit_factor": 0.64,
+        "total_trades": 11,
+        "trend": "STABLE"
+      },
+      "ORB_BREAKDOWN": {
+        "win_rate": 31.25,
+        "expectancy": -0.1844,
+        "profit_factor": 0.145,
+        "total_trades": 16,
+        "trend": "IMPROVING"
+      },
+      "VWAP_CROSS_DOWN": {
+        "win_rate": 50.0,
+        "expectancy": 0.0786,
+        "profit_factor": 1.561,
+        "total_trades": 10,
+        "trend": "STABLE"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-13T09:48:24.912737",
+    "setups": {
+      "TIGHT_CONSOLIDATION_BREAK": {
+        "win_rate": 33.33,
+        "expectancy": -0.0639,
+        "profit_factor": 0.408,
+        "total_trades": 6,
+        "trend": "INSUFFICIENT_DATA"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-13T09:48:24.932466",
+    "setups": {
+      "TIGHT_CONSOLIDATION_BREAK": {
+        "win_rate": 33.33,
+        "expectancy": -0.0639,
+        "profit_factor": 0.408,
+        "total_trades": 6,
+        "trend": "INSUFFICIENT_DATA"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-13T10:01:01.664217",
+    "setups": {
+      "ORB_BREAKOUT": {
+        "win_rate": 44.0,
+        "expectancy": 0.0152,
+        "profit_factor": 1.114,
+        "total_trades": 4489,
+        "trend": "STABLE"
+      },
+      "VOLUME_SPIKE": {
+        "win_rate": 35.8,
+        "expectancy": 0.0167,
+        "profit_factor": 1.109,
+        "total_trades": 1084,
+        "trend": "STABLE"
+      },
+      "VWAP_CROSS_UP": {
+        "win_rate": 36.4,
+        "expectancy": -0.0008,
+        "profit_factor": 0.995,
+        "total_trades": 1008,
+        "trend": "STABLE"
+      },
+      "TIGHT_CONSOLIDATION_BREAK": {
+        "win_rate": 45.0,
+        "expectancy": 0.0374,
+        "profit_factor": 1.326,
+        "total_trades": 2649,
+        "trend": "IMPROVING"
+      },
+      "MOMENTUM_BURST_UP": {
+        "win_rate": 45.45,
+        "expectancy": 0.691,
+        "profit_factor": 3.074,
+        "total_trades": 11,
+        "trend": "STABLE"
+      },
+      "RELATIVE_STRENGTH_LEADER": {
+        "win_rate": 33.33,
+        "expectancy": 0.0563,
+        "profit_factor": 1.162,
+        "total_trades": 24,
+        "trend": "IMPROVING"
+      },
+      "ORB_BREAKDOWN": {
+        "win_rate": 37.0,
+        "expectancy": 0.067,
+        "profit_factor": 1.362,
+        "total_trades": 4378,
+        "trend": "DECLINING"
+      },
+      "VWAP_CROSS_DOWN": {
+        "win_rate": 42.6,
+        "expectancy": 0.031,
+        "profit_factor": 1.203,
+        "total_trades": 982,
+        "trend": "STABLE"
+      },
+      "MOMENTUM_BURST_DOWN": {
+        "win_rate": 18.18,
+        "expectancy": -0.4234,
+        "profit_factor": 0.354,
+        "total_trades": 11,
+        "trend": "STABLE"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-13T10:01:01.700735",
+    "setups": {
+      "ORB_BREAKOUT": {
+        "win_rate": 44.0,
+        "expectancy": 0.0152,
+        "profit_factor": 1.114,
+        "total_trades": 4489,
+        "trend": "STABLE"
+      },
+      "VOLUME_SPIKE": {
+        "win_rate": 35.8,
+        "expectancy": 0.0167,
+        "profit_factor": 1.109,
+        "total_trades": 1084,
+        "trend": "STABLE"
+      },
+      "VWAP_CROSS_UP": {
+        "win_rate": 36.4,
+        "expectancy": -0.0008,
+        "profit_factor": 0.995,
+        "total_trades": 1008,
+        "trend": "STABLE"
+      },
+      "TIGHT_CONSOLIDATION_BREAK": {
+        "win_rate": 45.0,
+        "expectancy": 0.0374,
+        "profit_factor": 1.326,
+        "total_trades": 2649,
+        "trend": "IMPROVING"
+      },
+      "MOMENTUM_BURST_UP": {
+        "win_rate": 45.45,
+        "expectancy": 0.691,
+        "profit_factor": 3.074,
+        "total_trades": 11,
+        "trend": "STABLE"
+      },
+      "RELATIVE_STRENGTH_LEADER": {
+        "win_rate": 33.33,
+        "expectancy": 0.0563,
+        "profit_factor": 1.162,
+        "total_trades": 24,
+        "trend": "IMPROVING"
+      },
+      "ORB_BREAKDOWN": {
+        "win_rate": 37.0,
+        "expectancy": 0.067,
+        "profit_factor": 1.362,
+        "total_trades": 4378,
+        "trend": "DECLINING"
+      },
+      "VWAP_CROSS_DOWN": {
+        "win_rate": 42.6,
+        "expectancy": 0.031,
+        "profit_factor": 1.203,
+        "total_trades": 982,
+        "trend": "STABLE"
+      },
+      "MOMENTUM_BURST_DOWN": {
+        "win_rate": 18.18,
+        "expectancy": -0.4234,
+        "profit_factor": 0.354,
+        "total_trades": 11,
+        "trend": "STABLE"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-13T10:20:36.892764",
+    "setups": {
+      "ORB_BREAKOUT": {
+        "win_rate": 0.0,
+        "expectancy": -0.2276,
+        "profit_factor": 0.0,
+        "total_trades": 7,
+        "trend": "INSUFFICIENT_DATA"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-13T10:20:36.913667",
+    "setups": {
+      "ORB_BREAKOUT": {
+        "win_rate": 0.0,
+        "expectancy": -0.2276,
+        "profit_factor": 0.0,
+        "total_trades": 7,
+        "trend": "INSUFFICIENT_DATA"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-13T10:35:34.929175",
+    "setups": {
+      "ORB_BREAKOUT": {
+        "win_rate": 36.8,
+        "expectancy": -0.0035,
+        "profit_factor": 0.98,
+        "total_trades": 5636,
+        "trend": "DECLINING"
+      },
+      "VOLUME_SPIKE": {
+        "win_rate": 37.4,
+        "expectancy": 0.0027,
+        "profit_factor": 1.017,
+        "total_trades": 1588,
+        "trend": "STABLE"
+      },
+      "VWAP_CROSS_UP": {
+        "win_rate": 34.4,
+        "expectancy": -0.0101,
+        "profit_factor": 0.93,
+        "total_trades": 1449,
+        "trend": "IMPROVING"
+      },
+      "TIGHT_CONSOLIDATION_BREAK": {
+        "win_rate": 37.2,
+        "expectancy": -0.0095,
+        "profit_factor": 0.933,
+        "total_trades": 3291,
+        "trend": "IMPROVING"
+      },
+      "MOMENTUM_BURST_UP": {
+        "win_rate": 42.86,
+        "expectancy": 0.5135,
+        "profit_factor": 2.643,
+        "total_trades": 7,
+        "trend": "INSUFFICIENT_DATA"
+      },
+      "RELATIVE_STRENGTH_LEADER": {
+        "win_rate": 42.42,
+        "expectancy": 0.1619,
+        "profit_factor": 1.81,
+        "total_trades": 33,
+        "trend": "STABLE"
+      },
+      "ORB_BREAKDOWN": {
+        "win_rate": 34.8,
+        "expectancy": -0.0241,
+        "profit_factor": 0.856,
+        "total_trades": 5294,
+        "trend": "STABLE"
+      },
+      "VWAP_CROSS_DOWN": {
+        "win_rate": 39.6,
+        "expectancy": -0.0045,
+        "profit_factor": 0.968,
+        "total_trades": 1450,
+        "trend": "STABLE"
+      },
+      "MOMENTUM_BURST_DOWN": {
+        "win_rate": 45.45,
+        "expectancy": 0.1476,
+        "profit_factor": 1.357,
+        "total_trades": 11,
+        "trend": "IMPROVING"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-13T10:52:52.602409",
+    "setups": {
+      "ORB_BREAKOUT": {
+        "win_rate": 19.8,
+        "expectancy": -0.1544,
+        "profit_factor": 0.433,
+        "total_trades": 17190,
+        "trend": "STABLE"
+      },
+      "VOLUME_SPIKE": {
+        "win_rate": 36.2,
+        "expectancy": 0.0061,
+        "profit_factor": 1.031,
+        "total_trades": 4927,
+        "trend": "STABLE"
+      },
+      "VWAP_CROSS_UP": {
+        "win_rate": 31.0,
+        "expectancy": -0.0391,
+        "profit_factor": 0.818,
+        "total_trades": 3973,
+        "trend": "STABLE"
+      },
+      "TIGHT_CONSOLIDATION_BREAK": {
+        "win_rate": 31.8,
+        "expectancy": -0.035,
+        "profit_factor": 0.83,
+        "total_trades": 8358,
+        "trend": "STABLE"
+      },
+      "MOMENTUM_BURST_UP": {
+        "win_rate": 40.62,
+        "expectancy": 0.1761,
+        "profit_factor": 1.401,
+        "total_trades": 64,
+        "trend": "DECLINING"
+      },
+      "RELATIVE_STRENGTH_LEADER": {
+        "win_rate": 39.31,
+        "expectancy": 0.0937,
+        "profit_factor": 1.318,
+        "total_trades": 173,
+        "trend": "STABLE"
+      },
+      "ORB_BREAKDOWN": {
+        "win_rate": 46.2,
+        "expectancy": 0.0763,
+        "profit_factor": 1.452,
+        "total_trades": 19867,
+        "trend": "STABLE"
+      },
+      "VWAP_CROSS_DOWN": {
+        "win_rate": 42.6,
+        "expectancy": 0.0385,
+        "profit_factor": 1.209,
+        "total_trades": 4033,
+        "trend": "DECLINING"
+      },
+      "MOMENTUM_BURST_DOWN": {
+        "win_rate": 28.07,
+        "expectancy": -0.291,
+        "profit_factor": 0.535,
+        "total_trades": 57,
+        "trend": "STABLE"
+      }
+    }
   }
 ]

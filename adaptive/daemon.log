@@ -1,23 +1,96 @@
 nohup: ignoring input
-[2026-05-13 09:14:32] =======================================================
-[2026-05-13 09:14:32]   HISTORICAL LEARNING DAEMON
-[2026-05-13 09:14:32]   Alpaca (5m/years) + Yahoo (1d/any date)
-[2026-05-13 09:14:32]   Low Priority — Non-Blocking — Advisory Only
-[2026-05-13 09:14:32] =======================================================
-[2026-05-13 09:14:32] 
-  ── Cycle 1 ──────────────────────────────
-[2026-05-13 09:14:32]   Phase: PHASE_0_INITIALIZING
-[2026-05-13 09:14:32]   Bootstrap — 6 months @ 5min via Alpaca
-[2026-05-13 09:14:32]   Interval: 5m | Source: Alpaca
-[2026-05-13 09:14:32]   Replaying 2025-11-28 → 2025-12-12 | 10 symbols
-[2026-05-13 09:15:42] Phase 2 — Last 2 years @ daily (Yahoo)
-[2026-05-13 09:16:21]   ✔ Cycle 2 | Trades: 3485 | Total: 7599
-[2026-05-13 09:16:21]   Suggestions: 0
-[2026-05-13 09:16:21]   Sleeping 30 min...
-[2026-05-13 09:24:19]   ── STATUS REPORT ────────────────────────────────
+$TSLA: possibly delisted; no price data found  (1d 2025-12-25 -> 2025-12-26)
+
+1 Failed download:
+['TSLA']: possibly delisted; no price data found  (1d 2025-12-25 -> 2025-12-26)
+$GOOGL: possibly delisted; no price data found  (1d 2025-12-25 -> 2025-12-26)
+
+1 Failed download:
+['GOOGL']: possibly delisted; no price data found  (1d 2025-12-25 -> 2025-12-26)
+$META: possibly delisted; no price data found  (1d 2025-12-25 -> 2025-12-26)
+
+1 Failed download:
+['META']: possibly delisted; no price data found  (1d 2025-12-25 -> 2025-12-26)
+$AAPL: possibly delisted; no price data found  (1d 2025-12-25 -> 2025-12-26)
+
+1 Failed download:
+['AAPL']: possibly delisted; no price data found  (1d 2025-12-25 -> 2025-12-26)
+$AMD: possibly delisted; no price data found  (1d 2026-01-01 -> 2026-01-02)
+
+1 Failed download:
+['AMD']: possibly delisted; no price data found  (1d 2026-01-01 -> 2026-01-02)
+$AAPL: possibly delisted; no price data found  (1d 2026-01-01 -> 2026-01-02)
+
+1 Failed download:
+['AAPL']: possibly delisted; no price data found  (1d 2026-01-01 -> 2026-01-02)
+�──
 [2026-05-13 09:24:19]   Phase:         PHASE_3_MULTI_REGIME
 [2026-05-13 09:24:19]   Total trades:  12327
 [2026-05-13 09:24:19]   Best setup:    MOMENTUM_BURST_UP (+0.18%)
 [2026-05-13 09:24:19]   Regimes mapped:5
 [2026-05-13 09:24:19]   Cycles run:    2
 [2026-05-13 09:24:19]   Phase progress:12327/99999 (12.3%)
+[2026-05-13 09:39:09]   Phase: PHASE_3_MULTI_REGIME
+[2026-05-13 09:39:09]   Institutional — 5 years @ daily
+[2026-05-13 09:39:09]   Interval: 1d | Source: Yahoo Daily
+[2026-05-13 09:39:09]   Replaying 2025-12-13 → 2026-02-11 | 10 symbols
+[2026-05-13 09:42:56]   Phase: PHASE_3_MULTI_REGIME
+[2026-05-13 09:42:56]   Institutional — 5 years @ daily
+[2026-05-13 09:42:56]   Interval: 1d | Source: Yahoo Daily
+[2026-05-13 09:42:56]   Replaying 2025-12-13 → 2026-02-11 | 10 symbols
+[2026-05-13 09:46:21] 
+  ── Cycle 2 ──────────────────────────────
+[2026-05-13 09:46:21]   Phase: PHASE_0_INITIALIZING
+[2026-05-13 09:46:21]   Bootstrap — 6 months @ 5min via Alpaca
+[2026-05-13 09:46:21]   Interval: 5m | Source: Alpaca
+[2026-05-13 09:46:21]   Replaying 2025-12-13 → 2025-12-27 | 10 symbols
+[2026-05-13 09:46:32]   ✔ Cycle 3 | Trades: 0 | Total: 7599
+[2026-05-13 09:46:32]   Suggestions: 0
+[2026-05-13 09:46:33]   ── STATUS REPORT ────────────────────────────────
+[2026-05-13 09:46:33]   Phase:         PHASE_1_BOOTSTRAP
+[2026-05-13 09:46:33]   Total trades:  73
+[2026-05-13 09:46:33]   Best setup:    VWAP_CROSS_DOWN (+0.08%)
+[2026-05-13 09:46:33]   Regimes mapped:1
+[2026-05-13 09:46:33]   Cycles run:    3
+[2026-05-13 09:46:33]   Phase progress:73/2000 (3.6%)
+[2026-05-13 09:48:24]   ✔ Cycle 3 | Trades: 2237 | Total: 9836
+[2026-05-13 09:48:24]   Suggestions: 0
+[2026-05-13 09:48:24]   Sleeping 30 min...
+[2026-05-13 09:57:32]   Phase: PHASE_3_MULTI_REGIME
+[2026-05-13 09:57:32]   Institutional — 5 years @ daily
+[2026-05-13 09:57:32]   Interval: 1d | Source: Yahoo Daily
+[2026-05-13 09:57:32]   Replaying 2025-12-28 → 2026-02-26 | 10 symbols
+[2026-05-13 10:01:01]   ✔ Cycle 4 | Trades: 0 | Total: 9836
+[2026-05-13 10:01:01]   Suggestions: 4
+[2026-05-13 10:01:01]   ── STATUS REPORT ────────────────────────────────
+[2026-05-13 10:01:01]   Phase:         PHASE_3_MULTI_REGIME
+[2026-05-13 10:01:01]   Total trades:  14636
+[2026-05-13 10:01:01]   Best setup:    MOMENTUM_BURST_UP (+0.69%)
+[2026-05-13 10:01:01]   Regimes mapped:3
+[2026-05-13 10:01:01]   Cycles run:    4
+[2026-05-13 10:01:01]   Phase progress:14636/99999 (14.6%)
+[2026-05-13 10:18:25] 
+  ── Cycle 3 ──────────────────────────────
+[2026-05-13 10:18:25]   Phase: PHASE_0_INITIALIZING
+[2026-05-13 10:18:25]   Bootstrap — 6 months @ 5min via Alpaca
+[2026-05-13 10:18:25]   Interval: 5m | Source: Alpaca
+[2026-05-13 10:18:25]   Replaying 2025-12-28 → 2026-01-11 | 10 symbols
+[2026-05-13 10:20:36]   ✔ Cycle 4 | Trades: 2600 | Total: 12436
+[2026-05-13 10:20:36]   Suggestions: 0
+[2026-05-13 10:20:36]   Sleeping 30 min...
+[2026-05-13 10:35:34]   ── STATUS REPORT ────────────────────────────────
+[2026-05-13 10:35:34]   Phase:         PHASE_0_INITIALIZING
+[2026-05-13 10:35:34]   Total trades:  0
+[2026-05-13 10:35:34]   Best setup:    N/A (+0.00%)
+[2026-05-13 10:35:34]   Regimes mapped:6
+[2026-05-13 10:35:34]   Cycles run:    4
+[2026-05-13 10:35:34]   Phase progress:0/500 (0.0%)
+[2026-05-13 10:50:37] 
+  ── Cycle 4 ──────────────────────────────
+[2026-05-13 10:50:37]   Phase: PHASE_3_MULTI_REGIME
+[2026-05-13 10:50:37]   Institutional — 5 years @ daily
+[2026-05-13 10:50:37]   Interval: 1d | Source: Yahoo Daily
+[2026-05-13 10:50:37]   Replaying 2026-01-12 → 2026-03-13 | 10 symbols
+[2026-05-13 10:52:52]   ✔ Cycle 5 | Trades: 0 | Total: 12436
+[2026-05-13 10:52:52]   Suggestions: 0
+[2026-05-13 10:52:52]   Sleeping 30 min...

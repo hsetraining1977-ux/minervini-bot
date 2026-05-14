@@ -26,5 +26,286 @@
       ]
     },
     "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T09:34:31.796581",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 2 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "ORB_BREAKDOWN: 0.960 \u2192 0.940 (Weak performance WR=0.0% Exp=-0.53%)",
+        "Regime UNKNOWN: 1.000 \u2192 0.990"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T09:37:27.493744",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 2 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "ORB_BREAKDOWN: 0.940 \u2192 0.920 (Weak performance WR=0.0% Exp=-0.53%)",
+        "Regime UNKNOWN: 0.990 \u2192 0.980"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T09:53:24.853987",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 2 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "ORB_BREAKDOWN: 0.920 \u2192 0.900 (Weak performance WR=0.0% Exp=-0.53%)",
+        "Regime UNKNOWN: 0.980 \u2192 0.970"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T09:55:29.577801",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 1 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "Regime UNKNOWN: 0.970 \u2192 0.960"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T09:56:03.671203",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 1 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "Regime UNKNOWN: 0.960 \u2192 0.950"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T10:01:57.736813",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 2 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "MOMENTUM_BURST_DOWN: 1.000 \u2192 0.980 (Weak performance WR=14.3% Exp=-0.43%)",
+        "Regime UNKNOWN: 0.950 \u2192 0.940"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T10:12:55.190983",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 7 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 1.000 \u2192 0.980 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 1.000 \u2192 0.980 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 1.000 \u2192 0.980 (Weak performance WR=38.9% Exp=+0.43%)",
+        "ORB_BREAKDOWN: 0.900 \u2192 0.880 (Weak performance WR=39.1% Exp=+0.00%)",
+        "VWAP_CROSS_DOWN: 1.000 \u2192 0.980 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.980 \u2192 0.960 (Weak performance WR=18.2% Exp=-0.29%)",
+        "Regime UNKNOWN: 0.940 \u2192 0.930"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T10:25:41.392197",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 7 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.980 \u2192 0.960 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.980 \u2192 0.960 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.980 \u2192 0.960 (Weak performance WR=38.9% Exp=+0.43%)",
+        "ORB_BREAKDOWN: 0.880 \u2192 0.860 (Weak performance WR=39.1% Exp=+0.00%)",
+        "VWAP_CROSS_DOWN: 0.980 \u2192 0.960 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.960 \u2192 0.940 (Weak performance WR=18.2% Exp=-0.29%)",
+        "Regime UNKNOWN: 0.930 \u2192 0.920"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T10:55:51.375475",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 7 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.960 \u2192 0.940 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.960 \u2192 0.940 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.960 \u2192 0.940 (Weak performance WR=38.9% Exp=+0.43%)",
+        "ORB_BREAKDOWN: 0.860 \u2192 0.840 (Weak performance WR=39.1% Exp=+0.00%)",
+        "VWAP_CROSS_DOWN: 0.960 \u2192 0.940 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.940 \u2192 0.920 (Weak performance WR=18.2% Exp=-0.29%)",
+        "Regime UNKNOWN: 0.920 \u2192 0.910"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T13:45:41.369031",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 7 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.940 \u2192 0.920 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.940 \u2192 0.920 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.940 \u2192 0.920 (Weak performance WR=38.9% Exp=+0.43%)",
+        "ORB_BREAKDOWN: 0.840 \u2192 0.820 (Weak performance WR=39.1% Exp=+0.00%)",
+        "VWAP_CROSS_DOWN: 0.940 \u2192 0.920 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.920 \u2192 0.900 (Weak performance WR=18.2% Exp=-0.29%)",
+        "Regime UNKNOWN: 0.910 \u2192 0.900"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T13:49:23.261761",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 7 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.920 \u2192 0.900 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.920 \u2192 0.900 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.920 \u2192 0.900 (Weak performance WR=38.9% Exp=+0.43%)",
+        "ORB_BREAKDOWN: 0.820 \u2192 0.800 (Weak performance WR=39.1% Exp=+0.00%)",
+        "VWAP_CROSS_DOWN: 0.920 \u2192 0.900 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.900 \u2192 0.880 (Weak performance WR=18.2% Exp=-0.29%)",
+        "Regime UNKNOWN: 0.900 \u2192 0.890"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T14:15:48.542484",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 6 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.900 \u2192 0.880 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.900 \u2192 0.880 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.900 \u2192 0.880 (Weak performance WR=38.9% Exp=+0.43%)",
+        "VWAP_CROSS_DOWN: 0.900 \u2192 0.880 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.880 \u2192 0.860 (Weak performance WR=18.2% Exp=-0.29%)",
+        "Regime UNKNOWN: 0.890 \u2192 0.880"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T14:45:50.898324",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 6 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.880 \u2192 0.860 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.880 \u2192 0.860 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.880 \u2192 0.860 (Weak performance WR=38.9% Exp=+0.43%)",
+        "VWAP_CROSS_DOWN: 0.880 \u2192 0.860 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.860 \u2192 0.840 (Weak performance WR=18.2% Exp=-0.29%)",
+        "Regime UNKNOWN: 0.880 \u2192 0.870"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T15:15:53.311915",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 6 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.860 \u2192 0.840 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.860 \u2192 0.840 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.860 \u2192 0.840 (Weak performance WR=38.9% Exp=+0.43%)",
+        "VWAP_CROSS_DOWN: 0.860 \u2192 0.840 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.840 \u2192 0.820 (Weak performance WR=18.2% Exp=-0.29%)",
+        "Regime UNKNOWN: 0.870 \u2192 0.860"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T15:45:55.723170",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 6 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.840 \u2192 0.820 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.840 \u2192 0.820 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.840 \u2192 0.820 (Weak performance WR=38.9% Exp=+0.43%)",
+        "VWAP_CROSS_DOWN: 0.840 \u2192 0.820 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.820 \u2192 0.800 (Weak performance WR=18.2% Exp=-0.29%)",
+        "Regime UNKNOWN: 0.860 \u2192 0.850"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-13T16:15:58.311223",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 4 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.820 \u2192 0.800 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.820 \u2192 0.800 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.820 \u2192 0.800 (Weak performance WR=38.9% Exp=+0.43%)",
+        "VWAP_CROSS_DOWN: 0.820 \u2192 0.800 (Weak performance WR=38.3% Exp=+0.01%)"
+      ]
+    },
+    "status": "applied"
   }
 ]

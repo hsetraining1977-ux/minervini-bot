@@ -1,37 +1,356 @@
 {
-  "MOMENTUM_BURST_DOWN": {
-    "total": 6,
-    "wins": 3,
-    "losses": 3,
-    "total_pnl": 0.44959999999999994,
+  "ORB_BREAKOUT": {
+    "total": 7384,
+    "wins": 3051,
+    "losses": 4333,
+    "total_pnl": 44.9317,
     "by_regime": {
+      "STRONG_RISK_ON": {
+        "wins": 1675,
+        "losses": 2360,
+        "pnl": 182.0222,
+        "total": 4035
+      },
+      "RISK_ON": {
+        "wins": 948,
+        "losses": 1219,
+        "pnl": 102.6761,
+        "total": 2167
+      },
+      "NEUTRAL": {
+        "wins": 172,
+        "losses": 394,
+        "pnl": -27.2597,
+        "total": 566
+      },
       "PANIC": {
+        "wins": 2,
+        "losses": 64,
+        "pnl": -26.4825,
+        "total": 66
+      },
+      "RISK_OFF": {
+        "wins": 254,
+        "losses": 296,
+        "pnl": 41.8016,
+        "total": 550
+      }
+    },
+    "last_updated": "2026-05-13T13:23:29.776343",
+    "source": "historical_full"
+  },
+  "VOLUME_SPIKE": {
+    "total": 1872,
+    "wins": 670,
+    "losses": 1202,
+    "total_pnl": -13.7168,
+    "by_regime": {
+      "STRONG_RISK_ON": {
+        "wins": 358,
+        "losses": 666,
+        "pnl": 15.6003,
+        "total": 1024
+      },
+      "RISK_ON": {
+        "wins": 187,
+        "losses": 322,
+        "pnl": 2.656,
+        "total": 509
+      },
+      "NEUTRAL": {
+        "wins": 48,
+        "losses": 97,
+        "pnl": -0.9348,
+        "total": 145
+      },
+      "PANIC": {
+        "wins": 36,
+        "losses": 61,
+        "pnl": 1.9894,
+        "total": 97
+      },
+      "RISK_OFF": {
+        "wins": 41,
+        "losses": 56,
+        "pnl": 4.3021,
+        "total": 97
+      }
+    },
+    "last_updated": "2026-05-13T13:23:29.777591",
+    "source": "historical_full"
+  },
+  "VWAP_CROSS_UP": {
+    "total": 1595,
+    "wins": 611,
+    "losses": 984,
+    "total_pnl": 7.8086,
+    "by_regime": {
+      "STRONG_RISK_ON": {
+        "wins": 347,
+        "losses": 554,
+        "pnl": 13.3738,
+        "total": 901
+      },
+      "RISK_ON": {
+        "wins": 177,
+        "losses": 261,
+        "pnl": 14.378,
+        "total": 438
+      },
+      "NEUTRAL": {
+        "wins": 43,
+        "losses": 90,
+        "pnl": -1.7694,
+        "total": 133
+      },
+      "PANIC": {
+        "wins": 8,
+        "losses": 38,
+        "pnl": -10.5695,
+        "total": 46
+      },
+      "RISK_OFF": {
+        "wins": 36,
+        "losses": 41,
+        "pnl": 11.8635,
+        "total": 77
+      }
+    },
+    "last_updated": "2026-05-13T13:23:29.778817",
+    "source": "historical_full"
+  },
+  "TIGHT_CONSOLIDATION_BREAK": {
+    "total": 4146,
+    "wins": 1719,
+    "losses": 2427,
+    "total_pnl": 25.7722,
+    "by_regime": {
+      "STRONG_RISK_ON": {
+        "wins": 919,
+        "losses": 1370,
+        "pnl": 62.7402,
+        "total": 2289
+      },
+      "RISK_ON": {
+        "wins": 556,
+        "losses": 673,
+        "pnl": 57.9556,
+        "total": 1229
+      },
+      "NEUTRAL": {
+        "wins": 136,
+        "losses": 205,
+        "pnl": 8.1238,
+        "total": 341
+      },
+      "PANIC": {
+        "wins": 12,
+        "losses": 50,
+        "pnl": -15.1436,
+        "total": 62
+      },
+      "RISK_OFF": {
+        "wins": 96,
+        "losses": 129,
+        "pnl": 17.2968,
+        "total": 225
+      }
+    },
+    "last_updated": "2026-05-13T13:23:29.855527",
+    "source": "historical_full"
+  },
+  "MOMENTUM_BURST_UP": {
+    "total": 18,
+    "wins": 7,
+    "losses": 11,
+    "total_pnl": 7.6699,
+    "by_regime": {
+      "NEUTRAL": {
         "wins": 1,
-        "losses": 2,
-        "pnl": -0.20030000000000003
+        "losses": 1,
+        "pnl": 0.5354,
+        "total": 2
+      },
+      "RISK_ON": {
+        "wins": 0,
+        "losses": 1,
+        "pnl": -0.5631,
+        "total": 1
       },
       "STRONG_RISK_ON": {
-        "wins": 2,
+        "wins": 4,
+        "losses": 7,
+        "pnl": 6.5866,
+        "total": 11
+      },
+      "PANIC": {
+        "wins": 1,
         "losses": 1,
-        "pnl": 0.6498999999999999
+        "pnl": 0.7531,
+        "total": 2
+      },
+      "RISK_OFF": {
+        "wins": 1,
+        "losses": 1,
+        "pnl": 0.3579,
+        "total": 2
       }
     },
-    "last_updated": "2026-05-13T09:13:55.938061",
-    "source": "historical_blend"
+    "last_updated": "2026-05-13T13:23:29.857498",
+    "source": "historical_full"
+  },
+  "RELATIVE_STRENGTH_LEADER": {
+    "total": 45,
+    "wins": 14,
+    "losses": 31,
+    "total_pnl": 1.4758,
+    "by_regime": {
+      "STRONG_RISK_ON": {
+        "wins": 5,
+        "losses": 21,
+        "pnl": -2.2298,
+        "total": 26
+      },
+      "RISK_ON": {
+        "wins": 3,
+        "losses": 4,
+        "pnl": 0.6845,
+        "total": 7
+      },
+      "PANIC": {
+        "wins": 2,
+        "losses": 2,
+        "pnl": 0.7665,
+        "total": 4
+      },
+      "RISK_OFF": {
+        "wins": 3,
+        "losses": 1,
+        "pnl": 2.2772,
+        "total": 4
+      },
+      "NEUTRAL": {
+        "wins": 1,
+        "losses": 3,
+        "pnl": -0.0226,
+        "total": 4
+      }
+    },
+    "last_updated": "2026-05-13T13:23:29.858878",
+    "source": "historical_full"
   },
   "ORB_BREAKDOWN": {
-    "total": 10,
-    "wins": 0,
-    "losses": 10,
-    "total_pnl": -5.3006,
+    "total": 7312,
+    "wins": 2862,
+    "losses": 4450,
+    "total_pnl": 4.0239,
     "by_regime": {
-      "CHOPPY": {
-        "wins": 0,
-        "losses": 10,
-        "pnl": -5.3006
+      "STRONG_RISK_ON": {
+        "wins": 1434,
+        "losses": 2241,
+        "pnl": 68.2325,
+        "total": 3675
+      },
+      "RISK_ON": {
+        "wins": 746,
+        "losses": 1384,
+        "pnl": -3.3871,
+        "total": 2130
+      },
+      "NEUTRAL": {
+        "wins": 130,
+        "losses": 333,
+        "pnl": -22.2977,
+        "total": 463
+      },
+      "PANIC": {
+        "wins": 438,
+        "losses": 376,
+        "pnl": 188.6924,
+        "total": 814
+      },
+      "RISK_OFF": {
+        "wins": 114,
+        "losses": 116,
+        "pnl": 38.6543,
+        "total": 230
       }
     },
-    "last_updated": "2026-05-13T09:16:21.337547",
-    "source": "historical_blend"
+    "last_updated": "2026-05-13T13:23:29.860274",
+    "source": "historical_full"
+  },
+  "VWAP_CROSS_DOWN": {
+    "total": 1597,
+    "wins": 612,
+    "losses": 985,
+    "total_pnl": 11.8176,
+    "by_regime": {
+      "STRONG_RISK_ON": {
+        "wins": 354,
+        "losses": 561,
+        "pnl": 6.5841,
+        "total": 915
+      },
+      "RISK_ON": {
+        "wins": 144,
+        "losses": 262,
+        "pnl": 1.5312,
+        "total": 406
+      },
+      "NEUTRAL": {
+        "wins": 48,
+        "losses": 83,
+        "pnl": 1.0773,
+        "total": 131
+      },
+      "PANIC": {
+        "wins": 43,
+        "losses": 15,
+        "pnl": 28.2855,
+        "total": 58
+      },
+      "RISK_OFF": {
+        "wins": 23,
+        "losses": 64,
+        "pnl": -7.3383,
+        "total": 87
+      }
+    },
+    "last_updated": "2026-05-13T13:23:29.861603",
+    "source": "historical_full"
+  },
+  "MOMENTUM_BURST_DOWN": {
+    "total": 22,
+    "wins": 4,
+    "losses": 18,
+    "total_pnl": -6.4688,
+    "by_regime": {
+      "RISK_ON": {
+        "wins": 1,
+        "losses": 2,
+        "pnl": -0.1294,
+        "total": 3
+      },
+      "STRONG_RISK_ON": {
+        "wins": 1,
+        "losses": 10,
+        "pnl": -5.5059,
+        "total": 11
+      },
+      "PANIC": {
+        "wins": 2,
+        "losses": 5,
+        "pnl": -0.4328,
+        "total": 7
+      },
+      "RISK_OFF": {
+        "wins": 0,
+        "losses": 1,
+        "pnl": -0.4007,
+        "total": 1
+      }
+    },
+    "last_updated": "2026-05-13T13:23:29.862736",
+    "source": "historical_full"
   }
 }
