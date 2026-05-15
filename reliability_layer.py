@@ -19,7 +19,7 @@ DATA_DIR   = "/root/logs"
 PAPER_ONLY = True
 
 # ── Config ────────────────────────────────────────────────────────────────────
-STALE_DATA_MINS      = 5     # block if data older than 5 min
+STALE_DATA_MINS = 15     # block if data older than 5 min
 DUPLICATE_WINDOW_HRS = 24    # no same symbol within 24hrs
 MAX_DRAWDOWN_PCT      = 5.0  # emergency at 5% drawdown
 CONSECUTIVE_LOSSES    = 3    # emergency after 3 losses

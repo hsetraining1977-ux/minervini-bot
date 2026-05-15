@@ -120,7 +120,7 @@ def get_orchestrator_state():
         try:
             import json as _j; _mi = _j.load(open("/root/market_intelligence.json"))
             from datetime import datetime as _dt
-            if ((_dt.now()-_dt.fromisoformat(_mi.get("timestamp","2000-01-01"))).total_seconds()/60) < 30:
+            if ((_dt.utcnow()-_dt.fromisoformat(_mi.get("timestamp","2000-01-01"))).total_seconds()/60) < 30:
                 regime = _mi.get("regime_detail", "NEUTRAL")
         except: pass
         if risk_score >= 65:   regime = "RISK_ON"
@@ -538,12 +538,24 @@ with col_sys:
     import psutil
 
     def proc_running(name):
-        for p in psutil.process_iter(['cmdline']):
-            try:
-                if name in " ".join(p.info['cmdline'] or []):
-                    return True
-            except: pass
-        return False
+        import subprocess
+        try:
+            # Primary: psutil cmdline check
+            for p in psutil.process_iter(['cmdline', 'pid']):
+                try:
+                    cmdline = " ".join(p.info['cmdline'] or [])
+                    if name in cmdline:
+                        return True
+                except (psutil.NoSuchProcess, psutil.AccessDenied):
+                    pass
+            # Fallback: pgrep
+            result = subprocess.run(
+                ['pgrep', '-f', name],
+                capture_output=True, text=True
+            )
+            return result.returncode == 0
+        except Exception:
+            return False
 
     services = [
         ("auto_monitor",        "Trading Core"),
@@ -565,7 +577,7 @@ with col_sys:
         </div>""", unsafe_allow_html=True)
 
     try:
-        cpu  = psutil.cpu_percent(interval=0.5)
+        cpu  = psutil.cpu_percent(interval=1.0)
         ram  = psutil.virtual_memory().percent
         disk = psutil.disk_usage('/').percent
         st.markdown(f"""

@@ -382,5 +382,1157 @@
     ],
     "vix": 17.8,
     "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T09:14:26.467363",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.79,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T09:21:06.838820",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.79,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T09:31:42.765848",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.82,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T09:42:17.020529",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.82,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T09:52:49.849269",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.9,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T10:03:18.707701",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.89,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T10:13:56.414998",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.87,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T10:24:30.022186",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.84,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T10:35:04.864666",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.8,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T10:45:37.257185",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.86,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T10:56:06.330472",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.89,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T11:06:35.367885",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.88,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T11:17:06.143278",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.86,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T11:27:36.577530",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.86,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T11:38:06.280762",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.86,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T11:48:38.253057",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.88,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T11:59:08.852000",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.87,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T12:09:38.281446",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.83,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T12:20:08.149291",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.84,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T12:30:48.957844",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.86,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T12:41:35.879401",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.89,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T12:52:16.718765",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.9,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T13:02:48.793574",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.9,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T13:13:17.967297",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.89,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T13:23:51.424039",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.88,
+    "breadth": 87.1
+  },
+  {
+    "timestamp": "2026-05-14T13:34:27.863704",
+    "regime": "RISK_ON",
+    "confidence": 0.43,
+    "best_setups": [
+      "TIGHT_CONSOLIDATION_BREAK",
+      "ORB_BREAKOUT",
+      "VWAP_CROSS_UP"
+    ],
+    "vix": 17.9,
+    "breadth": 74.6
+  },
+  {
+    "timestamp": "2026-05-14T13:44:59.815728",
+    "regime": "RISK_ON",
+    "confidence": 0.43,
+    "best_setups": [
+      "TIGHT_CONSOLIDATION_BREAK",
+      "ORB_BREAKOUT",
+      "VWAP_CROSS_UP"
+    ],
+    "vix": 17.89,
+    "breadth": 72.1
+  },
+  {
+    "timestamp": "2026-05-14T13:55:30.159623",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.56,
+    "best_setups": [
+      "TIGHT_CONSOLIDATION_BREAK",
+      "ORB_BREAKOUT",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.93,
+    "breadth": 77.1
+  },
+  {
+    "timestamp": "2026-05-14T14:06:00.219562",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 18.02,
+    "breadth": 84.2
+  },
+  {
+    "timestamp": "2026-05-14T14:16:31.571134",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.56,
+    "best_setups": [
+      "TIGHT_CONSOLIDATION_BREAK",
+      "ORB_BREAKOUT",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.9,
+    "breadth": 84.2
+  },
+  {
+    "timestamp": "2026-05-14T14:27:01.824414",
+    "regime": "RISK_ON",
+    "confidence": 0.43,
+    "best_setups": [
+      "TIGHT_CONSOLIDATION_BREAK",
+      "ORB_BREAKOUT",
+      "VWAP_CROSS_UP"
+    ],
+    "vix": 17.9,
+    "breadth": 67.5
+  },
+  {
+    "timestamp": "2026-05-14T14:37:30.564211",
+    "regime": "RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 18.01,
+    "breadth": 74.6
+  },
+  {
+    "timestamp": "2026-05-14T14:47:59.847570",
+    "regime": "RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 18.05,
+    "breadth": 72.1
+  },
+  {
+    "timestamp": "2026-05-14T14:58:30.415946",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.56,
+    "best_setups": [
+      "TIGHT_CONSOLIDATION_BREAK",
+      "ORB_BREAKOUT",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.94,
+    "breadth": 77.1
+  },
+  {
+    "timestamp": "2026-05-14T15:09:03.338926",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.98,
+    "breadth": 82.1
+  },
+  {
+    "timestamp": "2026-05-14T15:19:35.017080",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.97,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T15:30:05.146750",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.87,
+    "breadth": 82.1
+  },
+  {
+    "timestamp": "2026-05-14T15:40:37.518030",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.92,
+    "breadth": 82.1
+  },
+  {
+    "timestamp": "2026-05-14T15:51:07.460396",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.89,
+    "breadth": 89.2
+  },
+  {
+    "timestamp": "2026-05-14T16:01:39.734476",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.83,
+    "breadth": 89.2
+  },
+  {
+    "timestamp": "2026-05-14T16:12:16.543216",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.8,
+    "breadth": 89.6
+  },
+  {
+    "timestamp": "2026-05-14T16:22:55.157059",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.86,
+    "breadth": 91.7
+  },
+  {
+    "timestamp": "2026-05-14T16:33:30.457004",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.81,
+    "breadth": 86.7
+  },
+  {
+    "timestamp": "2026-05-14T16:44:04.376815",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.73,
+    "breadth": 86.7
+  },
+  {
+    "timestamp": "2026-05-14T16:54:38.879865",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.7,
+    "breadth": 79.2
+  },
+  {
+    "timestamp": "2026-05-14T17:05:11.468409",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.65,
+    "breadth": 84.2
+  },
+  {
+    "timestamp": "2026-05-14T17:15:41.977611",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.57,
+    "breadth": 79.2
+  },
+  {
+    "timestamp": "2026-05-14T17:26:12.683172",
+    "regime": "RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.57,
+    "breadth": 71.7
+  },
+  {
+    "timestamp": "2026-05-14T17:36:43.149652",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.63,
+    "breadth": 76.7
+  },
+  {
+    "timestamp": "2026-05-14T17:47:12.527999",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.46,
+    "breadth": 89.2
+  },
+  {
+    "timestamp": "2026-05-14T17:57:41.264339",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.37,
+    "breadth": 81.7
+  },
+  {
+    "timestamp": "2026-05-14T18:08:11.213612",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.37,
+    "breadth": 76.7
+  },
+  {
+    "timestamp": "2026-05-14T18:18:42.006428",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.47,
+    "breadth": 84.2
+  },
+  {
+    "timestamp": "2026-05-14T18:29:12.684339",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.44,
+    "breadth": 86.7
+  },
+  {
+    "timestamp": "2026-05-14T18:39:42.155881",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.5,
+    "breadth": 84.2
+  },
+  {
+    "timestamp": "2026-05-14T18:50:11.199138",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.52,
+    "breadth": 84.2
+  },
+  {
+    "timestamp": "2026-05-14T19:00:43.638731",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.5,
+    "breadth": 84.2
+  },
+  {
+    "timestamp": "2026-05-14T19:11:12.677810",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.24,
+    "breadth": 84.2
+  },
+  {
+    "timestamp": "2026-05-14T19:21:42.198837",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 84.2
+  },
+  {
+    "timestamp": "2026-05-14T19:32:12.379636",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.32,
+    "breadth": 84.2
+  },
+  {
+    "timestamp": "2026-05-14T19:42:42.843559",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.32,
+    "breadth": 86.7
+  },
+  {
+    "timestamp": "2026-05-14T19:53:21.578658",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.25,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T20:03:50.595875",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.31,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T20:14:18.490634",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.35,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T20:24:47.339699",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.29,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T20:35:15.078238",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T20:45:43.067352",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T20:56:12.559055",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T21:06:43.067340",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T21:17:10.908823",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T21:27:40.649485",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T21:38:09.208125",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T21:48:38.707472",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T21:59:06.873491",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T22:09:34.449408",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T22:20:03.914978",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T22:30:32.735841",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T22:41:00.404350",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T22:51:28.753530",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T23:01:57.221091",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T23:12:26.771259",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T23:22:55.609738",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T23:33:23.964728",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T23:43:51.677958",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-14T23:54:20.237405",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-15T00:04:49.921129",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-15T00:15:19.989065",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-15T00:25:50.668461",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-15T00:36:19.009065",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-15T00:46:47.345806",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-15T00:57:14.924044",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-15T01:07:43.897672",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-15T01:18:13.551004",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-15T01:28:41.778205",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-15T01:39:10.837513",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
+  },
+  {
+    "timestamp": "2026-05-15T01:49:39.287109",
+    "regime": "STRONG_RISK_ON",
+    "confidence": 0.48,
+    "best_setups": [
+      "ORB_BREAKOUT",
+      "TIGHT_CONSOLIDATION_BREAK",
+      "MOMENTUM_BURST_UP"
+    ],
+    "vix": 17.26,
+    "breadth": 79.6
   }
 ]

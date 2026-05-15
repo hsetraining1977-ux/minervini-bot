@@ -96,7 +96,7 @@ def render_health_dashboard():
         if os.path.exists(path):
             age = (time.time() - os.path.getmtime(path)) / 60
             rows.append({"Source": label, "Age": f"{age:.1f}m",
-                         "Status": "Fresh" if age < 5 else "STALE"})
+                         "Status": "Fresh" if age < 15 else "STALE"})
         else:
             rows.append({"Source": label, "Age": "N/A", "Status": "Missing"})
     st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)

@@ -1,10 +1,10 @@
 {
   "UNKNOWN": {
-    "total": 63,
+    "total": 101,
     "wins": 0,
-    "losses": 63,
+    "losses": 101,
     "total_pnl": 0.0,
-    "last_updated": "2026-05-14T08:47:11.412270"
+    "last_updated": "2026-05-15T01:48:46.094868"
   },
   "RISK_ON": {
     "total": 6890,
@@ -15,7 +15,7 @@
     "aggressiveness": 0.98,
     "sizing_modifier": 1.0,
     "confidence_floor": 0.65,
-    "last_updated": "2026-05-14T09:08:27.871943",
+    "last_updated": "2026-05-15T01:59:20.001263",
     "source": "regime_sync",
     "is_current": false
   },
@@ -28,7 +28,7 @@
     "aggressiveness": 0.9,
     "sizing_modifier": 1.0,
     "confidence_floor": 0.75,
-    "last_updated": "2026-05-14T09:08:27.871921",
+    "last_updated": "2026-05-15T01:59:20.001233",
     "source": "regime_sync",
     "is_current": false
   },
@@ -41,7 +41,7 @@
     "aggressiveness": 1.01,
     "sizing_modifier": 1.0,
     "confidence_floor": 0.65,
-    "last_updated": "2026-05-14T09:08:27.959596",
+    "last_updated": "2026-05-15T01:59:20.002274",
     "source": "regime_sync",
     "is_current": true
   },
@@ -54,7 +54,7 @@
     "aggressiveness": 0.92,
     "sizing_modifier": 1.0,
     "confidence_floor": 0.7,
-    "last_updated": "2026-05-14T09:08:27.871929",
+    "last_updated": "2026-05-15T01:59:20.001244",
     "source": "regime_sync",
     "is_current": false
   },
@@ -67,7 +67,7 @@
     "aggressiveness": 0.9,
     "sizing_modifier": 1.0,
     "confidence_floor": 0.75,
-    "last_updated": "2026-05-14T09:08:27.871901",
+    "last_updated": "2026-05-15T01:59:20.001216",
     "source": "regime_sync",
     "is_current": false
   }
