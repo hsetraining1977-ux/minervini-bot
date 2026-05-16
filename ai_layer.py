@@ -685,6 +685,8 @@ for i, prog in enumerate(programs):
                 context  = build_market_context()
                 analysis = call_claude_analysis(context)
                 save_ai_analysis(analysis)
+                from market_session_manager import get_full_status as _gfs
+            if _gfs().get("is_market_open") or _gfs().get("is_premarket"):
                 send_ai_report(analysis)
                 last_ai = today
 
