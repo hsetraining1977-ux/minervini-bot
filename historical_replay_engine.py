@@ -341,8 +341,8 @@ class HistoricalReplayEngine:
             if trades < 10:
                 weights[setup] = 1.0
                 continue
-            win_rate  = data["wins"] / trades
-            avg_pnl   = data["total_pnl"] / trades
+            win_rate  = data.get("wins", 0) / trades
+            avg_pnl   = data.get("total_pnl", 0) / trades
 
             # Score: weighted combination of win rate and avg pnl
             score = (win_rate * 0.6) + (min(max(avg_pnl, -2), 2) / 4 * 0.4)
@@ -360,7 +360,7 @@ class HistoricalReplayEngine:
             existing.update({
                 "setup_modifiers": weights,
                 "last_replay":     datetime.utcnow().isoformat(),
-                "replay_setups":   sum(d["trades"] for d in self.stats.values()),
+                "replay_setups":   sum(d.get("trades", 0) for d in self.stats.values()),
             })
 
             with open(weights_file, "w") as f:
@@ -395,10 +395,10 @@ class HistoricalReplayEngine:
         log.info("\n── TOP SETUPS BY WIN RATE ──")
         ranked = []
         for setup, data in self.stats.items():
-            if data["trades"] >= 50:
-                wr  = data["wins"] / data["trades"] * 100
-                avg = data["total_pnl"] / data["trades"]
-                ranked.append((setup, wr, avg, data["trades"]))
+            if data.get("trades", 0) >= 50:
+                wr  = data.get("wins", 0) / data.get("trades", 0) * 100
+                avg = data.get("total_pnl", 0) / data.get("trades", 0)
+                ranked.append((setup, wr, avg, data.get("trades", 0)))
 
         ranked.sort(key=lambda x: x[1], reverse=True)
         for setup, wr, avg, trades in ranked:
@@ -406,14 +406,14 @@ class HistoricalReplayEngine:
 
     def get_current_stats(self) -> dict:
         """Returns current replay statistics."""
-        total = sum(d["trades"] for d in self.stats.values())
+        total = sum(d.get("trades", 0) for d in self.stats.values())
         return {
             "total_setups_tracked": total,
             "by_setup":             {
                 s: {
-                    "trades":   d["trades"],
-                    "win_rate": round(d["wins"]/d["trades"]*100, 1) if d["trades"] else 0,
-                    "avg_pnl":  round(d["total_pnl"]/d["trades"], 3) if d["trades"] else 0,
+                    "trades":   d.get("trades", 0),
+                    "win_rate": round(d.get("wins",0)/d.get("trades",1)*100, 1) if d.get("trades") else 0,
+                    "avg_pnl":  round(d.get("total_pnl",0)/d.get("trades",1), 3) if d.get("trades") else 0,
                 }
                 for s, d in self.stats.items()
             },
