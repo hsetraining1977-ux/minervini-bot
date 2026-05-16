@@ -356,9 +356,12 @@ def run_orchestrator(send_report: bool = True) -> dict:
 # ===========================================================
 if __name__ == "__main__":
     import time as _time
+    from market_session_manager import get_full_status
     while True:
         try:
-            run_orchestrator(send_report=True)
+            status = get_full_status()
+            send = status.get("is_market_open") or status.get("is_premarket")
+            run_orchestrator(send_report=send)
         except Exception as e:
             print(f"Error: {e}")
         _time.sleep(3600)
