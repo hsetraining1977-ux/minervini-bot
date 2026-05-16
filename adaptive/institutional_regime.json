@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-16T01:56:53.279819",
+  "timestamp": "2026-05-16T07:34:26.926298",
   "regime": "CHOPPY",
   "regime_confidence": 0.27,
   "regime_scores": {
@@ -73,7 +73,7 @@
   },
   "liquidity_summary": {
     "state": "THIN",
-    "rvol_spy": 0.86,
+    "rvol_spy": 0.87,
     "institutional": false,
     "etf_participation": 33.3
   },

@@ -3617,5 +3617,285 @@
     "level": 1,
     "details": {},
     "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T05:21:07.564044",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 7 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 1.000 \u2192 0.980 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 1.000 \u2192 0.980 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 1.000 \u2192 0.980 (Weak performance WR=38.9% Exp=+0.43%)",
+        "ORB_BREAKDOWN: 1.000 \u2192 0.980 (Weak performance WR=39.1% Exp=+0.00%)",
+        "VWAP_CROSS_DOWN: 1.000 \u2192 0.980 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 1.000 \u2192 0.980 (Weak performance WR=18.2% Exp=-0.29%)",
+        "RELATIVE_STRENGTH_LEADER: 1.000 \u2192 0.980 (Weak performance WR=31.1% Exp=+0.03%)"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T05:25:46.471654",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 7 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.980 \u2192 0.960 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.980 \u2192 0.960 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.980 \u2192 0.960 (Weak performance WR=38.9% Exp=+0.43%)",
+        "ORB_BREAKDOWN: 0.980 \u2192 0.960 (Weak performance WR=39.1% Exp=+0.00%)",
+        "VWAP_CROSS_DOWN: 0.980 \u2192 0.960 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.980 \u2192 0.960 (Weak performance WR=18.2% Exp=-0.29%)",
+        "RELATIVE_STRENGTH_LEADER: 0.980 \u2192 0.960 (Weak performance WR=31.1% Exp=+0.03%)"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T05:28:03.745529",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime CHOPPY (27%) \u2192 adjusted 5 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T05:38:34.691340",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime CHOPPY (27%) \u2192 adjusted 5 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T05:49:08.803526",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime CHOPPY (27%) \u2192 adjusted 5 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T05:51:11.064806",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 7 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.960 \u2192 0.940 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.960 \u2192 0.940 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.930 \u2192 0.910 (Weak performance WR=38.9% Exp=+0.43%)",
+        "ORB_BREAKDOWN: 0.930 \u2192 0.910 (Weak performance WR=39.1% Exp=+0.00%)",
+        "VWAP_CROSS_DOWN: 0.960 \u2192 0.940 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.930 \u2192 0.910 (Weak performance WR=18.2% Exp=-0.29%)",
+        "RELATIVE_STRENGTH_LEADER: 0.930 \u2192 0.910 (Weak performance WR=31.1% Exp=+0.03%)"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T05:55:59.860279",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 7 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.940 \u2192 0.920 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.940 \u2192 0.920 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.910 \u2192 0.890 (Weak performance WR=38.9% Exp=+0.43%)",
+        "ORB_BREAKDOWN: 0.910 \u2192 0.890 (Weak performance WR=39.1% Exp=+0.00%)",
+        "VWAP_CROSS_DOWN: 0.940 \u2192 0.920 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.910 \u2192 0.890 (Weak performance WR=18.2% Exp=-0.29%)",
+        "RELATIVE_STRENGTH_LEADER: 0.910 \u2192 0.890 (Weak performance WR=31.1% Exp=+0.03%)"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T05:59:36.944598",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime CHOPPY (27%) \u2192 adjusted 1 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T06:10:04.068055",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime CHOPPY (27%) \u2192 adjusted 1 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T06:20:31.663170",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime CHOPPY (27%) \u2192 adjusted 1 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T06:21:14.261586",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 7 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.920 \u2192 0.900 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.920 \u2192 0.900 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.890 \u2192 0.870 (Weak performance WR=38.9% Exp=+0.43%)",
+        "ORB_BREAKDOWN: 0.890 \u2192 0.870 (Weak performance WR=39.1% Exp=+0.00%)",
+        "VWAP_CROSS_DOWN: 0.920 \u2192 0.900 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.890 \u2192 0.870 (Weak performance WR=18.2% Exp=-0.29%)",
+        "RELATIVE_STRENGTH_LEADER: 0.890 \u2192 0.870 (Weak performance WR=31.1% Exp=+0.03%)"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T06:26:02.359952",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 7 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.900 \u2192 0.880 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.900 \u2192 0.880 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.870 \u2192 0.850 (Weak performance WR=38.9% Exp=+0.43%)",
+        "ORB_BREAKDOWN: 0.870 \u2192 0.850 (Weak performance WR=39.1% Exp=+0.00%)",
+        "VWAP_CROSS_DOWN: 0.900 \u2192 0.880 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.870 \u2192 0.850 (Weak performance WR=18.2% Exp=-0.29%)",
+        "RELATIVE_STRENGTH_LEADER: 0.870 \u2192 0.850 (Weak performance WR=31.1% Exp=+0.03%)"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T06:30:58.957176",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime CHOPPY (27%) \u2192 adjusted 1 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T06:41:25.706264",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime CHOPPY (27%) \u2192 adjusted 1 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T06:51:17.068511",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 7 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.880 \u2192 0.860 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.880 \u2192 0.860 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.850 \u2192 0.830 (Weak performance WR=38.9% Exp=+0.43%)",
+        "ORB_BREAKDOWN: 0.850 \u2192 0.830 (Weak performance WR=39.1% Exp=+0.00%)",
+        "VWAP_CROSS_DOWN: 0.880 \u2192 0.860 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.850 \u2192 0.830 (Weak performance WR=18.2% Exp=-0.29%)",
+        "RELATIVE_STRENGTH_LEADER: 0.850 \u2192 0.830 (Weak performance WR=31.1% Exp=+0.03%)"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T06:51:53.478596",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime CHOPPY (27%) \u2192 adjusted 1 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T06:56:04.670262",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 7 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.860 \u2192 0.840 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.860 \u2192 0.840 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.830 \u2192 0.810 (Weak performance WR=38.9% Exp=+0.43%)",
+        "ORB_BREAKDOWN: 0.830 \u2192 0.810 (Weak performance WR=39.1% Exp=+0.00%)",
+        "VWAP_CROSS_DOWN: 0.860 \u2192 0.840 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.830 \u2192 0.810 (Weak performance WR=18.2% Exp=-0.29%)",
+        "RELATIVE_STRENGTH_LEADER: 0.830 \u2192 0.810 (Weak performance WR=31.1% Exp=+0.03%)"
+      ]
+    },
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T07:02:19.724828",
+    "type": "REGIME_ADAPTATION",
+    "description": "Regime CHOPPY (27%) \u2192 adjusted 1 setup modifiers",
+    "component": "institutional_regime_classifier",
+    "auto_applied": true,
+    "level": 1,
+    "details": {},
+    "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T07:22:34.460186",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 7 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.840 \u2192 0.820 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.840 \u2192 0.820 (Weak performance WR=38.3% Exp=+0.00%)",
+        "MOMENTUM_BURST_UP: 0.810 \u2192 0.800 (Weak performance WR=38.9% Exp=+0.43%)",
+        "ORB_BREAKDOWN: 0.810 \u2192 0.800 (Weak performance WR=39.1% Exp=+0.00%)",
+        "VWAP_CROSS_DOWN: 0.840 \u2192 0.820 (Weak performance WR=38.3% Exp=+0.01%)",
+        "MOMENTUM_BURST_DOWN: 0.810 \u2192 0.800 (Weak performance WR=18.2% Exp=-0.29%)",
+        "RELATIVE_STRENGTH_LEADER: 0.810 \u2192 0.800 (Weak performance WR=31.1% Exp=+0.03%)"
+      ]
+    },
+    "status": "applied"
   }
 ]

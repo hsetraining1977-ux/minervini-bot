@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-13 13:46:17.964636",
+  "updated": "2026-05-16 07:23:49.165280",
   "sectors": {
     "أشباه الموصلات": {
-      "score": 23.74,
+      "score": 20.65,
       "is_leading": true,
-      "ret_1m": 24.7,
-      "rs_1m": 19.4,
+      "ret_1m": 19.9,
+      "rs_1m": 15.8,
       "stocks": [
         "NVDA",
         "AVGO",
@@ -18,10 +18,10 @@
       ]
     },
     "التكنولوجيا": {
-      "score": 13.64,
+      "score": 13.26,
       "is_leading": true,
-      "ret_1m": 16.5,
-      "rs_1m": 11.2,
+      "ret_1m": 14.2,
+      "rs_1m": 10.1,
       "stocks": [
         "NVDA",
         "MSFT",
@@ -34,10 +34,10 @@
       ]
     },
     "السيبراني": {
-      "score": 2.81,
+      "score": 8.04,
       "is_leading": true,
-      "ret_1m": 10.4,
-      "rs_1m": 5.1,
+      "ret_1m": 12.7,
+      "rs_1m": 8.6,
       "stocks": [
         "CRWD",
         "PANW",
@@ -50,10 +50,10 @@
       ]
     },
     "البرمجيات والسحابة": {
-      "score": -0.74,
-      "is_leading": false,
-      "ret_1m": 5.6,
-      "rs_1m": 0.4,
+      "score": 4.2,
+      "is_leading": true,
+      "ret_1m": 7.9,
+      "rs_1m": 3.8,
       "stocks": [
         "ADBE",
         "CRM",
@@ -65,10 +65,10 @@
       ]
     },
     "الطاقة": {
-      "score": -2.4,
+      "score": 3.47,
       "is_leading": false,
-      "ret_1m": 2.7,
-      "rs_1m": -2.5,
+      "ret_1m": 8.0,
+      "rs_1m": 3.9,
       "stocks": [
         "XOM",
         "CVX",
@@ -76,10 +76,10 @@
       ]
     },
     "الصناعي": {
-      "score": -5.2,
+      "score": -7.33,
       "is_leading": false,
-      "ret_1m": 1.9,
-      "rs_1m": -3.4,
+      "ret_1m": -1.2,
+      "rs_1m": -5.3,
       "stocks": [
         "CAT",
         "HON",
@@ -89,10 +89,10 @@
       ]
     },
     "الاستهلاكي": {
-      "score": -6.23,
+      "score": -7.55,
       "is_leading": false,
-      "ret_1m": -0.5,
-      "rs_1m": -5.8,
+      "ret_1m": -3.2,
+      "rs_1m": -7.3,
       "stocks": [
         "TSLA",
         "AMZN",
@@ -103,10 +103,10 @@
       ]
     },
     "المالية": {
-      "score": -7.82,
+      "score": -8.03,
       "is_leading": false,
-      "ret_1m": -1.9,
-      "rs_1m": -7.2,
+      "ret_1m": -2.5,
+      "rs_1m": -6.6,
       "stocks": [
         "JPM",
         "GS",
@@ -116,10 +116,10 @@
       ]
     },
     "الصحة والأدوية": {
-      "score": -9.62,
+      "score": -10.33,
       "is_leading": false,
-      "ret_1m": -0.8,
-      "rs_1m": -6.0,
+      "ret_1m": -2.5,
+      "rs_1m": -6.6,
       "stocks": [
         "LLY",
         "UNH",

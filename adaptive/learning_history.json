@@ -1,425 +1,5 @@
 [
   {
-    "timestamp": "2026-05-13T07:53:27.077065",
-    "source": "manual",
-    "trades_analyzed": 0,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T07:54:53.151439",
-    "source": "startup",
-    "trades_analyzed": 0,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T08:10:56.358270",
-    "source": "manual",
-    "trades_analyzed": 0,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T08:25:01.209743",
-    "source": "scheduled_30min",
-    "trades_analyzed": 0,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T08:33:39.988342",
-    "source": "manual",
-    "trades_analyzed": 0,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T08:34:34.697832",
-    "source": "manual",
-    "trades_analyzed": 0,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T08:55:10.253935",
-    "source": "scheduled_30min",
-    "trades_analyzed": 0,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T09:25:02.459306",
-    "source": "manual",
-    "trades_analyzed": 16,
-    "changes_made": 1,
-    "summary": "Level 1 cycle: 1 changes. ORB_BREAKDOWN: 1.000 \u2192 0.980 (Weak performance WR=0.0% Exp=-0.53%)"
-  },
-  {
-    "timestamp": "2026-05-13T09:25:18.579349",
-    "source": "scheduled_30min",
-    "trades_analyzed": 16,
-    "changes_made": 1,
-    "summary": "Level 1 cycle: 1 changes. ORB_BREAKDOWN: 0.980 \u2192 0.960 (Weak performance WR=0.0% Exp=-0.53%)"
-  },
-  {
-    "timestamp": "2026-05-13T09:34:31.802361",
-    "source": "manual",
-    "trades_analyzed": 16,
-    "changes_made": 2,
-    "summary": "Level 1 cycle: 2 changes. ORB_BREAKDOWN: 0.960 \u2192 0.940 (Weak performance WR=0.0% Exp=-0.53%), Regime UNKNOWN: 1.000 \u2192 0.990"
-  },
-  {
-    "timestamp": "2026-05-13T09:37:27.495544",
-    "source": "manual",
-    "trades_analyzed": 16,
-    "changes_made": 2,
-    "summary": "Level 1 cycle: 2 changes. ORB_BREAKDOWN: 0.940 \u2192 0.920 (Weak performance WR=0.0% Exp=-0.53%), Regime UNKNOWN: 0.990 \u2192 0.980"
-  },
-  {
-    "timestamp": "2026-05-13T09:53:24.860166",
-    "source": "manual",
-    "trades_analyzed": 33,
-    "changes_made": 2,
-    "summary": "Level 1 cycle: 2 changes. ORB_BREAKDOWN: 0.920 \u2192 0.900 (Weak performance WR=0.0% Exp=-0.53%), Regime UNKNOWN: 0.980 \u2192 0.970"
-  },
-  {
-    "timestamp": "2026-05-13T09:55:29.582302",
-    "source": "scheduled_30min",
-    "trades_analyzed": 0,
-    "changes_made": 1,
-    "summary": "Level 1 cycle: 1 changes. Regime UNKNOWN: 0.970 \u2192 0.960"
-  },
-  {
-    "timestamp": "2026-05-13T09:56:03.673541",
-    "source": "manual",
-    "trades_analyzed": 0,
-    "changes_made": 1,
-    "summary": "Level 1 cycle: 1 changes. Regime UNKNOWN: 0.960 \u2192 0.950"
-  },
-  {
-    "timestamp": "2026-05-13T10:01:57.739133",
-    "source": "manual",
-    "trades_analyzed": 14,
-    "changes_made": 2,
-    "summary": "Level 1 cycle: 2 changes. MOMENTUM_BURST_DOWN: 1.000 \u2192 0.980 (Weak performance WR=14.3% Exp=-0.43%), Regime UNKNOWN: 0.950 \u2192 0.940"
-  },
-  {
-    "timestamp": "2026-05-13T10:12:55.197329",
-    "source": "manual",
-    "trades_analyzed": 23991,
-    "changes_made": 7,
-    "summary": "Level 1 cycle: 7 changes. VOLUME_SPIKE: 1.000 \u2192 0.980 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 1.000 \u2192 0.980 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 1.000 \u2192 0.980 (Weak performance WR=38.9% Exp=+0.43%)"
-  },
-  {
-    "timestamp": "2026-05-13T10:25:41.394590",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 7,
-    "summary": "Level 1 cycle: 7 changes. VOLUME_SPIKE: 0.980 \u2192 0.960 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.980 \u2192 0.960 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.980 \u2192 0.960 (Weak performance WR=38.9% Exp=+0.43%)"
-  },
-  {
-    "timestamp": "2026-05-13T10:55:51.376935",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 7,
-    "summary": "Level 1 cycle: 7 changes. VOLUME_SPIKE: 0.960 \u2192 0.940 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.960 \u2192 0.940 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.960 \u2192 0.940 (Weak performance WR=38.9% Exp=+0.43%)"
-  },
-  {
-    "timestamp": "2026-05-13T13:23:29.865643",
-    "source": "adaptive_memory_builder_v2",
-    "trades_analyzed": 23991,
-    "changes_made": 9,
-    "summary": "Full sync of 9 setups"
-  },
-  {
-    "timestamp": "2026-05-13T13:45:41.371029",
-    "source": "startup",
-    "trades_analyzed": 23991,
-    "changes_made": 7,
-    "summary": "Level 1 cycle: 7 changes. VOLUME_SPIKE: 0.940 \u2192 0.920 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.940 \u2192 0.920 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.940 \u2192 0.920 (Weak performance WR=38.9% Exp=+0.43%)"
-  },
-  {
-    "timestamp": "2026-05-13T13:49:23.262876",
-    "source": "manual",
-    "trades_analyzed": 23991,
-    "changes_made": 7,
-    "summary": "Level 1 cycle: 7 changes. VOLUME_SPIKE: 0.920 \u2192 0.900 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.920 \u2192 0.900 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.920 \u2192 0.900 (Weak performance WR=38.9% Exp=+0.43%)"
-  },
-  {
-    "timestamp": "2026-05-13T14:15:48.543579",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 6,
-    "summary": "Level 1 cycle: 6 changes. VOLUME_SPIKE: 0.900 \u2192 0.880 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.900 \u2192 0.880 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.900 \u2192 0.880 (Weak performance WR=38.9% Exp=+0.43%)"
-  },
-  {
-    "timestamp": "2026-05-13T14:45:50.899499",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 6,
-    "summary": "Level 1 cycle: 6 changes. VOLUME_SPIKE: 0.880 \u2192 0.860 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.880 \u2192 0.860 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.880 \u2192 0.860 (Weak performance WR=38.9% Exp=+0.43%)"
-  },
-  {
-    "timestamp": "2026-05-13T15:15:53.313093",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 6,
-    "summary": "Level 1 cycle: 6 changes. VOLUME_SPIKE: 0.860 \u2192 0.840 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.860 \u2192 0.840 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.860 \u2192 0.840 (Weak performance WR=38.9% Exp=+0.43%)"
-  },
-  {
-    "timestamp": "2026-05-13T15:45:55.724746",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 6,
-    "summary": "Level 1 cycle: 6 changes. VOLUME_SPIKE: 0.840 \u2192 0.820 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.840 \u2192 0.820 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.840 \u2192 0.820 (Weak performance WR=38.9% Exp=+0.43%)"
-  },
-  {
-    "timestamp": "2026-05-13T16:15:58.312446",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 4,
-    "summary": "Level 1 cycle: 4 changes. VOLUME_SPIKE: 0.820 \u2192 0.800 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.820 \u2192 0.800 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.820 \u2192 0.800 (Weak performance WR=38.9% Exp=+0.43%)"
-  },
-  {
-    "timestamp": "2026-05-13T16:45:00.736935",
-    "source": "post_market_deep",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T16:46:01.826339",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T17:16:03.640260",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T17:46:05.464291",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T18:16:07.440975",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T18:46:09.377962",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T19:16:11.315001",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T19:46:12.962984",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T20:16:14.785216",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T20:46:16.808600",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T21:16:18.557096",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T21:46:20.365892",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T22:16:22.815742",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T22:46:24.360687",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T23:16:26.207706",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-13T23:46:28.061672",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-14T00:16:29.760736",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-14T00:46:31.903431",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-14T01:16:33.687423",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-14T01:46:35.374060",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-14T02:16:37.176207",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-14T02:46:39.047672",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-14T03:16:40.685222",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-14T03:46:42.497663",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-14T04:06:02.958038",
-    "source": "manual",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-14T04:16:44.422144",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 0,
-    "summary": "Level 1 cycle: 0 changes. stable"
-  },
-  {
-    "timestamp": "2026-05-14T04:39:02.876028",
-    "source": "manual",
-    "trades_analyzed": 23991,
-    "changes_made": 2,
-    "summary": "Level 1 cycle: 2 changes. VWAP_CROSS_UP: 0.830 \u2192 0.810 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.830 \u2192 0.810 (Weak performance WR=38.9% Exp=+0.43%)"
-  },
-  {
-    "timestamp": "2026-05-14T04:46:46.572683",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 2,
-    "summary": "Level 1 cycle: 2 changes. VWAP_CROSS_UP: 0.820 \u2192 0.800 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.820 \u2192 0.800 (Weak performance WR=38.9% Exp=+0.43%)"
-  },
-  {
-    "timestamp": "2026-05-14T05:16:45.673587",
-    "source": "manual",
-    "trades_analyzed": 23991,
-    "changes_made": 4,
-    "summary": "Level 1 cycle: 4 changes. VWAP_CROSS_UP: 0.830 \u2192 0.810 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.830 \u2192 0.810 (Weak performance WR=38.9% Exp=+0.43%), Regime STRONG_RISK_ON: 1.000 \u2192 0.990"
-  },
-  {
-    "timestamp": "2026-05-14T05:16:49.677649",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 4,
-    "summary": "Level 1 cycle: 4 changes. VWAP_CROSS_UP: 0.810 \u2192 0.800 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.810 \u2192 0.800 (Weak performance WR=38.9% Exp=+0.43%), Regime STRONG_RISK_ON: 0.990 \u2192 0.980"
-  },
-  {
-    "timestamp": "2026-05-14T05:46:52.756135",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 4,
-    "summary": "Level 1 cycle: 4 changes. VWAP_CROSS_UP: 0.830 \u2192 0.810 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.830 \u2192 0.810 (Weak performance WR=38.9% Exp=+0.43%), Regime STRONG_RISK_ON: 0.980 \u2192 0.970"
-  },
-  {
-    "timestamp": "2026-05-14T06:16:55.658507",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 4,
-    "summary": "Level 1 cycle: 4 changes. VWAP_CROSS_UP: 0.840 \u2192 0.820 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.840 \u2192 0.820 (Weak performance WR=38.9% Exp=+0.43%), Regime STRONG_RISK_ON: 0.970 \u2192 0.960"
-  },
-  {
-    "timestamp": "2026-05-14T06:46:58.257183",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 4,
-    "summary": "Level 1 cycle: 4 changes. VWAP_CROSS_UP: 0.850 \u2192 0.830 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.850 \u2192 0.830 (Weak performance WR=38.9% Exp=+0.43%), Regime STRONG_RISK_ON: 0.960 \u2192 0.950"
-  },
-  {
-    "timestamp": "2026-05-14T07:17:01.075240",
-    "source": "scheduled_30min",
-    "trades_analyzed": 23991,
-    "changes_made": 4,
-    "summary": "Level 1 cycle: 4 changes. VWAP_CROSS_UP: 0.860 \u2192 0.840 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.860 \u2192 0.840 (Weak performance WR=38.9% Exp=+0.43%), Regime STRONG_RISK_ON: 0.950 \u2192 0.940"
-  },
-  {
     "timestamp": "2026-05-14T07:44:53.276630",
     "source": "manual",
     "trades_analyzed": 23991,
@@ -1055,5 +635,131 @@
     "trades_analyzed": 23991,
     "changes_made": 0,
     "summary": "Level 1 cycle: 0 changes. stable"
+  },
+  {
+    "timestamp": "2026-05-16T02:20:50.417822",
+    "source": "scheduled_30min",
+    "trades_analyzed": 23991,
+    "changes_made": 0,
+    "summary": "Level 1 cycle: 0 changes. stable"
+  },
+  {
+    "timestamp": "2026-05-16T02:50:52.511839",
+    "source": "scheduled_30min",
+    "trades_analyzed": 23991,
+    "changes_made": 0,
+    "summary": "Level 1 cycle: 0 changes. stable"
+  },
+  {
+    "timestamp": "2026-05-16T03:20:55.392612",
+    "source": "scheduled_30min",
+    "trades_analyzed": 23991,
+    "changes_made": 0,
+    "summary": "Level 1 cycle: 0 changes. stable"
+  },
+  {
+    "timestamp": "2026-05-16T03:51:00.768329",
+    "source": "scheduled_30min",
+    "trades_analyzed": 23991,
+    "changes_made": 0,
+    "summary": "Level 1 cycle: 0 changes. stable"
+  },
+  {
+    "timestamp": "2026-05-16T04:21:02.792242",
+    "source": "scheduled_30min",
+    "trades_analyzed": 23991,
+    "changes_made": 0,
+    "summary": "Level 1 cycle: 0 changes. stable"
+  },
+  {
+    "timestamp": "2026-05-16T04:43:10.560563",
+    "source": "manual",
+    "trades_analyzed": 23991,
+    "changes_made": 0,
+    "summary": "Level 1 cycle: 0 changes. stable"
+  },
+  {
+    "timestamp": "2026-05-16T04:51:04.713578",
+    "source": "scheduled_30min",
+    "trades_analyzed": 23991,
+    "changes_made": 0,
+    "summary": "Level 1 cycle: 0 changes. stable"
+  },
+  {
+    "timestamp": "2026-05-16T05:17:48.286428",
+    "type": "historical_replay",
+    "period": "3y",
+    "setups_added": 0,
+    "symbols": 34
+  },
+  {
+    "timestamp": "2026-05-16T05:20:48.680461",
+    "type": "historical_replay",
+    "period": "3y",
+    "setups_added": 0,
+    "symbols": 34
+  },
+  {
+    "timestamp": "2026-05-16T05:21:07.576443",
+    "source": "scheduled_30min",
+    "trades_analyzed": 23991,
+    "changes_made": 7,
+    "summary": "Level 1 cycle: 7 changes. VOLUME_SPIKE: 1.000 \u2192 0.980 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 1.000 \u2192 0.980 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 1.000 \u2192 0.980 (Weak performance WR=38.9% Exp=+0.43%)"
+  },
+  {
+    "timestamp": "2026-05-16T05:25:47.459526",
+    "source": "startup",
+    "trades_analyzed": 23991,
+    "changes_made": 7,
+    "summary": "Level 1 cycle: 7 changes. VOLUME_SPIKE: 0.980 \u2192 0.960 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.980 \u2192 0.960 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.980 \u2192 0.960 (Weak performance WR=38.9% Exp=+0.43%)"
+  },
+  {
+    "timestamp": "2026-05-16T05:51:11.162407",
+    "source": "scheduled_30min",
+    "trades_analyzed": 23991,
+    "changes_made": 7,
+    "summary": "Level 1 cycle: 7 changes. VOLUME_SPIKE: 0.960 \u2192 0.940 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.960 \u2192 0.940 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.930 \u2192 0.910 (Weak performance WR=38.9% Exp=+0.43%)"
+  },
+  {
+    "timestamp": "2026-05-16T05:55:59.872126",
+    "source": "scheduled_30min",
+    "trades_analyzed": 23991,
+    "changes_made": 7,
+    "summary": "Level 1 cycle: 7 changes. VOLUME_SPIKE: 0.940 \u2192 0.920 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.940 \u2192 0.920 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.910 \u2192 0.890 (Weak performance WR=38.9% Exp=+0.43%)"
+  },
+  {
+    "timestamp": "2026-05-16T06:21:14.273737",
+    "source": "scheduled_30min",
+    "trades_analyzed": 23991,
+    "changes_made": 7,
+    "summary": "Level 1 cycle: 7 changes. VOLUME_SPIKE: 0.920 \u2192 0.900 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.920 \u2192 0.900 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.890 \u2192 0.870 (Weak performance WR=38.9% Exp=+0.43%)"
+  },
+  {
+    "timestamp": "2026-05-16T06:26:02.370542",
+    "source": "scheduled_30min",
+    "trades_analyzed": 23991,
+    "changes_made": 7,
+    "summary": "Level 1 cycle: 7 changes. VOLUME_SPIKE: 0.900 \u2192 0.880 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.900 \u2192 0.880 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.870 \u2192 0.850 (Weak performance WR=38.9% Exp=+0.43%)"
+  },
+  {
+    "timestamp": "2026-05-16T06:51:17.156113",
+    "source": "scheduled_30min",
+    "trades_analyzed": 23991,
+    "changes_made": 7,
+    "summary": "Level 1 cycle: 7 changes. VOLUME_SPIKE: 0.880 \u2192 0.860 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.880 \u2192 0.860 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.850 \u2192 0.830 (Weak performance WR=38.9% Exp=+0.43%)"
+  },
+  {
+    "timestamp": "2026-05-16T06:56:04.758234",
+    "source": "scheduled_30min",
+    "trades_analyzed": 23991,
+    "changes_made": 7,
+    "summary": "Level 1 cycle: 7 changes. VOLUME_SPIKE: 0.860 \u2192 0.840 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.860 \u2192 0.840 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.830 \u2192 0.810 (Weak performance WR=38.9% Exp=+0.43%)"
+  },
+  {
+    "timestamp": "2026-05-16T07:22:37.079525",
+    "source": "startup",
+    "trades_analyzed": 23991,
+    "changes_made": 7,
+    "summary": "Level 1 cycle: 7 changes. VOLUME_SPIKE: 0.840 \u2192 0.820 (Weak performance WR=35.8% Exp=-0.01%), VWAP_CROSS_UP: 0.840 \u2192 0.820 (Weak performance WR=38.3% Exp=+0.00%), MOMENTUM_BURST_UP: 0.810 \u2192 0.800 (Weak performance WR=38.9% Exp=+0.43%)"
   }
 ]

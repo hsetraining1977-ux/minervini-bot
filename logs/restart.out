@@ -18,3 +18,7 @@
 2026-05-11 18:17:16 | WARNING  | auto_restart | Restarting service: streamlit (attempt #1)
 2026-05-11 18:21:52 | WARNING  | auto_restart | Service DOWN: streamlit
 2026-05-11 18:21:52 | WARNING  | auto_restart | Restarting service: streamlit (attempt #1)
+2026-05-16 05:25:17,460 [AutoRestart] Running single check...
+2026-05-16 05:25:17,576 [AutoRestart]   ai_layer: ❌ DOWN
+2026-05-16 05:25:18,676 [AutoRestart]   regime_sync: ✅ running
+2026-05-16 05:25:19,857 [AutoRestart]   institutional_regime: ✅ running

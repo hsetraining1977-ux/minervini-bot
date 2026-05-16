@@ -3234,3 +3234,191 @@ nohup: ignoring input
 
   [Adaptive Scoring] Running Level 1 adaptation cycle...
   ✔ No adaptations needed this cycle
+[2026-05-16 01:20:46] 
+  Phase 3: Level 2 Suggestions...
+[2026-05-16 01:20:46] 
+  Phase 4: Generating AI narrative...
+[2026-05-16 01:20:47] 
+  ✔ Learning cycle complete
+[2026-05-16 01:20:47]     Adaptations: 0
+[2026-05-16 01:20:47]     Suggestions: 0
+[2026-05-16 01:50:48] 
+=======================================================
+[2026-05-16 01:50:48]   ADAPTIVE LEARNING CYCLE — SCHEDULED_30MIN
+[2026-05-16 01:50:48] =======================================================
+[2026-05-16 01:50:48]   [Learn] Processing replay trades...
+[2026-05-16 01:50:48]   [Learn] No replay trades found
+[2026-05-16 01:50:48]   [Learn] Processing paper trades...
+[2026-05-16 01:50:48]   [Learn] Processed 1 paper trades
+[2026-05-16 01:50:48]   [Learn] Analyzing missed opportunities...
+[2026-05-16 01:50:48]   Total trades processed: 1
+[2026-05-16 01:50:48] 
+  Phase 2: Level 1 Auto-Adaptation...
+
+  [Adaptive Scoring] Running Level 1 adaptation cycle...
+  ✔ No adaptations needed this cycle
+[2026-05-16 01:50:48] 
+  Phase 3: Level 2 Suggestions...
+[2026-05-16 01:50:48] 
+  Phase 4: Generating AI narrative...
+[2026-05-16 01:50:49] 
+  ✔ Learning cycle complete
+[2026-05-16 01:50:49]     Adaptations: 0
+[2026-05-16 01:50:49]     Suggestions: 0
+[2026-05-16 02:20:50] 
+=======================================================
+[2026-05-16 02:20:50]   ADAPTIVE LEARNING CYCLE — SCHEDULED_30MIN
+[2026-05-16 02:20:50] =======================================================
+[2026-05-16 02:20:50]   [Learn] Processing replay trades...
+[2026-05-16 02:20:50]   [Learn] No replay trades found
+[2026-05-16 02:20:50]   [Learn] Processing paper trades...
+[2026-05-16 02:20:50]   [Learn] Processed 1 paper trades
+[2026-05-16 02:20:50]   [Learn] Analyzing missed opportunities...
+[2026-05-16 02:20:50]   Total trades processed: 1
+[2026-05-16 02:20:50] 
+  Phase 2: Level 1 Auto-Adaptation...
+
+  [Adaptive Scoring] Running Level 1 adaptation cycle...
+  ✔ No adaptations needed this cycle
+[2026-05-16 02:20:50] 
+  Phase 3: Level 2 Suggestions...
+[2026-05-16 02:20:50] 
+  Phase 4: Generating AI narrative...
+[2026-05-16 02:20:50] 
+  ✔ Learning cycle complete
+[2026-05-16 02:20:50]     Adaptations: 0
+[2026-05-16 02:20:50]     Suggestions: 0
+[2026-05-16 02:50:52] 
+=======================================================
+[2026-05-16 02:50:52]   ADAPTIVE LEARNING CYCLE — SCHEDULED_30MIN
+[2026-05-16 02:50:52] =======================================================
+[2026-05-16 02:50:52]   [Learn] Processing replay trades...
+[2026-05-16 02:50:52]   [Learn] No replay trades found
+[2026-05-16 02:50:52]   [Learn] Processing paper trades...
+[2026-05-16 02:50:52]   [Learn] Processed 1 paper trades
+[2026-05-16 02:50:52]   [Learn] Analyzing missed opportunities...
+[2026-05-16 02:50:52]   Total trades processed: 1
+[2026-05-16 02:50:52] 
+  Phase 2: Level 1 Auto-Adaptation...
+
+  [Adaptive Scoring] Running Level 1 adaptation cycle...
+  ✔ No adaptations needed this cycle
+[2026-05-16 02:50:52] 
+  Phase 3: Level 2 Suggestions...
+[2026-05-16 02:50:52] 
+  Phase 4: Generating AI narrative...
+[2026-05-16 02:50:54] 
+  ✔ Learning cycle complete
+[2026-05-16 02:50:54]     Adaptations: 0
+[2026-05-16 02:50:54]     Suggestions: 0
+[2026-05-16 03:20:55] 
+=======================================================
+[2026-05-16 03:20:55]   ADAPTIVE LEARNING CYCLE — SCHEDULED_30MIN
+[2026-05-16 03:20:55] =======================================================
+[2026-05-16 03:20:55]   [Learn] Processing replay trades...
+[2026-05-16 03:20:55]   [Learn] No replay trades found
+[2026-05-16 03:20:55]   [Learn] Processing paper trades...
+[2026-05-16 03:20:55]   [Learn] Processed 1 paper trades
+[2026-05-16 03:20:55]   [Learn] Analyzing missed opportunities...
+[2026-05-16 03:20:55]   Total trades processed: 1
+[2026-05-16 03:20:55] 
+  Phase 2: Level 1 Auto-Adaptation...
+
+  [Adaptive Scoring] Running Level 1 adaptation cycle...
+  ✔ No adaptations needed this cycle
+[2026-05-16 03:20:55] 
+  Phase 3: Level 2 Suggestions...
+[2026-05-16 03:20:55] 
+  Phase 4: Generating AI narrative...
+[2026-05-16 03:20:59] 
+  ✔ Learning cycle complete
+[2026-05-16 03:20:59]     Adaptations: 0
+[2026-05-16 03:20:59]     Suggestions: 0
+[2026-05-16 03:51:00] 
+=======================================================
+[2026-05-16 03:51:00]   ADAPTIVE LEARNING CYCLE — SCHEDULED_30MIN
+[2026-05-16 03:51:00] =======================================================
+[2026-05-16 03:51:00]   [Learn] Processing replay trades...
+[2026-05-16 03:51:00]   [Learn] No replay trades found
+[2026-05-16 03:51:00]   [Learn] Processing paper trades...
+[2026-05-16 03:51:00]   [Learn] Processed 1 paper trades
+[2026-05-16 03:51:00]   [Learn] Analyzing missed opportunities...
+[2026-05-16 03:51:00]   Total trades processed: 1
+[2026-05-16 03:51:00] 
+  Phase 2: Level 1 Auto-Adaptation...
+
+  [Adaptive Scoring] Running Level 1 adaptation cycle...
+  ✔ No adaptations needed this cycle
+[2026-05-16 03:51:00] 
+  Phase 3: Level 2 Suggestions...
+[2026-05-16 03:51:00] 
+  Phase 4: Generating AI narrative...
+[2026-05-16 03:51:01] 
+  ✔ Learning cycle complete
+[2026-05-16 03:51:01]     Adaptations: 0
+[2026-05-16 03:51:01]     Suggestions: 0
+[2026-05-16 04:21:02] 
+=======================================================
+[2026-05-16 04:21:02]   ADAPTIVE LEARNING CYCLE — SCHEDULED_30MIN
+[2026-05-16 04:21:02] =======================================================
+[2026-05-16 04:21:02]   [Learn] Processing replay trades...
+[2026-05-16 04:21:02]   [Learn] No replay trades found
+[2026-05-16 04:21:02]   [Learn] Processing paper trades...
+[2026-05-16 04:21:02]   [Learn] Processed 1 paper trades
+[2026-05-16 04:21:02]   [Learn] Analyzing missed opportunities...
+[2026-05-16 04:21:02]   Total trades processed: 1
+[2026-05-16 04:21:02] 
+  Phase 2: Level 1 Auto-Adaptation...
+
+  [Adaptive Scoring] Running Level 1 adaptation cycle...
+  ✔ No adaptations needed this cycle
+[2026-05-16 04:21:02] 
+  Phase 3: Level 2 Suggestions...
+[2026-05-16 04:21:02] 
+  Phase 4: Generating AI narrative...
+[2026-05-16 04:21:03] 
+  ✔ Learning cycle complete
+[2026-05-16 04:21:03]     Adaptations: 0
+[2026-05-16 04:21:03]     Suggestions: 0
+[2026-05-16 04:51:04] 
+=======================================================
+[2026-05-16 04:51:04]   ADAPTIVE LEARNING CYCLE — SCHEDULED_30MIN
+[2026-05-16 04:51:04] =======================================================
+[2026-05-16 04:51:04]   [Learn] Processing replay trades...
+[2026-05-16 04:51:04]   [Learn] No replay trades found
+[2026-05-16 04:51:04]   [Learn] Processing paper trades...
+[2026-05-16 04:51:04]   [Learn] Processed 1 paper trades
+[2026-05-16 04:51:04]   [Learn] Analyzing missed opportunities...
+[2026-05-16 04:51:04]   Total trades processed: 1
+[2026-05-16 04:51:04] 
+  Phase 2: Level 1 Auto-Adaptation...
+
+  [Adaptive Scoring] Running Level 1 adaptation cycle...
+  ✔ No adaptations needed this cycle
+[2026-05-16 04:51:04] 
+  Phase 3: Level 2 Suggestions...
+[2026-05-16 04:51:04] 
+  Phase 4: Generating AI narrative...
+[2026-05-16 04:51:05] 
+  ✔ Learning cycle complete
+[2026-05-16 04:51:05]     Adaptations: 0
+[2026-05-16 04:51:05]     Suggestions: 0
+[2026-05-16 05:21:07] 
+=======================================================
+[2026-05-16 05:21:07]   ADAPTIVE LEARNING CYCLE — SCHEDULED_30MIN
+[2026-05-16 05:21:07] =======================================================
+[2026-05-16 05:21:07]   [Learn] Processing replay trades...
+[2026-05-16 05:21:07]   [Learn] No replay trades found
+[2026-05-16 05:21:07]   [Learn] Processing paper trades...
+[2026-05-16 05:21:07]   [Learn] Processed 1 paper trades
+[2026-05-16 05:21:07]   [Learn] Analyzing missed opportunities...
+[2026-05-16 05:21:07]   Total trades processed: 1
+[2026-05-16 05:21:07] 
+  Phase 2: Level 1 Auto-Adaptation...
+
+  [Adaptive Scoring] Running Level 1 adaptation cycle...
+  ✔ 7 Level 1 adaptations applied
+    • VOLUME_SPIKE: 1.000 → 0.980 (Weak performance WR=35.8% Exp=-0.01%)
+    • VWAP_CROSS_UP: 1.000 → 0.980 (Weak performance WR=38.3% Exp=+0.00%)
+    • MOMENTUM_BURST_UP: 1.000 → 0.980 (Weak performance WR=38.9% Exp=+0.43%)
+    • ORB_BREAKDOWN: 1.000 → 0.980 (Weak performance WR=39.1% Exp=+0.00%)

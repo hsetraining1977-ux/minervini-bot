@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-16T01:55:42.272130",
+  "timestamp": "2026-05-16T07:37:47.175366",
   "risk_score": 25,
   "cross_signal": "NEUTRAL",
   "signals": {
@@ -33,7 +33,7 @@
     },
     "BTC-USD": {
       "name": "Crypto (Risk Appetite)",
-      "change_pct": -2.45
+      "change_pct": -0.86
     }
   },
   "interpretations": [

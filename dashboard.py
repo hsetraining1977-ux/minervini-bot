@@ -116,13 +116,6 @@ def get_orchestrator_state():
 
         risk_score = max(0, min(100, risk_score))
 
-        # Override with institutional regime
-        try:
-            import json as _j; _mi = _j.load(open("/root/market_intelligence.json"))
-            from datetime import datetime as _dt
-            if ((_dt.utcnow()-_dt.fromisoformat(_mi.get("timestamp","2000-01-01"))).total_seconds()/60) < 30:
-                regime = _mi.get("regime_detail", "NEUTRAL")
-        except: pass
         if risk_score >= 65:   regime = "RISK_ON"
         elif risk_score >= 40: regime = "NEUTRAL"
         else:                  regime = "RISK_OFF"
@@ -192,13 +185,6 @@ st.markdown(f"""
 
 # ===== Load Data =====
 orch  = get_orchestrator_state()
-# Institutional regime override
-try:
-    import json as _j3; from datetime import datetime as _dt3
-    _mi3 = _j3.load(open("/root/market_intelligence.json"))
-    _age3 = (_dt3.now()-_dt3.fromisoformat(_mi3.get("timestamp","2000-01-01"))).total_seconds()/60
-    if _age3 < 30 and _mi3.get("regime_detail"): orch["regime"] = _mi3["regime_detail"]
-except: pass
 alpaca= get_alpaca_data()
 db    = get_db_data()
 
@@ -538,24 +524,12 @@ with col_sys:
     import psutil
 
     def proc_running(name):
-        import subprocess
-        try:
-            # Primary: psutil cmdline check
-            for p in psutil.process_iter(['cmdline', 'pid']):
-                try:
-                    cmdline = " ".join(p.info['cmdline'] or [])
-                    if name in cmdline:
-                        return True
-                except (psutil.NoSuchProcess, psutil.AccessDenied):
-                    pass
-            # Fallback: pgrep
-            result = subprocess.run(
-                ['pgrep', '-f', name],
-                capture_output=True, text=True
-            )
-            return result.returncode == 0
-        except Exception:
-            return False
+        for p in psutil.process_iter(['cmdline']):
+            try:
+                if name in " ".join(p.info['cmdline'] or []):
+                    return True
+            except: pass
+        return False
 
     services = [
         ("auto_monitor",        "Trading Core"),
@@ -577,7 +551,7 @@ with col_sys:
         </div>""", unsafe_allow_html=True)
 
     try:
-        cpu  = psutil.cpu_percent(interval=1.0)
+        cpu  = psutil.cpu_percent(interval=0.5)
         ram  = psutil.virtual_memory().percent
         disk = psutil.disk_usage('/').percent
         st.markdown(f"""

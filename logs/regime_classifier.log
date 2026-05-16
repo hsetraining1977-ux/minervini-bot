@@ -11153,3 +11153,1357 @@ nohup: ignoring input
 2026-05-16 01:57:22,553 [RegimeClassifier] Best setups: []
 2026-05-16 01:57:22,553 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
 2026-05-16 01:57:22,553 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 02:07:22,654 [RegimeClassifier] Computing institutional regime...
+2026-05-16 02:07:22,654 [RegimeClassifier] Loading sub-engines...
+2026-05-16 02:07:22,654 [RegimeClassifier] Computing market breadth...
+2026-05-16 02:07:34,319 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 02:07:34,320 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 02:07:34,320 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 02:07:34,320 [RegimeClassifier] Computing sector rotation...
+2026-05-16 02:07:35,229 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 02:07:36,067 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 02:07:37,653 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 02:07:38,464 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 02:07:39,470 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 02:07:40,242 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 02:07:41,062 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 02:07:41,879 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 02:07:42,726 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 02:07:43,481 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 02:07:44,199 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 02:07:44,927 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 02:07:44,928 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 02:07:44,929 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 02:07:44,929 [RegimeClassifier] Computing volatility regime...
+2026-05-16 02:07:45,101 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 02:07:45,361 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 02:07:45,517 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 02:07:45,692 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 02:07:45,774 [RegimeClassifier]   Compression: STABLE
+2026-05-16 02:07:46,543 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 02:07:46,543 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 02:07:46,544 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 02:07:46,544 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 02:07:46,656 [RegimeClassifier]   SPY RVOL: 0.86x
+2026-05-16 02:07:50,226 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 02:07:50,677 [RegimeClassifier]   Open: 16.74% | Close: 21.8%
+2026-05-16 02:07:51,084 [RegimeClassifier]   Dollar Volume: $44.04B
+2026-05-16 02:07:51,084 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 02:07:51,084 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 02:07:51,085 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 02:07:51,804 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 02:07:51,813 [RegimeClassifier] Best setups: []
+2026-05-16 02:07:51,813 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 02:07:51,814 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 02:17:51,911 [RegimeClassifier] Computing institutional regime...
+2026-05-16 02:17:51,911 [RegimeClassifier] Loading sub-engines...
+2026-05-16 02:17:51,911 [RegimeClassifier] Computing market breadth...
+2026-05-16 02:18:03,948 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 02:18:03,949 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 02:18:03,949 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 02:18:03,949 [RegimeClassifier] Computing sector rotation...
+2026-05-16 02:18:04,771 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 02:18:05,631 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 02:18:06,431 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 02:18:07,243 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 02:18:08,054 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 02:18:09,277 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 02:18:10,258 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 02:18:11,066 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 02:18:11,789 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 02:18:12,512 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 02:18:13,217 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 02:18:13,927 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 02:18:13,928 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 02:18:13,929 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 02:18:13,929 [RegimeClassifier] Computing volatility regime...
+2026-05-16 02:18:14,082 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 02:18:14,354 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 02:18:14,549 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 02:18:14,715 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 02:18:14,767 [RegimeClassifier]   Compression: STABLE
+2026-05-16 02:18:15,521 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 02:18:15,522 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 02:18:15,522 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 02:18:15,522 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 02:18:15,570 [RegimeClassifier]   SPY RVOL: 0.86x
+2026-05-16 02:18:19,147 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 02:18:19,566 [RegimeClassifier]   Open: 16.74% | Close: 21.8%
+2026-05-16 02:18:19,962 [RegimeClassifier]   Dollar Volume: $44.04B
+2026-05-16 02:18:19,962 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 02:18:19,963 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 02:18:19,963 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 02:18:20,741 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 02:18:20,750 [RegimeClassifier] Best setups: []
+2026-05-16 02:18:20,750 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 02:18:20,751 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 02:28:20,773 [RegimeClassifier] Computing institutional regime...
+2026-05-16 02:28:20,773 [RegimeClassifier] Loading sub-engines...
+2026-05-16 02:28:20,773 [RegimeClassifier] Computing market breadth...
+2026-05-16 02:28:32,581 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 02:28:32,582 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 02:28:32,582 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 02:28:32,582 [RegimeClassifier] Computing sector rotation...
+2026-05-16 02:28:33,459 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 02:28:34,216 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 02:28:35,001 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 02:28:35,708 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 02:28:36,536 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 02:28:37,682 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 02:28:38,317 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 02:28:39,168 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 02:28:40,971 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 02:28:41,703 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 02:28:42,295 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 02:28:43,011 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 02:28:43,012 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 02:28:43,012 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 02:28:43,012 [RegimeClassifier] Computing volatility regime...
+2026-05-16 02:28:43,187 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 02:28:43,426 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 02:28:43,589 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 02:28:43,737 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 02:28:43,766 [RegimeClassifier]   Compression: STABLE
+2026-05-16 02:28:44,404 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 02:28:44,405 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 02:28:44,405 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 02:28:44,405 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 02:28:44,470 [RegimeClassifier]   SPY RVOL: 0.86x
+2026-05-16 02:28:47,974 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 02:28:48,483 [RegimeClassifier]   Open: 16.74% | Close: 21.8%
+2026-05-16 02:28:48,989 [RegimeClassifier]   Dollar Volume: $44.04B
+2026-05-16 02:28:48,989 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 02:28:48,989 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 02:28:48,989 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 02:28:49,823 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 02:28:49,835 [RegimeClassifier] Best setups: []
+2026-05-16 02:28:49,835 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 02:28:49,835 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 02:38:49,883 [RegimeClassifier] Computing institutional regime...
+2026-05-16 02:38:49,883 [RegimeClassifier] Loading sub-engines...
+2026-05-16 02:38:49,883 [RegimeClassifier] Computing market breadth...
+2026-05-16 02:39:00,921 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 02:39:00,921 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 02:39:00,922 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 02:39:00,922 [RegimeClassifier] Computing sector rotation...
+2026-05-16 02:39:01,757 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 02:39:02,563 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 02:39:03,377 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 02:39:04,228 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 02:39:05,060 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 02:39:06,207 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 02:39:07,009 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 02:39:07,707 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 02:39:08,561 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 02:39:09,463 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 02:39:10,224 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 02:39:10,993 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 02:39:10,994 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 02:39:10,995 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 02:39:10,995 [RegimeClassifier] Computing volatility regime...
+2026-05-16 02:39:11,137 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 02:39:11,338 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 02:39:11,506 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 02:39:11,571 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 02:39:11,669 [RegimeClassifier]   Compression: STABLE
+2026-05-16 02:39:12,409 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 02:39:12,410 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 02:39:12,410 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 02:39:12,410 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 02:39:12,557 [RegimeClassifier]   SPY RVOL: 0.86x
+2026-05-16 02:39:16,525 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 02:39:17,071 [RegimeClassifier]   Open: 16.74% | Close: 21.8%
+2026-05-16 02:39:17,468 [RegimeClassifier]   Dollar Volume: $44.04B
+2026-05-16 02:39:17,468 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 02:39:17,468 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 02:39:17,468 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 02:39:18,170 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 02:39:18,180 [RegimeClassifier] Best setups: []
+2026-05-16 02:39:18,180 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 02:39:18,180 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 02:49:18,281 [RegimeClassifier] Computing institutional regime...
+2026-05-16 02:49:18,281 [RegimeClassifier] Loading sub-engines...
+2026-05-16 02:49:18,281 [RegimeClassifier] Computing market breadth...
+2026-05-16 02:49:29,358 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 02:49:29,360 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 02:49:29,360 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 02:49:29,360 [RegimeClassifier] Computing sector rotation...
+2026-05-16 02:49:30,257 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 02:49:31,074 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 02:49:31,802 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 02:49:32,640 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 02:49:33,455 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 02:49:34,437 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 02:49:35,205 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 02:49:35,897 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 02:49:36,702 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 02:49:37,524 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 02:49:38,375 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 02:49:39,128 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 02:49:39,129 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 02:49:39,130 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 02:49:39,130 [RegimeClassifier] Computing volatility regime...
+2026-05-16 02:49:39,358 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 02:49:39,539 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 02:49:39,690 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 02:49:39,769 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 02:49:39,868 [RegimeClassifier]   Compression: STABLE
+2026-05-16 02:49:40,573 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 02:49:40,573 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 02:49:40,573 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 02:49:40,573 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 02:49:40,672 [RegimeClassifier]   SPY RVOL: 0.86x
+2026-05-16 02:49:44,370 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 02:49:44,882 [RegimeClassifier]   Open: 16.74% | Close: 21.8%
+2026-05-16 02:49:45,300 [RegimeClassifier]   Dollar Volume: $44.04B
+2026-05-16 02:49:45,300 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 02:49:45,301 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 02:49:45,301 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 02:49:45,963 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 02:49:45,974 [RegimeClassifier] Best setups: []
+2026-05-16 02:49:45,974 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 02:49:45,975 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 02:59:46,075 [RegimeClassifier] Computing institutional regime...
+2026-05-16 02:59:46,075 [RegimeClassifier] Loading sub-engines...
+2026-05-16 02:59:46,075 [RegimeClassifier] Computing market breadth...
+2026-05-16 02:59:56,479 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 02:59:56,480 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 02:59:56,480 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 02:59:56,481 [RegimeClassifier] Computing sector rotation...
+2026-05-16 02:59:57,358 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 02:59:58,040 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 02:59:58,805 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 02:59:59,643 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 03:00:00,657 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 03:00:01,457 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 03:00:02,259 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 03:00:03,266 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 03:00:04,059 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 03:00:04,850 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 03:00:05,648 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 03:00:06,348 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 03:00:06,349 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 03:00:06,349 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 03:00:06,349 [RegimeClassifier] Computing volatility regime...
+2026-05-16 03:00:06,467 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 03:00:06,673 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 03:00:06,853 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 03:00:06,883 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 03:00:06,979 [RegimeClassifier]   Compression: STABLE
+2026-05-16 03:00:07,738 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 03:00:07,739 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 03:00:07,739 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 03:00:07,739 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 03:00:07,775 [RegimeClassifier]   SPY RVOL: 0.86x
+2026-05-16 03:00:11,581 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 03:00:12,066 [RegimeClassifier]   Open: 16.74% | Close: 21.8%
+2026-05-16 03:00:12,494 [RegimeClassifier]   Dollar Volume: $44.04B
+2026-05-16 03:00:12,494 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 03:00:12,495 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 03:00:12,495 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 03:00:13,582 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 03:00:13,592 [RegimeClassifier] Best setups: []
+2026-05-16 03:00:13,592 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 03:00:13,593 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 03:10:13,689 [RegimeClassifier] Computing institutional regime...
+2026-05-16 03:10:13,689 [RegimeClassifier] Loading sub-engines...
+2026-05-16 03:10:13,689 [RegimeClassifier] Computing market breadth...
+2026-05-16 03:10:25,274 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 03:10:25,274 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 03:10:25,275 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 03:10:25,275 [RegimeClassifier] Computing sector rotation...
+2026-05-16 03:10:26,009 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 03:10:26,627 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 03:10:27,462 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 03:10:28,264 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 03:10:29,064 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 03:10:29,844 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 03:10:30,610 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 03:10:31,764 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 03:10:32,658 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 03:10:33,463 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 03:10:34,237 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 03:10:34,948 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 03:10:34,949 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 03:10:34,949 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 03:10:34,949 [RegimeClassifier] Computing volatility regime...
+2026-05-16 03:10:35,159 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 03:10:35,308 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 03:10:35,514 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 03:10:35,575 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 03:10:35,672 [RegimeClassifier]   Compression: STABLE
+2026-05-16 03:10:36,358 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 03:10:36,358 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 03:10:36,358 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 03:10:36,358 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 03:10:36,460 [RegimeClassifier]   SPY RVOL: 0.86x
+2026-05-16 03:10:39,979 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 03:10:40,470 [RegimeClassifier]   Open: 16.74% | Close: 21.8%
+2026-05-16 03:10:40,867 [RegimeClassifier]   Dollar Volume: $44.04B
+2026-05-16 03:10:40,867 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 03:10:40,868 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 03:10:40,868 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 03:10:41,597 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 03:10:41,607 [RegimeClassifier] Best setups: []
+2026-05-16 03:10:41,607 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 03:10:41,607 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 03:20:41,703 [RegimeClassifier] Computing institutional regime...
+2026-05-16 03:20:41,703 [RegimeClassifier] Loading sub-engines...
+2026-05-16 03:20:41,703 [RegimeClassifier] Computing market breadth...
+2026-05-16 03:20:53,655 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 03:20:53,668 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 03:20:53,669 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 03:20:53,669 [RegimeClassifier] Computing sector rotation...
+2026-05-16 03:20:54,514 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 03:20:55,359 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 03:20:56,457 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 03:20:57,360 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 03:20:58,163 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 03:20:59,016 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 03:21:00,471 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 03:21:01,231 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 03:21:01,925 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 03:21:02,695 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 03:21:03,436 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 03:21:04,116 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 03:21:04,118 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 03:21:04,118 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 03:21:04,119 [RegimeClassifier] Computing volatility regime...
+2026-05-16 03:21:04,275 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 03:21:04,468 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 03:21:04,648 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 03:21:04,668 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 03:21:04,769 [RegimeClassifier]   Compression: STABLE
+2026-05-16 03:21:05,468 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 03:21:05,468 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 03:21:05,469 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 03:21:05,469 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 03:21:05,565 [RegimeClassifier]   SPY RVOL: 0.86x
+2026-05-16 03:21:09,923 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 03:21:10,268 [RegimeClassifier]   Open: 16.74% | Close: 21.8%
+2026-05-16 03:21:10,633 [RegimeClassifier]   Dollar Volume: $44.04B
+2026-05-16 03:21:10,633 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 03:21:10,633 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 03:21:10,633 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 03:21:11,339 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 03:21:11,348 [RegimeClassifier] Best setups: []
+2026-05-16 03:21:11,349 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 03:21:11,349 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 03:31:11,387 [RegimeClassifier] Computing institutional regime...
+2026-05-16 03:31:11,387 [RegimeClassifier] Loading sub-engines...
+2026-05-16 03:31:11,387 [RegimeClassifier] Computing market breadth...
+2026-05-16 03:31:22,047 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 03:31:22,048 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 03:31:22,048 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 03:31:22,048 [RegimeClassifier] Computing sector rotation...
+2026-05-16 03:31:22,956 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 03:31:23,866 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 03:31:24,632 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 03:31:25,424 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 03:31:26,256 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 03:31:27,257 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 03:31:28,062 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 03:31:29,175 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 03:31:30,758 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 03:31:31,563 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 03:31:32,342 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 03:31:33,230 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 03:31:33,232 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 03:31:33,232 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 03:31:33,232 [RegimeClassifier] Computing volatility regime...
+2026-05-16 03:31:33,461 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 03:31:33,658 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 03:31:33,878 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 03:31:33,980 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 03:31:34,155 [RegimeClassifier]   Compression: STABLE
+2026-05-16 03:31:34,891 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 03:31:34,891 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 03:31:34,892 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 03:31:34,892 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 03:31:35,058 [RegimeClassifier]   SPY RVOL: 0.86x
+2026-05-16 03:31:38,944 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 03:31:39,381 [RegimeClassifier]   Open: 16.74% | Close: 21.8%
+2026-05-16 03:31:39,787 [RegimeClassifier]   Dollar Volume: $44.04B
+2026-05-16 03:31:39,855 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 03:31:39,855 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 03:31:39,855 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 03:31:40,621 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 03:31:40,629 [RegimeClassifier] Best setups: []
+2026-05-16 03:31:40,629 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 03:31:40,630 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 03:41:40,658 [RegimeClassifier] Computing institutional regime...
+2026-05-16 03:41:40,659 [RegimeClassifier] Loading sub-engines...
+2026-05-16 03:41:40,659 [RegimeClassifier] Computing market breadth...
+2026-05-16 03:41:51,941 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 03:41:51,942 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 03:41:51,942 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 03:41:51,942 [RegimeClassifier] Computing sector rotation...
+2026-05-16 03:41:52,860 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 03:41:53,681 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 03:41:54,703 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 03:41:55,317 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 03:41:56,059 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 03:41:56,867 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 03:41:57,745 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 03:41:58,498 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 03:41:59,226 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 03:41:59,885 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 03:42:00,830 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 03:42:01,521 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 03:42:01,522 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 03:42:01,523 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 03:42:01,523 [RegimeClassifier] Computing volatility regime...
+2026-05-16 03:42:01,757 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 03:42:01,943 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 03:42:02,137 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 03:42:02,310 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 03:42:02,377 [RegimeClassifier]   Compression: STABLE
+2026-05-16 03:42:03,113 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 03:42:03,113 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 03:42:03,114 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 03:42:03,114 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 03:42:03,257 [RegimeClassifier]   SPY RVOL: 0.86x
+2026-05-16 03:42:06,586 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 03:42:06,968 [RegimeClassifier]   Open: 16.74% | Close: 21.8%
+2026-05-16 03:42:07,365 [RegimeClassifier]   Dollar Volume: $44.04B
+2026-05-16 03:42:07,365 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 03:42:07,366 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 03:42:07,366 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 03:42:08,089 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 03:42:08,098 [RegimeClassifier] Best setups: []
+2026-05-16 03:42:08,099 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 03:42:08,099 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 03:52:08,199 [RegimeClassifier] Computing institutional regime...
+2026-05-16 03:52:08,199 [RegimeClassifier] Loading sub-engines...
+2026-05-16 03:52:08,199 [RegimeClassifier] Computing market breadth...
+2026-05-16 03:52:20,109 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 03:52:20,110 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 03:52:20,110 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 03:52:20,110 [RegimeClassifier] Computing sector rotation...
+2026-05-16 03:52:21,054 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 03:52:21,806 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 03:52:22,567 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 03:52:23,336 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 03:52:24,156 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 03:52:24,940 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 03:52:25,762 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 03:52:26,710 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 03:52:27,656 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 03:52:28,395 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 03:52:29,099 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 03:52:29,802 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 03:52:29,803 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 03:52:29,803 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 03:52:29,803 [RegimeClassifier] Computing volatility regime...
+2026-05-16 03:52:29,947 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 03:52:30,136 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 03:52:30,307 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 03:52:30,372 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 03:52:30,472 [RegimeClassifier]   Compression: STABLE
+2026-05-16 03:52:31,201 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 03:52:31,201 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 03:52:31,201 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 03:52:31,202 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 03:52:31,274 [RegimeClassifier]   SPY RVOL: 0.86x
+2026-05-16 03:52:34,569 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 03:52:35,361 [RegimeClassifier]   Open: 16.74% | Close: 21.8%
+2026-05-16 03:52:35,764 [RegimeClassifier]   Dollar Volume: $44.04B
+2026-05-16 03:52:35,764 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 03:52:35,765 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 03:52:35,765 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 03:52:36,515 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 03:52:36,524 [RegimeClassifier] Best setups: []
+2026-05-16 03:52:36,524 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 03:52:36,525 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 04:02:36,603 [RegimeClassifier] Computing institutional regime...
+2026-05-16 04:02:36,603 [RegimeClassifier] Loading sub-engines...
+2026-05-16 04:02:36,603 [RegimeClassifier] Computing market breadth...
+2026-05-16 04:02:47,814 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 04:02:47,814 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 04:02:47,815 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 04:02:47,815 [RegimeClassifier] Computing sector rotation...
+2026-05-16 04:02:48,757 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 04:02:49,556 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 04:02:50,366 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 04:02:51,147 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 04:02:51,895 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 04:02:52,740 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 04:02:53,859 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 04:02:54,765 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 04:02:55,859 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 04:02:56,683 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 04:02:57,462 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 04:02:58,179 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 04:02:58,180 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 04:02:58,180 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 04:02:58,180 [RegimeClassifier] Computing volatility regime...
+2026-05-16 04:02:58,457 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 04:02:58,601 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 04:02:58,775 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 04:02:58,873 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 04:02:58,971 [RegimeClassifier]   Compression: STABLE
+2026-05-16 04:02:59,694 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 04:02:59,695 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 04:02:59,695 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 04:02:59,695 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 04:02:59,772 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 04:03:02,981 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 04:03:03,478 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 04:03:04,264 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 04:03:04,264 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 04:03:04,264 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 04:03:04,264 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 04:03:05,005 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 04:03:05,015 [RegimeClassifier] Best setups: []
+2026-05-16 04:03:05,015 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 04:03:05,015 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 04:13:05,116 [RegimeClassifier] Computing institutional regime...
+2026-05-16 04:13:05,116 [RegimeClassifier] Loading sub-engines...
+2026-05-16 04:13:05,116 [RegimeClassifier] Computing market breadth...
+2026-05-16 04:13:16,558 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 04:13:16,559 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 04:13:16,559 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 04:13:16,559 [RegimeClassifier] Computing sector rotation...
+2026-05-16 04:13:17,357 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 04:13:18,156 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 04:13:18,924 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 04:13:19,761 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 04:13:20,558 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 04:13:21,458 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 04:13:22,258 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 04:13:23,051 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 04:13:23,859 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 04:13:24,591 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 04:13:25,556 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 04:13:26,314 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 04:13:26,316 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 04:13:26,316 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 04:13:26,316 [RegimeClassifier] Computing volatility regime...
+2026-05-16 04:13:26,460 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 04:13:26,656 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 04:13:26,832 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 04:13:26,869 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 04:13:26,968 [RegimeClassifier]   Compression: STABLE
+2026-05-16 04:13:27,665 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 04:13:27,666 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 04:13:27,666 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 04:13:27,667 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 04:13:27,762 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 04:13:30,967 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 04:13:31,466 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 04:13:31,880 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 04:13:31,880 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 04:13:31,881 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 04:13:31,881 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 04:13:32,612 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 04:13:32,622 [RegimeClassifier] Best setups: []
+2026-05-16 04:13:32,622 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 04:13:32,623 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 04:23:32,669 [RegimeClassifier] Computing institutional regime...
+2026-05-16 04:23:32,669 [RegimeClassifier] Loading sub-engines...
+2026-05-16 04:23:32,669 [RegimeClassifier] Computing market breadth...
+2026-05-16 04:23:43,460 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 04:23:43,461 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 04:23:43,461 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 04:23:43,461 [RegimeClassifier] Computing sector rotation...
+2026-05-16 04:23:44,225 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 04:23:45,051 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 04:23:46,061 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 04:23:46,804 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 04:23:47,462 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 04:23:48,119 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 04:23:48,959 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 04:23:49,747 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 04:23:50,567 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 04:23:51,438 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 04:23:52,257 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 04:23:52,960 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 04:23:52,961 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 04:23:52,962 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 04:23:52,962 [RegimeClassifier] Computing volatility regime...
+2026-05-16 04:23:53,159 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 04:23:53,357 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 04:23:53,559 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 04:23:53,661 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 04:23:53,764 [RegimeClassifier]   Compression: STABLE
+2026-05-16 04:23:54,897 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 04:23:54,898 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 04:23:54,898 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 04:23:54,898 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 04:23:55,064 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 04:23:58,388 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 04:23:58,967 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 04:23:59,411 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 04:23:59,411 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 04:23:59,411 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 04:23:59,411 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 04:24:00,138 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 04:24:00,148 [RegimeClassifier] Best setups: []
+2026-05-16 04:24:00,148 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 04:24:00,149 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 04:34:00,211 [RegimeClassifier] Computing institutional regime...
+2026-05-16 04:34:00,211 [RegimeClassifier] Loading sub-engines...
+2026-05-16 04:34:00,211 [RegimeClassifier] Computing market breadth...
+2026-05-16 04:34:11,542 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 04:34:11,543 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 04:34:11,543 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 04:34:11,543 [RegimeClassifier] Computing sector rotation...
+2026-05-16 04:34:12,403 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 04:34:13,251 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 04:34:14,129 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 04:34:15,057 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 04:34:15,807 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 04:34:16,620 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 04:34:17,428 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 04:34:18,201 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 04:34:19,058 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 04:34:19,808 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 04:34:20,611 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 04:34:21,353 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 04:34:21,354 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 04:34:21,354 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 04:34:21,354 [RegimeClassifier] Computing volatility regime...
+2026-05-16 04:34:21,526 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 04:34:21,706 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 04:34:21,900 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 04:34:21,969 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 04:34:22,075 [RegimeClassifier]   Compression: STABLE
+2026-05-16 04:34:23,257 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 04:34:23,258 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 04:34:23,258 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 04:34:23,259 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 04:34:23,363 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 04:34:26,967 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 04:34:28,760 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 04:34:29,132 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 04:34:29,132 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 04:34:29,132 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 04:34:29,132 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 04:34:29,842 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 04:34:29,853 [RegimeClassifier] Best setups: []
+2026-05-16 04:34:29,853 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 04:34:29,854 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 04:44:29,883 [RegimeClassifier] Computing institutional regime...
+2026-05-16 04:44:29,884 [RegimeClassifier] Loading sub-engines...
+2026-05-16 04:44:29,885 [RegimeClassifier] Computing market breadth...
+2026-05-16 04:44:42,296 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 04:44:42,299 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 04:44:42,300 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 04:44:42,301 [RegimeClassifier] Computing sector rotation...
+2026-05-16 04:44:43,121 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 04:44:43,900 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 04:44:44,668 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 04:44:45,957 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 04:44:46,874 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 04:44:48,465 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 04:44:50,060 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 04:44:52,859 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 04:44:54,877 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 04:44:55,759 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 04:44:56,557 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 04:44:57,297 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 04:44:57,357 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 04:44:57,358 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 04:44:57,359 [RegimeClassifier] Computing volatility regime...
+2026-05-16 04:44:57,561 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 04:44:57,857 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 04:44:58,055 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 04:44:58,156 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 04:44:58,264 [RegimeClassifier]   Compression: STABLE
+2026-05-16 04:44:59,255 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 04:44:59,259 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 04:44:59,260 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 04:44:59,260 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 04:44:59,370 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 04:45:04,304 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 04:45:04,782 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 04:45:05,279 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 04:45:05,280 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 04:45:05,283 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 04:45:05,284 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 04:45:06,101 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 04:45:06,120 [RegimeClassifier] Best setups: []
+2026-05-16 04:45:06,121 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 04:45:06,124 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 04:55:06,191 [RegimeClassifier] Computing institutional regime...
+2026-05-16 04:55:06,192 [RegimeClassifier] Loading sub-engines...
+2026-05-16 04:55:06,192 [RegimeClassifier] Computing market breadth...
+2026-05-16 04:55:19,201 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 04:55:19,205 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 04:55:19,206 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 04:55:19,206 [RegimeClassifier] Computing sector rotation...
+2026-05-16 04:55:20,060 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 04:55:20,874 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 04:55:21,680 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 04:55:22,620 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 04:55:23,405 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 04:55:24,163 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 04:55:25,607 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 04:55:26,661 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 04:55:27,519 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 04:55:28,257 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 04:55:29,058 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 04:55:29,754 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 04:55:29,758 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 04:55:29,759 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 04:55:29,759 [RegimeClassifier] Computing volatility regime...
+2026-05-16 04:55:29,956 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 04:55:30,155 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 04:55:30,363 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 04:55:30,581 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 04:55:30,672 [RegimeClassifier]   Compression: STABLE
+2026-05-16 04:55:31,349 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 04:55:31,352 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 04:55:31,352 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 04:55:31,353 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 04:55:31,387 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 04:55:35,355 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 04:55:36,468 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 04:55:36,830 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 04:55:36,831 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 04:55:36,833 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 04:55:36,834 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 04:55:38,979 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 04:55:38,996 [RegimeClassifier] Best setups: []
+2026-05-16 04:55:38,997 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 04:55:38,999 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 05:05:39,067 [RegimeClassifier] Computing institutional regime...
+2026-05-16 05:05:39,067 [RegimeClassifier] Loading sub-engines...
+2026-05-16 05:05:39,067 [RegimeClassifier] Computing market breadth...
+2026-05-16 05:05:51,516 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 05:05:51,517 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 05:05:51,517 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 05:05:51,517 [RegimeClassifier] Computing sector rotation...
+2026-05-16 05:05:52,456 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 05:05:53,208 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 05:05:53,960 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 05:05:54,853 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 05:05:55,973 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 05:05:56,725 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 05:05:57,660 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 05:05:58,772 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 05:05:59,675 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 05:06:00,458 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 05:06:01,259 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 05:06:02,313 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 05:06:02,315 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 05:06:02,315 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 05:06:02,315 [RegimeClassifier] Computing volatility regime...
+2026-05-16 05:06:02,557 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 05:06:02,760 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 05:06:02,963 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 05:06:03,066 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 05:06:03,174 [RegimeClassifier]   Compression: STABLE
+2026-05-16 05:06:03,859 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 05:06:03,859 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 05:06:03,859 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 05:06:03,860 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 05:06:03,972 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 05:06:08,164 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 05:06:08,664 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 05:06:09,156 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 05:06:09,156 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 05:06:09,156 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 05:06:09,156 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 05:06:09,842 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 05:06:09,854 [RegimeClassifier] Best setups: []
+2026-05-16 05:06:09,854 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 05:06:09,855 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 05:16:09,875 [RegimeClassifier] Computing institutional regime...
+2026-05-16 05:16:09,875 [RegimeClassifier] Loading sub-engines...
+2026-05-16 05:16:09,875 [RegimeClassifier] Computing market breadth...
+2026-05-16 05:16:21,885 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 05:16:21,886 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 05:16:21,886 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 05:16:21,886 [RegimeClassifier] Computing sector rotation...
+2026-05-16 05:16:22,699 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 05:16:23,466 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 05:16:24,258 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 05:16:25,057 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 05:16:26,160 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 05:16:27,058 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 05:16:27,863 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 05:16:28,661 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 05:16:29,458 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 05:16:30,215 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 05:16:31,062 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 05:16:32,350 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 05:16:32,352 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 05:16:32,352 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 05:16:32,352 [RegimeClassifier] Computing volatility regime...
+2026-05-16 05:16:32,775 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 05:16:32,957 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 05:16:33,157 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 05:16:33,182 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 05:16:33,359 [RegimeClassifier]   Compression: STABLE
+2026-05-16 05:16:34,462 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 05:16:34,463 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 05:16:34,463 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 05:16:34,463 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 05:16:34,567 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 05:16:38,367 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 05:16:40,365 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 05:16:41,557 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 05:16:41,557 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 05:16:41,558 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 05:16:41,558 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 05:16:43,871 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 05:16:44,057 [RegimeClassifier] Best setups: []
+2026-05-16 05:16:44,169 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 05:16:44,174 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 05:26:44,279 [RegimeClassifier] Computing institutional regime...
+2026-05-16 05:26:44,279 [RegimeClassifier] Loading sub-engines...
+2026-05-16 05:26:44,279 [RegimeClassifier] Computing market breadth...
+2026-05-16 05:27:44,860 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 05:27:44,865 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 05:27:44,866 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 05:27:44,867 [RegimeClassifier] Computing sector rotation...
+2026-05-16 05:27:45,757 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 05:27:46,556 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 05:27:47,319 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 05:27:48,657 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 05:27:49,558 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 05:27:50,459 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 05:27:51,366 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 05:27:52,265 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 05:27:53,171 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 05:27:53,962 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 05:27:54,758 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 05:27:55,693 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 05:27:55,698 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 05:27:55,756 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 05:27:55,757 [RegimeClassifier] Computing volatility regime...
+2026-05-16 05:27:55,959 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 05:27:56,461 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 05:27:56,658 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 05:27:56,757 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 05:27:56,863 [RegimeClassifier]   Compression: STABLE
+2026-05-16 05:27:57,571 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 05:27:57,575 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 05:27:57,575 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 05:27:57,576 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 05:27:57,675 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 05:28:02,010 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 05:28:02,383 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 05:28:02,900 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 05:28:02,902 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 05:28:02,957 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 05:28:02,959 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 05:28:03,741 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 05:28:03,765 [RegimeClassifier]   Updated 5 adaptive weights for regime CHOPPY
+2026-05-16 05:28:03,856 [RegimeClassifier] Best setups: []
+2026-05-16 05:28:03,857 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 05:28:03,860 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 05:38:03,899 [RegimeClassifier] Computing institutional regime...
+2026-05-16 05:38:03,900 [RegimeClassifier] Loading sub-engines...
+2026-05-16 05:38:03,900 [RegimeClassifier] Computing market breadth...
+2026-05-16 05:38:16,007 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 05:38:16,011 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 05:38:16,011 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 05:38:16,012 [RegimeClassifier] Computing sector rotation...
+2026-05-16 05:38:16,963 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 05:38:17,783 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 05:38:18,663 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 05:38:19,482 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 05:38:20,364 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 05:38:21,158 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 05:38:21,967 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 05:38:23,958 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 05:38:24,775 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 05:38:25,557 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 05:38:26,364 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 05:38:27,237 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 05:38:27,239 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 05:38:27,240 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 05:38:27,240 [RegimeClassifier] Computing volatility regime...
+2026-05-16 05:38:27,457 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 05:38:27,658 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 05:38:27,845 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 05:38:27,880 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 05:38:28,058 [RegimeClassifier]   Compression: STABLE
+2026-05-16 05:38:28,814 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 05:38:28,855 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 05:38:28,856 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 05:38:28,856 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 05:38:28,964 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 05:38:32,957 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 05:38:33,457 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 05:38:33,878 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 05:38:33,879 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 05:38:33,881 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 05:38:33,881 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 05:38:34,687 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 05:38:34,759 [RegimeClassifier]   Updated 5 adaptive weights for regime CHOPPY
+2026-05-16 05:38:34,771 [RegimeClassifier] Best setups: []
+2026-05-16 05:38:34,772 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 05:38:34,773 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 05:48:34,873 [RegimeClassifier] Computing institutional regime...
+2026-05-16 05:48:34,875 [RegimeClassifier] Loading sub-engines...
+2026-05-16 05:48:34,875 [RegimeClassifier] Computing market breadth...
+2026-05-16 05:48:47,184 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 05:48:47,188 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 05:48:47,189 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 05:48:47,190 [RegimeClassifier] Computing sector rotation...
+2026-05-16 05:48:48,057 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 05:48:48,929 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 05:48:49,764 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 05:48:50,664 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 05:48:51,657 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 05:48:52,506 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 05:48:53,358 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 05:48:54,137 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 05:48:54,971 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 05:48:56,058 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 05:48:56,869 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 05:48:57,584 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 05:48:57,588 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 05:48:57,589 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 05:48:57,589 [RegimeClassifier] Computing volatility regime...
+2026-05-16 05:48:57,857 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 05:48:58,061 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 05:48:58,259 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 05:48:58,430 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 05:48:58,564 [RegimeClassifier]   Compression: STABLE
+2026-05-16 05:48:59,875 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 05:48:59,878 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 05:48:59,879 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 05:48:59,880 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 05:49:01,058 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 05:49:07,157 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 05:49:07,662 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 05:49:08,033 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 05:49:08,056 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 05:49:08,060 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 05:49:08,061 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 05:49:08,798 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 05:49:08,861 [RegimeClassifier]   Updated 5 adaptive weights for regime CHOPPY
+2026-05-16 05:49:08,957 [RegimeClassifier] Best setups: []
+2026-05-16 05:49:08,957 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 05:49:08,962 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 05:59:09,063 [RegimeClassifier] Computing institutional regime...
+2026-05-16 05:59:09,063 [RegimeClassifier] Loading sub-engines...
+2026-05-16 05:59:09,064 [RegimeClassifier] Computing market breadth...
+2026-05-16 05:59:20,505 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 05:59:20,507 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 05:59:20,507 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 05:59:20,507 [RegimeClassifier] Computing sector rotation...
+2026-05-16 05:59:21,353 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 05:59:22,343 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 05:59:23,105 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 05:59:23,942 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 05:59:24,758 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 05:59:25,619 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 05:59:26,458 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 05:59:27,234 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 05:59:28,017 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 05:59:28,694 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 05:59:29,446 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 05:59:30,180 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 05:59:30,181 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 05:59:30,181 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 05:59:30,181 [RegimeClassifier] Computing volatility regime...
+2026-05-16 05:59:30,360 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 05:59:30,657 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 05:59:30,872 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 05:59:30,969 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 05:59:31,070 [RegimeClassifier]   Compression: STABLE
+2026-05-16 05:59:31,805 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 05:59:31,805 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 05:59:31,805 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 05:59:31,805 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 05:59:31,875 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 05:59:35,192 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 05:59:35,757 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 05:59:36,228 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 05:59:36,229 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 05:59:36,229 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 05:59:36,229 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 05:59:36,943 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 05:59:36,956 [RegimeClassifier]   Updated 1 adaptive weights for regime CHOPPY
+2026-05-16 05:59:36,965 [RegimeClassifier] Best setups: []
+2026-05-16 05:59:36,966 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 05:59:36,966 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 06:09:37,067 [RegimeClassifier] Computing institutional regime...
+2026-05-16 06:09:37,067 [RegimeClassifier] Loading sub-engines...
+2026-05-16 06:09:37,067 [RegimeClassifier] Computing market breadth...
+2026-05-16 06:09:47,871 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 06:09:47,872 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 06:09:47,872 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 06:09:47,872 [RegimeClassifier] Computing sector rotation...
+2026-05-16 06:09:48,608 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 06:09:49,352 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 06:09:50,161 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 06:09:50,898 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 06:09:51,668 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 06:09:52,432 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 06:09:53,199 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 06:09:53,957 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 06:09:54,712 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 06:09:55,460 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 06:09:56,205 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 06:09:56,939 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 06:09:56,941 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 06:09:56,941 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 06:09:56,941 [RegimeClassifier] Computing volatility regime...
+2026-05-16 06:09:57,157 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 06:09:57,318 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 06:09:57,558 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 06:09:57,583 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 06:09:57,678 [RegimeClassifier]   Compression: STABLE
+2026-05-16 06:09:58,396 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 06:09:58,397 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 06:09:58,397 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 06:09:58,397 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 06:09:58,473 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 06:10:02,172 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 06:10:02,757 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 06:10:03,201 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 06:10:03,201 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 06:10:03,202 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 06:10:03,202 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 06:10:04,067 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 06:10:04,079 [RegimeClassifier]   Updated 1 adaptive weights for regime CHOPPY
+2026-05-16 06:10:04,089 [RegimeClassifier] Best setups: []
+2026-05-16 06:10:04,089 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 06:10:04,089 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 06:20:04,107 [RegimeClassifier] Computing institutional regime...
+2026-05-16 06:20:04,107 [RegimeClassifier] Loading sub-engines...
+2026-05-16 06:20:04,107 [RegimeClassifier] Computing market breadth...
+2026-05-16 06:20:15,097 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 06:20:15,098 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 06:20:15,098 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 06:20:15,099 [RegimeClassifier] Computing sector rotation...
+2026-05-16 06:20:15,859 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 06:20:16,636 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 06:20:17,477 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 06:20:18,265 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 06:20:19,071 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 06:20:19,856 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 06:20:20,706 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 06:20:21,568 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 06:20:22,361 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 06:20:23,152 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 06:20:23,939 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 06:20:24,678 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 06:20:24,679 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 06:20:24,680 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 06:20:24,680 [RegimeClassifier] Computing volatility regime...
+2026-05-16 06:20:24,863 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 06:20:25,080 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 06:20:25,355 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 06:20:25,378 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 06:20:25,473 [RegimeClassifier]   Compression: STABLE
+2026-05-16 06:20:26,223 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 06:20:26,255 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 06:20:26,255 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 06:20:26,255 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 06:20:26,357 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 06:20:29,863 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 06:20:30,462 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 06:20:30,844 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 06:20:30,844 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 06:20:30,844 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 06:20:30,845 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 06:20:31,662 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 06:20:31,676 [RegimeClassifier]   Updated 1 adaptive weights for regime CHOPPY
+2026-05-16 06:20:31,756 [RegimeClassifier] Best setups: []
+2026-05-16 06:20:31,757 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 06:20:31,757 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 06:30:31,779 [RegimeClassifier] Computing institutional regime...
+2026-05-16 06:30:31,779 [RegimeClassifier] Loading sub-engines...
+2026-05-16 06:30:31,779 [RegimeClassifier] Computing market breadth...
+2026-05-16 06:30:42,906 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 06:30:42,907 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 06:30:42,908 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 06:30:42,908 [RegimeClassifier] Computing sector rotation...
+2026-05-16 06:30:43,774 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 06:30:44,530 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 06:30:45,274 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 06:30:46,159 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 06:30:47,111 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 06:30:47,939 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 06:30:48,760 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 06:30:49,561 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 06:30:50,357 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 06:30:51,103 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 06:30:51,909 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 06:30:52,623 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 06:30:52,624 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 06:30:52,624 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 06:30:52,624 [RegimeClassifier] Computing volatility regime...
+2026-05-16 06:30:52,771 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 06:30:52,942 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 06:30:53,123 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 06:30:53,176 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 06:30:53,273 [RegimeClassifier]   Compression: STABLE
+2026-05-16 06:30:53,990 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 06:30:53,991 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 06:30:53,991 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 06:30:53,991 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 06:30:54,078 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 06:30:57,304 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 06:30:57,780 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 06:30:58,204 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 06:30:58,204 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 06:30:58,204 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 06:30:58,204 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 06:30:58,956 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 06:30:58,969 [RegimeClassifier]   Updated 1 adaptive weights for regime CHOPPY
+2026-05-16 06:30:58,979 [RegimeClassifier] Best setups: []
+2026-05-16 06:30:58,979 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 06:30:58,980 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 06:40:59,015 [RegimeClassifier] Computing institutional regime...
+2026-05-16 06:40:59,015 [RegimeClassifier] Loading sub-engines...
+2026-05-16 06:40:59,015 [RegimeClassifier] Computing market breadth...
+2026-05-16 06:41:09,579 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 06:41:09,581 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 06:41:09,581 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 06:41:09,581 [RegimeClassifier] Computing sector rotation...
+2026-05-16 06:41:10,413 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 06:41:11,263 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 06:41:11,948 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 06:41:12,646 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 06:41:13,368 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 06:41:14,171 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 06:41:14,965 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 06:41:15,757 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 06:41:16,556 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 06:41:17,359 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 06:41:18,059 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 06:41:18,789 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 06:41:18,790 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 06:41:18,790 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 06:41:18,790 [RegimeClassifier] Computing volatility regime...
+2026-05-16 06:41:18,910 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 06:41:19,138 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 06:41:19,387 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 06:41:19,466 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 06:41:19,564 [RegimeClassifier]   Compression: STABLE
+2026-05-16 06:41:20,335 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 06:41:20,335 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 06:41:20,335 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 06:41:20,335 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 06:41:20,376 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 06:41:23,880 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 06:41:24,465 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 06:41:24,960 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 06:41:24,960 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 06:41:24,960 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 06:41:24,960 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 06:41:25,704 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 06:41:25,718 [RegimeClassifier]   Updated 1 adaptive weights for regime CHOPPY
+2026-05-16 06:41:25,728 [RegimeClassifier] Best setups: []
+2026-05-16 06:41:25,728 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 06:41:25,729 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 06:51:25,827 [RegimeClassifier] Computing institutional regime...
+2026-05-16 06:51:25,827 [RegimeClassifier] Loading sub-engines...
+2026-05-16 06:51:25,827 [RegimeClassifier] Computing market breadth...
+2026-05-16 06:51:37,115 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 06:51:37,116 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 06:51:37,116 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 06:51:37,116 [RegimeClassifier] Computing sector rotation...
+2026-05-16 06:51:37,850 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 06:51:38,640 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 06:51:39,447 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 06:51:40,254 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 06:51:41,077 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 06:51:41,852 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 06:51:42,632 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 06:51:43,399 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 06:51:44,100 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 06:51:44,880 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 06:51:45,776 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 06:51:46,561 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 06:51:46,563 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 06:51:46,563 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 06:51:46,563 [RegimeClassifier] Computing volatility regime...
+2026-05-16 06:51:46,757 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 06:51:46,958 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 06:51:47,123 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 06:51:47,325 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 06:51:47,373 [RegimeClassifier]   Compression: STABLE
+2026-05-16 06:51:48,077 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 06:51:48,078 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 06:51:48,078 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 06:51:48,078 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 06:51:48,179 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 06:51:51,859 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 06:51:52,280 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 06:51:52,684 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 06:51:52,684 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 06:51:52,684 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 06:51:52,684 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 06:51:53,477 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 06:51:53,490 [RegimeClassifier]   Updated 1 adaptive weights for regime CHOPPY
+2026-05-16 06:51:53,500 [RegimeClassifier] Best setups: []
+2026-05-16 06:51:53,500 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 06:51:53,501 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 07:01:53,601 [RegimeClassifier] Computing institutional regime...
+2026-05-16 07:01:53,601 [RegimeClassifier] Loading sub-engines...
+2026-05-16 07:01:53,602 [RegimeClassifier] Computing market breadth...
+2026-05-16 07:02:03,947 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 07:02:03,948 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 07:02:03,948 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 07:02:03,948 [RegimeClassifier] Computing sector rotation...
+2026-05-16 07:02:04,804 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 07:02:05,451 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 07:02:06,241 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 07:02:07,042 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 07:02:07,830 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 07:02:08,563 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 07:02:09,437 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 07:02:10,257 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 07:02:10,982 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 07:02:11,624 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 07:02:12,418 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 07:02:13,210 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 07:02:13,211 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 07:02:13,211 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 07:02:13,211 [RegimeClassifier] Computing volatility regime...
+2026-05-16 07:02:13,363 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 07:02:13,556 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 07:02:13,747 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 07:02:13,773 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 07:02:13,874 [RegimeClassifier]   Compression: STABLE
+2026-05-16 07:02:14,625 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 07:02:14,626 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 07:02:14,627 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 07:02:14,627 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 07:02:14,672 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 07:02:18,057 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 07:02:18,573 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 07:02:18,948 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 07:02:18,948 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 07:02:18,948 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 07:02:18,948 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 07:02:19,723 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 07:02:19,736 [RegimeClassifier]   Updated 1 adaptive weights for regime CHOPPY
+2026-05-16 07:02:19,746 [RegimeClassifier] Best setups: []
+2026-05-16 07:02:19,746 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 07:02:19,747 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 07:12:19,803 [RegimeClassifier] Computing institutional regime...
+2026-05-16 07:12:19,803 [RegimeClassifier] Loading sub-engines...
+2026-05-16 07:12:19,803 [RegimeClassifier] Computing market breadth...
+2026-05-16 07:12:31,154 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 07:12:31,155 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 07:12:31,155 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 07:12:31,155 [RegimeClassifier] Computing sector rotation...
+2026-05-16 07:12:31,959 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 07:12:32,663 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 07:12:33,353 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 07:12:34,066 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 07:12:34,776 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 07:12:35,511 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 07:12:36,355 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 07:12:37,156 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 07:12:38,056 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 07:12:38,796 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 07:12:39,510 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 07:12:40,217 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 07:12:40,218 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 07:12:40,218 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 07:12:40,218 [RegimeClassifier] Computing volatility regime...
+2026-05-16 07:12:40,372 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 07:12:40,557 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 07:12:40,745 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 07:12:40,774 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 07:12:40,876 [RegimeClassifier]   Compression: STABLE
+2026-05-16 07:12:41,581 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 07:12:41,581 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 07:12:41,581 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 07:12:41,581 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 07:12:41,670 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 07:12:44,926 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 07:12:45,467 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 07:12:45,854 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 07:12:45,855 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 07:12:45,855 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 07:12:45,855 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 07:12:46,546 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 07:12:46,557 [RegimeClassifier] Best setups: []
+2026-05-16 07:12:46,557 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 07:12:46,558 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 07:22:46,655 [RegimeClassifier] Computing institutional regime...
+2026-05-16 07:22:46,655 [RegimeClassifier] Loading sub-engines...
+2026-05-16 07:22:46,655 [RegimeClassifier] Computing market breadth...
+2026-05-16 07:24:00,171 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 07:24:00,172 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 07:24:00,172 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 07:24:00,172 [RegimeClassifier] Computing sector rotation...
+2026-05-16 07:24:01,667 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 07:24:03,075 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 07:24:04,379 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 07:24:05,668 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 07:24:07,463 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 07:24:08,869 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 07:24:10,075 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 07:24:11,174 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 07:24:12,571 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 07:24:13,878 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 07:24:15,080 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 07:24:15,981 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 07:24:15,982 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 07:24:15,982 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 07:24:16,058 [RegimeClassifier] Computing volatility regime...
+2026-05-16 07:24:16,377 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 07:24:16,673 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 07:24:17,058 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 07:24:17,268 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 07:24:17,466 [RegimeClassifier]   Compression: STABLE
+2026-05-16 07:24:18,468 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 07:24:18,469 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 07:24:18,469 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 07:24:18,469 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 07:24:18,965 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 07:24:24,566 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 07:24:25,467 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 07:24:26,057 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 07:24:26,057 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 07:24:26,057 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 07:24:26,057 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 07:24:26,794 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 07:24:26,867 [RegimeClassifier] Best setups: []
+2026-05-16 07:24:26,867 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 07:24:26,868 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json
+2026-05-16 07:34:26,926 [RegimeClassifier] Computing institutional regime...
+2026-05-16 07:34:26,926 [RegimeClassifier] Loading sub-engines...
+2026-05-16 07:34:26,926 [RegimeClassifier] Computing market breadth...
+2026-05-16 07:34:39,377 [RegimeClassifier] Breadth: 36.7 | Participation: 20.1 | Trend: 68.3 | Momentum: CONTRACTING
+2026-05-16 07:34:39,379 [RegimeClassifier] Saved → /root/adaptive/breadth_metrics.json
+2026-05-16 07:34:39,379 [RegimeClassifier]   ✓ Breadth loaded
+2026-05-16 07:34:39,379 [RegimeClassifier] Computing sector rotation...
+2026-05-16 07:34:40,269 [RegimeClassifier]   XLK (Technology): RS=10.6, Mom=10.87
+2026-05-16 07:34:41,160 [RegimeClassifier]   XLF (Financials): RS=-7.13, Mom=-1.62
+2026-05-16 07:34:41,964 [RegimeClassifier]   XLE (Energy): RS=-0.29, Mom=6.62
+2026-05-16 07:34:42,858 [RegimeClassifier]   XLV (Healthcare): RS=-6.38, Mom=-1.75
+2026-05-16 07:34:43,768 [RegimeClassifier]   XLI (Industrials): RS=-4.72, Mom=-2.09
+2026-05-16 07:34:44,669 [RegimeClassifier]   XLY (ConsumerDisc): RS=-6.28, Mom=-2.07
+2026-05-16 07:34:46,479 [RegimeClassifier]   XLP (ConsumerStaples): RS=-1.4, Mom=0.78
+2026-05-16 07:34:47,466 [RegimeClassifier]   XLU (Utilities): RS=-10.7, Mom=-3.73
+2026-05-16 07:34:48,264 [RegimeClassifier]   XLB (Materials): RS=-8.15, Mom=-3.94
+2026-05-16 07:34:49,174 [RegimeClassifier]   XLRE (RealEstate): RS=-6.67, Mom=-2.33
+2026-05-16 07:34:50,066 [RegimeClassifier]   XLC (Communications): RS=-7.66, Mom=-0.69
+2026-05-16 07:34:50,971 [RegimeClassifier] Rotation: RISK_ON_GROWTH | Leaders: ['XLK', 'XLE', 'XLP'] | Velocity: FAST
+2026-05-16 07:34:50,973 [RegimeClassifier] Saved → /root/adaptive/sector_rotation.json
+2026-05-16 07:34:50,973 [RegimeClassifier]   ✓ Sector rotation loaded
+2026-05-16 07:34:50,973 [RegimeClassifier] Computing volatility regime...
+2026-05-16 07:34:51,163 [RegimeClassifier]   VIX: 18.420000076293945
+2026-05-16 07:34:51,360 [RegimeClassifier]   ATR (normalized): 0.974%
+2026-05-16 07:34:51,560 [RegimeClassifier]   Realized Vol: 10.73%
+2026-05-16 07:34:51,663 [RegimeClassifier]   Range Expansion: 0.94x
+2026-05-16 07:34:51,769 [RegimeClassifier]   Compression: STABLE
+2026-05-16 07:34:52,640 [RegimeClassifier] Regime: NORMAL_VOL | Score: 43.3 | Trend prob: 0.55
+2026-05-16 07:34:52,641 [RegimeClassifier] Saved → /root/adaptive/volatility_regime.json
+2026-05-16 07:34:52,641 [RegimeClassifier]   ✓ Volatility loaded
+2026-05-16 07:34:52,641 [RegimeClassifier] Computing liquidity conditions...
+2026-05-16 07:34:52,762 [RegimeClassifier]   SPY RVOL: 0.87x
+2026-05-16 07:34:56,558 [RegimeClassifier]   ETF Participation: 33.3%
+2026-05-16 07:34:56,976 [RegimeClassifier]   Open: 16.73% | Close: 21.78%
+2026-05-16 07:34:57,433 [RegimeClassifier]   Dollar Volume: $44.56B
+2026-05-16 07:34:57,433 [RegimeClassifier] Liquidity: THIN | Score: 25.0 | Institutional: False
+2026-05-16 07:34:57,434 [RegimeClassifier] Saved → /root/adaptive/liquidity_state.json
+2026-05-16 07:34:57,434 [RegimeClassifier]   ✓ Liquidity loaded
+2026-05-16 07:34:58,258 [RegimeClassifier] Regime: CHOPPY (27%)
+2026-05-16 07:34:58,269 [RegimeClassifier] Best setups: []
+2026-05-16 07:34:58,270 [RegimeClassifier] Narrative: Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semicond...
+2026-05-16 07:34:58,270 [RegimeClassifier] Saved → /root/adaptive/institutional_regime.json

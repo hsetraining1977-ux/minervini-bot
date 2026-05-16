@@ -1,15 +1,16 @@
 {
-  "version": 303,
-  "updated_at": "2026-05-15T23:09:34.608736",
+  "version": 322,
+  "updated_at": "2026-05-16T07:22:34.459662",
   "setup_modifiers": {
     "ORB_BREAKOUT": 0.9,
-    "VOLUME_SPIKE": 0.8,
-    "VWAP_CROSS_UP": 0.8,
+    "VOLUME_SPIKE": 0.82,
+    "VWAP_CROSS_UP": 0.82,
     "MOMENTUM_BURST_UP": 0.8,
-    "TIGHT_CONSOLIDATION_BREAK": 1.1,
+    "TIGHT_CONSOLIDATION_BREAK": 1.0,
     "ORB_BREAKDOWN": 0.8,
-    "VWAP_CROSS_DOWN": 0.8,
-    "MOMENTUM_BURST_DOWN": 0.8
+    "VWAP_CROSS_DOWN": 0.82,
+    "MOMENTUM_BURST_DOWN": 0.8,
+    "RELATIVE_STRENGTH_LEADER": 0.8
   },
   "regime_aggressiveness": {
     "RISK_ON": 1.0,
@@ -29,5 +30,7 @@
     "NEUTRAL": 0.65,
     "RISK_OFF": 0.75,
     "TRANSITION": 0.7
-  }
+  },
+  "last_replay": "2026-05-16T05:20:48.674352",
+  "replay_setups": 0
 }

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-16T01:57:04.742798",
+  "timestamp": "2026-05-16T07:34:39.379454",
   "sector_data": {
     "XLK": {
       "name": "Technology",
@@ -45,9 +45,9 @@
       "name": "ConsumerDisc",
       "return_1m": -0.9351343193108264,
       "relative_strength": -6.28,
-      "volume_ratio": 1.4,
+      "volume_ratio": 1.41,
       "momentum_score": -2.07,
-      "composite_score": -2.3492835798277065
+      "composite_score": -2.334283579827707
     },
     "XLP": {
       "name": "ConsumerStaples",
@@ -61,9 +61,9 @@
       "name": "Utilities",
       "return_1m": -5.3505925002802375,
       "relative_strength": -10.7,
-      "volume_ratio": 1.07,
+      "volume_ratio": 1.08,
       "momentum_score": -3.73,
-      "composite_score": -5.910148125070059
+      "composite_score": -5.895148125070059
     },
     "XLB": {
       "name": "Materials",
@@ -77,9 +77,9 @@
       "name": "RealEstate",
       "return_1m": -1.3239027913116819,
       "relative_strength": -6.67,
-      "volume_ratio": 0.95,
+      "volume_ratio": 0.96,
       "momentum_score": -2.33,
-      "composite_score": -3.3229756978279203
+      "composite_score": -3.3079756978279202
     },
     "XLC": {
       "name": "Communications",
@@ -123,7 +123,7 @@
       "rank": 5,
       "ticker": "XLY",
       "name": "ConsumerDisc",
-      "score": -2.35,
+      "score": -2.33,
       "rs": -6.28
     },
     {
@@ -137,7 +137,7 @@
       "rank": 7,
       "ticker": "XLRE",
       "name": "RealEstate",
-      "score": -3.32,
+      "score": -3.31,
       "rs": -6.67
     },
     {
@@ -165,7 +165,7 @@
       "rank": 11,
       "ticker": "XLU",
       "name": "Utilities",
-      "score": -5.91,
+      "score": -5.9,
       "rs": -10.7
     }
   ],
