@@ -1,18 +1,18 @@
 {
-  "timestamp": "2026-05-15T01:49:33.733414",
+  "timestamp": "2026-05-16T01:57:17.103014",
   "liquidity_state": "THIN",
   "liquidity_score": 25.0,
-  "relative_volume_spy": 0.64,
-  "etf_participation": 0.0,
-  "opening_participation": 9.36,
-  "closing_participation": 13.88,
+  "relative_volume_spy": 0.86,
+  "etf_participation": 33.3,
+  "opening_participation": 16.74,
+  "closing_participation": 21.8,
   "volume_trend": "STABLE",
-  "dollar_volume_spy": 33.51,
+  "dollar_volume_spy": 44.04,
   "per_etf_rvol": {
-    "SPY": 0.64,
-    "QQQ": 0.62,
-    "IWM": 0.47,
-    "DIA": 0.85
+    "SPY": 0.86,
+    "QQQ": 1.02,
+    "IWM": 1.01,
+    "DIA": 0.96
   },
   "institutional_signal": false,
   "panic_signal": false,

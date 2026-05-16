@@ -445,3 +445,14 @@
 2026-05-15 01:18:58 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
 2026-05-15 01:19:30 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
 2026-05-15 01:23:07 | WARNING  | resource_monitor | CPU WARNING: 90.9%
+2026-05-15 02:00:28 | ERROR    | resource_monitor | CPU CRITICAL: 99.0%
+2026-05-15 02:33:40 | WARNING  | resource_monitor | CPU WARNING: 91.3%
+2026-05-15 05:39:52 | ERROR    | resource_monitor | CPU CRITICAL: 97.1%
+2026-05-15 05:50:47 | WARNING  | resource_monitor | CPU WARNING: 85.0%
+2026-05-15 06:52:00 | ERROR    | resource_monitor | CPU CRITICAL: 99.0%
+2026-05-15 12:12:32 | WARNING  | resource_monitor | CPU WARNING: 91.3%
+2026-05-15 14:35:11 | WARNING  | resource_monitor | CPU WARNING: 85.3%
+2026-05-15 15:59:13 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-15 17:09:46 | WARNING  | resource_monitor | CPU WARNING: 86.5%
+2026-05-15 18:00:05 | ERROR    | resource_monitor | CPU CRITICAL: 95.1%
+2026-05-15 20:56:25 | WARNING  | resource_monitor | CPU WARNING: 80.0%

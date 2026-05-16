@@ -1,10 +1,10 @@
 {
   "UNKNOWN": {
-    "total": 101,
+    "total": 150,
     "wins": 0,
-    "losses": 101,
+    "losses": 150,
     "total_pnl": 0.0,
-    "last_updated": "2026-05-15T01:48:46.094868"
+    "last_updated": "2026-05-16T01:50:48.684245"
   },
   "RISK_ON": {
     "total": 6890,
@@ -12,10 +12,10 @@
     "losses": 4128,
     "total_pnl": 175.8018,
     "win_rate": 40.1,
-    "aggressiveness": 0.98,
+    "aggressiveness": 0.94,
     "sizing_modifier": 1.0,
     "confidence_floor": 0.65,
-    "last_updated": "2026-05-15T01:59:20.001263",
+    "last_updated": "2026-05-16T01:55:42.075652",
     "source": "regime_sync",
     "is_current": false
   },
@@ -28,7 +28,7 @@
     "aggressiveness": 0.9,
     "sizing_modifier": 1.0,
     "confidence_floor": 0.75,
-    "last_updated": "2026-05-15T01:59:20.001233",
+    "last_updated": "2026-05-16T01:55:42.075611",
     "source": "regime_sync",
     "is_current": false
   },
@@ -38,12 +38,12 @@
     "losses": 7790,
     "total_pnl": 347.404,
     "win_rate": 39.6,
-    "aggressiveness": 1.01,
+    "aggressiveness": 0.95,
     "sizing_modifier": 1.0,
     "confidence_floor": 0.65,
-    "last_updated": "2026-05-15T01:59:20.002274",
+    "last_updated": "2026-05-16T01:55:42.075642",
     "source": "regime_sync",
-    "is_current": true
+    "is_current": false
   },
   "NEUTRAL": {
     "total": 1785,
@@ -54,7 +54,7 @@
     "aggressiveness": 0.92,
     "sizing_modifier": 1.0,
     "confidence_floor": 0.7,
-    "last_updated": "2026-05-15T01:59:20.001244",
+    "last_updated": "2026-05-16T01:55:42.075633",
     "source": "regime_sync",
     "is_current": false
   },
@@ -64,11 +64,24 @@
     "losses": 705,
     "total_pnl": 108.8144,
     "win_rate": 44.6,
-    "aggressiveness": 0.9,
+    "aggressiveness": 0.95,
     "sizing_modifier": 1.0,
     "confidence_floor": 0.75,
-    "last_updated": "2026-05-15T01:59:20.001216",
+    "last_updated": "2026-05-16T01:55:42.075597",
     "source": "regime_sync",
     "is_current": false
+  },
+  "CHOPPY": {
+    "total": 0,
+    "wins": 0,
+    "losses": 0,
+    "total_pnl": 0,
+    "win_rate": 0.0,
+    "aggressiveness": 0.96,
+    "sizing_modifier": 1.0,
+    "confidence_floor": 0.75,
+    "last_updated": "2026-05-16T01:55:42.076622",
+    "source": "regime_sync",
+    "is_current": true
   }
 }

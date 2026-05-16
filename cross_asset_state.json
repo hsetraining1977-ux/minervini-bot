@@ -1,44 +1,45 @@
 {
-  "timestamp": "2026-05-15T01:59:20.070019",
-  "risk_score": 58,
-  "cross_signal": "RISK_ON",
+  "timestamp": "2026-05-16T01:55:42.272130",
+  "risk_score": 25,
+  "cross_signal": "NEUTRAL",
   "signals": {
     "SPY": {
       "name": "S&P 500",
-      "change_pct": 0.79
+      "change_pct": -1.2
     },
     "TLT": {
       "name": "Bonds (20Y)",
-      "change_pct": 0.14
+      "change_pct": -1.48
     },
     "GLD": {
       "name": "Gold",
-      "change_pct": -0.76
+      "change_pct": -2.32
     },
     "USO": {
       "name": "Oil",
-      "change_pct": 0.68
+      "change_pct": 3.66
     },
     "UUP": {
       "name": "Dollar",
-      "change_pct": 0.4
+      "change_pct": 0.54
     },
     "HYG": {
       "name": "High Yield Credit",
-      "change_pct": -0.08
+      "change_pct": -0.49
     },
     "VXX": {
       "name": "Volatility",
-      "change_pct": -2.54
+      "change_pct": 0.8
     },
     "BTC-USD": {
       "name": "Crypto (Risk Appetite)",
-      "change_pct": 2.55
+      "change_pct": -2.45
     }
   },
   "interpretations": [
-    "\u2705 BTC\u2191 = \u0634\u0647\u064a\u0629 \u0645\u062e\u0627\u0637\u0631\u0629"
+    "\ud83d\udd34 HYG\u2193 = \u062a\u0631\u0627\u062c\u0639 \u0627\u0644\u062b\u0642\u0629 \u0627\u0644\u0645\u0624\u0633\u0633\u064a\u0629",
+    "\ud83d\udfe1 Dollar\u2191 = \u0636\u063a\u0637 \u0639\u0644\u0649 \u0627\u0644\u0623\u0633\u0647\u0645"
   ],
-  "regime": "STRONG_RISK_ON",
-  "regime_detail": "STRONG_RISK_ON"
+  "regime": "CHOPPY",
+  "regime_detail": "CHOPPY"
 }

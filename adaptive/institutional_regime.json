@@ -1,59 +1,59 @@
 {
-  "timestamp": "2026-05-15T01:49:10.893002",
-  "regime": "STRONG_RISK_ON",
-  "regime_confidence": 0.48,
+  "timestamp": "2026-05-16T01:56:53.279819",
+  "regime": "CHOPPY",
+  "regime_confidence": 0.27,
   "regime_scores": {
-    "STRONG_RISK_ON": 55.0,
-    "RISK_ON": 40.0,
+    "STRONG_RISK_ON": 25.0,
+    "RISK_ON": 20.0,
     "NEUTRAL": 10.0,
-    "CHOPPY": 10.0,
-    "RISK_OFF": 0.0,
+    "CHOPPY": 30.0,
+    "RISK_OFF": 25.0,
     "PANIC": 0.0
   },
-  "institutional_participation": 59.0,
+  "institutional_participation": 41.7,
   "setup_suitability": {
-    "ORB_BREAKOUT": {
-      "score": 85,
-      "rating": "HIGHLY_FAVORABLE"
-    },
     "TIGHT_CONSOLIDATION_BREAK": {
-      "score": 85,
-      "rating": "HIGHLY_FAVORABLE"
-    },
-    "MOMENTUM_BURST_UP": {
-      "score": 85,
-      "rating": "HIGHLY_FAVORABLE"
-    },
-    "RELATIVE_STRENGTH_LEADER": {
-      "score": 80,
-      "rating": "HIGHLY_FAVORABLE"
+      "score": 40,
+      "rating": "NEUTRAL"
     },
     "VWAP_CROSS_UP": {
-      "score": 75,
-      "rating": "HIGHLY_FAVORABLE"
-    },
-    "VOLUME_SPIKE": {
-      "score": 65,
-      "rating": "FAVORABLE"
+      "score": 35,
+      "rating": "REDUCED"
     },
     "VWAP_CROSS_DOWN": {
-      "score": 25,
+      "score": 35,
+      "rating": "REDUCED"
+    },
+    "ORB_BREAKOUT": {
+      "score": 30,
       "rating": "REDUCED"
     },
     "ORB_BREAKDOWN": {
-      "score": 20,
-      "rating": "AVOID"
+      "score": 30,
+      "rating": "REDUCED"
+    },
+    "MOMENTUM_BURST_UP": {
+      "score": 25,
+      "rating": "REDUCED"
     },
     "MOMENTUM_BURST_DOWN": {
-      "score": 15,
-      "rating": "AVOID"
+      "score": 25,
+      "rating": "REDUCED"
+    },
+    "VOLUME_SPIKE": {
+      "score": 35,
+      "rating": "REDUCED"
+    },
+    "RELATIVE_STRENGTH_LEADER": {
+      "score": 30,
+      "rating": "REDUCED"
     }
   },
   "breadth_summary": {
-    "breadth_score": 79.6,
-    "participation_score": 75.8,
-    "trend_quality": 84.6,
-    "momentum": "STRONG_EXPANSION"
+    "breadth_score": 36.7,
+    "participation_score": 20.1,
+    "trend_quality": 68.3,
+    "momentum": "CONTRACTING"
   },
   "sector_summary": {
     "rotation_signal": "RISK_ON_GROWTH",
@@ -67,39 +67,29 @@
   },
   "volatility_summary": {
     "regime": "NORMAL_VOL",
-    "vix": 17.26,
-    "score": 35.0,
+    "vix": 18.42,
+    "score": 43.3,
     "trend_day_prob": 0.55
   },
   "liquidity_summary": {
     "state": "THIN",
-    "rvol_spy": 0.64,
+    "rvol_spy": 0.86,
     "institutional": false,
-    "etf_participation": 0.0
+    "etf_participation": 33.3
   },
   "spy_qqq": {
     "SPY": {
-      "chg_1d": 0.79,
-      "chg_5d": 1.43
+      "chg_1d": -1.2,
+      "chg_5d": -0.02
     },
     "QQQ": {
-      "chg_1d": 0.71,
-      "chg_5d": 1.2
+      "chg_1d": -1.51,
+      "chg_5d": -0.61
     }
   },
-  "ai_narrative": "Market is broadly bullish with strong institutional participation (confidence: 48%). Breadth is strong at 80/100 with broad participation (76/100), confirming institutional conviction. Technology and semiconductors are leading, a hallmark of institutional risk appetite. Best setups for current conditions: ORB_BREAKOUT, TIGHT_CONSOLIDATION_BREAK, MOMENTUM_BURST_UP. Setups to avoid: ORB_BREAKDOWN, MOMENTUM_BURST_DOWN.",
-  "best_setups": [
-    "ORB_BREAKOUT",
-    "TIGHT_CONSOLIDATION_BREAK",
-    "MOMENTUM_BURST_UP",
-    "RELATIVE_STRENGTH_LEADER",
-    "VWAP_CROSS_UP",
-    "VOLUME_SPIKE"
-  ],
-  "setups_to_avoid": [
-    "ORB_BREAKDOWN",
-    "MOMENTUM_BURST_DOWN"
-  ],
+  "ai_narrative": "Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semiconductors are leading, a hallmark of institutional risk appetite.",
+  "best_setups": [],
+  "setups_to_avoid": [],
   "data_sources_available": 4,
   "data_quality": "good"
 }

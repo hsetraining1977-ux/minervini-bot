@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-05-15T01:59:39.392585",
-  "breadth_score": 79.6,
-  "participation_score": 75.8,
-  "trend_quality_score": 84.6,
+  "timestamp": "2026-05-16T01:56:53.280078",
+  "breadth_score": 36.7,
+  "participation_score": 20.1,
+  "trend_quality_score": 68.3,
   "advance_decline": {
-    "advances": 10,
-    "declines": 2,
-    "ratio": 5.0
+    "advances": 1,
+    "declines": 11,
+    "ratio": 0.09
   },
   "vwap_analysis": {
-    "SPY": "above",
-    "QQQ": "above",
-    "IWM": "above",
-    "DIA": "above",
-    "XLK": "above",
+    "SPY": "below",
+    "QQQ": "below",
+    "IWM": "below",
+    "DIA": "below",
+    "XLK": "below",
     "XLF": "below",
     "XLE": "above",
     "XLV": "below",
-    "XLI": "above",
+    "XLI": "below",
     "XLY": "below",
     "XLP": "below",
-    "XLU": "above"
+    "XLU": "below"
   },
   "ma_analysis": {
     "SPY": {
@@ -34,7 +34,7 @@
       "above_200ma": true
     },
     "IWM": {
-      "above_20ma": true,
+      "above_20ma": false,
       "above_50ma": true,
       "above_200ma": true
     },
@@ -59,19 +59,19 @@
       "above_200ma": true
     },
     "XLV": {
-      "above_20ma": true,
+      "above_20ma": false,
       "above_50ma": false,
-      "above_200ma": true
+      "above_200ma": false
     },
     "XLI": {
-      "above_20ma": true,
+      "above_20ma": false,
       "above_50ma": true,
       "above_200ma": true
     },
     "XLY": {
       "above_20ma": false,
       "above_50ma": true,
-      "above_200ma": true
+      "above_200ma": false
     },
     "XLP": {
       "above_20ma": true,
@@ -81,14 +81,14 @@
     "XLU": {
       "above_20ma": false,
       "above_50ma": false,
-      "above_200ma": true
+      "above_200ma": false
     }
   },
-  "breadth_momentum": "STRONG_EXPANSION",
-  "market_participation": "BROAD",
+  "breadth_momentum": "CONTRACTING",
+  "market_participation": "VERY_NARROW",
   "data_quality": "good",
-  "pct_above_vwap": 66.7,
-  "pct_above_20ma": 75.0,
+  "pct_above_vwap": 8.3,
+  "pct_above_20ma": 50.0,
   "pct_above_50ma": 83.3,
-  "pct_above_200ma": 91.7
+  "pct_above_200ma": 66.7
 }
