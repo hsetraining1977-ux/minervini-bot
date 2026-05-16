@@ -391,8 +391,6 @@ def run_scan(scan_count):
             watching.append(symbol + " $" + str(round(data['price'],2)) +
                             " Score:" + str(score))
 
-    if watching:
-        send_telegram("Watching:\n" + "\n".join(watching[:15]))
 
     if opportunities:
         msg = "ENTRY OPPORTUNITY!\n\n"
