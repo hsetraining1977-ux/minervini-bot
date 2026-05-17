@@ -48,5 +48,55 @@
     "ai_summary": "AI ASSESSMENT: NVDA qualifies as SWING opportunity. Setup integrity: 6 positives vs 0 risks. High conviction \u2014 proceed with standard sizing.",
     "status": "READY",
     "expires_at": "2026-05-14T15:33:20.893694"
+  },
+  "NVDA_20260517_101624": {
+    "symbol": "NVDA",
+    "plan_id": "NVDA_20260517_101624",
+    "created_at": "2026-05-17T10:16:24.368644",
+    "trade_type": "SWING",
+    "direction": "LONG",
+    "regime": "RISK_ON",
+    "setup": "Minervini SEPA Stage 2",
+    "entry": 225.31,
+    "stop_loss": 215.31,
+    "take_profit_1": 245.31,
+    "take_profit_2": 255.31,
+    "take_profit_3": 275.31,
+    "atr": 5.0,
+    "atr_stop": 215.31,
+    "risk_per_share": 10.0,
+    "reward_per_share": 30.0,
+    "risk_reward": 3.0,
+    "position_size": 100,
+    "max_loss_usd": 1000.0,
+    "potential_gain": 3000.0,
+    "score": 87.5,
+    "confidence": 87,
+    "execution_score": 92,
+    "checklist": {
+      "regime_ok": true,
+      "liquidity_ok": true,
+      "volume_confirmed": true,
+      "atr_valid": true,
+      "mtf_confirmed": true,
+      "risk_acceptable": true,
+      "rs_strong": true,
+      "score_ok": true
+    },
+    "why_this_trade": "NVDA showing HOT setup in RISK_ON regime. Score 87.5/100 with strong relative strength (85). Volume confirming breakout. Recommended as SWING trade.",
+    "positive_factors": [
+      "Strong score: 87.5/100",
+      "Market regime: RISK_ON \u2014 favorable",
+      "High Relative Strength: 85",
+      "Volume surge: 1.8x average",
+      "HOT rating \u2014 top-tier setup",
+      "Multi-timeframe alignment confirmed"
+    ],
+    "risk_factors": [
+      "Standard market risk"
+    ],
+    "ai_summary": "AI ASSESSMENT: NVDA qualifies as SWING opportunity. Setup integrity: 6 positives vs 0 risks. High conviction \u2014 proceed with standard sizing.",
+    "status": "READY",
+    "expires_at": "2026-05-20T10:16:24.368564"
   }
 }

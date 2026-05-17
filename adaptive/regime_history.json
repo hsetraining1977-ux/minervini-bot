@@ -4404,5 +4404,53 @@
     "best_setups": [],
     "vix": 18.42,
     "breadth": 36.7
+  },
+  {
+    "timestamp": "2026-05-17T09:19:36.827349",
+    "regime": "CHOPPY",
+    "confidence": 0.27,
+    "best_setups": [],
+    "vix": 18.42,
+    "breadth": 36.7
+  },
+  {
+    "timestamp": "2026-05-17T09:30:10.502394",
+    "regime": "CHOPPY",
+    "confidence": 0.27,
+    "best_setups": [],
+    "vix": 18.42,
+    "breadth": 36.7
+  },
+  {
+    "timestamp": "2026-05-17T09:40:56.394146",
+    "regime": "CHOPPY",
+    "confidence": 0.27,
+    "best_setups": [],
+    "vix": 18.42,
+    "breadth": 36.7
+  },
+  {
+    "timestamp": "2026-05-17T09:51:34.027994",
+    "regime": "CHOPPY",
+    "confidence": 0.27,
+    "best_setups": [],
+    "vix": 18.42,
+    "breadth": 36.7
+  },
+  {
+    "timestamp": "2026-05-17T10:02:04.329932",
+    "regime": "CHOPPY",
+    "confidence": 0.27,
+    "best_setups": [],
+    "vix": 18.42,
+    "breadth": 36.7
+  },
+  {
+    "timestamp": "2026-05-17T10:12:33.947951",
+    "regime": "CHOPPY",
+    "confidence": 0.27,
+    "best_setups": [],
+    "vix": 18.42,
+    "breadth": 36.7
   }
 ]

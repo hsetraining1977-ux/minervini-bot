@@ -37,6 +37,10 @@
     }
   ],
   "position_count": 2,
-  "timestamp": "2026-05-11T16:51:54.569363",
-  "paper_only": true
+  "timestamp": "2026-05-17T10:14:03.204360",
+  "paper_only": true,
+  "regime": "CHOPPY",
+  "regime_confidence": 0.27,
+  "breadth_score": 36.7,
+  "source": "regime_sync"
 }

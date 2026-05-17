@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-17T09:02:45.328326",
+  "timestamp": "2026-05-17T10:14:03.199375",
   "duration_sec": 18.4,
   "assets": {
     "SPY": {
@@ -494,5 +494,34 @@
       "above_ma50": true
     }
   ],
-  "risk_quality": "STRONG_RISK_ON"
+  "risk_quality": "STRONG_RISK_ON",
+  "market_regime": "NEUTRAL",
+  "regime_detail": "CHOPPY",
+  "regime_confidence": 0.27,
+  "risk_on": false,
+  "vix": 18.42,
+  "vix_label": "Normal",
+  "risk_score": 65,
+  "liquidity": "TIGHTENING",
+  "psychology": "FEARFUL",
+  "fear_score": 55,
+  "breadth_score": 36.7,
+  "participation": 20.1,
+  "trend_quality": 50,
+  "tech_leadership": true,
+  "leading_sectors": [
+    "XLK",
+    "XLE",
+    "XLP"
+  ],
+  "rotation_signal": "RISK_ON_GROWTH",
+  "volatility_regime": "NORMAL_VOL",
+  "trend_day_prob": 0.55,
+  "institutional_participation": 41.7,
+  "best_setups": [],
+  "setups_to_avoid": [],
+  "ai_narrative": "Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semiconductors are leading, a hallmark of institutional risk appetite.",
+  "cross_asset": "NEUTRAL",
+  "event_lockdown": false,
+  "source": "institutional_regime_classifier"
 }

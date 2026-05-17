@@ -1,0 +1,42 @@
+
+=======================================================
+  MINERVINI AI — SYSTEM AUDIT
+  2026-05-17 09:26:20
+=======================================================
+
+[1/6] Auditing processes...
+  Python processes: 30
+  Duplicates: 1
+    ⚠ ai_layer.py: PIDs ['71090', '71435', '71436', '71437', '71440', '71462']
+
+[2/6] Auditing resources...
+  CPU: 3.6%
+  RAM: 1461MB / 1958MB (74.6%)
+  Disk: 12G / 52G (24%)
+
+[3/6] Classifying files...
+  Core system: 48 files
+  Research:    17 files
+  Archive:     6 files
+  Unknown:     18 files
+
+[4/6] Auditing logs...
+  Total logs: 15.8 MB
+  Oversized:  0 files
+
+[5/6] Auditing Telegram spam...
+  High-risk files: 0
+
+[6/6] Building dependency map...
+  Mapped 31 files with dependencies
+
+=======================================================
+  ✅ AUDIT COMPLETE
+  Reports saved to: /root/reports/
+=======================================================
+
+📋 RECOMMENDED ACTIONS:
+  🔴 Kill 1 duplicate processes
+  🟡 Review 18 unknown files
+  ⚪ Archive 6 old/temp files
+

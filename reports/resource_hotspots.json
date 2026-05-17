@@ -1,66 +1,66 @@
 {
-  "timestamp": "2026-05-17T07:33:13.455092",
-  "cpu_used_pct": 0.0,
+  "timestamp": "2026-05-17T09:26:21.774435",
+  "cpu_used_pct": 3.6,
   "top_cpu": [
     {
-      "pid": "71512",
-      "cpu": "25.0",
+      "pid": "73374",
+      "cpu": "24.0",
       "mem": "0.5",
       "cmd": "python3 /root/system_audit.py"
     },
     {
-      "pid": "71440",
-      "cpu": "10.6",
-      "mem": "3.2",
-      "cmd": "python3 /root/ai_layer.py"
-    },
-    {
-      "pid": "71436",
-      "cpu": "10.4",
-      "mem": "3.9",
-      "cmd": "python3 /root/ai_layer.py"
-    },
-    {
-      "pid": "71435",
-      "cpu": "10.3",
-      "mem": "3.0",
-      "cmd": "python3 /root/ai_layer.py"
-    },
-    {
-      "pid": "71437",
-      "cpu": "9.9",
-      "mem": "2.5",
-      "cmd": "python3 /root/ai_layer.py"
-    },
-    {
-      "pid": "71063",
-      "cpu": "5.5",
-      "mem": "8.2",
-      "cmd": "python3 /root/master_orchestrator.py"
-    },
-    {
       "pid": "71111",
-      "cpu": "4.1",
-      "mem": "7.5",
+      "cpu": "2.5",
+      "mem": "6.3",
       "cmd": "python3 /root/monitor_upgrade.py"
     },
     {
-      "pid": "71079",
-      "cpu": "3.8",
+      "pid": "71083",
+      "cpu": "1.6",
+      "mem": "8.6",
+      "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/dashboard.py --server.port"
+    },
+    {
+      "pid": "71095",
+      "cpu": "1.1",
       "mem": "7.6",
-      "cmd": "python3 /root/telegram_commands.py"
+      "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/institutional_dashboard.py"
     },
     {
-      "pid": "71090",
-      "cpu": "3.8",
-      "mem": "8.0",
-      "cmd": "python3 /root/ai_layer.py"
+      "pid": "9072",
+      "cpu": "1.0",
+      "mem": "2.2",
+      "cmd": "python3 /root/institutional_regime_classifier.py --daemon"
     },
     {
-      "pid": "71513",
-      "cpu": "3.5",
+      "pid": "71094",
+      "cpu": "0.9",
+      "mem": "8.5",
+      "cmd": "python3 -m streamlit run /root/adaptive_dashboard.py --server.port 8503 --server"
+    },
+    {
+      "pid": "73206",
+      "cpu": "0.6",
       "mem": "0.0",
-      "cmd": "tail -15"
+      "cmd": "[kworker/0:2-events]"
+    },
+    {
+      "pid": "71056",
+      "cpu": "0.5",
+      "mem": "4.8",
+      "cmd": "python3 /root/institutional_layer.py"
+    },
+    {
+      "pid": "71063",
+      "cpu": "0.3",
+      "mem": "4.4",
+      "cmd": "python3 /root/master_orchestrator.py"
+    },
+    {
+      "pid": "71102",
+      "cpu": "0.3",
+      "mem": "0.7",
+      "cmd": "python3 /root/resource_monitor.py"
     }
   ],
   "oversized_logs": [],
@@ -93,6 +93,10 @@
       "size_kb": 9.9
     },
     {
+      "file": "system_health_score.py",
+      "size_kb": 16.3
+    },
+    {
       "file": "institutional_intelligence_dashboard.py",
       "size_kb": 13.9
     },
@@ -113,8 +117,16 @@
       "size_kb": 8.3
     },
     {
+      "file": "service_guard.py",
+      "size_kb": 13.4
+    },
+    {
       "file": "monitor_upgrade.py",
       "size_kb": 18.5
+    },
+    {
+      "file": "resource_optimizer.py",
+      "size_kb": 16.1
     },
     {
       "file": "watchdog_bot.py",

@@ -682,6 +682,378 @@
 2026-05-17 09:14:00,302 [RegimeSync]   8504 (Institutional):      ✅ (source)
 2026-05-17 09:14:00,302 [RegimeSync] ============================================================
 2026-05-17 09:14:00,302 [RegimeSync] Next sync in 5 minutes...
+2026-05-17 09:19:00,455 [RegimeSync] ============================================================
+2026-05-17 09:19:00,455 [RegimeSync] REGIME SYNC CYCLE STARTING
+2026-05-17 09:19:00,455 [RegimeSync] ============================================================
+2026-05-17 09:19:00,455 [RegimeSync] Loaded regime: CHOPPY (confidence: 27%, age: 10min)
+2026-05-17 09:19:00,455 [RegimeSync] Syncing market_intelligence.json (8501)...
+2026-05-17 09:19:00,456 [RegimeSync]   ✅ 8501 regime updated: NEUTRAL (from CHOPPY) | VIX: 18.42 | Liquidity: TIGHTENING | Psychology: FEARFUL
+2026-05-17 09:19:00,456 [RegimeSync] Syncing paper trades regime tags (8503)...
+2026-05-17 09:19:00,656 [RegimeSync]   ✓ All trades already have regime labels
+2026-05-17 09:19:00,656 [RegimeSync] Syncing regime_performance.json (8503)...
+2026-05-17 09:19:00,760 [RegimeSync]   ✅ Updated 7 regimes in regime_performance.json
+2026-05-17 09:19:00,760 [RegimeSync]     UNKNOWN: 219 trades, WR=0%
+2026-05-17 09:19:00,760 [RegimeSync]     RISK_ON: 6890 trades, WR=40.1%
+2026-05-17 09:19:00,859 [RegimeSync]     PANIC: 1156 trades, WR=47.1%
+2026-05-17 09:19:00,859 [RegimeSync]     STRONG_RISK_ON: 12887 trades, WR=39.6%
+2026-05-17 09:19:00,859 [RegimeSync]     NEUTRAL: 1785 trades, WR=32.4%
+2026-05-17 09:19:00,859 [RegimeSync]     RISK_OFF: 1273 trades, WR=44.6%
+2026-05-17 09:19:00,859 [RegimeSync]     CHOPPY: 0 trades, WR=0.0% ← CURRENT
+2026-05-17 09:19:00,861 [RegimeSync]   ✅ adaptive_memory regime_perf updated: ['UNKNOWN', 'RISK_ON', 'PANIC', 'STRONG_RISK_ON', 'NEUTRAL', 'RISK_OFF', 'CHOPPY']
+2026-05-17 09:19:00,861 [RegimeSync] Refreshing data freshness (8501 STALE fix)...
+2026-05-17 09:19:01,157 [RegimeSync]   ✅ Updated 0 trade plans with regime context
+2026-05-17 09:19:01,176 [RegimeSync]   ✅ Data freshness timestamps refreshed
+2026-05-17 09:19:01,458 [RegimeSync]   ✅ Narrative synced: regime=CHOPPY, best=[]
+2026-05-17 09:19:01,656 [RegimeSync]   cross_asset_state.json: NEUTRAL (from CHOPPY)
+2026-05-17 09:19:01,755 [RegimeSync] Sync status: 7/7 ✅
+2026-05-17 09:19:01,756 [RegimeSync] ============================================================
+2026-05-17 09:19:01,756 [RegimeSync] SYNC COMPLETE — Regime: CHOPPY
+2026-05-17 09:19:01,756 [RegimeSync]   8501 (Control Center):     ✅
+2026-05-17 09:19:01,756 [RegimeSync]   8503 (Adaptive Intel):     ✅
+2026-05-17 09:19:01,756 [RegimeSync]   8504 (Institutional):      ✅ (source)
+2026-05-17 09:19:01,756 [RegimeSync] ============================================================
+2026-05-17 09:19:01,756 [RegimeSync] Next sync in 5 minutes...
+2026-05-17 09:24:01,800 [RegimeSync] ============================================================
+2026-05-17 09:24:01,800 [RegimeSync] REGIME SYNC CYCLE STARTING
+2026-05-17 09:24:01,800 [RegimeSync] ============================================================
+2026-05-17 09:24:01,801 [RegimeSync] Loaded regime: CHOPPY (confidence: 27%, age: 5min)
+2026-05-17 09:24:01,801 [RegimeSync] Syncing market_intelligence.json (8501)...
+2026-05-17 09:24:01,802 [RegimeSync]   ✅ 8501 regime updated: NEUTRAL (from CHOPPY) | VIX: 18.42 | Liquidity: TIGHTENING | Psychology: FEARFUL
+2026-05-17 09:24:01,802 [RegimeSync] Syncing paper trades regime tags (8503)...
+2026-05-17 09:24:01,803 [RegimeSync]   ✓ All trades already have regime labels
+2026-05-17 09:24:01,803 [RegimeSync] Syncing regime_performance.json (8503)...
+2026-05-17 09:24:01,804 [RegimeSync]   ✅ Updated 7 regimes in regime_performance.json
+2026-05-17 09:24:01,804 [RegimeSync]     UNKNOWN: 219 trades, WR=0%
+2026-05-17 09:24:01,804 [RegimeSync]     RISK_ON: 6890 trades, WR=40.1%
+2026-05-17 09:24:01,804 [RegimeSync]     PANIC: 1156 trades, WR=47.1%
+2026-05-17 09:24:01,804 [RegimeSync]     STRONG_RISK_ON: 12887 trades, WR=39.6%
+2026-05-17 09:24:01,804 [RegimeSync]     NEUTRAL: 1785 trades, WR=32.4%
+2026-05-17 09:24:01,804 [RegimeSync]     RISK_OFF: 1273 trades, WR=44.6%
+2026-05-17 09:24:01,805 [RegimeSync]     CHOPPY: 0 trades, WR=0.0% ← CURRENT
+2026-05-17 09:24:01,806 [RegimeSync]   ✅ adaptive_memory regime_perf updated: ['UNKNOWN', 'RISK_ON', 'PANIC', 'STRONG_RISK_ON', 'NEUTRAL', 'RISK_OFF', 'CHOPPY']
+2026-05-17 09:24:01,806 [RegimeSync] Refreshing data freshness (8501 STALE fix)...
+2026-05-17 09:24:01,806 [RegimeSync]   ✅ Updated 0 trade plans with regime context
+2026-05-17 09:24:01,807 [RegimeSync]   ✅ Data freshness timestamps refreshed
+2026-05-17 09:24:01,810 [RegimeSync]   ✅ Narrative synced: regime=CHOPPY, best=[]
+2026-05-17 09:24:01,810 [RegimeSync]   cross_asset_state.json: NEUTRAL (from CHOPPY)
+2026-05-17 09:24:01,811 [RegimeSync] Sync status: 7/7 ✅
+2026-05-17 09:24:01,811 [RegimeSync] ============================================================
+2026-05-17 09:24:01,811 [RegimeSync] SYNC COMPLETE — Regime: CHOPPY
+2026-05-17 09:24:01,811 [RegimeSync]   8501 (Control Center):     ✅
+2026-05-17 09:24:01,811 [RegimeSync]   8503 (Adaptive Intel):     ✅
+2026-05-17 09:24:01,811 [RegimeSync]   8504 (Institutional):      ✅ (source)
+2026-05-17 09:24:01,811 [RegimeSync] ============================================================
+2026-05-17 09:24:01,811 [RegimeSync] Next sync in 5 minutes...
+2026-05-17 09:29:01,911 [RegimeSync] ============================================================
+2026-05-17 09:29:01,911 [RegimeSync] REGIME SYNC CYCLE STARTING
+2026-05-17 09:29:01,911 [RegimeSync] ============================================================
+2026-05-17 09:29:01,912 [RegimeSync] Loaded regime: CHOPPY (confidence: 27%, age: 10min)
+2026-05-17 09:29:01,912 [RegimeSync] Syncing market_intelligence.json (8501)...
+2026-05-17 09:29:01,912 [RegimeSync]   ✅ 8501 regime updated: NEUTRAL (from CHOPPY) | VIX: 18.42 | Liquidity: TIGHTENING | Psychology: FEARFUL
+2026-05-17 09:29:01,913 [RegimeSync] Syncing paper trades regime tags (8503)...
+2026-05-17 09:29:01,913 [RegimeSync]   ✓ All trades already have regime labels
+2026-05-17 09:29:01,913 [RegimeSync] Syncing regime_performance.json (8503)...
+2026-05-17 09:29:01,914 [RegimeSync]   ✅ Updated 7 regimes in regime_performance.json
+2026-05-17 09:29:01,914 [RegimeSync]     UNKNOWN: 219 trades, WR=0%
+2026-05-17 09:29:01,914 [RegimeSync]     RISK_ON: 6890 trades, WR=40.1%
+2026-05-17 09:29:01,914 [RegimeSync]     PANIC: 1156 trades, WR=47.1%
+2026-05-17 09:29:01,914 [RegimeSync]     STRONG_RISK_ON: 12887 trades, WR=39.6%
+2026-05-17 09:29:01,914 [RegimeSync]     NEUTRAL: 1785 trades, WR=32.4%
+2026-05-17 09:29:01,914 [RegimeSync]     RISK_OFF: 1273 trades, WR=44.6%
+2026-05-17 09:29:01,914 [RegimeSync]     CHOPPY: 0 trades, WR=0.0% ← CURRENT
+2026-05-17 09:29:01,915 [RegimeSync]   ✅ adaptive_memory regime_perf updated: ['UNKNOWN', 'RISK_ON', 'PANIC', 'STRONG_RISK_ON', 'NEUTRAL', 'RISK_OFF', 'CHOPPY']
+2026-05-17 09:29:01,915 [RegimeSync] Refreshing data freshness (8501 STALE fix)...
+2026-05-17 09:29:01,916 [RegimeSync]   ✅ Updated 0 trade plans with regime context
+2026-05-17 09:29:01,916 [RegimeSync]   ✅ Data freshness timestamps refreshed
+2026-05-17 09:29:01,919 [RegimeSync]   ✅ Narrative synced: regime=CHOPPY, best=[]
+2026-05-17 09:29:01,920 [RegimeSync]   cross_asset_state.json: NEUTRAL (from CHOPPY)
+2026-05-17 09:29:01,920 [RegimeSync] Sync status: 7/7 ✅
+2026-05-17 09:29:01,920 [RegimeSync] ============================================================
+2026-05-17 09:29:01,920 [RegimeSync] SYNC COMPLETE — Regime: CHOPPY
+2026-05-17 09:29:01,920 [RegimeSync]   8501 (Control Center):     ✅
+2026-05-17 09:29:01,920 [RegimeSync]   8503 (Adaptive Intel):     ✅
+2026-05-17 09:29:01,920 [RegimeSync]   8504 (Institutional):      ✅ (source)
+2026-05-17 09:29:01,920 [RegimeSync] ============================================================
+2026-05-17 09:29:01,921 [RegimeSync] Next sync in 5 minutes...
+2026-05-17 09:34:02,021 [RegimeSync] ============================================================
+2026-05-17 09:34:02,021 [RegimeSync] REGIME SYNC CYCLE STARTING
+2026-05-17 09:34:02,021 [RegimeSync] ============================================================
+2026-05-17 09:34:02,022 [RegimeSync] Loaded regime: CHOPPY (confidence: 27%, age: 4min)
+2026-05-17 09:34:02,022 [RegimeSync] Syncing market_intelligence.json (8501)...
+2026-05-17 09:34:02,022 [RegimeSync]   ✅ 8501 regime updated: NEUTRAL (from CHOPPY) | VIX: 18.42 | Liquidity: TIGHTENING | Psychology: FEARFUL
+2026-05-17 09:34:02,022 [RegimeSync] Syncing paper trades regime tags (8503)...
+2026-05-17 09:34:02,022 [RegimeSync]   ✓ All trades already have regime labels
+2026-05-17 09:34:02,023 [RegimeSync] Syncing regime_performance.json (8503)...
+2026-05-17 09:34:02,024 [RegimeSync]   ✅ Updated 7 regimes in regime_performance.json
+2026-05-17 09:34:02,024 [RegimeSync]     UNKNOWN: 220 trades, WR=0%
+2026-05-17 09:34:02,024 [RegimeSync]     RISK_ON: 6890 trades, WR=40.1%
+2026-05-17 09:34:02,024 [RegimeSync]     PANIC: 1156 trades, WR=47.1%
+2026-05-17 09:34:02,024 [RegimeSync]     STRONG_RISK_ON: 12887 trades, WR=39.6%
+2026-05-17 09:34:02,024 [RegimeSync]     NEUTRAL: 1785 trades, WR=32.4%
+2026-05-17 09:34:02,024 [RegimeSync]     RISK_OFF: 1273 trades, WR=44.6%
+2026-05-17 09:34:02,024 [RegimeSync]     CHOPPY: 0 trades, WR=0.0% ← CURRENT
+2026-05-17 09:34:02,029 [RegimeSync]   ✅ adaptive_memory regime_perf updated: ['UNKNOWN', 'RISK_ON', 'PANIC', 'STRONG_RISK_ON', 'NEUTRAL', 'RISK_OFF', 'CHOPPY']
+2026-05-17 09:34:02,029 [RegimeSync] Refreshing data freshness (8501 STALE fix)...
+2026-05-17 09:34:02,030 [RegimeSync]   ✅ Updated 0 trade plans with regime context
+2026-05-17 09:34:02,030 [RegimeSync]   ✅ Data freshness timestamps refreshed
+2026-05-17 09:34:02,033 [RegimeSync]   ✅ Narrative synced: regime=CHOPPY, best=[]
+2026-05-17 09:34:02,033 [RegimeSync]   cross_asset_state.json: NEUTRAL (from CHOPPY)
+2026-05-17 09:34:02,034 [RegimeSync] Sync status: 7/7 ✅
+2026-05-17 09:34:02,034 [RegimeSync] ============================================================
+2026-05-17 09:34:02,034 [RegimeSync] SYNC COMPLETE — Regime: CHOPPY
+2026-05-17 09:34:02,034 [RegimeSync]   8501 (Control Center):     ✅
+2026-05-17 09:34:02,034 [RegimeSync]   8503 (Adaptive Intel):     ✅
+2026-05-17 09:34:02,035 [RegimeSync]   8504 (Institutional):      ✅ (source)
+2026-05-17 09:34:02,035 [RegimeSync] ============================================================
+2026-05-17 09:34:02,035 [RegimeSync] Next sync in 5 minutes...
+2026-05-17 09:39:02,128 [RegimeSync] ============================================================
+2026-05-17 09:39:02,128 [RegimeSync] REGIME SYNC CYCLE STARTING
+2026-05-17 09:39:02,129 [RegimeSync] ============================================================
+2026-05-17 09:39:02,129 [RegimeSync] Loaded regime: CHOPPY (confidence: 27%, age: 9min)
+2026-05-17 09:39:02,129 [RegimeSync] Syncing market_intelligence.json (8501)...
+2026-05-17 09:39:02,129 [RegimeSync]   ✅ 8501 regime updated: NEUTRAL (from CHOPPY) | VIX: 18.42 | Liquidity: TIGHTENING | Psychology: FEARFUL
+2026-05-17 09:39:02,129 [RegimeSync] Syncing paper trades regime tags (8503)...
+2026-05-17 09:39:02,130 [RegimeSync]   ✓ All trades already have regime labels
+2026-05-17 09:39:02,130 [RegimeSync] Syncing regime_performance.json (8503)...
+2026-05-17 09:39:02,131 [RegimeSync]   ✅ Updated 7 regimes in regime_performance.json
+2026-05-17 09:39:02,131 [RegimeSync]     UNKNOWN: 220 trades, WR=0%
+2026-05-17 09:39:02,131 [RegimeSync]     RISK_ON: 6890 trades, WR=40.1%
+2026-05-17 09:39:02,131 [RegimeSync]     PANIC: 1156 trades, WR=47.1%
+2026-05-17 09:39:02,131 [RegimeSync]     STRONG_RISK_ON: 12887 trades, WR=39.6%
+2026-05-17 09:39:02,131 [RegimeSync]     NEUTRAL: 1785 trades, WR=32.4%
+2026-05-17 09:39:02,131 [RegimeSync]     RISK_OFF: 1273 trades, WR=44.6%
+2026-05-17 09:39:02,132 [RegimeSync]     CHOPPY: 0 trades, WR=0.0% ← CURRENT
+2026-05-17 09:39:02,132 [RegimeSync]   ✅ adaptive_memory regime_perf updated: ['UNKNOWN', 'RISK_ON', 'PANIC', 'STRONG_RISK_ON', 'NEUTRAL', 'RISK_OFF', 'CHOPPY']
+2026-05-17 09:39:02,133 [RegimeSync] Refreshing data freshness (8501 STALE fix)...
+2026-05-17 09:39:02,133 [RegimeSync]   ✅ Updated 0 trade plans with regime context
+2026-05-17 09:39:02,133 [RegimeSync]   ✅ Data freshness timestamps refreshed
+2026-05-17 09:39:02,136 [RegimeSync]   ✅ Narrative synced: regime=CHOPPY, best=[]
+2026-05-17 09:39:02,137 [RegimeSync]   cross_asset_state.json: NEUTRAL (from CHOPPY)
+2026-05-17 09:39:02,137 [RegimeSync] Sync status: 7/7 ✅
+2026-05-17 09:39:02,137 [RegimeSync] ============================================================
+2026-05-17 09:39:02,137 [RegimeSync] SYNC COMPLETE — Regime: CHOPPY
+2026-05-17 09:39:02,137 [RegimeSync]   8501 (Control Center):     ✅
+2026-05-17 09:39:02,137 [RegimeSync]   8503 (Adaptive Intel):     ✅
+2026-05-17 09:39:02,138 [RegimeSync]   8504 (Institutional):      ✅ (source)
+2026-05-17 09:39:02,138 [RegimeSync] ============================================================
+2026-05-17 09:39:02,138 [RegimeSync] Next sync in 5 minutes...
+2026-05-17 09:44:02,187 [RegimeSync] ============================================================
+2026-05-17 09:44:02,187 [RegimeSync] REGIME SYNC CYCLE STARTING
+2026-05-17 09:44:02,187 [RegimeSync] ============================================================
+2026-05-17 09:44:02,188 [RegimeSync] Loaded regime: CHOPPY (confidence: 27%, age: 4min)
+2026-05-17 09:44:02,188 [RegimeSync] Syncing market_intelligence.json (8501)...
+2026-05-17 09:44:02,190 [RegimeSync]   ✅ 8501 regime updated: NEUTRAL (from CHOPPY) | VIX: 18.42 | Liquidity: TIGHTENING | Psychology: FEARFUL
+2026-05-17 09:44:02,190 [RegimeSync] Syncing paper trades regime tags (8503)...
+2026-05-17 09:44:02,190 [RegimeSync]   ✓ All trades already have regime labels
+2026-05-17 09:44:02,190 [RegimeSync] Syncing regime_performance.json (8503)...
+2026-05-17 09:44:02,191 [RegimeSync]   ✅ Updated 7 regimes in regime_performance.json
+2026-05-17 09:44:02,191 [RegimeSync]     UNKNOWN: 220 trades, WR=0%
+2026-05-17 09:44:02,192 [RegimeSync]     RISK_ON: 6890 trades, WR=40.1%
+2026-05-17 09:44:02,192 [RegimeSync]     PANIC: 1156 trades, WR=47.1%
+2026-05-17 09:44:02,192 [RegimeSync]     STRONG_RISK_ON: 12887 trades, WR=39.6%
+2026-05-17 09:44:02,192 [RegimeSync]     NEUTRAL: 1785 trades, WR=32.4%
+2026-05-17 09:44:02,192 [RegimeSync]     RISK_OFF: 1273 trades, WR=44.6%
+2026-05-17 09:44:02,192 [RegimeSync]     CHOPPY: 0 trades, WR=0.0% ← CURRENT
+2026-05-17 09:44:02,192 [RegimeSync]   ✅ adaptive_memory regime_perf updated: ['UNKNOWN', 'RISK_ON', 'PANIC', 'STRONG_RISK_ON', 'NEUTRAL', 'RISK_OFF', 'CHOPPY']
+2026-05-17 09:44:02,193 [RegimeSync] Refreshing data freshness (8501 STALE fix)...
+2026-05-17 09:44:02,193 [RegimeSync]   ✅ Updated 0 trade plans with regime context
+2026-05-17 09:44:02,193 [RegimeSync]   ✅ Data freshness timestamps refreshed
+2026-05-17 09:44:02,196 [RegimeSync]   ✅ Narrative synced: regime=CHOPPY, best=[]
+2026-05-17 09:44:02,197 [RegimeSync]   cross_asset_state.json: NEUTRAL (from CHOPPY)
+2026-05-17 09:44:02,197 [RegimeSync] Sync status: 7/7 ✅
+2026-05-17 09:44:02,197 [RegimeSync] ============================================================
+2026-05-17 09:44:02,197 [RegimeSync] SYNC COMPLETE — Regime: CHOPPY
+2026-05-17 09:44:02,197 [RegimeSync]   8501 (Control Center):     ✅
+2026-05-17 09:44:02,197 [RegimeSync]   8503 (Adaptive Intel):     ✅
+2026-05-17 09:44:02,197 [RegimeSync]   8504 (Institutional):      ✅ (source)
+2026-05-17 09:44:02,197 [RegimeSync] ============================================================
+2026-05-17 09:44:02,198 [RegimeSync] Next sync in 5 minutes...
+2026-05-17 09:49:02,279 [RegimeSync] ============================================================
+2026-05-17 09:49:02,279 [RegimeSync] REGIME SYNC CYCLE STARTING
+2026-05-17 09:49:02,279 [RegimeSync] ============================================================
+2026-05-17 09:49:02,279 [RegimeSync] Loaded regime: CHOPPY (confidence: 27%, age: 9min)
+2026-05-17 09:49:02,280 [RegimeSync] Syncing market_intelligence.json (8501)...
+2026-05-17 09:49:02,282 [RegimeSync]   ✅ 8501 regime updated: NEUTRAL (from CHOPPY) | VIX: 18.42 | Liquidity: TIGHTENING | Psychology: FEARFUL
+2026-05-17 09:49:02,282 [RegimeSync] Syncing paper trades regime tags (8503)...
+2026-05-17 09:49:02,282 [RegimeSync]   ✓ All trades already have regime labels
+2026-05-17 09:49:02,282 [RegimeSync] Syncing regime_performance.json (8503)...
+2026-05-17 09:49:02,283 [RegimeSync]   ✅ Updated 7 regimes in regime_performance.json
+2026-05-17 09:49:02,284 [RegimeSync]     UNKNOWN: 220 trades, WR=0%
+2026-05-17 09:49:02,284 [RegimeSync]     RISK_ON: 6890 trades, WR=40.1%
+2026-05-17 09:49:02,284 [RegimeSync]     PANIC: 1156 trades, WR=47.1%
+2026-05-17 09:49:02,284 [RegimeSync]     STRONG_RISK_ON: 12887 trades, WR=39.6%
+2026-05-17 09:49:02,284 [RegimeSync]     NEUTRAL: 1785 trades, WR=32.4%
+2026-05-17 09:49:02,284 [RegimeSync]     RISK_OFF: 1273 trades, WR=44.6%
+2026-05-17 09:49:02,284 [RegimeSync]     CHOPPY: 0 trades, WR=0.0% ← CURRENT
+2026-05-17 09:49:02,285 [RegimeSync]   ✅ adaptive_memory regime_perf updated: ['UNKNOWN', 'RISK_ON', 'PANIC', 'STRONG_RISK_ON', 'NEUTRAL', 'RISK_OFF', 'CHOPPY']
+2026-05-17 09:49:02,285 [RegimeSync] Refreshing data freshness (8501 STALE fix)...
+2026-05-17 09:49:02,285 [RegimeSync]   ✅ Updated 0 trade plans with regime context
+2026-05-17 09:49:02,286 [RegimeSync]   ✅ Data freshness timestamps refreshed
+2026-05-17 09:49:02,290 [RegimeSync]   ✅ Narrative synced: regime=CHOPPY, best=[]
+2026-05-17 09:49:02,290 [RegimeSync]   cross_asset_state.json: NEUTRAL (from CHOPPY)
+2026-05-17 09:49:02,291 [RegimeSync] Sync status: 7/7 ✅
+2026-05-17 09:49:02,291 [RegimeSync] ============================================================
+2026-05-17 09:49:02,291 [RegimeSync] SYNC COMPLETE — Regime: CHOPPY
+2026-05-17 09:49:02,291 [RegimeSync]   8501 (Control Center):     ✅
+2026-05-17 09:49:02,291 [RegimeSync]   8503 (Adaptive Intel):     ✅
+2026-05-17 09:49:02,291 [RegimeSync]   8504 (Institutional):      ✅ (source)
+2026-05-17 09:49:02,291 [RegimeSync] ============================================================
+2026-05-17 09:49:02,291 [RegimeSync] Next sync in 5 minutes...
+2026-05-17 09:54:02,369 [RegimeSync] ============================================================
+2026-05-17 09:54:02,369 [RegimeSync] REGIME SYNC CYCLE STARTING
+2026-05-17 09:54:02,370 [RegimeSync] ============================================================
+2026-05-17 09:54:02,370 [RegimeSync] Loaded regime: CHOPPY (confidence: 27%, age: 3min)
+2026-05-17 09:54:02,370 [RegimeSync] Syncing market_intelligence.json (8501)...
+2026-05-17 09:54:02,374 [RegimeSync]   ✅ 8501 regime updated: NEUTRAL (from CHOPPY) | VIX: 18.42 | Liquidity: TIGHTENING | Psychology: FEARFUL
+2026-05-17 09:54:02,375 [RegimeSync] Syncing paper trades regime tags (8503)...
+2026-05-17 09:54:02,375 [RegimeSync]   ✓ All trades already have regime labels
+2026-05-17 09:54:02,375 [RegimeSync] Syncing regime_performance.json (8503)...
+2026-05-17 09:54:02,376 [RegimeSync]   ✅ Updated 7 regimes in regime_performance.json
+2026-05-17 09:54:02,377 [RegimeSync]     UNKNOWN: 220 trades, WR=0%
+2026-05-17 09:54:02,378 [RegimeSync]     RISK_ON: 6890 trades, WR=40.1%
+2026-05-17 09:54:02,378 [RegimeSync]     PANIC: 1156 trades, WR=47.1%
+2026-05-17 09:54:02,378 [RegimeSync]     STRONG_RISK_ON: 12887 trades, WR=39.6%
+2026-05-17 09:54:02,378 [RegimeSync]     NEUTRAL: 1785 trades, WR=32.4%
+2026-05-17 09:54:02,378 [RegimeSync]     RISK_OFF: 1273 trades, WR=44.6%
+2026-05-17 09:54:02,378 [RegimeSync]     CHOPPY: 0 trades, WR=0.0% ← CURRENT
+2026-05-17 09:54:02,379 [RegimeSync]   ✅ adaptive_memory regime_perf updated: ['UNKNOWN', 'RISK_ON', 'PANIC', 'STRONG_RISK_ON', 'NEUTRAL', 'RISK_OFF', 'CHOPPY']
+2026-05-17 09:54:02,380 [RegimeSync] Refreshing data freshness (8501 STALE fix)...
+2026-05-17 09:54:02,382 [RegimeSync]   ✅ Updated 0 trade plans with regime context
+2026-05-17 09:54:02,382 [RegimeSync]   ✅ Data freshness timestamps refreshed
+2026-05-17 09:54:02,386 [RegimeSync]   ✅ Narrative synced: regime=CHOPPY, best=[]
+2026-05-17 09:54:02,387 [RegimeSync]   cross_asset_state.json: NEUTRAL (from CHOPPY)
+2026-05-17 09:54:02,388 [RegimeSync] Sync status: 7/7 ✅
+2026-05-17 09:54:02,389 [RegimeSync] ============================================================
+2026-05-17 09:54:02,389 [RegimeSync] SYNC COMPLETE — Regime: CHOPPY
+2026-05-17 09:54:02,389 [RegimeSync]   8501 (Control Center):     ✅
+2026-05-17 09:54:02,389 [RegimeSync]   8503 (Adaptive Intel):     ✅
+2026-05-17 09:54:02,389 [RegimeSync]   8504 (Institutional):      ✅ (source)
+2026-05-17 09:54:02,389 [RegimeSync] ============================================================
+2026-05-17 09:54:02,390 [RegimeSync] Next sync in 5 minutes...
+2026-05-17 09:59:02,555 [RegimeSync] ============================================================
+2026-05-17 09:59:02,563 [RegimeSync] REGIME SYNC CYCLE STARTING
+2026-05-17 09:59:02,563 [RegimeSync] ============================================================
+2026-05-17 09:59:02,563 [RegimeSync] Loaded regime: CHOPPY (confidence: 27%, age: 8min)
+2026-05-17 09:59:02,563 [RegimeSync] Syncing market_intelligence.json (8501)...
+2026-05-17 09:59:02,566 [RegimeSync]   ✅ 8501 regime updated: NEUTRAL (from CHOPPY) | VIX: 18.42 | Liquidity: TIGHTENING | Psychology: FEARFUL
+2026-05-17 09:59:02,657 [RegimeSync] Syncing paper trades regime tags (8503)...
+2026-05-17 09:59:02,657 [RegimeSync]   ✓ All trades already have regime labels
+2026-05-17 09:59:02,657 [RegimeSync] Syncing regime_performance.json (8503)...
+2026-05-17 09:59:02,658 [RegimeSync]   ✅ Updated 7 regimes in regime_performance.json
+2026-05-17 09:59:02,658 [RegimeSync]     UNKNOWN: 220 trades, WR=0%
+2026-05-17 09:59:02,755 [RegimeSync]     RISK_ON: 6890 trades, WR=40.1%
+2026-05-17 09:59:02,755 [RegimeSync]     PANIC: 1156 trades, WR=47.1%
+2026-05-17 09:59:02,755 [RegimeSync]     STRONG_RISK_ON: 12887 trades, WR=39.6%
+2026-05-17 09:59:02,755 [RegimeSync]     NEUTRAL: 1785 trades, WR=32.4%
+2026-05-17 09:59:02,756 [RegimeSync]     RISK_OFF: 1273 trades, WR=44.6%
+2026-05-17 09:59:02,756 [RegimeSync]     CHOPPY: 0 trades, WR=0.0% ← CURRENT
+2026-05-17 09:59:02,757 [RegimeSync]   ✅ adaptive_memory regime_perf updated: ['UNKNOWN', 'RISK_ON', 'PANIC', 'STRONG_RISK_ON', 'NEUTRAL', 'RISK_OFF', 'CHOPPY']
+2026-05-17 09:59:02,757 [RegimeSync] Refreshing data freshness (8501 STALE fix)...
+2026-05-17 09:59:02,757 [RegimeSync]   ✅ Updated 0 trade plans with regime context
+2026-05-17 09:59:02,757 [RegimeSync]   ✅ Data freshness timestamps refreshed
+2026-05-17 09:59:02,858 [RegimeSync]   ✅ Narrative synced: regime=CHOPPY, best=[]
+2026-05-17 09:59:02,865 [RegimeSync]   cross_asset_state.json: NEUTRAL (from CHOPPY)
+2026-05-17 09:59:02,955 [RegimeSync] Sync status: 7/7 ✅
+2026-05-17 09:59:02,956 [RegimeSync] ============================================================
+2026-05-17 09:59:02,956 [RegimeSync] SYNC COMPLETE — Regime: CHOPPY
+2026-05-17 09:59:02,956 [RegimeSync]   8501 (Control Center):     ✅
+2026-05-17 09:59:02,956 [RegimeSync]   8503 (Adaptive Intel):     ✅
+2026-05-17 09:59:02,956 [RegimeSync]   8504 (Institutional):      ✅ (source)
+2026-05-17 09:59:02,956 [RegimeSync] ============================================================
+2026-05-17 09:59:02,956 [RegimeSync] Next sync in 5 minutes...
+2026-05-17 10:04:03,011 [RegimeSync] ============================================================
+2026-05-17 10:04:03,011 [RegimeSync] REGIME SYNC CYCLE STARTING
+2026-05-17 10:04:03,011 [RegimeSync] ============================================================
+2026-05-17 10:04:03,012 [RegimeSync] Loaded regime: CHOPPY (confidence: 27%, age: 2min)
+2026-05-17 10:04:03,012 [RegimeSync] Syncing market_intelligence.json (8501)...
+2026-05-17 10:04:03,014 [RegimeSync]   ✅ 8501 regime updated: NEUTRAL (from CHOPPY) | VIX: 18.42 | Liquidity: TIGHTENING | Psychology: FEARFUL
+2026-05-17 10:04:03,015 [RegimeSync] Syncing paper trades regime tags (8503)...
+2026-05-17 10:04:03,015 [RegimeSync]   ✓ All trades already have regime labels
+2026-05-17 10:04:03,015 [RegimeSync] Syncing regime_performance.json (8503)...
+2026-05-17 10:04:03,016 [RegimeSync]   ✅ Updated 7 regimes in regime_performance.json
+2026-05-17 10:04:03,016 [RegimeSync]     UNKNOWN: 221 trades, WR=0%
+2026-05-17 10:04:03,016 [RegimeSync]     RISK_ON: 6890 trades, WR=40.1%
+2026-05-17 10:04:03,016 [RegimeSync]     PANIC: 1156 trades, WR=47.1%
+2026-05-17 10:04:03,016 [RegimeSync]     STRONG_RISK_ON: 12887 trades, WR=39.6%
+2026-05-17 10:04:03,016 [RegimeSync]     NEUTRAL: 1785 trades, WR=32.4%
+2026-05-17 10:04:03,016 [RegimeSync]     RISK_OFF: 1273 trades, WR=44.6%
+2026-05-17 10:04:03,016 [RegimeSync]     CHOPPY: 0 trades, WR=0.0% ← CURRENT
+2026-05-17 10:04:03,017 [RegimeSync]   ✅ adaptive_memory regime_perf updated: ['UNKNOWN', 'RISK_ON', 'PANIC', 'STRONG_RISK_ON', 'NEUTRAL', 'RISK_OFF', 'CHOPPY']
+2026-05-17 10:04:03,018 [RegimeSync] Refreshing data freshness (8501 STALE fix)...
+2026-05-17 10:04:03,018 [RegimeSync]   ✅ Updated 0 trade plans with regime context
+2026-05-17 10:04:03,018 [RegimeSync]   ✅ Data freshness timestamps refreshed
+2026-05-17 10:04:03,022 [RegimeSync]   ✅ Narrative synced: regime=CHOPPY, best=[]
+2026-05-17 10:04:03,022 [RegimeSync]   cross_asset_state.json: NEUTRAL (from CHOPPY)
+2026-05-17 10:04:03,023 [RegimeSync] Sync status: 7/7 ✅
+2026-05-17 10:04:03,023 [RegimeSync] ============================================================
+2026-05-17 10:04:03,023 [RegimeSync] SYNC COMPLETE — Regime: CHOPPY
+2026-05-17 10:04:03,023 [RegimeSync]   8501 (Control Center):     ✅
+2026-05-17 10:04:03,023 [RegimeSync]   8503 (Adaptive Intel):     ✅
+2026-05-17 10:04:03,023 [RegimeSync]   8504 (Institutional):      ✅ (source)
+2026-05-17 10:04:03,023 [RegimeSync] ============================================================
+2026-05-17 10:04:03,023 [RegimeSync] Next sync in 5 minutes...
+2026-05-17 10:09:03,091 [RegimeSync] ============================================================
+2026-05-17 10:09:03,092 [RegimeSync] REGIME SYNC CYCLE STARTING
+2026-05-17 10:09:03,092 [RegimeSync] ============================================================
+2026-05-17 10:09:03,092 [RegimeSync] Loaded regime: CHOPPY (confidence: 27%, age: 7min)
+2026-05-17 10:09:03,092 [RegimeSync] Syncing market_intelligence.json (8501)...
+2026-05-17 10:09:03,095 [RegimeSync]   ✅ 8501 regime updated: NEUTRAL (from CHOPPY) | VIX: 18.42 | Liquidity: TIGHTENING | Psychology: FEARFUL
+2026-05-17 10:09:03,096 [RegimeSync] Syncing paper trades regime tags (8503)...
+2026-05-17 10:09:03,096 [RegimeSync]   ✓ All trades already have regime labels
+2026-05-17 10:09:03,096 [RegimeSync] Syncing regime_performance.json (8503)...
+2026-05-17 10:09:03,097 [RegimeSync]   ✅ Updated 7 regimes in regime_performance.json
+2026-05-17 10:09:03,097 [RegimeSync]     UNKNOWN: 221 trades, WR=0%
+2026-05-17 10:09:03,097 [RegimeSync]     RISK_ON: 6890 trades, WR=40.1%
+2026-05-17 10:09:03,097 [RegimeSync]     PANIC: 1156 trades, WR=47.1%
+2026-05-17 10:09:03,097 [RegimeSync]     STRONG_RISK_ON: 12887 trades, WR=39.6%
+2026-05-17 10:09:03,097 [RegimeSync]     NEUTRAL: 1785 trades, WR=32.4%
+2026-05-17 10:09:03,097 [RegimeSync]     RISK_OFF: 1273 trades, WR=44.6%
+2026-05-17 10:09:03,097 [RegimeSync]     CHOPPY: 0 trades, WR=0.0% ← CURRENT
+2026-05-17 10:09:03,098 [RegimeSync]   ✅ adaptive_memory regime_perf updated: ['UNKNOWN', 'RISK_ON', 'PANIC', 'STRONG_RISK_ON', 'NEUTRAL', 'RISK_OFF', 'CHOPPY']
+2026-05-17 10:09:03,098 [RegimeSync] Refreshing data freshness (8501 STALE fix)...
+2026-05-17 10:09:03,098 [RegimeSync]   ✅ Updated 0 trade plans with regime context
+2026-05-17 10:09:03,098 [RegimeSync]   ✅ Data freshness timestamps refreshed
+2026-05-17 10:09:03,102 [RegimeSync]   ✅ Narrative synced: regime=CHOPPY, best=[]
+2026-05-17 10:09:03,103 [RegimeSync]   cross_asset_state.json: NEUTRAL (from CHOPPY)
+2026-05-17 10:09:03,103 [RegimeSync] Sync status: 7/7 ✅
+2026-05-17 10:09:03,103 [RegimeSync] ============================================================
+2026-05-17 10:09:03,103 [RegimeSync] SYNC COMPLETE — Regime: CHOPPY
+2026-05-17 10:09:03,103 [RegimeSync]   8501 (Control Center):     ✅
+2026-05-17 10:09:03,103 [RegimeSync]   8503 (Adaptive Intel):     ✅
+2026-05-17 10:09:03,104 [RegimeSync]   8504 (Institutional):      ✅ (source)
+2026-05-17 10:09:03,104 [RegimeSync] ============================================================
+2026-05-17 10:09:03,104 [RegimeSync] Next sync in 5 minutes...
+2026-05-17 10:14:03,198 [RegimeSync] ============================================================
+2026-05-17 10:14:03,198 [RegimeSync] REGIME SYNC CYCLE STARTING
+2026-05-17 10:14:03,198 [RegimeSync] ============================================================
+2026-05-17 10:14:03,198 [RegimeSync] Loaded regime: CHOPPY (confidence: 27%, age: 2min)
+2026-05-17 10:14:03,198 [RegimeSync] Syncing market_intelligence.json (8501)...
+2026-05-17 10:14:03,201 [RegimeSync]   ✅ 8501 regime updated: NEUTRAL (from CHOPPY) | VIX: 18.42 | Liquidity: TIGHTENING | Psychology: FEARFUL
+2026-05-17 10:14:03,201 [RegimeSync] Syncing paper trades regime tags (8503)...
+2026-05-17 10:14:03,201 [RegimeSync]   ✓ All trades already have regime labels
+2026-05-17 10:14:03,201 [RegimeSync] Syncing regime_performance.json (8503)...
+2026-05-17 10:14:03,202 [RegimeSync]   ✅ Updated 7 regimes in regime_performance.json
+2026-05-17 10:14:03,202 [RegimeSync]     UNKNOWN: 221 trades, WR=0%
+2026-05-17 10:14:03,202 [RegimeSync]     RISK_ON: 6890 trades, WR=40.1%
+2026-05-17 10:14:03,202 [RegimeSync]     PANIC: 1156 trades, WR=47.1%
+2026-05-17 10:14:03,203 [RegimeSync]     STRONG_RISK_ON: 12887 trades, WR=39.6%
+2026-05-17 10:14:03,203 [RegimeSync]     NEUTRAL: 1785 trades, WR=32.4%
+2026-05-17 10:14:03,203 [RegimeSync]     RISK_OFF: 1273 trades, WR=44.6%
+2026-05-17 10:14:03,203 [RegimeSync]     CHOPPY: 0 trades, WR=0.0% ← CURRENT
+2026-05-17 10:14:03,204 [RegimeSync]   ✅ adaptive_memory regime_perf updated: ['UNKNOWN', 'RISK_ON', 'PANIC', 'STRONG_RISK_ON', 'NEUTRAL', 'RISK_OFF', 'CHOPPY']
+2026-05-17 10:14:03,204 [RegimeSync] Refreshing data freshness (8501 STALE fix)...
+2026-05-17 10:14:03,204 [RegimeSync]   ✓ No trade plans to update
+2026-05-17 10:14:03,204 [RegimeSync]   ✅ Data freshness timestamps refreshed
+2026-05-17 10:14:03,209 [RegimeSync]   ✅ Narrative synced: regime=CHOPPY, best=[]
+2026-05-17 10:14:03,209 [RegimeSync]   cross_asset_state.json: NEUTRAL (from CHOPPY)
+2026-05-17 10:14:03,210 [RegimeSync] Sync status: 7/7 ✅
+2026-05-17 10:14:03,210 [RegimeSync] ============================================================
+2026-05-17 10:14:03,210 [RegimeSync] SYNC COMPLETE — Regime: CHOPPY
+2026-05-17 10:14:03,210 [RegimeSync]   8501 (Control Center):     ✅
+2026-05-17 10:14:03,210 [RegimeSync]   8503 (Adaptive Intel):     ✅
+2026-05-17 10:14:03,210 [RegimeSync]   8504 (Institutional):      ✅ (source)
+2026-05-17 10:14:03,210 [RegimeSync] ============================================================
+2026-05-17 10:14:03,210 [RegimeSync] Next sync in 5 minutes...
 )
-2026-05-17 09:14:00,302 [RegimeSync] ============================================================
-2026-05-17 09:14:00,302 [RegimeSync] Next sync in 5 minutes...
+2026-05-17 10:14:03,210 [RegimeSync] ============================================================
+2026-05-17 10:14:03,210 [RegimeSync] Next sync in 5 minutes...
