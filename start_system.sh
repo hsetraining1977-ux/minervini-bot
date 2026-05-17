@@ -140,7 +140,7 @@ echo -e "\n${CYAN}── Starting Monitoring Stack ─────────�
 start_service "Health Monitor"    15  python3 /root/health_monitor.py
 start_service "Auto Restart"      15  python3 /root/auto_restart.py --daemon
 start_service "Resource Monitor"  19  python3 /root/resource_monitor.py
-start_service "Log Rotator"       19  python3 /root/log_rotator.py
+start_service "Log Manager"       19  python3 /root/log_manager.py --daemon
 start_service "Auto Monitor"      15  python3 /root/auto_monitor.py
 start_service "Monitor Upgrade"   15  python3 /root/monitor_upgrade.py
 
@@ -149,6 +149,7 @@ start_service "Macro Intelligence" 10 python3 /root/macro_intelligence.py
 
 # ── Adaptive Learning Engine ──────────────────────────────────
 start_service "Adaptive Learning"  15 python3 /root/adaptive_learning.py --mode daemon
+start_service "Replay Scheduler"   19 python3 /root/replay_scheduler.py
 
 sleep 10
 
@@ -168,7 +169,8 @@ check_proc "Streamlit Dashboard"    "streamlit"
 check_proc "Health Monitor"         "health_monitor.py"
 check_proc "Auto Restart"           "auto_restart.py"
 check_proc "Resource Monitor"       "resource_monitor.py"
-check_proc "Log Rotator"            "log_rotator.py"
+check_proc "Log Manager"            "log_manager.py"
+check_proc "Replay Scheduler"       "replay_scheduler.py"
 
 # ── Streamlit HTTP check ──────────────────────────────────────
 echo ""

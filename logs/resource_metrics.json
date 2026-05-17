@@ -1,113 +1,77 @@
 {
   "latest": {
-    "timestamp": "2026-05-17 07:13:19",
-    "cpu_percent": 51.5,
-    "ram_percent": 76.1,
-    "ram_used_gb": 1.45,
+    "timestamp": "2026-05-17 07:18:48",
+    "cpu_percent": 2.0,
+    "ram_percent": 65.3,
+    "ram_used_gb": 1.25,
     "ram_total_gb": 1.91,
     "disk_percent": 24.4,
     "disk_free_gb": 36.87,
     "threads": 1,
     "python_procs": [
       {
-        "pid": 51912,
-        "script": "adaptive_dashboard.py",
-        "ram_%": 9.2,
-        "cpu_%": 0.5
-      },
-      {
-        "pid": 54856,
+        "pid": 70357,
         "script": "master_orchestrator.py",
-        "ram_%": 8.99,
+        "ram_%": 8.18,
         "cpu_%": 0.0
       },
       {
-        "pid": 68899,
+        "pid": 70434,
         "script": "ai_layer.py",
         "ram_%": 8.03,
         "cpu_%": 0.0
       },
       {
-        "pid": 68991,
-        "script": "ai_layer.py",
-        "ram_%": 8.02,
-        "cpu_%": 0.0
-      },
-      {
-        "pid": 68993,
-        "script": "ai_layer.py",
-        "ram_%": 8.02,
-        "cpu_%": 0.0
-      },
-      {
-        "pid": 68995,
-        "script": "ai_layer.py",
-        "ram_%": 8.02,
-        "cpu_%": 0.0
-      },
-      {
-        "pid": 51891,
+        "pid": 70374,
         "script": "telegram_commands.py",
-        "ram_%": 4.9,
+        "ram_%": 7.65,
         "cpu_%": 0.0
       },
       {
-        "pid": 51937,
-        "script": "macro_intelligence.py",
-        "ram_%": 4.48,
-        "cpu_%": 0.0
+        "pid": 70408,
+        "script": "monitor_upgrade.py",
+        "ram_%": 7.59,
+        "cpu_%": 2.7
       },
       {
-        "pid": 51874,
+        "pid": 70351,
         "script": "institutional_layer.py",
-        "ram_%": 4.23,
+        "ram_%": 7.13,
         "cpu_%": 0.0
+      },
+      {
+        "pid": 70369,
+        "script": "intraday_engine.py",
+        "ram_%": 6.98,
+        "cpu_%": 0.0
+      },
+      {
+        "pid": 70416,
+        "script": "macro_intelligence.py",
+        "ram_%": 6.96,
+        "cpu_%": 0.0
+      },
+      {
+        "pid": 70391,
+        "script": "adaptive_dashboard.py",
+        "ram_%": 3.83,
+        "cpu_%": 0.4
       },
       {
         "pid": 9072,
         "script": "institutional_regime_classifier.py",
         "ram_%": 3.81,
-        "cpu_%": 14.1
+        "cpu_%": 0.0
+      },
+      {
+        "pid": 70418,
+        "script": "adaptive_learning.py",
+        "ram_%": 1.61,
+        "cpu_%": 0.0
       }
     ]
   },
   "history": [
-    {
-      "ts": "2026-05-17 06:21:49",
-      "cpu": 1.0,
-      "ram": 75.4,
-      "disk": 24.4
-    },
-    {
-      "ts": "2026-05-17 06:22:20",
-      "cpu": 1.0,
-      "ram": 75.4,
-      "disk": 24.4
-    },
-    {
-      "ts": "2026-05-17 06:22:52",
-      "cpu": 100.0,
-      "ram": 76.0,
-      "disk": 24.4
-    },
-    {
-      "ts": "2026-05-17 06:23:24",
-      "cpu": 1.0,
-      "ram": 76.4,
-      "disk": 24.4
-    },
-    {
-      "ts": "2026-05-17 06:23:55",
-      "cpu": 2.0,
-      "ram": 76.4,
-      "disk": 24.4
-    },
-    {
-      "ts": "2026-05-17 06:24:26",
-      "cpu": 5.0,
-      "ram": 76.4,
-      "disk": 24.4
-    },
     {
       "ts": "2026-05-17 06:24:57",
       "cpu": 1.0,
@@ -670,6 +634,42 @@
       "ts": "2026-05-17 07:13:19",
       "cpu": 51.5,
       "ram": 76.1,
+      "disk": 24.4
+    },
+    {
+      "ts": "2026-05-17 07:13:50",
+      "cpu": 2.0,
+      "ram": 75.9,
+      "disk": 24.4
+    },
+    {
+      "ts": "2026-05-17 07:16:44",
+      "cpu": 43.0,
+      "ram": 67.3,
+      "disk": 24.4
+    },
+    {
+      "ts": "2026-05-17 07:17:15",
+      "cpu": 1.0,
+      "ram": 65.3,
+      "disk": 24.4
+    },
+    {
+      "ts": "2026-05-17 07:17:46",
+      "cpu": 6.0,
+      "ram": 65.4,
+      "disk": 24.4
+    },
+    {
+      "ts": "2026-05-17 07:18:17",
+      "cpu": 1.0,
+      "ram": 65.3,
+      "disk": 24.4
+    },
+    {
+      "ts": "2026-05-17 07:18:48",
+      "cpu": 2.0,
+      "ram": 65.3,
       "disk": 24.4
     }
   ]
