@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-17T07:31:09.166403",
+  "timestamp": "2026-05-17T07:33:13.460575",
   "core_files": [
     "breadth_engine.py",
     "auto_restart.py",
@@ -105,6 +105,7 @@
       "config.py"
     ],
     "portfolio_engine.py": [
+      "telegram_gate.py",
       "config.py"
     ],
     "phase3_sectors.py": [
@@ -135,22 +136,24 @@
     ],
     "adaptive_review_engine.py": [
       "adaptive_memory.py",
+      "telegram_gate.py",
       "adaptive_scoring.py"
     ],
     "decision_engine.py": [
-      "telegram_gate.py",
       "insider_check.py",
+      "telegram_gate.py",
       "config.py"
     ],
     "adaptive_learning.py": [
-      "telegram_gate.py",
       "adaptive_memory.py",
+      "telegram_gate.py",
       "adaptive_scoring.py"
     ],
     "health_monitor.py": [
       "telegram_gate.py"
     ],
     "smart_execution_engine.py": [
+      "telegram_gate.py",
       "config.py"
     ],
     "priority1_quality.py": [
@@ -184,10 +187,10 @@
       "telegram_gate.py"
     ],
     "historical_learning_daemon.py": [
-      "regime_replay_engine.py",
-      "setup_replay_library.py",
+      "historical_replay_engine.py",
       "adaptive_memory_builder.py",
-      "historical_replay_engine.py"
+      "regime_replay_engine.py",
+      "setup_replay_library.py"
     ],
     "auto_monitor.py": [
       "decision_engine.py",

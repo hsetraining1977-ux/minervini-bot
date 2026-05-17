@@ -43694,3 +43694,35 @@ TypeError: send_telegram() got an unexpected keyword argument 'key'
 2026-05-17 07:31:30 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:60.3% Disk:24.4% Threads:1
 2026-05-17 07:32:02 | INFO     | resource_monitor | Resources OK | CPU:3.0% RAM:60.3% Disk:24.4% Threads:1
 2026-05-17 07:32:33 | INFO     | resource_monitor | Resources OK | CPU:1.0% RAM:60.3% Disk:24.4% Threads:1
+2026-05-17 07:33:08 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-17 07:33:08 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 114, in check_and_protect
+    send_telegram(f"🚨 <b>CPU CRITICAL: {cpu}%</b>", key="cpu_critical")
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:33:40 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-17 07:33:40 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 114, in check_and_protect
+    send_telegram(f"🚨 <b>CPU CRITICAL: {cpu}%</b>", key="cpu_critical")
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:34:12 | WARNING  | resource_monitor | RAM WARNING: 83.4%
+2026-05-17 07:34:12 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:34:43 | WARNING  | resource_monitor | RAM WARNING: 83.4%
+2026-05-17 07:34:43 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'

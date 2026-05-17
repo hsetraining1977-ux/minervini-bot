@@ -1,90 +1,80 @@
 {
-  "timestamp": "2026-05-17T07:31:09.162414",
-  "cpu_used_pct": 3.3,
+  "timestamp": "2026-05-17T07:33:13.455092",
+  "cpu_used_pct": 0.0,
   "top_cpu": [
     {
-      "pid": "71394",
-      "cpu": "36.0",
+      "pid": "71512",
+      "cpu": "25.0",
       "mem": "0.5",
       "cmd": "python3 /root/system_audit.py"
     },
     {
-      "pid": "71049",
-      "cpu": "11.9",
-      "mem": "7.6",
-      "cmd": "python3 /root/phase2_upgrade.py"
+      "pid": "71440",
+      "cpu": "10.6",
+      "mem": "3.2",
+      "cmd": "python3 /root/ai_layer.py"
+    },
+    {
+      "pid": "71436",
+      "cpu": "10.4",
+      "mem": "3.9",
+      "cmd": "python3 /root/ai_layer.py"
+    },
+    {
+      "pid": "71435",
+      "cpu": "10.3",
+      "mem": "3.0",
+      "cmd": "python3 /root/ai_layer.py"
+    },
+    {
+      "pid": "71437",
+      "cpu": "9.9",
+      "mem": "2.5",
+      "cmd": "python3 /root/ai_layer.py"
     },
     {
       "pid": "71063",
-      "cpu": "9.5",
+      "cpu": "5.5",
       "mem": "8.2",
       "cmd": "python3 /root/master_orchestrator.py"
     },
     {
-      "pid": "71090",
-      "cpu": "6.6",
-      "mem": "8.0",
-      "cmd": "python3 /root/ai_layer.py"
-    },
-    {
-      "pid": "71079",
-      "cpu": "6.5",
-      "mem": "7.6",
-      "cmd": "python3 /root/telegram_commands.py"
-    },
-    {
-      "pid": "71056",
-      "cpu": "5.8",
-      "mem": "7.1",
-      "cmd": "python3 /root/institutional_layer.py"
-    },
-    {
-      "pid": "71070",
-      "cpu": "5.6",
-      "mem": "7.0",
-      "cmd": "python3 /root/intraday_engine.py"
-    },
-    {
-      "pid": "71116",
-      "cpu": "5.6",
-      "mem": "7.0",
-      "cmd": "python3 /root/macro_intelligence.py"
-    },
-    {
       "pid": "71111",
-      "cpu": "5.2",
+      "cpu": "4.1",
       "mem": "7.5",
       "cmd": "python3 /root/monitor_upgrade.py"
     },
     {
-      "pid": "71095",
-      "cpu": "5.1",
-      "mem": "3.6",
-      "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/institutional_dashboard.py"
+      "pid": "71079",
+      "cpu": "3.8",
+      "mem": "7.6",
+      "cmd": "python3 /root/telegram_commands.py"
+    },
+    {
+      "pid": "71090",
+      "cpu": "3.8",
+      "mem": "8.0",
+      "cmd": "python3 /root/ai_layer.py"
+    },
+    {
+      "pid": "71513",
+      "cpu": "3.5",
+      "mem": "0.0",
+      "cmd": "tail -15"
     }
   ],
   "oversized_logs": [],
-  "telegram_spam": [
-    {
-      "file": "smart_execution_engine.py",
-      "send_telegram_calls": 8,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "adaptive_review_engine.py",
-      "send_telegram_calls": 5,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "portfolio_engine.py",
-      "send_telegram_calls": 2,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    }
-  ],
-  "duplicate_processes": {},
+  "telegram_spam": [],
+  "duplicate_processes": {
+    "ai_layer.py": [
+      "71090",
+      "71435",
+      "71436",
+      "71437",
+      "71440",
+      "71462"
+    ]
+  },
   "unknown_files": [
     {
       "file": "log_manager.py",

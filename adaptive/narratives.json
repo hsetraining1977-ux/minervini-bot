@@ -93,5 +93,33 @@
       "missed_narrative": "0 opportunities missed by filters this cycle.",
       "recommendation": "Focus on TIGHT_CONSOLIDATION_BREAK setups during PANIC conditions."
     }
+  },
+  {
+    "timestamp": "2026-05-17T07:33:57.967565",
+    "source": "institutional_regime_sync",
+    "narrative": {
+      "regime": "CHOPPY",
+      "confidence": 0.27,
+      "summary": "Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semiconductors are leading, a hallmark of institutional risk appetite.",
+      "best_setups": [],
+      "avoid_setups": [],
+      "breadth": {
+        "breadth_score": 36.7,
+        "participation_score": 20.1,
+        "trend_quality": 68.3,
+        "momentum": "CONTRACTING"
+      },
+      "sector": {
+        "rotation_signal": "RISK_ON_GROWTH",
+        "market_character": "MOMENTUM_GROWTH",
+        "tech_leadership": true,
+        "leading_sectors": [
+          "XLK",
+          "XLE",
+          "XLP"
+        ]
+      },
+      "source": "institutional_regime_classifier"
+    }
   }
 ]
