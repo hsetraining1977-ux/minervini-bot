@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-05-17T05:58:08.857572",
+  "timestamp": "2026-05-17T07:31:09.162367",
   "processes": {
-    "total_processes": 169,
+    "total_processes": 173,
     "python_processes": [
       {
         "pid": "809",
@@ -21,137 +21,137 @@
         "pid": "9072",
         "script": "institutional_regime_classifier.py",
         "cpu": 1.0,
-        "mem": 3.8,
+        "mem": 2.6,
         "cmd": "python3 /root/institutional_regime_classifier.py --daemon"
       },
       {
-        "pid": "51872",
+        "pid": "71049",
+        "script": "phase2_upgrade.py",
+        "cpu": 11.8,
+        "mem": 7.6,
+        "cmd": "python3 /root/phase2_upgrade.py"
+      },
+      {
+        "pid": "71052",
         "script": "event_awareness.py",
-        "cpu": 0.0,
-        "mem": 0.9,
+        "cpu": 1.8,
+        "mem": 1.5,
         "cmd": "python3 /root/event_awareness.py"
       },
       {
-        "pid": "51874",
+        "pid": "71056",
         "script": "institutional_layer.py",
-        "cpu": 0.4,
-        "mem": 4.6,
+        "cpu": 5.9,
+        "mem": 7.1,
         "cmd": "python3 /root/institutional_layer.py"
       },
       {
-        "pid": "51890",
+        "pid": "71063",
+        "script": "master_orchestrator.py",
+        "cpu": 9.6,
+        "mem": 8.2,
+        "cmd": "python3 /root/master_orchestrator.py"
+      },
+      {
+        "pid": "71070",
         "script": "intraday_engine.py",
-        "cpu": 0.0,
-        "mem": 3.9,
+        "cpu": 5.7,
+        "mem": 7.0,
         "cmd": "python3 /root/intraday_engine.py"
       },
       {
-        "pid": "51891",
+        "pid": "71079",
         "script": "telegram_commands.py",
-        "cpu": 0.0,
-        "mem": 5.3,
+        "cpu": 6.6,
+        "mem": 7.6,
         "cmd": "python3 /root/telegram_commands.py"
       },
       {
-        "pid": "51905",
+        "pid": "71083",
         "script": "dashboard.py",
-        "cpu": 0.5,
-        "mem": 9.3,
+        "cpu": 4.9,
+        "mem": 3.6,
         "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/dashboard.py --server.port 8501 --server.address 0.0.0.0"
       },
       {
-        "pid": "51912",
+        "pid": "71090",
+        "script": "ai_layer.py",
+        "cpu": 6.7,
+        "mem": 8.0,
+        "cmd": "python3 /root/ai_layer.py"
+      },
+      {
+        "pid": "71094",
         "script": "adaptive_dashboard.py",
-        "cpu": 0.4,
-        "mem": 9.0,
+        "cpu": 4.9,
+        "mem": 3.6,
         "cmd": "python3 -m streamlit run /root/adaptive_dashboard.py --server.port 8503 --server.address 0.0.0.0"
       },
       {
-        "pid": "51913",
+        "pid": "71095",
         "script": "institutional_dashboard.py",
-        "cpu": 0.5,
-        "mem": 8.0,
+        "cpu": 5.1,
+        "mem": 3.6,
         "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/institutional_dashboard.py --server.port 8504 --server.address 0.0"
       },
       {
-        "pid": "51914",
-        "script": "health_monitor.py",
-        "cpu": 1.0,
-        "mem": 1.4,
-        "cmd": "python3 /root/health_monitor.py"
-      },
-      {
-        "pid": "51915",
+        "pid": "71101",
         "script": "auto_restart.py",
         "cpu": 0.0,
-        "mem": 0.4,
+        "mem": 0.5,
         "cmd": "python3 /root/auto_restart.py --daemon"
       },
       {
-        "pid": "51917",
+        "pid": "71102",
         "script": "resource_monitor.py",
-        "cpu": 0.2,
-        "mem": 1.5,
+        "cpu": 0.7,
+        "mem": 0.7,
         "cmd": "python3 /root/resource_monitor.py"
       },
       {
-        "pid": "51932",
+        "pid": "71103",
+        "script": "log_manager.py",
+        "cpu": 0.3,
+        "mem": 0.6,
+        "cmd": "python3 /root/log_manager.py --daemon"
+      },
+      {
+        "pid": "71111",
         "script": "monitor_upgrade.py",
-        "cpu": 2.5,
-        "mem": 6.4,
+        "cpu": 5.2,
+        "mem": 7.5,
         "cmd": "python3 /root/monitor_upgrade.py"
       },
       {
-        "pid": "51937",
+        "pid": "71116",
         "script": "macro_intelligence.py",
-        "cpu": 0.0,
-        "mem": 4.8,
+        "cpu": 5.6,
+        "mem": 7.0,
         "cmd": "python3 /root/macro_intelligence.py"
       },
       {
-        "pid": "51942",
+        "pid": "71124",
         "script": "adaptive_learning.py",
-        "cpu": 0.0,
+        "cpu": 0.9,
         "mem": 1.5,
         "cmd": "python3 /root/adaptive_learning.py --mode daemon"
       },
       {
-        "pid": "51960",
+        "pid": "71133",
+        "script": "replay_scheduler.py",
+        "cpu": 0.2,
+        "mem": 0.6,
+        "cmd": "python3 /root/replay_scheduler.py"
+      },
+      {
+        "pid": "71146",
         "script": "regime_sync.py",
-        "cpu": 0.1,
+        "cpu": 0.0,
         "mem": 0.6,
         "cmd": "python3 /root/regime_sync.py --daemon"
       },
       {
-        "pid": "54856",
-        "script": "master_orchestrator.py",
-        "cpu": 0.1,
-        "mem": 9.0,
-        "cmd": "python3 /root/master_orchestrator.py"
-      },
-      {
-        "pid": "67606",
-        "script": "ai_layer.py",
-        "cpu": 0.3,
-        "mem": 8.0,
-        "cmd": "python3 /root/ai_layer.py"
-      },
-      {
-        "pid": "67701",
-        "script": "ai_layer.py",
-        "cpu": 0.3,
-        "mem": 8.0,
-        "cmd": "python3 /root/ai_layer.py"
-      },
-      {
-        "pid": "67702",
-        "script": "ai_layer.py",
-        "cpu": 0.4,
-        "mem": 8.0,
-        "cmd": "python3 /root/ai_layer.py"
-      },
-      {
-        "pid": "68844",
+        "pid": "71394",
         "script": "system_audit.py",
         "cpu": 0.0,
         "mem": 0.5,
@@ -159,84 +159,78 @@
       }
     ],
     "python_count": 22,
-    "duplicate_scripts": {
-      "ai_layer.py": [
-        "67606",
-        "67701",
-        "67702"
-      ]
-    },
-    "duplicate_count": 1
+    "duplicate_scripts": {},
+    "duplicate_count": 0
   },
   "resources": {
-    "cpu_used_pct": 0.0,
+    "cpu_used_pct": 3.3,
     "ram_total_mb": 1958,
-    "ram_used_mb": 1299,
-    "ram_free_mb": 73,
-    "ram_used_pct": 66.3,
+    "ram_used_mb": 1119,
+    "ram_free_mb": 381,
+    "ram_used_pct": 57.2,
     "disk_total": "52G",
     "disk_used": "12G",
     "disk_used_pct": "25%",
     "top_cpu_consumers": [
       {
-        "pid": "51932",
-        "cpu": "2.5",
-        "mem": "6.4",
-        "cmd": "python3 /root/monitor_upgrade.py"
+        "pid": "71394",
+        "cpu": "36.0",
+        "mem": "0.5",
+        "cmd": "python3 /root/system_audit.py"
       },
       {
-        "pid": "9072",
-        "cpu": "1.0",
-        "mem": "3.8",
-        "cmd": "python3 /root/institutional_regime_classifier.py --daemon"
+        "pid": "71049",
+        "cpu": "11.9",
+        "mem": "7.6",
+        "cmd": "python3 /root/phase2_upgrade.py"
       },
       {
-        "pid": "51914",
-        "cpu": "1.0",
-        "mem": "1.4",
-        "cmd": "python3 /root/health_monitor.py"
+        "pid": "71063",
+        "cpu": "9.5",
+        "mem": "8.2",
+        "cmd": "python3 /root/master_orchestrator.py"
       },
       {
-        "pid": "68834",
-        "cpu": "0.6",
-        "mem": "0.4",
-        "cmd": "sshd: root [priv]"
-      },
-      {
-        "pid": "51905",
-        "cpu": "0.5",
-        "mem": "9.3",
-        "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/dashboard.py --server.port"
-      },
-      {
-        "pid": "51913",
-        "cpu": "0.5",
+        "pid": "71090",
+        "cpu": "6.6",
         "mem": "8.0",
-        "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/institutional_dashboard.py"
+        "cmd": "python3 /root/ai_layer.py"
       },
       {
-        "pid": "51874",
-        "cpu": "0.4",
-        "mem": "4.6",
+        "pid": "71079",
+        "cpu": "6.5",
+        "mem": "7.6",
+        "cmd": "python3 /root/telegram_commands.py"
+      },
+      {
+        "pid": "71056",
+        "cpu": "5.8",
+        "mem": "7.1",
         "cmd": "python3 /root/institutional_layer.py"
       },
       {
-        "pid": "51912",
-        "cpu": "0.4",
-        "mem": "9.0",
-        "cmd": "python3 -m streamlit run /root/adaptive_dashboard.py --server.port 8503 --server"
+        "pid": "71070",
+        "cpu": "5.6",
+        "mem": "7.0",
+        "cmd": "python3 /root/intraday_engine.py"
       },
       {
-        "pid": "67702",
-        "cpu": "0.4",
-        "mem": "8.0",
-        "cmd": "python3 /root/ai_layer.py"
+        "pid": "71116",
+        "cpu": "5.6",
+        "mem": "7.0",
+        "cmd": "python3 /root/macro_intelligence.py"
       },
       {
-        "pid": "67606",
-        "cpu": "0.3",
-        "mem": "8.0",
-        "cmd": "python3 /root/ai_layer.py"
+        "pid": "71111",
+        "cpu": "5.2",
+        "mem": "7.5",
+        "cmd": "python3 /root/monitor_upgrade.py"
+      },
+      {
+        "pid": "71095",
+        "cpu": "5.1",
+        "mem": "3.6",
+        "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/institutional_dashboard.py"
       }
     ]
   },
@@ -288,7 +282,7 @@
       },
       {
         "file": "data_sources.py",
-        "size_kb": 39.3
+        "size_kb": 39.1
       },
       {
         "file": "telegram_commands.py",
@@ -296,7 +290,7 @@
       },
       {
         "file": "insider_check.py",
-        "size_kb": 22.7
+        "size_kb": 22.5
       },
       {
         "file": "institutional_regime_classifier.py",
@@ -304,7 +298,7 @@
       },
       {
         "file": "institutional_layer.py",
-        "size_kb": 31.9
+        "size_kb": 31.7
       },
       {
         "file": "adaptive_review_engine.py",
@@ -316,7 +310,7 @@
       },
       {
         "file": "decision_engine.py",
-        "size_kb": 18.8
+        "size_kb": 18.6
       },
       {
         "file": "smart_telegram_reporter.py",
@@ -328,11 +322,11 @@
       },
       {
         "file": "adaptive_learning.py",
-        "size_kb": 16.9
+        "size_kb": 16.6
       },
       {
         "file": "health_monitor.py",
-        "size_kb": 9.8
+        "size_kb": 9.1
       },
       {
         "file": "smart_execution_engine.py",
@@ -352,7 +346,7 @@
       },
       {
         "file": "macro_intelligence.py",
-        "size_kb": 26.9
+        "size_kb": 26.6
       },
       {
         "file": "intraday_engine.py",
@@ -372,11 +366,11 @@
       },
       {
         "file": "resource_monitor.py",
-        "size_kb": 7.2
+        "size_kb": 6.7
       },
       {
         "file": "auto_monitor.py",
-        "size_kb": 16.7
+        "size_kb": 16.4
       },
       {
         "file": "reliability_layer.py",
@@ -388,7 +382,7 @@
       },
       {
         "file": "ai_layer.py",
-        "size_kb": 29.2
+        "size_kb": 29.0
       },
       {
         "file": "log_rotator.py",
@@ -404,7 +398,7 @@
       },
       {
         "file": "master_orchestrator.py",
-        "size_kb": 13.3
+        "size_kb": 13.0
       },
       {
         "file": "paper_execution.py",
@@ -420,7 +414,7 @@
       },
       {
         "file": "event_awareness.py",
-        "size_kb": 10.5
+        "size_kb": 10.3
       },
       {
         "file": "stop_system.sh",
@@ -432,7 +426,7 @@
       },
       {
         "file": "start_system.sh",
-        "size_kb": 10.4
+        "size_kb": 10.6
       }
     ],
     "core_count": 48,
@@ -455,7 +449,7 @@
       },
       {
         "file": "fundamental_engine.py",
-        "size_kb": 59.2
+        "size_kb": 58.9
       },
       {
         "file": "performance_dashboard.py",
@@ -510,23 +504,23 @@
     "archive_candidates": [
       {
         "file": "phase3_sectors.py",
-        "size_kb": 14.3
+        "size_kb": 14.0
       },
       {
         "file": "priority3_live.py",
-        "size_kb": 30.9
+        "size_kb": 30.6
       },
       {
         "file": "priority1_quality.py",
-        "size_kb": 28.8
+        "size_kb": 28.6
       },
       {
         "file": "priority2_intelligence.py",
-        "size_kb": 29.5
+        "size_kb": 29.2
       },
       {
         "file": "phase2_upgrade.py",
-        "size_kb": 15.6
+        "size_kb": 15.3
       },
       {
         "file": "fix_thresholds.sh",
@@ -535,6 +529,10 @@
     ],
     "archive_count": 6,
     "unknown": [
+      {
+        "file": "log_manager.py",
+        "size_kb": 5.9
+      },
       {
         "file": "health_engine.py",
         "size_kb": 9.6
@@ -552,8 +550,16 @@
         "size_kb": 13.9
       },
       {
+        "file": "telegram_gate.py",
+        "size_kb": 5.4
+      },
+      {
         "file": "system_audit.py",
-        "size_kb": 15.2
+        "size_kb": 15.4
+      },
+      {
+        "file": "replay_scheduler.py",
+        "size_kb": 3.2
       },
       {
         "file": "smart_money.py",
@@ -561,11 +567,11 @@
       },
       {
         "file": "monitor_upgrade.py",
-        "size_kb": 18.7
+        "size_kb": 18.5
       },
       {
         "file": "watchdog_bot.py",
-        "size_kb": 7.5
+        "size_kb": 7.3
       },
       {
         "file": "apply_dynamic_threshold.sh",
@@ -584,31 +590,26 @@
         "size_kb": 7.3
       }
     ],
-    "unknown_count": 12,
-    "total_files": 83
+    "unknown_count": 15,
+    "total_files": 86
   },
   "logs": {
-    "total_size_mb": 18.0,
-    "file_count": 54,
+    "total_size_mb": 15.1,
+    "file_count": 56,
     "top_10_largest": [
       {
         "file": "system.log",
-        "size_mb": 3.84,
+        "size_mb": 3.88,
         "age_days": 0.0
       },
       {
         "file": "telegram_commands.log",
-        "size_mb": 3.57,
+        "size_mb": 3.62,
         "age_days": 0.0
       },
       {
-        "file": "dashboard.log",
-        "size_mb": 2.48,
-        "age_days": 2.8
-      },
-      {
         "file": "regime_classifier.log",
-        "size_mb": 1.39,
+        "size_mb": 1.42,
         "age_days": 0.0
       },
       {
@@ -618,17 +619,17 @@
       },
       {
         "file": "institutional_dashboard.log",
-        "size_mb": 0.79,
-        "age_days": 0.0
-      },
-      {
-        "file": "errors.log",
-        "size_mb": 0.78,
+        "size_mb": 0.81,
         "age_days": 0.0
       },
       {
         "file": "trade_decisions.log",
-        "size_mb": 0.78,
+        "size_mb": 0.8,
+        "age_days": 0.0
+      },
+      {
+        "file": "errors.log",
+        "size_mb": 0.79,
         "age_days": 0.0
       },
       {
@@ -639,48 +640,23 @@
       {
         "file": "health.out",
         "size_mb": 0.71,
-        "age_days": 1.0
+        "age_days": 1.1
+      },
+      {
+        "file": "supervisor.log",
+        "size_mb": 0.41,
+        "age_days": 5.1
       }
     ],
     "oversized_logs": [],
     "oversized_count": 0
   },
   "telegram": {
-    "files_with_telegram": 27,
+    "files_with_telegram": 28,
     "high_risk_spam_files": [
-      {
-        "file": "monitor_upgrade.py",
-        "send_telegram_calls": 23,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
-      {
-        "file": "priority3_live.py",
-        "send_telegram_calls": 10,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
       {
         "file": "smart_execution_engine.py",
         "send_telegram_calls": 8,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
-      {
-        "file": "priority1_quality.py",
-        "send_telegram_calls": 7,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
-      {
-        "file": "resource_monitor.py",
-        "send_telegram_calls": 6,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
-      {
-        "file": "institutional_layer.py",
-        "send_telegram_calls": 5,
         "has_session_guard": false,
         "risk": "HIGH"
       },
@@ -691,91 +667,19 @@
         "risk": "HIGH"
       },
       {
-        "file": "health_monitor.py",
-        "send_telegram_calls": 5,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
-      {
-        "file": "event_awareness.py",
-        "send_telegram_calls": 5,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
-      {
-        "file": "fundamental_engine.py",
-        "send_telegram_calls": 4,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
-      {
-        "file": "macro_intelligence.py",
-        "send_telegram_calls": 4,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
-      {
-        "file": "priority2_intelligence.py",
-        "send_telegram_calls": 4,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
-      {
-        "file": "phase2_upgrade.py",
-        "send_telegram_calls": 4,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
-      {
-        "file": "watchdog_bot.py",
-        "send_telegram_calls": 4,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
-      {
-        "file": "phase3_sectors.py",
-        "send_telegram_calls": 3,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
-      {
-        "file": "data_sources.py",
-        "send_telegram_calls": 3,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
-      {
-        "file": "insider_check.py",
-        "send_telegram_calls": 3,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
-      {
-        "file": "decision_engine.py",
-        "send_telegram_calls": 3,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
-      {
-        "file": "adaptive_learning.py",
-        "send_telegram_calls": 3,
-        "has_session_guard": false,
-        "risk": "HIGH"
-      },
-      {
         "file": "portfolio_engine.py",
         "send_telegram_calls": 2,
         "has_session_guard": false,
         "risk": "HIGH"
       }
     ],
-    "high_risk_count": 20,
+    "high_risk_count": 3,
     "all_sources": [
       {
         "file": "monitor_upgrade.py",
         "send_telegram_calls": 23,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "auto_monitor.py",
@@ -792,8 +696,8 @@
       {
         "file": "priority3_live.py",
         "send_telegram_calls": 10,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "smart_execution_engine.py",
@@ -804,20 +708,20 @@
       {
         "file": "priority1_quality.py",
         "send_telegram_calls": 7,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "resource_monitor.py",
         "send_telegram_calls": 6,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "institutional_layer.py",
         "send_telegram_calls": 5,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "adaptive_review_engine.py",
@@ -828,8 +732,8 @@
       {
         "file": "health_monitor.py",
         "send_telegram_calls": 5,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "paper_execution.py",
@@ -840,8 +744,14 @@
       {
         "file": "event_awareness.py",
         "send_telegram_calls": 5,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
+      },
+      {
+        "file": "telegram_gate.py",
+        "send_telegram_calls": 4,
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "system_audit.py",
@@ -852,62 +762,62 @@
       {
         "file": "fundamental_engine.py",
         "send_telegram_calls": 4,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "macro_intelligence.py",
         "send_telegram_calls": 4,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "priority2_intelligence.py",
         "send_telegram_calls": 4,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "phase2_upgrade.py",
         "send_telegram_calls": 4,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "watchdog_bot.py",
         "send_telegram_calls": 4,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "phase3_sectors.py",
         "send_telegram_calls": 3,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "data_sources.py",
         "send_telegram_calls": 3,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "insider_check.py",
         "send_telegram_calls": 3,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "decision_engine.py",
         "send_telegram_calls": 3,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "adaptive_learning.py",
         "send_telegram_calls": 3,
-        "has_session_guard": false,
-        "risk": "HIGH"
+        "has_session_guard": true,
+        "risk": "LOW"
       },
       {
         "file": "market_session_manager.py",

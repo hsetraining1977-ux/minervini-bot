@@ -4350,3 +4350,31 @@
 [2026-05-17 07:15:37]     • 16:45 ET      → deep post-market analysis
 [2026-05-17 07:15:37]     • Every 60 min  → level 2 suggestions
 [2026-05-17 07:15:37]   ✔ Adaptive Learning Engine running in background
+[2026-05-17 07:29:22]   Starting in DAEMON mode (async background process)
+[2026-05-17 07:29:22]   Trading engines will NOT be affected
+[2026-05-17 07:29:22] 
+=======================================================
+[2026-05-17 07:29:22]   ADAPTIVE LEARNING CYCLE — STARTUP
+[2026-05-17 07:29:22] =======================================================
+[2026-05-17 07:29:22]   [Learn] Processing replay trades...
+[2026-05-17 07:29:22]   [Learn] No replay trades found
+[2026-05-17 07:29:22]   [Learn] Processing paper trades...
+[2026-05-17 07:29:22]   [Learn] Processed 1 paper trades
+[2026-05-17 07:29:22]   [Learn] Analyzing missed opportunities...
+[2026-05-17 07:29:22]   Total trades processed: 1
+[2026-05-17 07:29:22] 
+  Phase 2: Level 1 Auto-Adaptation...
+[2026-05-17 07:29:22] 
+  Phase 3: Level 2 Suggestions...
+[2026-05-17 07:29:22] 
+  Phase 4: Generating AI narrative...
+[2026-05-17 07:29:34] 
+  ✔ Learning cycle complete
+[2026-05-17 07:29:34]     Adaptations: 0
+[2026-05-17 07:29:34]     Suggestions: 0
+[2026-05-17 07:29:34]   [Scheduler] Starting adaptive learning scheduler...
+[2026-05-17 07:29:36]   ✔ Adaptive Learning Engine running in background
+[2026-05-17 07:29:36]   [Scheduler] Schedule:
+[2026-05-17 07:29:36]     • Every 30 min  → learning cycle
+[2026-05-17 07:29:36]     • 16:45 ET      → deep post-market analysis
+[2026-05-17 07:29:36]     • Every 60 min  → level 2 suggestions

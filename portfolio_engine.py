@@ -1,3 +1,4 @@
+from telegram_gate import send_telegram, send_alert
 """
 portfolio_engine.py
 PORTFOLIO HEAT ENGINE

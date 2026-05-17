@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-17T05:58:08.862397",
+  "timestamp": "2026-05-17T07:31:09.166403",
   "core_files": [
     "breadth_engine.py",
     "auto_restart.py",
@@ -78,11 +78,14 @@
     "fix_thresholds.sh"
   ],
   "unknown_files": [
+    "log_manager.py",
     "health_engine.py",
     "system_supervisor.py",
     "exit_intelligence.py",
     "institutional_intelligence_dashboard.py",
+    "telegram_gate.py",
     "system_audit.py",
+    "replay_scheduler.py",
     "smart_money.py",
     "monitor_upgrade.py",
     "watchdog_bot.py",
@@ -105,6 +108,7 @@
       "config.py"
     ],
     "phase3_sectors.py": [
+      "telegram_gate.py",
       "config.py"
     ],
     "exit_intelligence.py": [
@@ -114,15 +118,19 @@
       "adaptive_memory.py"
     ],
     "priority3_live.py": [
+      "telegram_gate.py",
       "config.py"
     ],
     "data_sources.py": [
+      "telegram_gate.py",
       "config.py"
     ],
     "insider_check.py": [
+      "telegram_gate.py",
       "config.py"
     ],
     "institutional_layer.py": [
+      "telegram_gate.py",
       "config.py"
     ],
     "adaptive_review_engine.py": [
@@ -130,57 +138,78 @@
       "adaptive_scoring.py"
     ],
     "decision_engine.py": [
-      "config.py",
-      "insider_check.py"
+      "telegram_gate.py",
+      "insider_check.py",
+      "config.py"
     ],
     "adaptive_learning.py": [
+      "telegram_gate.py",
       "adaptive_memory.py",
       "adaptive_scoring.py"
+    ],
+    "health_monitor.py": [
+      "telegram_gate.py"
     ],
     "smart_execution_engine.py": [
       "config.py"
     ],
     "priority1_quality.py": [
+      "telegram_gate.py",
       "config.py"
     ],
     "fundamental_engine.py": [
+      "telegram_gate.py",
       "config.py"
     ],
     "capital_allocator.py": [
       "config.py"
     ],
     "macro_intelligence.py": [
+      "telegram_gate.py",
       "config.py"
     ],
     "priority2_intelligence.py": [
+      "telegram_gate.py",
       "config.py"
     ],
     "phase2_upgrade.py": [
+      "telegram_gate.py",
       "config.py"
     ],
     "monitor_upgrade.py": [
+      "telegram_gate.py",
       "config.py"
     ],
+    "resource_monitor.py": [
+      "telegram_gate.py"
+    ],
     "historical_learning_daemon.py": [
-      "historical_replay_engine.py",
-      "adaptive_memory_builder.py",
+      "regime_replay_engine.py",
       "setup_replay_library.py",
-      "regime_replay_engine.py"
+      "adaptive_memory_builder.py",
+      "historical_replay_engine.py"
     ],
     "auto_monitor.py": [
       "decision_engine.py",
+      "telegram_gate.py",
       "config.py"
     ],
     "trade_journal.py": [
       "exit_intelligence.py"
     ],
     "ai_layer.py": [
+      "telegram_gate.py",
       "config.py"
     ],
     "watchdog_bot.py": [
+      "telegram_gate.py",
       "config.py"
     ],
+    "master_orchestrator.py": [
+      "telegram_gate.py"
+    ],
     "event_awareness.py": [
+      "telegram_gate.py",
       "config.py"
     ]
   }

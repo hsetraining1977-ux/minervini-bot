@@ -289,7 +289,9 @@ def audit_telegram():
             count = content.count("send_telegram")
             if count > 0:
                 # Check if has session guard
-                has_guard = "is_market_open" in content or "session_state" in content or "should_send" in content
+                has_guard = ("is_market_open" in content or "session_state" in content or 
+                    "should_send" in content or "from telegram_gate" in content or
+                    "telegram_gate import" in content)
                 spam_sources.append({
                     "file": f.name,
                     "send_telegram_calls": count,

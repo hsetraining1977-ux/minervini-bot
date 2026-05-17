@@ -1,3 +1,4 @@
+from telegram_gate import send_telegram, send_alert
 """
 smart_execution_engine.py
 SMART EXECUTION & POSITION MANAGEMENT ENGINE

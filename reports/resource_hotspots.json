@@ -1,103 +1,73 @@
 {
-  "timestamp": "2026-05-17T05:58:08.857645",
-  "cpu_used_pct": 0.0,
+  "timestamp": "2026-05-17T07:31:09.162414",
+  "cpu_used_pct": 3.3,
   "top_cpu": [
     {
-      "pid": "51932",
-      "cpu": "2.5",
-      "mem": "6.4",
-      "cmd": "python3 /root/monitor_upgrade.py"
+      "pid": "71394",
+      "cpu": "36.0",
+      "mem": "0.5",
+      "cmd": "python3 /root/system_audit.py"
     },
     {
-      "pid": "9072",
-      "cpu": "1.0",
-      "mem": "3.8",
-      "cmd": "python3 /root/institutional_regime_classifier.py --daemon"
+      "pid": "71049",
+      "cpu": "11.9",
+      "mem": "7.6",
+      "cmd": "python3 /root/phase2_upgrade.py"
     },
     {
-      "pid": "51914",
-      "cpu": "1.0",
-      "mem": "1.4",
-      "cmd": "python3 /root/health_monitor.py"
+      "pid": "71063",
+      "cpu": "9.5",
+      "mem": "8.2",
+      "cmd": "python3 /root/master_orchestrator.py"
     },
     {
-      "pid": "68834",
-      "cpu": "0.6",
-      "mem": "0.4",
-      "cmd": "sshd: root [priv]"
-    },
-    {
-      "pid": "51905",
-      "cpu": "0.5",
-      "mem": "9.3",
-      "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/dashboard.py --server.port"
-    },
-    {
-      "pid": "51913",
-      "cpu": "0.5",
+      "pid": "71090",
+      "cpu": "6.6",
       "mem": "8.0",
-      "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/institutional_dashboard.py"
+      "cmd": "python3 /root/ai_layer.py"
     },
     {
-      "pid": "51874",
-      "cpu": "0.4",
-      "mem": "4.6",
+      "pid": "71079",
+      "cpu": "6.5",
+      "mem": "7.6",
+      "cmd": "python3 /root/telegram_commands.py"
+    },
+    {
+      "pid": "71056",
+      "cpu": "5.8",
+      "mem": "7.1",
       "cmd": "python3 /root/institutional_layer.py"
     },
     {
-      "pid": "51912",
-      "cpu": "0.4",
-      "mem": "9.0",
-      "cmd": "python3 -m streamlit run /root/adaptive_dashboard.py --server.port 8503 --server"
+      "pid": "71070",
+      "cpu": "5.6",
+      "mem": "7.0",
+      "cmd": "python3 /root/intraday_engine.py"
     },
     {
-      "pid": "67702",
-      "cpu": "0.4",
-      "mem": "8.0",
-      "cmd": "python3 /root/ai_layer.py"
+      "pid": "71116",
+      "cpu": "5.6",
+      "mem": "7.0",
+      "cmd": "python3 /root/macro_intelligence.py"
     },
     {
-      "pid": "67606",
-      "cpu": "0.3",
-      "mem": "8.0",
-      "cmd": "python3 /root/ai_layer.py"
+      "pid": "71111",
+      "cpu": "5.2",
+      "mem": "7.5",
+      "cmd": "python3 /root/monitor_upgrade.py"
+    },
+    {
+      "pid": "71095",
+      "cpu": "5.1",
+      "mem": "3.6",
+      "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/institutional_dashboard.py"
     }
   ],
   "oversized_logs": [],
   "telegram_spam": [
     {
-      "file": "monitor_upgrade.py",
-      "send_telegram_calls": 23,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "priority3_live.py",
-      "send_telegram_calls": 10,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
       "file": "smart_execution_engine.py",
       "send_telegram_calls": 8,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "priority1_quality.py",
-      "send_telegram_calls": 7,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "resource_monitor.py",
-      "send_telegram_calls": 6,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "institutional_layer.py",
-      "send_telegram_calls": 5,
       "has_session_guard": false,
       "risk": "HIGH"
     },
@@ -108,92 +78,18 @@
       "risk": "HIGH"
     },
     {
-      "file": "health_monitor.py",
-      "send_telegram_calls": 5,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "event_awareness.py",
-      "send_telegram_calls": 5,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "fundamental_engine.py",
-      "send_telegram_calls": 4,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "macro_intelligence.py",
-      "send_telegram_calls": 4,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "priority2_intelligence.py",
-      "send_telegram_calls": 4,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "phase2_upgrade.py",
-      "send_telegram_calls": 4,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "watchdog_bot.py",
-      "send_telegram_calls": 4,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "phase3_sectors.py",
-      "send_telegram_calls": 3,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "data_sources.py",
-      "send_telegram_calls": 3,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "insider_check.py",
-      "send_telegram_calls": 3,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "decision_engine.py",
-      "send_telegram_calls": 3,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
-      "file": "adaptive_learning.py",
-      "send_telegram_calls": 3,
-      "has_session_guard": false,
-      "risk": "HIGH"
-    },
-    {
       "file": "portfolio_engine.py",
       "send_telegram_calls": 2,
       "has_session_guard": false,
       "risk": "HIGH"
     }
   ],
-  "duplicate_processes": {
-    "ai_layer.py": [
-      "67606",
-      "67701",
-      "67702"
-    ]
-  },
+  "duplicate_processes": {},
   "unknown_files": [
+    {
+      "file": "log_manager.py",
+      "size_kb": 5.9
+    },
     {
       "file": "health_engine.py",
       "size_kb": 9.6
@@ -211,8 +107,16 @@
       "size_kb": 13.9
     },
     {
+      "file": "telegram_gate.py",
+      "size_kb": 5.4
+    },
+    {
       "file": "system_audit.py",
-      "size_kb": 15.2
+      "size_kb": 15.4
+    },
+    {
+      "file": "replay_scheduler.py",
+      "size_kb": 3.2
     },
     {
       "file": "smart_money.py",
@@ -220,11 +124,11 @@
     },
     {
       "file": "monitor_upgrade.py",
-      "size_kb": 18.7
+      "size_kb": 18.5
     },
     {
       "file": "watchdog_bot.py",
-      "size_kb": 7.5
+      "size_kb": 7.3
     },
     {
       "file": "apply_dynamic_threshold.sh",

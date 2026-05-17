@@ -1165,3 +1165,15 @@ Collecting usage statistics. To deactivate, set browser.gatherUsageStats to fals
   Network URL: http://144.202.11.183:8503
   External URL: http://144.202.11.183:8503
 
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+2026-05-17 07:29:10.169 Uvicorn server started on 0.0.0.0:8503
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8503
+  Network URL: http://144.202.11.183:8503
+  External URL: http://144.202.11.183:8503
+

@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-05-17T07:26:00.421381",
+  "timestamp": "2026-05-17T03:30:00.463784-04:00",
   "risk_score": 25,
-  "cross_signal": "NEUTRAL",
+  "cross_signal": "RISK_OFF",
   "signals": {
     "SPY": {
       "name": "S&P 500",
@@ -33,13 +33,11 @@
     },
     "BTC-USD": {
       "name": "Crypto (Risk Appetite)",
-      "change_pct": -0.1
+      "change_pct": -0.05
     }
   },
   "interpretations": [
     "\ud83d\udd34 HYG\u2193 = \u062a\u0631\u0627\u062c\u0639 \u0627\u0644\u062b\u0642\u0629 \u0627\u0644\u0645\u0624\u0633\u0633\u064a\u0629",
     "\ud83d\udfe1 Dollar\u2191 = \u0636\u063a\u0637 \u0639\u0644\u0649 \u0627\u0644\u0623\u0633\u0647\u0645"
-  ],
-  "regime": "CHOPPY",
-  "regime_detail": "CHOPPY"
+  ]
 }
