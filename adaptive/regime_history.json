@@ -4452,5 +4452,13 @@
     "best_setups": [],
     "vix": 18.42,
     "breadth": 36.7
+  },
+  {
+    "timestamp": "2026-05-17T10:44:15.130070",
+    "regime": "CHOPPY",
+    "confidence": 0.27,
+    "best_setups": [],
+    "vix": 18.42,
+    "breadth": 36.7
   }
 ]

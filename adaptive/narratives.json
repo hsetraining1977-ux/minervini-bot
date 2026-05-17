@@ -1072,5 +1072,89 @@
       },
       "source": "institutional_regime_classifier"
     }
+  },
+  {
+    "timestamp": "2026-05-17T10:39:04.111576",
+    "source": "institutional_regime_sync",
+    "narrative": {
+      "regime": "CHOPPY",
+      "confidence": 0.27,
+      "summary": "Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semiconductors are leading, a hallmark of institutional risk appetite.",
+      "best_setups": [],
+      "avoid_setups": [],
+      "breadth": {
+        "breadth_score": 36.7,
+        "participation_score": 20.1,
+        "trend_quality": 68.3,
+        "momentum": "CONTRACTING"
+      },
+      "sector": {
+        "rotation_signal": "RISK_ON_GROWTH",
+        "market_character": "MOMENTUM_GROWTH",
+        "tech_leadership": true,
+        "leading_sectors": [
+          "XLK",
+          "XLE",
+          "XLP"
+        ]
+      },
+      "source": "institutional_regime_classifier"
+    }
+  },
+  {
+    "timestamp": "2026-05-17T10:44:04.193785",
+    "source": "institutional_regime_sync",
+    "narrative": {
+      "regime": "CHOPPY",
+      "confidence": 0.27,
+      "summary": "Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semiconductors are leading, a hallmark of institutional risk appetite.",
+      "best_setups": [],
+      "avoid_setups": [],
+      "breadth": {
+        "breadth_score": 36.7,
+        "participation_score": 20.1,
+        "trend_quality": 68.3,
+        "momentum": "CONTRACTING"
+      },
+      "sector": {
+        "rotation_signal": "RISK_ON_GROWTH",
+        "market_character": "MOMENTUM_GROWTH",
+        "tech_leadership": true,
+        "leading_sectors": [
+          "XLK",
+          "XLE",
+          "XLP"
+        ]
+      },
+      "source": "institutional_regime_classifier"
+    }
+  },
+  {
+    "timestamp": "2026-05-17T10:49:04.273931",
+    "source": "institutional_regime_sync",
+    "narrative": {
+      "regime": "CHOPPY",
+      "confidence": 0.27,
+      "summary": "Market is choppy with inconsistent institutional behavior (confidence: 27%). Technology and semiconductors are leading, a hallmark of institutional risk appetite.",
+      "best_setups": [],
+      "avoid_setups": [],
+      "breadth": {
+        "breadth_score": 36.7,
+        "participation_score": 20.1,
+        "trend_quality": 68.3,
+        "momentum": "CONTRACTING"
+      },
+      "sector": {
+        "rotation_signal": "RISK_ON_GROWTH",
+        "market_character": "MOMENTUM_GROWTH",
+        "tech_leadership": true,
+        "leading_sectors": [
+          "XLK",
+          "XLE",
+          "XLP"
+        ]
+      },
+      "source": "institutional_regime_classifier"
+    }
   }
 ]

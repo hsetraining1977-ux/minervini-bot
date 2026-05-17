@@ -7,3 +7,15 @@ psychology_state.json
 .cache/
 __pycache__/
 *.pyc
+.env
+*.env
+backups/
+*.backup
+archive_old/
+cross_asset_state.json
+failsafe_state.json
+logs/
+archive_old/
+backups/
+cross_asset_state.json
+failsafe_state.json

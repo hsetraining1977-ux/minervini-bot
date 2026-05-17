@@ -15,7 +15,7 @@
     "aggressiveness": 0.94,
     "sizing_modifier": 1.0,
     "confidence_floor": 0.65,
-    "last_updated": "2026-05-17T10:14:03.202256",
+    "last_updated": "2026-05-17T10:49:04.271175",
     "source": "regime_sync",
     "is_current": false
   },
@@ -28,7 +28,7 @@
     "aggressiveness": 0.9,
     "sizing_modifier": 1.0,
     "confidence_floor": 0.75,
-    "last_updated": "2026-05-17T10:14:03.202274",
+    "last_updated": "2026-05-17T10:49:04.271193",
     "source": "regime_sync",
     "is_current": false
   },
@@ -41,7 +41,7 @@
     "aggressiveness": 0.95,
     "sizing_modifier": 1.0,
     "confidence_floor": 0.65,
-    "last_updated": "2026-05-17T10:14:03.202294",
+    "last_updated": "2026-05-17T10:49:04.271213",
     "source": "regime_sync",
     "is_current": false
   },
@@ -54,7 +54,7 @@
     "aggressiveness": 0.92,
     "sizing_modifier": 1.0,
     "confidence_floor": 0.7,
-    "last_updated": "2026-05-17T10:14:03.202315",
+    "last_updated": "2026-05-17T10:49:04.271235",
     "source": "regime_sync",
     "is_current": false
   },
@@ -67,7 +67,7 @@
     "aggressiveness": 0.95,
     "sizing_modifier": 1.0,
     "confidence_floor": 0.75,
-    "last_updated": "2026-05-17T10:14:03.202284",
+    "last_updated": "2026-05-17T10:49:04.271203",
     "source": "regime_sync",
     "is_current": false
   },
@@ -80,7 +80,7 @@
     "aggressiveness": 0.96,
     "sizing_modifier": 1.0,
     "confidence_floor": 0.75,
-    "last_updated": "2026-05-17T10:14:03.203423",
+    "last_updated": "2026-05-17T10:49:04.272362",
     "source": "regime_sync",
     "is_current": true
   }
