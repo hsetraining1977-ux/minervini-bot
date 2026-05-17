@@ -9494,3 +9494,9 @@
 2026-05-16 05:52:56 | ERROR    | health_monitor | FAILED processes: ['ai_layer', 'institutional']
 2026-05-16 07:22:42 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
 2026-05-16 07:23:11 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-16 08:44:29 | ERROR    | resource_monitor | CPU CRITICAL: 99.0%
+2026-05-16 10:24:36 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-16 10:24:45 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-16 10:25:40 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-16 11:03:45 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-16 21:04:31 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%

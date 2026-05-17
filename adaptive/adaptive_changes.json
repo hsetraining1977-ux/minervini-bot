@@ -3897,5 +3897,21 @@
       ]
     },
     "status": "applied"
+  },
+  {
+    "timestamp": "2026-05-16T07:53:10.561098",
+    "type": "LEVEL1_AUTO",
+    "description": "Auto-adapted 3 weights",
+    "component": "adaptive_scoring",
+    "auto_applied": true,
+    "level": 1,
+    "details": {
+      "changes": [
+        "VOLUME_SPIKE: 0.820 \u2192 0.800 (Weak performance WR=35.8% Exp=-0.01%)",
+        "VWAP_CROSS_UP: 0.820 \u2192 0.800 (Weak performance WR=38.3% Exp=+0.00%)",
+        "VWAP_CROSS_DOWN: 0.820 \u2192 0.800 (Weak performance WR=38.3% Exp=+0.01%)"
+      ]
+    },
+    "status": "applied"
   }
 ]

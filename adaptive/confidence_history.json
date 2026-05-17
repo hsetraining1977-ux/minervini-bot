@@ -2390,5 +2390,29 @@
     "new_value": 0.8,
     "delta": -0.01,
     "reason": "Weak performance WR=31.1% Exp=+0.03%"
+  },
+  {
+    "timestamp": "2026-05-16T07:53:10.492198",
+    "setup": "VOLUME_SPIKE",
+    "old_value": 0.82,
+    "new_value": 0.8,
+    "delta": -0.02,
+    "reason": "Weak performance WR=35.8% Exp=-0.01%"
+  },
+  {
+    "timestamp": "2026-05-16T07:53:10.500781",
+    "setup": "VWAP_CROSS_UP",
+    "old_value": 0.82,
+    "new_value": 0.8,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.3% Exp=+0.00%"
+  },
+  {
+    "timestamp": "2026-05-16T07:53:10.510316",
+    "setup": "VWAP_CROSS_DOWN",
+    "old_value": 0.82,
+    "new_value": 0.8,
+    "delta": -0.02,
+    "reason": "Weak performance WR=38.3% Exp=+0.01%"
   }
 ]

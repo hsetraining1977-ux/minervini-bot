@@ -1,14 +1,14 @@
 {
-  "version": 322,
-  "updated_at": "2026-05-16T07:22:34.459662",
+  "version": 323,
+  "updated_at": "2026-05-16T07:53:10.560794",
   "setup_modifiers": {
     "ORB_BREAKOUT": 0.9,
-    "VOLUME_SPIKE": 0.82,
-    "VWAP_CROSS_UP": 0.82,
+    "VOLUME_SPIKE": 0.8,
+    "VWAP_CROSS_UP": 0.8,
     "MOMENTUM_BURST_UP": 0.8,
     "TIGHT_CONSOLIDATION_BREAK": 1.0,
     "ORB_BREAKDOWN": 0.8,
-    "VWAP_CROSS_DOWN": 0.82,
+    "VWAP_CROSS_DOWN": 0.8,
     "MOMENTUM_BURST_DOWN": 0.8,
     "RELATIVE_STRENGTH_LEADER": 0.8
   },

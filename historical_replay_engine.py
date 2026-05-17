@@ -24,8 +24,9 @@ MEMORY_DIR    = Path("/root/adaptive")
 
 # ── Symbols to replay ─────────────────────────────────────────────────────
 REPLAY_SYMBOLS = {
-    "indices":  ["SPY", "QQQ", "IWM", "DIA"],
-    "sectors":  ["XLK", "XLF", "XLE", "XLU", "XLV", "XLY", "XLP", "XLI", "XLB", "XLRE"],
+    "indices":  ["SPY", "QQQ", "IWM", "DIA", "MDY", "IJR", "VTI", "EFA", "EEM", "TLT"],
+    "sectors":  ["XLK", "XLF", "XLE", "XLU", "XLV", "XLY", "XLP", "XLI", "XLB", "XLRE",
+                 "IBB", "XBI", "ARKK", "SMH", "GDX", "KWEB", "XOP", "XHB", "ITB", "KRE"],
     "leaders":  [
         "NVDA", "AAPL", "MSFT", "AMZN", "META", "GOOGL", "TSLA",
         "AMD",  "AVGO", "ARM",  "SMCI", "ORCL", "CRM",  "NOW",

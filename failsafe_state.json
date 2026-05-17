@@ -1,8 +1,8 @@
 {
-  "last_broker_ping": "2026-05-16T03:38:25.259040-04:00",
+  "last_broker_ping": "2026-05-16T21:57:13.156826-04:00",
   "account_status": "ACTIVE",
-  "current_drawdown": 0.0117,
-  "portfolio_exposure": 0.267,
-  "last_check": "2026-05-16T03:38:26.673577-04:00",
+  "current_drawdown": 0.0006,
+  "portfolio_exposure": 0.2668,
+  "last_check": "2026-05-16T21:57:14.387717-04:00",
   "issues": []
 }
