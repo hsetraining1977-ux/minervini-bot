@@ -4332,5 +4332,77 @@
     "best_setups": [],
     "vix": 18.42,
     "breadth": 36.7
+  },
+  {
+    "timestamp": "2026-05-17T07:45:05.145523",
+    "regime": "CHOPPY",
+    "confidence": 0.27,
+    "best_setups": [],
+    "vix": 18.42,
+    "breadth": 36.7
+  },
+  {
+    "timestamp": "2026-05-17T07:55:36.027215",
+    "regime": "CHOPPY",
+    "confidence": 0.27,
+    "best_setups": [],
+    "vix": 18.42,
+    "breadth": 36.7
+  },
+  {
+    "timestamp": "2026-05-17T08:06:05.647932",
+    "regime": "CHOPPY",
+    "confidence": 0.27,
+    "best_setups": [],
+    "vix": 18.42,
+    "breadth": 36.7
+  },
+  {
+    "timestamp": "2026-05-17T08:16:35.014372",
+    "regime": "CHOPPY",
+    "confidence": 0.27,
+    "best_setups": [],
+    "vix": 18.42,
+    "breadth": 36.7
+  },
+  {
+    "timestamp": "2026-05-17T08:27:04.335263",
+    "regime": "CHOPPY",
+    "confidence": 0.27,
+    "best_setups": [],
+    "vix": 18.42,
+    "breadth": 36.7
+  },
+  {
+    "timestamp": "2026-05-17T08:37:31.991959",
+    "regime": "CHOPPY",
+    "confidence": 0.27,
+    "best_setups": [],
+    "vix": 18.42,
+    "breadth": 36.7
+  },
+  {
+    "timestamp": "2026-05-17T08:48:01.973938",
+    "regime": "CHOPPY",
+    "confidence": 0.27,
+    "best_setups": [],
+    "vix": 18.42,
+    "breadth": 36.7
+  },
+  {
+    "timestamp": "2026-05-17T08:58:30.975334",
+    "regime": "CHOPPY",
+    "confidence": 0.27,
+    "best_setups": [],
+    "vix": 18.42,
+    "breadth": 36.7
+  },
+  {
+    "timestamp": "2026-05-17T09:09:04.445888",
+    "regime": "CHOPPY",
+    "confidence": 0.27,
+    "best_setups": [],
+    "vix": 18.42,
+    "breadth": 36.7
   }
 ]

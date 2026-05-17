@@ -9684,3 +9684,1560 @@ Traceback (most recent call last):
   File "/root/resource_monitor.py", line 105, in check_and_protect
     send_telegram(
 TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:35:14 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:35:45 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:36:17 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:36:48 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:37:20 | ERROR    | resource_monitor | RAM CRITICAL: 91.7% — forcing garbage collection
+2026-05-17 07:37:20 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:37:52 | ERROR    | resource_monitor | RAM CRITICAL: 92.1% — forcing garbage collection
+2026-05-17 07:37:52 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:38:23 | ERROR    | resource_monitor | RAM CRITICAL: 92.2% — forcing garbage collection
+2026-05-17 07:38:23 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:38:54 | ERROR    | resource_monitor | RAM CRITICAL: 92.2% — forcing garbage collection
+2026-05-17 07:38:54 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:39:25 | ERROR    | resource_monitor | RAM CRITICAL: 92.2% — forcing garbage collection
+2026-05-17 07:39:25 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:39:56 | ERROR    | resource_monitor | RAM CRITICAL: 92.2% — forcing garbage collection
+2026-05-17 07:39:56 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:40:28 | ERROR    | resource_monitor | RAM CRITICAL: 92.3% — forcing garbage collection
+2026-05-17 07:40:28 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:40:59 | ERROR    | resource_monitor | RAM CRITICAL: 92.2% — forcing garbage collection
+2026-05-17 07:40:59 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:41:30 | ERROR    | resource_monitor | RAM CRITICAL: 92.2% — forcing garbage collection
+2026-05-17 07:41:30 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:42:01 | ERROR    | resource_monitor | RAM CRITICAL: 92.1% — forcing garbage collection
+2026-05-17 07:42:01 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:42:32 | ERROR    | resource_monitor | RAM CRITICAL: 92.3% — forcing garbage collection
+2026-05-17 07:42:32 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:43:04 | ERROR    | resource_monitor | RAM CRITICAL: 92.4% — forcing garbage collection
+2026-05-17 07:43:04 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:43:35 | ERROR    | resource_monitor | RAM CRITICAL: 92.3% — forcing garbage collection
+2026-05-17 07:43:35 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:44:06 | ERROR    | resource_monitor | RAM CRITICAL: 92.4% — forcing garbage collection
+2026-05-17 07:44:06 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:44:37 | ERROR    | resource_monitor | RAM CRITICAL: 92.4% — forcing garbage collection
+2026-05-17 07:44:37 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:45:08 | ERROR    | resource_monitor | RAM CRITICAL: 92.4% — forcing garbage collection
+2026-05-17 07:45:08 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:45:40 | ERROR    | resource_monitor | RAM CRITICAL: 91.7% — forcing garbage collection
+2026-05-17 07:45:40 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:46:11 | ERROR    | resource_monitor | RAM CRITICAL: 91.7% — forcing garbage collection
+2026-05-17 07:46:11 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:46:42 | ERROR    | resource_monitor | RAM CRITICAL: 91.7% — forcing garbage collection
+2026-05-17 07:46:42 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:47:13 | ERROR    | resource_monitor | RAM CRITICAL: 91.8% — forcing garbage collection
+2026-05-17 07:47:13 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:47:45 | ERROR    | resource_monitor | RAM CRITICAL: 91.8% — forcing garbage collection
+2026-05-17 07:47:45 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:48:16 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 07:48:16 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:48:47 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 07:48:47 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:49:18 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 07:49:18 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:49:50 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 07:49:50 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:50:21 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 07:50:21 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:50:52 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 07:50:52 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:51:23 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 07:51:23 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:51:54 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 07:51:54 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:52:26 | ERROR    | resource_monitor | RAM CRITICAL: 91.8% — forcing garbage collection
+2026-05-17 07:52:26 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:52:57 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 07:52:57 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:53:28 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 07:53:28 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:53:59 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 07:53:59 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:54:30 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 07:54:30 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:55:02 | ERROR    | resource_monitor | RAM CRITICAL: 91.8% — forcing garbage collection
+2026-05-17 07:55:02 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:55:33 | ERROR    | resource_monitor | RAM CRITICAL: 91.8% — forcing garbage collection
+2026-05-17 07:55:33 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:56:04 | ERROR    | resource_monitor | RAM CRITICAL: 91.8% — forcing garbage collection
+2026-05-17 07:56:04 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:56:35 | ERROR    | resource_monitor | RAM CRITICAL: 91.8% — forcing garbage collection
+2026-05-17 07:56:35 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:57:07 | ERROR    | resource_monitor | RAM CRITICAL: 91.8% — forcing garbage collection
+2026-05-17 07:57:07 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:57:38 | ERROR    | resource_monitor | RAM CRITICAL: 91.8% — forcing garbage collection
+2026-05-17 07:57:38 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:58:09 | ERROR    | resource_monitor | RAM CRITICAL: 91.8% — forcing garbage collection
+2026-05-17 07:58:09 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:58:40 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 07:58:40 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:59:11 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 07:59:11 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 07:59:42 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 07:59:42 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:00:13 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 08:00:13 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:00:45 | ERROR    | resource_monitor | RAM CRITICAL: 91.8% — forcing garbage collection
+2026-05-17 08:00:45 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:01:16 | ERROR    | resource_monitor | RAM CRITICAL: 91.8% — forcing garbage collection
+2026-05-17 08:01:16 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:01:47 | ERROR    | resource_monitor | RAM CRITICAL: 91.8% — forcing garbage collection
+2026-05-17 08:01:47 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:02:18 | ERROR    | resource_monitor | RAM CRITICAL: 91.8% — forcing garbage collection
+2026-05-17 08:02:18 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:02:49 | ERROR    | resource_monitor | RAM CRITICAL: 91.8% — forcing garbage collection
+2026-05-17 08:02:49 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:03:20 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 08:03:20 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:03:52 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 08:03:52 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:04:23 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 08:04:23 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:04:54 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 08:04:54 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:05:25 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 08:05:25 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:05:56 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 08:05:56 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:06:27 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 08:06:27 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:06:59 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 08:06:59 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:07:30 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 08:07:30 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:08:01 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 08:08:01 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:08:32 | ERROR    | resource_monitor | RAM CRITICAL: 92.0% — forcing garbage collection
+2026-05-17 08:08:32 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:09:03 | ERROR    | resource_monitor | RAM CRITICAL: 92.0% — forcing garbage collection
+2026-05-17 08:09:03 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:09:34 | ERROR    | resource_monitor | RAM CRITICAL: 92.0% — forcing garbage collection
+2026-05-17 08:09:34 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:10:06 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 08:10:06 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:10:37 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 08:10:37 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:11:08 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 08:11:08 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:11:39 | ERROR    | resource_monitor | RAM CRITICAL: 91.9% — forcing garbage collection
+2026-05-17 08:11:39 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:12:10 | ERROR    | resource_monitor | RAM CRITICAL: 91.5% — forcing garbage collection
+2026-05-17 08:12:10 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:12:42 | ERROR    | resource_monitor | RAM CRITICAL: 91.5% — forcing garbage collection
+2026-05-17 08:12:42 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:13:13 | ERROR    | resource_monitor | RAM CRITICAL: 91.5% — forcing garbage collection
+2026-05-17 08:13:13 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:13:44 | ERROR    | resource_monitor | RAM CRITICAL: 91.5% — forcing garbage collection
+2026-05-17 08:13:44 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:14:15 | ERROR    | resource_monitor | RAM CRITICAL: 91.5% — forcing garbage collection
+2026-05-17 08:14:15 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:14:46 | ERROR    | resource_monitor | RAM CRITICAL: 91.5% — forcing garbage collection
+2026-05-17 08:14:46 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:15:18 | ERROR    | resource_monitor | RAM CRITICAL: 91.5% — forcing garbage collection
+2026-05-17 08:15:18 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:15:49 | ERROR    | resource_monitor | RAM CRITICAL: 91.5% — forcing garbage collection
+2026-05-17 08:15:49 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:16:20 | ERROR    | resource_monitor | RAM CRITICAL: 91.5% — forcing garbage collection
+2026-05-17 08:16:20 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:16:51 | ERROR    | resource_monitor | RAM CRITICAL: 91.5% — forcing garbage collection
+2026-05-17 08:16:51 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:17:22 | ERROR    | resource_monitor | RAM CRITICAL: 91.5% — forcing garbage collection
+2026-05-17 08:17:22 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:17:53 | ERROR    | resource_monitor | RAM CRITICAL: 91.5% — forcing garbage collection
+2026-05-17 08:17:53 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:18:24 | ERROR    | resource_monitor | RAM CRITICAL: 91.5% — forcing garbage collection
+2026-05-17 08:18:25 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:18:56 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:18:56 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:19:27 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:19:27 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:19:58 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:19:58 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:20:29 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:20:29 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:21:01 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:21:01 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:21:32 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:21:32 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:22:03 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:22:03 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:22:34 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:22:34 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:23:05 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:23:05 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:23:37 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:23:37 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:24:08 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:24:08 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:24:39 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:24:39 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:25:10 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:25:10 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:25:42 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:25:42 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:26:13 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:26:13 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:26:44 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:26:44 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:27:15 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:27:15 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:27:46 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:27:46 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:28:18 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:28:18 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:28:49 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:28:49 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:29:20 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:29:20 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:29:51 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 08:29:51 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:30:23 | ERROR    | resource_monitor | RAM CRITICAL: 91.7% — forcing garbage collection
+2026-05-17 08:30:23 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:30:54 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:30:54 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:31:25 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:31:25 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:31:56 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:31:56 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:32:27 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:32:27 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:32:59 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:32:59 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:33:30 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:33:30 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:34:01 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:34:01 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:34:32 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:34:32 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:35:03 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:35:03 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:35:35 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:35:35 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:36:06 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:36:06 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:36:37 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:36:37 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:37:08 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:37:08 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:37:39 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:37:39 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:38:10 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:38:10 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:38:42 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:38:42 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:39:13 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:39:13 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:39:44 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:39:44 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:40:15 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:40:15 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:40:46 | ERROR    | resource_monitor | RAM CRITICAL: 91.2% — forcing garbage collection
+2026-05-17 08:40:46 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:41:17 | ERROR    | resource_monitor | RAM CRITICAL: 91.2% — forcing garbage collection
+2026-05-17 08:41:17 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:41:48 | ERROR    | resource_monitor | RAM CRITICAL: 91.2% — forcing garbage collection
+2026-05-17 08:41:48 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:42:20 | ERROR    | resource_monitor | RAM CRITICAL: 91.2% — forcing garbage collection
+2026-05-17 08:42:20 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:42:51 | ERROR    | resource_monitor | RAM CRITICAL: 91.2% — forcing garbage collection
+2026-05-17 08:42:51 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:43:22 | ERROR    | resource_monitor | RAM CRITICAL: 91.2% — forcing garbage collection
+2026-05-17 08:43:22 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:43:53 | ERROR    | resource_monitor | RAM CRITICAL: 91.2% — forcing garbage collection
+2026-05-17 08:43:53 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:44:24 | ERROR    | resource_monitor | RAM CRITICAL: 91.2% — forcing garbage collection
+2026-05-17 08:44:24 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:44:55 | ERROR    | resource_monitor | RAM CRITICAL: 91.2% — forcing garbage collection
+2026-05-17 08:44:55 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:45:27 | ERROR    | resource_monitor | RAM CRITICAL: 91.2% — forcing garbage collection
+2026-05-17 08:45:27 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:45:58 | ERROR    | resource_monitor | RAM CRITICAL: 91.2% — forcing garbage collection
+2026-05-17 08:45:58 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:46:29 | ERROR    | resource_monitor | RAM CRITICAL: 91.1% — forcing garbage collection
+2026-05-17 08:46:29 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:47:00 | ERROR    | resource_monitor | RAM CRITICAL: 91.1% — forcing garbage collection
+2026-05-17 08:47:00 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:47:31 | ERROR    | resource_monitor | RAM CRITICAL: 91.2% — forcing garbage collection
+2026-05-17 08:47:31 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:48:03 | ERROR    | resource_monitor | RAM CRITICAL: 91.1% — forcing garbage collection
+2026-05-17 08:48:03 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:48:34 | ERROR    | resource_monitor | RAM CRITICAL: 91.1% — forcing garbage collection
+2026-05-17 08:48:34 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:49:05 | ERROR    | resource_monitor | RAM CRITICAL: 91.1% — forcing garbage collection
+2026-05-17 08:49:05 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:49:36 | ERROR    | resource_monitor | RAM CRITICAL: 91.2% — forcing garbage collection
+2026-05-17 08:49:36 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:50:07 | ERROR    | resource_monitor | RAM CRITICAL: 91.2% — forcing garbage collection
+2026-05-17 08:50:07 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:50:38 | ERROR    | resource_monitor | RAM CRITICAL: 91.3% — forcing garbage collection
+2026-05-17 08:50:38 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:51:10 | ERROR    | resource_monitor | RAM CRITICAL: 90.7% — forcing garbage collection
+2026-05-17 08:51:10 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:51:41 | ERROR    | resource_monitor | RAM CRITICAL: 90.8% — forcing garbage collection
+2026-05-17 08:51:41 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:52:12 | ERROR    | resource_monitor | RAM CRITICAL: 90.8% — forcing garbage collection
+2026-05-17 08:52:12 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:52:43 | ERROR    | resource_monitor | RAM CRITICAL: 90.8% — forcing garbage collection
+2026-05-17 08:52:43 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:53:14 | ERROR    | resource_monitor | RAM CRITICAL: 90.8% — forcing garbage collection
+2026-05-17 08:53:14 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:53:45 | ERROR    | resource_monitor | RAM CRITICAL: 90.8% — forcing garbage collection
+2026-05-17 08:53:45 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:54:17 | ERROR    | resource_monitor | RAM CRITICAL: 90.8% — forcing garbage collection
+2026-05-17 08:54:17 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:54:48 | ERROR    | resource_monitor | RAM CRITICAL: 91.0% — forcing garbage collection
+2026-05-17 08:54:48 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:55:19 | ERROR    | resource_monitor | RAM CRITICAL: 90.9% — forcing garbage collection
+2026-05-17 08:55:19 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:55:50 | ERROR    | resource_monitor | RAM CRITICAL: 90.4% — forcing garbage collection
+2026-05-17 08:55:50 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:56:21 | ERROR    | resource_monitor | RAM CRITICAL: 90.4% — forcing garbage collection
+2026-05-17 08:56:21 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:56:53 | ERROR    | resource_monitor | RAM CRITICAL: 90.4% — forcing garbage collection
+2026-05-17 08:56:53 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:57:24 | ERROR    | resource_monitor | RAM CRITICAL: 90.4% — forcing garbage collection
+2026-05-17 08:57:24 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:57:55 | ERROR    | resource_monitor | RAM CRITICAL: 90.4% — forcing garbage collection
+2026-05-17 08:57:55 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:58:26 | ERROR    | resource_monitor | RAM CRITICAL: 90.4% — forcing garbage collection
+2026-05-17 08:58:26 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:58:58 | ERROR    | resource_monitor | RAM CRITICAL: 90.4% — forcing garbage collection
+2026-05-17 08:58:58 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 08:59:29 | ERROR    | resource_monitor | RAM CRITICAL: 90.1% — forcing garbage collection
+2026-05-17 08:59:29 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:00:00 | ERROR    | resource_monitor | RAM CRITICAL: 90.1% — forcing garbage collection
+2026-05-17 09:00:00 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:00:31 | ERROR    | resource_monitor | RAM CRITICAL: 91.4% — forcing garbage collection
+2026-05-17 09:00:31 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:01:02 | ERROR    | resource_monitor | RAM CRITICAL: 90.4% — forcing garbage collection
+2026-05-17 09:01:02 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:01:34 | ERROR    | resource_monitor | RAM CRITICAL: 90.9% — forcing garbage collection
+2026-05-17 09:01:34 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:02:05 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:02:36 | ERROR    | resource_monitor | RAM CRITICAL: 91.1% — forcing garbage collection
+2026-05-17 09:02:36 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 97, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:03:07 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:03:38 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:04:09 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:04:41 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:05:12 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:05:43 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:06:14 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:06:45 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:07:16 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:07:48 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:08:19 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:08:50 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:09:21 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:09:52 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:10:24 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:10:55 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:11:26 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:11:57 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:12:28 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:12:59 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:13:30 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:14:02 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:14:33 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:15:04 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:15:35 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:16:07 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:16:38 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:17:09 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:17:40 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
+2026-05-17 09:18:11 | ERROR    | resource_monitor | Resource monitor loop error
+Traceback (most recent call last):
+  File "/root/resource_monitor.py", line 173, in main
+    check_and_protect(metrics)
+  File "/root/resource_monitor.py", line 105, in check_and_protect
+    send_telegram(
+TypeError: send_telegram() got an unexpected keyword argument 'key'
