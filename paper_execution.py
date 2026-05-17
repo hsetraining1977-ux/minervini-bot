@@ -304,8 +304,8 @@ def execute_paper_trade(plan: dict) -> Optional[dict]:
         "type":          "market",
         "time_in_force": "day",
         "order_class":   "bracket",
-        "stop_loss":     {"stop_price": str(round(sl, 2))},
-        "take_profit":   {"limit_price": str(round(tp2, 2))},
+        "stop_loss":     {"stop_price": round(sl, 2)},
+        "take_profit":   {"limit_price": round(tp2, 2)},
     }
 
     order = alpaca_post("/v2/orders", order_data)
