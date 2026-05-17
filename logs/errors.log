@@ -9500,3 +9500,13 @@
 2026-05-16 10:25:40 | ERROR    | health_monitor | CPU critical: 100.0%
 2026-05-16 11:03:45 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
 2026-05-16 21:04:31 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-17 02:00:06 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-17 04:52:04 | ERROR    | resource_monitor | CPU CRITICAL: 99.0%
+2026-05-17 05:08:46 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-17 05:11:24 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-17 05:12:11 | ERROR    | health_monitor | CPU critical: 100.0%
+2026-05-17 05:15:35 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-17 05:29:45 | ERROR    | resource_monitor | CPU CRITICAL: 99.0%
+2026-05-17 06:05:40 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-17 06:22:52 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%
+2026-05-17 07:04:27 | ERROR    | resource_monitor | CPU CRITICAL: 100.0%

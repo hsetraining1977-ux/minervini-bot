@@ -1,0 +1,187 @@
+{
+  "timestamp": "2026-05-17T05:58:08.862397",
+  "core_files": [
+    "breadth_engine.py",
+    "auto_restart.py",
+    "market_session_manager.py",
+    "database.py",
+    "volatility_regime_engine.py",
+    "adaptive_memory.py",
+    "portfolio_engine.py",
+    "market_intelligence.py",
+    "adaptive_scoring.py",
+    "dashboard.py",
+    "portfolio_guard.py",
+    "data_sources.py",
+    "telegram_commands.py",
+    "insider_check.py",
+    "institutional_regime_classifier.py",
+    "institutional_layer.py",
+    "adaptive_review_engine.py",
+    "liquidity_engine.py",
+    "decision_engine.py",
+    "smart_telegram_reporter.py",
+    "trade_center.py",
+    "adaptive_learning.py",
+    "health_monitor.py",
+    "smart_execution_engine.py",
+    "risk_simulator.py",
+    "capital_allocator.py",
+    "ai_trade_review.py",
+    "macro_intelligence.py",
+    "intraday_engine.py",
+    "telegram_trade_cards.py",
+    "institutional_dashboard.py",
+    "adaptive_dashboard.py",
+    "resource_monitor.py",
+    "auto_monitor.py",
+    "reliability_layer.py",
+    "health_dashboard.py",
+    "ai_layer.py",
+    "log_rotator.py",
+    "sector_rotation_engine.py",
+    "logger.py",
+    "master_orchestrator.py",
+    "paper_execution.py",
+    "regime_sync.py",
+    "config.py",
+    "event_awareness.py",
+    "stop_system.sh",
+    "run_ai_layer.sh",
+    "start_system.sh"
+  ],
+  "research_files": [
+    "adaptive_memory_builder.py",
+    "correlation_engine.py",
+    "regime_replay_engine.py",
+    "lifecycle_dashboard.py",
+    "fundamental_engine.py",
+    "performance_dashboard.py",
+    "historical_replay_engine.py",
+    "position_management_dashboard.py",
+    "trade_analytics.py",
+    "trade_plan_generator.py",
+    "historical_learning_daemon.py",
+    "trade_journal.py",
+    "setup_replay_library.py",
+    "replay_dashboard_tab.py",
+    "trade_lifecycle.py",
+    "portfolio_dashboard.py",
+    "paper_performance_dashboard.py"
+  ],
+  "archive_candidates": [
+    "phase3_sectors.py",
+    "priority3_live.py",
+    "priority1_quality.py",
+    "priority2_intelligence.py",
+    "phase2_upgrade.py",
+    "fix_thresholds.sh"
+  ],
+  "unknown_files": [
+    "health_engine.py",
+    "system_supervisor.py",
+    "exit_intelligence.py",
+    "institutional_intelligence_dashboard.py",
+    "system_audit.py",
+    "smart_money.py",
+    "monitor_upgrade.py",
+    "watchdog_bot.py",
+    "apply_dynamic_threshold.sh",
+    "patch_auto_monitor.sh",
+    "backup.sh",
+    "restore_and_fix.sh"
+  ],
+  "dependency_map": {
+    "health_engine.py": [
+      "config.py"
+    ],
+    "correlation_engine.py": [
+      "config.py"
+    ],
+    "system_supervisor.py": [
+      "config.py"
+    ],
+    "portfolio_engine.py": [
+      "config.py"
+    ],
+    "phase3_sectors.py": [
+      "config.py"
+    ],
+    "exit_intelligence.py": [
+      "health_engine.py"
+    ],
+    "adaptive_scoring.py": [
+      "adaptive_memory.py"
+    ],
+    "priority3_live.py": [
+      "config.py"
+    ],
+    "data_sources.py": [
+      "config.py"
+    ],
+    "insider_check.py": [
+      "config.py"
+    ],
+    "institutional_layer.py": [
+      "config.py"
+    ],
+    "adaptive_review_engine.py": [
+      "adaptive_memory.py",
+      "adaptive_scoring.py"
+    ],
+    "decision_engine.py": [
+      "config.py",
+      "insider_check.py"
+    ],
+    "adaptive_learning.py": [
+      "adaptive_memory.py",
+      "adaptive_scoring.py"
+    ],
+    "smart_execution_engine.py": [
+      "config.py"
+    ],
+    "priority1_quality.py": [
+      "config.py"
+    ],
+    "fundamental_engine.py": [
+      "config.py"
+    ],
+    "capital_allocator.py": [
+      "config.py"
+    ],
+    "macro_intelligence.py": [
+      "config.py"
+    ],
+    "priority2_intelligence.py": [
+      "config.py"
+    ],
+    "phase2_upgrade.py": [
+      "config.py"
+    ],
+    "monitor_upgrade.py": [
+      "config.py"
+    ],
+    "historical_learning_daemon.py": [
+      "historical_replay_engine.py",
+      "adaptive_memory_builder.py",
+      "setup_replay_library.py",
+      "regime_replay_engine.py"
+    ],
+    "auto_monitor.py": [
+      "decision_engine.py",
+      "config.py"
+    ],
+    "trade_journal.py": [
+      "exit_intelligence.py"
+    ],
+    "ai_layer.py": [
+      "config.py"
+    ],
+    "watchdog_bot.py": [
+      "config.py"
+    ],
+    "event_awareness.py": [
+      "config.py"
+    ]
+  }
+}

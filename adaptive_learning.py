@@ -1,3 +1,4 @@
+from telegram_gate import send_telegram, send_alert
 #!/usr/bin/env python3
 """
 ╔══════════════════════════════════════════════════════════════════╗
@@ -50,18 +51,6 @@ def _get_telegram_config():
     except Exception:
         return None, None
 
-def send_telegram(msg: str):
-    try:
-        token, chat_id = _get_telegram_config()
-        if not token:
-            return
-        requests.post(
-            f"https://api.telegram.org/bot{token}/sendMessage",
-            json={"chat_id": chat_id, "text": msg, "parse_mode": "HTML"},
-            timeout=10,
-        )
-    except Exception:
-        pass
 
 # ── Logging ───────────────────────────────────────────────────────
 def _log(msg: str):

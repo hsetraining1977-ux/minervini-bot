@@ -1,3 +1,4 @@
+from telegram_gate import send_telegram, send_alert
 #!/usr/bin/env python3
 """
 Master AI Orchestrator
@@ -15,15 +16,6 @@ sys.path.insert(0, '/root')
 ET = pytz.timezone('America/New_York')
 
 # ===== Telegram =====
-def send_telegram(msg):
-    try:
-        import requests
-        from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
-        requests.post(f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
-                      json={"chat_id": TELEGRAM_CHAT_ID, "text": msg, "parse_mode": "HTML"},
-                      timeout=10)
-    except Exception as e:
-        print(f"[TG ERROR] {e}")
 
 def load_json(path, default={}):
     try:

@@ -1,0 +1,938 @@
+{
+  "timestamp": "2026-05-17T05:58:08.857572",
+  "processes": {
+    "total_processes": 169,
+    "python_processes": [
+      {
+        "pid": "809",
+        "script": "networkd-dispatcher",
+        "cpu": 0.0,
+        "mem": 0.4,
+        "cmd": "/usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers"
+      },
+      {
+        "pid": "878",
+        "script": "unattended-upgrade-shutdown",
+        "cpu": 0.0,
+        "mem": 0.4,
+        "cmd": "/usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal"
+      },
+      {
+        "pid": "9072",
+        "script": "institutional_regime_classifier.py",
+        "cpu": 1.0,
+        "mem": 3.8,
+        "cmd": "python3 /root/institutional_regime_classifier.py --daemon"
+      },
+      {
+        "pid": "51872",
+        "script": "event_awareness.py",
+        "cpu": 0.0,
+        "mem": 0.9,
+        "cmd": "python3 /root/event_awareness.py"
+      },
+      {
+        "pid": "51874",
+        "script": "institutional_layer.py",
+        "cpu": 0.4,
+        "mem": 4.6,
+        "cmd": "python3 /root/institutional_layer.py"
+      },
+      {
+        "pid": "51890",
+        "script": "intraday_engine.py",
+        "cpu": 0.0,
+        "mem": 3.9,
+        "cmd": "python3 /root/intraday_engine.py"
+      },
+      {
+        "pid": "51891",
+        "script": "telegram_commands.py",
+        "cpu": 0.0,
+        "mem": 5.3,
+        "cmd": "python3 /root/telegram_commands.py"
+      },
+      {
+        "pid": "51905",
+        "script": "dashboard.py",
+        "cpu": 0.5,
+        "mem": 9.3,
+        "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/dashboard.py --server.port 8501 --server.address 0.0.0.0"
+      },
+      {
+        "pid": "51912",
+        "script": "adaptive_dashboard.py",
+        "cpu": 0.4,
+        "mem": 9.0,
+        "cmd": "python3 -m streamlit run /root/adaptive_dashboard.py --server.port 8503 --server.address 0.0.0.0"
+      },
+      {
+        "pid": "51913",
+        "script": "institutional_dashboard.py",
+        "cpu": 0.5,
+        "mem": 8.0,
+        "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/institutional_dashboard.py --server.port 8504 --server.address 0.0"
+      },
+      {
+        "pid": "51914",
+        "script": "health_monitor.py",
+        "cpu": 1.0,
+        "mem": 1.4,
+        "cmd": "python3 /root/health_monitor.py"
+      },
+      {
+        "pid": "51915",
+        "script": "auto_restart.py",
+        "cpu": 0.0,
+        "mem": 0.4,
+        "cmd": "python3 /root/auto_restart.py --daemon"
+      },
+      {
+        "pid": "51917",
+        "script": "resource_monitor.py",
+        "cpu": 0.2,
+        "mem": 1.5,
+        "cmd": "python3 /root/resource_monitor.py"
+      },
+      {
+        "pid": "51932",
+        "script": "monitor_upgrade.py",
+        "cpu": 2.5,
+        "mem": 6.4,
+        "cmd": "python3 /root/monitor_upgrade.py"
+      },
+      {
+        "pid": "51937",
+        "script": "macro_intelligence.py",
+        "cpu": 0.0,
+        "mem": 4.8,
+        "cmd": "python3 /root/macro_intelligence.py"
+      },
+      {
+        "pid": "51942",
+        "script": "adaptive_learning.py",
+        "cpu": 0.0,
+        "mem": 1.5,
+        "cmd": "python3 /root/adaptive_learning.py --mode daemon"
+      },
+      {
+        "pid": "51960",
+        "script": "regime_sync.py",
+        "cpu": 0.1,
+        "mem": 0.6,
+        "cmd": "python3 /root/regime_sync.py --daemon"
+      },
+      {
+        "pid": "54856",
+        "script": "master_orchestrator.py",
+        "cpu": 0.1,
+        "mem": 9.0,
+        "cmd": "python3 /root/master_orchestrator.py"
+      },
+      {
+        "pid": "67606",
+        "script": "ai_layer.py",
+        "cpu": 0.3,
+        "mem": 8.0,
+        "cmd": "python3 /root/ai_layer.py"
+      },
+      {
+        "pid": "67701",
+        "script": "ai_layer.py",
+        "cpu": 0.3,
+        "mem": 8.0,
+        "cmd": "python3 /root/ai_layer.py"
+      },
+      {
+        "pid": "67702",
+        "script": "ai_layer.py",
+        "cpu": 0.4,
+        "mem": 8.0,
+        "cmd": "python3 /root/ai_layer.py"
+      },
+      {
+        "pid": "68844",
+        "script": "system_audit.py",
+        "cpu": 0.0,
+        "mem": 0.5,
+        "cmd": "python3 /root/system_audit.py"
+      }
+    ],
+    "python_count": 22,
+    "duplicate_scripts": {
+      "ai_layer.py": [
+        "67606",
+        "67701",
+        "67702"
+      ]
+    },
+    "duplicate_count": 1
+  },
+  "resources": {
+    "cpu_used_pct": 0.0,
+    "ram_total_mb": 1958,
+    "ram_used_mb": 1299,
+    "ram_free_mb": 73,
+    "ram_used_pct": 66.3,
+    "disk_total": "52G",
+    "disk_used": "12G",
+    "disk_used_pct": "25%",
+    "top_cpu_consumers": [
+      {
+        "pid": "51932",
+        "cpu": "2.5",
+        "mem": "6.4",
+        "cmd": "python3 /root/monitor_upgrade.py"
+      },
+      {
+        "pid": "9072",
+        "cpu": "1.0",
+        "mem": "3.8",
+        "cmd": "python3 /root/institutional_regime_classifier.py --daemon"
+      },
+      {
+        "pid": "51914",
+        "cpu": "1.0",
+        "mem": "1.4",
+        "cmd": "python3 /root/health_monitor.py"
+      },
+      {
+        "pid": "68834",
+        "cpu": "0.6",
+        "mem": "0.4",
+        "cmd": "sshd: root [priv]"
+      },
+      {
+        "pid": "51905",
+        "cpu": "0.5",
+        "mem": "9.3",
+        "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/dashboard.py --server.port"
+      },
+      {
+        "pid": "51913",
+        "cpu": "0.5",
+        "mem": "8.0",
+        "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/institutional_dashboard.py"
+      },
+      {
+        "pid": "51874",
+        "cpu": "0.4",
+        "mem": "4.6",
+        "cmd": "python3 /root/institutional_layer.py"
+      },
+      {
+        "pid": "51912",
+        "cpu": "0.4",
+        "mem": "9.0",
+        "cmd": "python3 -m streamlit run /root/adaptive_dashboard.py --server.port 8503 --server"
+      },
+      {
+        "pid": "67702",
+        "cpu": "0.4",
+        "mem": "8.0",
+        "cmd": "python3 /root/ai_layer.py"
+      },
+      {
+        "pid": "67606",
+        "cpu": "0.3",
+        "mem": "8.0",
+        "cmd": "python3 /root/ai_layer.py"
+      }
+    ]
+  },
+  "files": {
+    "core_system": [
+      {
+        "file": "breadth_engine.py",
+        "size_kb": 11.1
+      },
+      {
+        "file": "auto_restart.py",
+        "size_kb": 3.5
+      },
+      {
+        "file": "market_session_manager.py",
+        "size_kb": 9.1
+      },
+      {
+        "file": "database.py",
+        "size_kb": 9.2
+      },
+      {
+        "file": "volatility_regime_engine.py",
+        "size_kb": 15.1
+      },
+      {
+        "file": "adaptive_memory.py",
+        "size_kb": 14.1
+      },
+      {
+        "file": "portfolio_engine.py",
+        "size_kb": 10.2
+      },
+      {
+        "file": "market_intelligence.py",
+        "size_kb": 12.5
+      },
+      {
+        "file": "adaptive_scoring.py",
+        "size_kb": 14.6
+      },
+      {
+        "file": "dashboard.py",
+        "size_kb": 25.2
+      },
+      {
+        "file": "portfolio_guard.py",
+        "size_kb": 1.8
+      },
+      {
+        "file": "data_sources.py",
+        "size_kb": 39.3
+      },
+      {
+        "file": "telegram_commands.py",
+        "size_kb": 9.1
+      },
+      {
+        "file": "insider_check.py",
+        "size_kb": 22.7
+      },
+      {
+        "file": "institutional_regime_classifier.py",
+        "size_kb": 28.7
+      },
+      {
+        "file": "institutional_layer.py",
+        "size_kb": 31.9
+      },
+      {
+        "file": "adaptive_review_engine.py",
+        "size_kb": 11.0
+      },
+      {
+        "file": "liquidity_engine.py",
+        "size_kb": 13.2
+      },
+      {
+        "file": "decision_engine.py",
+        "size_kb": 18.8
+      },
+      {
+        "file": "smart_telegram_reporter.py",
+        "size_kb": 12.6
+      },
+      {
+        "file": "trade_center.py",
+        "size_kb": 12.6
+      },
+      {
+        "file": "adaptive_learning.py",
+        "size_kb": 16.9
+      },
+      {
+        "file": "health_monitor.py",
+        "size_kb": 9.8
+      },
+      {
+        "file": "smart_execution_engine.py",
+        "size_kb": 36.1
+      },
+      {
+        "file": "risk_simulator.py",
+        "size_kb": 6.6
+      },
+      {
+        "file": "capital_allocator.py",
+        "size_kb": 6.1
+      },
+      {
+        "file": "ai_trade_review.py",
+        "size_kb": 12.2
+      },
+      {
+        "file": "macro_intelligence.py",
+        "size_kb": 26.9
+      },
+      {
+        "file": "intraday_engine.py",
+        "size_kb": 13.7
+      },
+      {
+        "file": "telegram_trade_cards.py",
+        "size_kb": 8.3
+      },
+      {
+        "file": "institutional_dashboard.py",
+        "size_kb": 37.3
+      },
+      {
+        "file": "adaptive_dashboard.py",
+        "size_kb": 26.1
+      },
+      {
+        "file": "resource_monitor.py",
+        "size_kb": 7.2
+      },
+      {
+        "file": "auto_monitor.py",
+        "size_kb": 16.7
+      },
+      {
+        "file": "reliability_layer.py",
+        "size_kb": 15.4
+      },
+      {
+        "file": "health_dashboard.py",
+        "size_kb": 4.7
+      },
+      {
+        "file": "ai_layer.py",
+        "size_kb": 29.2
+      },
+      {
+        "file": "log_rotator.py",
+        "size_kb": 6.1
+      },
+      {
+        "file": "sector_rotation_engine.py",
+        "size_kb": 11.8
+      },
+      {
+        "file": "logger.py",
+        "size_kb": 4.7
+      },
+      {
+        "file": "master_orchestrator.py",
+        "size_kb": 13.3
+      },
+      {
+        "file": "paper_execution.py",
+        "size_kb": 19.7
+      },
+      {
+        "file": "regime_sync.py",
+        "size_kb": 28.9
+      },
+      {
+        "file": "config.py",
+        "size_kb": 0.6
+      },
+      {
+        "file": "event_awareness.py",
+        "size_kb": 10.5
+      },
+      {
+        "file": "stop_system.sh",
+        "size_kb": 2.7
+      },
+      {
+        "file": "run_ai_layer.sh",
+        "size_kb": 0.3
+      },
+      {
+        "file": "start_system.sh",
+        "size_kb": 10.4
+      }
+    ],
+    "core_count": 48,
+    "research": [
+      {
+        "file": "adaptive_memory_builder.py",
+        "size_kb": 4.8
+      },
+      {
+        "file": "correlation_engine.py",
+        "size_kb": 5.2
+      },
+      {
+        "file": "regime_replay_engine.py",
+        "size_kb": 13.5
+      },
+      {
+        "file": "lifecycle_dashboard.py",
+        "size_kb": 13.3
+      },
+      {
+        "file": "fundamental_engine.py",
+        "size_kb": 59.2
+      },
+      {
+        "file": "performance_dashboard.py",
+        "size_kb": 11.4
+      },
+      {
+        "file": "historical_replay_engine.py",
+        "size_kb": 16.3
+      },
+      {
+        "file": "position_management_dashboard.py",
+        "size_kb": 10.1
+      },
+      {
+        "file": "trade_analytics.py",
+        "size_kb": 9.4
+      },
+      {
+        "file": "trade_plan_generator.py",
+        "size_kb": 16.1
+      },
+      {
+        "file": "historical_learning_daemon.py",
+        "size_kb": 13.3
+      },
+      {
+        "file": "trade_journal.py",
+        "size_kb": 6.9
+      },
+      {
+        "file": "setup_replay_library.py",
+        "size_kb": 14.3
+      },
+      {
+        "file": "replay_dashboard_tab.py",
+        "size_kb": 16.1
+      },
+      {
+        "file": "trade_lifecycle.py",
+        "size_kb": 6.9
+      },
+      {
+        "file": "portfolio_dashboard.py",
+        "size_kb": 9.4
+      },
+      {
+        "file": "paper_performance_dashboard.py",
+        "size_kb": 10.5
+      }
+    ],
+    "research_count": 17,
+    "archive_candidates": [
+      {
+        "file": "phase3_sectors.py",
+        "size_kb": 14.3
+      },
+      {
+        "file": "priority3_live.py",
+        "size_kb": 30.9
+      },
+      {
+        "file": "priority1_quality.py",
+        "size_kb": 28.8
+      },
+      {
+        "file": "priority2_intelligence.py",
+        "size_kb": 29.5
+      },
+      {
+        "file": "phase2_upgrade.py",
+        "size_kb": 15.6
+      },
+      {
+        "file": "fix_thresholds.sh",
+        "size_kb": 3.6
+      }
+    ],
+    "archive_count": 6,
+    "unknown": [
+      {
+        "file": "health_engine.py",
+        "size_kb": 9.6
+      },
+      {
+        "file": "system_supervisor.py",
+        "size_kb": 7.6
+      },
+      {
+        "file": "exit_intelligence.py",
+        "size_kb": 9.9
+      },
+      {
+        "file": "institutional_intelligence_dashboard.py",
+        "size_kb": 13.9
+      },
+      {
+        "file": "system_audit.py",
+        "size_kb": 15.2
+      },
+      {
+        "file": "smart_money.py",
+        "size_kb": 8.3
+      },
+      {
+        "file": "monitor_upgrade.py",
+        "size_kb": 18.7
+      },
+      {
+        "file": "watchdog_bot.py",
+        "size_kb": 7.5
+      },
+      {
+        "file": "apply_dynamic_threshold.sh",
+        "size_kb": 1.6
+      },
+      {
+        "file": "patch_auto_monitor.sh",
+        "size_kb": 1.1
+      },
+      {
+        "file": "backup.sh",
+        "size_kb": 0.2
+      },
+      {
+        "file": "restore_and_fix.sh",
+        "size_kb": 7.3
+      }
+    ],
+    "unknown_count": 12,
+    "total_files": 83
+  },
+  "logs": {
+    "total_size_mb": 18.0,
+    "file_count": 54,
+    "top_10_largest": [
+      {
+        "file": "system.log",
+        "size_mb": 3.84,
+        "age_days": 0.0
+      },
+      {
+        "file": "telegram_commands.log",
+        "size_mb": 3.57,
+        "age_days": 0.0
+      },
+      {
+        "file": "dashboard.log",
+        "size_mb": 2.48,
+        "age_days": 2.8
+      },
+      {
+        "file": "regime_classifier.log",
+        "size_mb": 1.39,
+        "age_days": 0.0
+      },
+      {
+        "file": "backup.log",
+        "size_mb": 0.92,
+        "age_days": 0.2
+      },
+      {
+        "file": "institutional_dashboard.log",
+        "size_mb": 0.79,
+        "age_days": 0.0
+      },
+      {
+        "file": "errors.log",
+        "size_mb": 0.78,
+        "age_days": 0.0
+      },
+      {
+        "file": "trade_decisions.log",
+        "size_mb": 0.78,
+        "age_days": 0.0
+      },
+      {
+        "file": "market.out",
+        "size_mb": 0.75,
+        "age_days": 5.1
+      },
+      {
+        "file": "health.out",
+        "size_mb": 0.71,
+        "age_days": 1.0
+      }
+    ],
+    "oversized_logs": [],
+    "oversized_count": 0
+  },
+  "telegram": {
+    "files_with_telegram": 27,
+    "high_risk_spam_files": [
+      {
+        "file": "monitor_upgrade.py",
+        "send_telegram_calls": 23,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "priority3_live.py",
+        "send_telegram_calls": 10,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "smart_execution_engine.py",
+        "send_telegram_calls": 8,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "priority1_quality.py",
+        "send_telegram_calls": 7,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "resource_monitor.py",
+        "send_telegram_calls": 6,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "institutional_layer.py",
+        "send_telegram_calls": 5,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "adaptive_review_engine.py",
+        "send_telegram_calls": 5,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "health_monitor.py",
+        "send_telegram_calls": 5,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "event_awareness.py",
+        "send_telegram_calls": 5,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "fundamental_engine.py",
+        "send_telegram_calls": 4,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "macro_intelligence.py",
+        "send_telegram_calls": 4,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "priority2_intelligence.py",
+        "send_telegram_calls": 4,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "phase2_upgrade.py",
+        "send_telegram_calls": 4,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "watchdog_bot.py",
+        "send_telegram_calls": 4,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "phase3_sectors.py",
+        "send_telegram_calls": 3,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "data_sources.py",
+        "send_telegram_calls": 3,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "insider_check.py",
+        "send_telegram_calls": 3,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "decision_engine.py",
+        "send_telegram_calls": 3,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "adaptive_learning.py",
+        "send_telegram_calls": 3,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "portfolio_engine.py",
+        "send_telegram_calls": 2,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      }
+    ],
+    "high_risk_count": 20,
+    "all_sources": [
+      {
+        "file": "monitor_upgrade.py",
+        "send_telegram_calls": 23,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "auto_monitor.py",
+        "send_telegram_calls": 18,
+        "has_session_guard": true,
+        "risk": "LOW"
+      },
+      {
+        "file": "smart_telegram_reporter.py",
+        "send_telegram_calls": 13,
+        "has_session_guard": true,
+        "risk": "LOW"
+      },
+      {
+        "file": "priority3_live.py",
+        "send_telegram_calls": 10,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "smart_execution_engine.py",
+        "send_telegram_calls": 8,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "priority1_quality.py",
+        "send_telegram_calls": 7,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "resource_monitor.py",
+        "send_telegram_calls": 6,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "institutional_layer.py",
+        "send_telegram_calls": 5,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "adaptive_review_engine.py",
+        "send_telegram_calls": 5,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "health_monitor.py",
+        "send_telegram_calls": 5,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "paper_execution.py",
+        "send_telegram_calls": 5,
+        "has_session_guard": true,
+        "risk": "LOW"
+      },
+      {
+        "file": "event_awareness.py",
+        "send_telegram_calls": 5,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "system_audit.py",
+        "send_telegram_calls": 4,
+        "has_session_guard": true,
+        "risk": "LOW"
+      },
+      {
+        "file": "fundamental_engine.py",
+        "send_telegram_calls": 4,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "macro_intelligence.py",
+        "send_telegram_calls": 4,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "priority2_intelligence.py",
+        "send_telegram_calls": 4,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "phase2_upgrade.py",
+        "send_telegram_calls": 4,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "watchdog_bot.py",
+        "send_telegram_calls": 4,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "phase3_sectors.py",
+        "send_telegram_calls": 3,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "data_sources.py",
+        "send_telegram_calls": 3,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "insider_check.py",
+        "send_telegram_calls": 3,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "decision_engine.py",
+        "send_telegram_calls": 3,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "adaptive_learning.py",
+        "send_telegram_calls": 3,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "market_session_manager.py",
+        "send_telegram_calls": 2,
+        "has_session_guard": true,
+        "risk": "LOW"
+      },
+      {
+        "file": "portfolio_engine.py",
+        "send_telegram_calls": 2,
+        "has_session_guard": false,
+        "risk": "HIGH"
+      },
+      {
+        "file": "ai_layer.py",
+        "send_telegram_calls": 2,
+        "has_session_guard": true,
+        "risk": "LOW"
+      },
+      {
+        "file": "master_orchestrator.py",
+        "send_telegram_calls": 2,
+        "has_session_guard": true,
+        "risk": "LOW"
+      }
+    ]
+  }
+}

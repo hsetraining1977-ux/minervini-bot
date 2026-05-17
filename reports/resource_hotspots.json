@@ -1,0 +1,246 @@
+{
+  "timestamp": "2026-05-17T05:58:08.857645",
+  "cpu_used_pct": 0.0,
+  "top_cpu": [
+    {
+      "pid": "51932",
+      "cpu": "2.5",
+      "mem": "6.4",
+      "cmd": "python3 /root/monitor_upgrade.py"
+    },
+    {
+      "pid": "9072",
+      "cpu": "1.0",
+      "mem": "3.8",
+      "cmd": "python3 /root/institutional_regime_classifier.py --daemon"
+    },
+    {
+      "pid": "51914",
+      "cpu": "1.0",
+      "mem": "1.4",
+      "cmd": "python3 /root/health_monitor.py"
+    },
+    {
+      "pid": "68834",
+      "cpu": "0.6",
+      "mem": "0.4",
+      "cmd": "sshd: root [priv]"
+    },
+    {
+      "pid": "51905",
+      "cpu": "0.5",
+      "mem": "9.3",
+      "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/dashboard.py --server.port"
+    },
+    {
+      "pid": "51913",
+      "cpu": "0.5",
+      "mem": "8.0",
+      "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/institutional_dashboard.py"
+    },
+    {
+      "pid": "51874",
+      "cpu": "0.4",
+      "mem": "4.6",
+      "cmd": "python3 /root/institutional_layer.py"
+    },
+    {
+      "pid": "51912",
+      "cpu": "0.4",
+      "mem": "9.0",
+      "cmd": "python3 -m streamlit run /root/adaptive_dashboard.py --server.port 8503 --server"
+    },
+    {
+      "pid": "67702",
+      "cpu": "0.4",
+      "mem": "8.0",
+      "cmd": "python3 /root/ai_layer.py"
+    },
+    {
+      "pid": "67606",
+      "cpu": "0.3",
+      "mem": "8.0",
+      "cmd": "python3 /root/ai_layer.py"
+    }
+  ],
+  "oversized_logs": [],
+  "telegram_spam": [
+    {
+      "file": "monitor_upgrade.py",
+      "send_telegram_calls": 23,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "priority3_live.py",
+      "send_telegram_calls": 10,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "smart_execution_engine.py",
+      "send_telegram_calls": 8,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "priority1_quality.py",
+      "send_telegram_calls": 7,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "resource_monitor.py",
+      "send_telegram_calls": 6,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "institutional_layer.py",
+      "send_telegram_calls": 5,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "adaptive_review_engine.py",
+      "send_telegram_calls": 5,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "health_monitor.py",
+      "send_telegram_calls": 5,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "event_awareness.py",
+      "send_telegram_calls": 5,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "fundamental_engine.py",
+      "send_telegram_calls": 4,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "macro_intelligence.py",
+      "send_telegram_calls": 4,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "priority2_intelligence.py",
+      "send_telegram_calls": 4,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "phase2_upgrade.py",
+      "send_telegram_calls": 4,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "watchdog_bot.py",
+      "send_telegram_calls": 4,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "phase3_sectors.py",
+      "send_telegram_calls": 3,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "data_sources.py",
+      "send_telegram_calls": 3,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "insider_check.py",
+      "send_telegram_calls": 3,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "decision_engine.py",
+      "send_telegram_calls": 3,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "adaptive_learning.py",
+      "send_telegram_calls": 3,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    },
+    {
+      "file": "portfolio_engine.py",
+      "send_telegram_calls": 2,
+      "has_session_guard": false,
+      "risk": "HIGH"
+    }
+  ],
+  "duplicate_processes": {
+    "ai_layer.py": [
+      "67606",
+      "67701",
+      "67702"
+    ]
+  },
+  "unknown_files": [
+    {
+      "file": "health_engine.py",
+      "size_kb": 9.6
+    },
+    {
+      "file": "system_supervisor.py",
+      "size_kb": 7.6
+    },
+    {
+      "file": "exit_intelligence.py",
+      "size_kb": 9.9
+    },
+    {
+      "file": "institutional_intelligence_dashboard.py",
+      "size_kb": 13.9
+    },
+    {
+      "file": "system_audit.py",
+      "size_kb": 15.2
+    },
+    {
+      "file": "smart_money.py",
+      "size_kb": 8.3
+    },
+    {
+      "file": "monitor_upgrade.py",
+      "size_kb": 18.7
+    },
+    {
+      "file": "watchdog_bot.py",
+      "size_kb": 7.5
+    },
+    {
+      "file": "apply_dynamic_threshold.sh",
+      "size_kb": 1.6
+    },
+    {
+      "file": "patch_auto_monitor.sh",
+      "size_kb": 1.1
+    },
+    {
+      "file": "backup.sh",
+      "size_kb": 0.2
+    },
+    {
+      "file": "restore_and_fix.sh",
+      "size_kb": 7.3
+    }
+  ]
+}

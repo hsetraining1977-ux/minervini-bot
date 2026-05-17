@@ -1,3 +1,4 @@
+from telegram_gate import send_telegram, send_alert
 """
 phase2_upgrade.py
 =================
@@ -29,16 +30,6 @@ MIN_ANNUAL_REV       = 0.15   # نمو إيرادات سنوي 15%+
 RS_MIN_RATING        = 80     # RS فوق 80
 
 # ─── Telegram ─────────────────────────────────────────────────────────────────
-def send_telegram(msg: str):
-    try:
-        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-        requests.post(url, json={
-            "chat_id": TELEGRAM_CHAT_ID,
-            "text": msg,
-            "parse_mode": "HTML"
-        }, timeout=10)
-    except Exception as e:
-        print(f"[TG] خطأ: {e}")
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # ١. Annual EPS Filter

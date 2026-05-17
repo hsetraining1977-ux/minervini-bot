@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-05-17T05:58:08.857636",
+  "running_python": [
+    {
+      "pid": "809",
+      "script": "networkd-dispatcher",
+      "cpu": 0.0,
+      "mem": 0.4,
+      "cmd": "/usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers"
+    },
+    {
+      "pid": "878",
+      "script": "unattended-upgrade-shutdown",
+      "cpu": 0.0,
+      "mem": 0.4,
+      "cmd": "/usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal"
+    },
+    {
+      "pid": "9072",
+      "script": "institutional_regime_classifier.py",
+      "cpu": 1.0,
+      "mem": 3.8,
+      "cmd": "python3 /root/institutional_regime_classifier.py --daemon"
+    },
+    {
+      "pid": "51872",
+      "script": "event_awareness.py",
+      "cpu": 0.0,
+      "mem": 0.9,
+      "cmd": "python3 /root/event_awareness.py"
+    },
+    {
+      "pid": "51874",
+      "script": "institutional_layer.py",
+      "cpu": 0.4,
+      "mem": 4.6,
+      "cmd": "python3 /root/institutional_layer.py"
+    },
+    {
+      "pid": "51890",
+      "script": "intraday_engine.py",
+      "cpu": 0.0,
+      "mem": 3.9,
+      "cmd": "python3 /root/intraday_engine.py"
+    },
+    {
+      "pid": "51891",
+      "script": "telegram_commands.py",
+      "cpu": 0.0,
+      "mem": 5.3,
+      "cmd": "python3 /root/telegram_commands.py"
+    },
+    {
+      "pid": "51905",
+      "script": "dashboard.py",
+      "cpu": 0.5,
+      "mem": 9.3,
+      "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/dashboard.py --server.port 8501 --server.address 0.0.0.0"
+    },
+    {
+      "pid": "51912",
+      "script": "adaptive_dashboard.py",
+      "cpu": 0.4,
+      "mem": 9.0,
+      "cmd": "python3 -m streamlit run /root/adaptive_dashboard.py --server.port 8503 --server.address 0.0.0.0"
+    },
+    {
+      "pid": "51913",
+      "script": "institutional_dashboard.py",
+      "cpu": 0.5,
+      "mem": 8.0,
+      "cmd": "/usr/bin/python3 /root/.local/bin/streamlit run /root/institutional_dashboard.py --server.port 8504 --server.address 0.0"
+    },
+    {
+      "pid": "51914",
+      "script": "health_monitor.py",
+      "cpu": 1.0,
+      "mem": 1.4,
+      "cmd": "python3 /root/health_monitor.py"
+    },
+    {
+      "pid": "51915",
+      "script": "auto_restart.py",
+      "cpu": 0.0,
+      "mem": 0.4,
+      "cmd": "python3 /root/auto_restart.py --daemon"
+    },
+    {
+      "pid": "51917",
+      "script": "resource_monitor.py",
+      "cpu": 0.2,
+      "mem": 1.5,
+      "cmd": "python3 /root/resource_monitor.py"
+    },
+    {
+      "pid": "51932",
+      "script": "monitor_upgrade.py",
+      "cpu": 2.5,
+      "mem": 6.4,
+      "cmd": "python3 /root/monitor_upgrade.py"
+    },
+    {
+      "pid": "51937",
+      "script": "macro_intelligence.py",
+      "cpu": 0.0,
+      "mem": 4.8,
+      "cmd": "python3 /root/macro_intelligence.py"
+    },
+    {
+      "pid": "51942",
+      "script": "adaptive_learning.py",
+      "cpu": 0.0,
+      "mem": 1.5,
+      "cmd": "python3 /root/adaptive_learning.py --mode daemon"
+    },
+    {
+      "pid": "51960",
+      "script": "regime_sync.py",
+      "cpu": 0.1,
+      "mem": 0.6,
+      "cmd": "python3 /root/regime_sync.py --daemon"
+    },
+    {
+      "pid": "54856",
+      "script": "master_orchestrator.py",
+      "cpu": 0.1,
+      "mem": 9.0,
+      "cmd": "python3 /root/master_orchestrator.py"
+    },
+    {
+      "pid": "67606",
+      "script": "ai_layer.py",
+      "cpu": 0.3,
+      "mem": 8.0,
+      "cmd": "python3 /root/ai_layer.py"
+    },
+    {
+      "pid": "67701",
+      "script": "ai_layer.py",
+      "cpu": 0.3,
+      "mem": 8.0,
+      "cmd": "python3 /root/ai_layer.py"
+    },
+    {
+      "pid": "67702",
+      "script": "ai_layer.py",
+      "cpu": 0.4,
+      "mem": 8.0,
+      "cmd": "python3 /root/ai_layer.py"
+    },
+    {
+      "pid": "68844",
+      "script": "system_audit.py",
+      "cpu": 0.0,
+      "mem": 0.5,
+      "cmd": "python3 /root/system_audit.py"
+    }
+  ],
+  "duplicates": {
+    "ai_layer.py": [
+      "67606",
+      "67701",
+      "67702"
+    ]
+  }
+}

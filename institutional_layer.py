@@ -1,3 +1,4 @@
+from telegram_gate import send_telegram, send_alert
 #!/usr/bin/env python3
 """
 Institutional Robustness Layer
@@ -41,12 +42,6 @@ PSYCHOLOGY_FILE    = "/root/psychology_state.json"
 FAILSAFE_FILE      = "/root/failsafe_state.json"
 
 # ===== Helpers =====
-def send_telegram(msg):
-    try:
-        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-        requests.post(url, json={"chat_id": TELEGRAM_CHAT_ID,
-                                 "text": msg, "parse_mode": "HTML"}, timeout=10)
-    except: pass
 
 def load_json(path, default):
     try:

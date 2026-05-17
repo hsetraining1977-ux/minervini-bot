@@ -1,3 +1,4 @@
+from telegram_gate import send_telegram, send_alert
 """
 monitor_upgrade.py
 ==================
@@ -43,16 +44,6 @@ system_state = {
 }
 
 # ─── Telegram ─────────────────────────────────────────────────────────────────
-def send_telegram(msg: str):
-    try:
-        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-        requests.post(url, json={
-            "chat_id": TELEGRAM_CHAT_ID,
-            "text": msg,
-            "parse_mode": "HTML"
-        }, timeout=10)
-    except Exception as e:
-        print(f"Telegram error: {e}")
 
 def get_telegram_updates():
     try:

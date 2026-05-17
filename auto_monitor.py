@@ -1,3 +1,4 @@
+from telegram_gate import send_telegram, send_alert
 from decision_engine import get_buy_decision
 from rs_rating import filter_by_rs
 from config import ALPACA_KEY, ALPACA_SECRET, TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
@@ -35,13 +36,6 @@ CRYPTO_LIST = ["BTC-USD","ETH-USD"]
 performance_log = {"wins": 0, "losses": 0, "consecutive_losses": 0}
 traded_today = []
 
-def send_telegram(message):
-    try:
-        url = "https://api.telegram.org/bot" + TELEGRAM_TOKEN + "/sendMessage"
-        requests.post(url, data={"chat_id": TELEGRAM_CHAT_ID, "text": message}, timeout=10)
-        print("[TG] sent")
-    except Exception as e:
-        print("[TG] error: " + str(e))
 
 def is_market_open():
     ny = pytz.timezone('America/New_York')

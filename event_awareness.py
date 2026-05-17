@@ -1,3 +1,4 @@
+from telegram_gate import send_telegram, send_alert
 #!/usr/bin/env python3
 """
 Event Awareness System — Hedge Fund Level
@@ -71,12 +72,6 @@ ECONOMIC_EVENTS = [
 ]
 
 # ===== إرسال Telegram =====
-def send_telegram(msg):
-    try:
-        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-        requests.post(url, json={"chat_id": TELEGRAM_CHAT_ID, "text": msg, "parse_mode": "HTML"}, timeout=10)
-    except:
-        pass
 
 # ===== قراءة وحفظ الحالة =====
 def load_state():

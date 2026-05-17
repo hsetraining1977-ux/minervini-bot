@@ -1,3 +1,4 @@
+from telegram_gate import send_telegram, send_alert
 """
 macro_intelligence.py
 ======================
@@ -22,16 +23,6 @@ from datetime import datetime
 from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
 
 # ─── Telegram ─────────────────────────────────────────────────────────────────
-def send_telegram(msg: str):
-    try:
-        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-        requests.post(url, json={
-            "chat_id": TELEGRAM_CHAT_ID,
-            "text": msg,
-            "parse_mode": "HTML"
-        }, timeout=10)
-    except Exception as e:
-        print(f"[TG] خطأ: {e}")
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # المؤشرات الكبرى

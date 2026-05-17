@@ -1,3 +1,4 @@
+from telegram_gate import send_telegram, send_alert
 """
 ai_layer.py
 ===========
@@ -27,16 +28,6 @@ except:
     HAS_ANTHROPIC = False
     print("[AI] anthropic غير مثبت — pip install anthropic")
 
-def send_telegram(msg: str):
-    try:
-        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-        requests.post(url, json={
-            "chat_id": TELEGRAM_CHAT_ID,
-            "text": msg,
-            "parse_mode": "HTML"
-        }, timeout=10)
-    except Exception as e:
-        print(f"[TG] {e}")
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # ١. Claude AI Intelligence Layer

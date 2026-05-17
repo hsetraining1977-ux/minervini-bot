@@ -1,44 +1,3 @@
-grep -n 'period="5d"' /root/intraday_engine.py
-grep -n 'period="30d"' /root/intraday_engine.py
-pip3 install psycopg2-binary python-telegram-bot --user && python3 -c "import psycopg2; import telegram; print(' OK')"
-apt-get install -y postgresql postgresql-contrib && systemctl start postgresql && systemctl enable postgresql && sudo -u postgres psql -c "CREATE USER minervini WITH PASSWORD 'minervini123';" && sudo -u postgres psql -c "CREATE DATABASE minervini_db OWNER minervini;" && echo " PostgreSQL Ready"
-curl -o /root/database.py https://raw.githubusercontent.com/hsetraining1977-ux/minervini-bot/main/database.py && curl -o /root/db_test.py https://raw.githubusercontent.com/hsetraining1977-ux/minervini-bot/main/db_test.py && curl -o /root/telegram_commands.py https://raw.githubusercontent.com/hsetraining1977-ux/minervini-bot/main/telegram_commands.py && pip3 install psutil --user && python3 /root/db_test.py
-python3 /root/telegram_commands.py &
-ANTHROPIC_API_KEY=$(grep ANTHROPIC_API_KEY /root/config.py | cut -d'"' -f2) && export ANTHROPIC_API_KEY && python3 /root/ai_layer.py >> /root/ai.out 2>&1 &
-curl -o /root/master_orchestrator.py https://raw.githubusercontent.com/hsetraining1977-ux/minervini-bot/main/master_orchestrator.py && python3 /root/master_orchestrator.py
-nohup python3 -c "
-import time, schedule
-from master_orchestrator import run_orchestrator
-run_orchestrator()
-schedule.every(2).hours.do(run_orchestrator)
-while True:
-    schedule.run_pending()
-    time.sleep(60)
-" > /root/orchestrator.out 2>&1 &
-pkill -f telegram_commands && sleep 2 && python3 /root/master_orchestrator.py
-nohup python3 -c "
-import time, schedule
-from master_orchestrator import run_orchestrator
-schedule.every(2).hours.do(run_orchestrator)
-while True:
-    schedule.run_pending()
-    time.sleep(60)
-" > /root/orchestrator.out 2>&1 & python3 /root/telegram_commands.py > /root/telegram.out 2>&1 &
-nohup python3 /root/master_orchestrator.py > /root/orchestrator.out 2>&1 &
-tail -f /root/orchestrator.out
-cat > /root/dashboard_new.py << 'EOF'
-import streamlit as st
-st.set_page_config(page_title="Minervini AI Control Center", page_icon="", layout="wide")
-st.title(" MINERVINI AI CONTROL CENTER")
-st.write("New dashboard loading...")
-EOF
-
-~/.local/bin/streamlit run /root/dashboard_new.py --server.port 8502 --server.address 0.0.0.0 &
-ufw allow 8503 && ~/.local/bin/streamlit run /root/dashboard_new.py --server.port 8503 --server.address 0.0.0.0 &
-curl -o /root/dashboard_new.py "https://raw.githubusercontent.com/hsetraining1977-ux/minervini-bot/main/dashboard.py" && grep -c "section-header" /root/dashb
-pip3 install plotly streamlit-autorefresh --user && ~/.local/bin/streamlit run /root/dashboard_new.py --server.port 8503 --server.address 0.0.0.0 &
-pkill -f streamlit && sleep 2 && cp /root/dashboard_new.py /root/dashboard.py && ~/.local/bin/streamlit run /root/dashboard.py --server.port 8501 --server.address 0.0.0.0 >> /root/streamlit.out 2>&1 &
-ANTHROPIC_API_KEY=$(grep ANTHROPIC_API_KEY /root/config.py | cut -d'"' -f2) && export ANTHROPIC_API_KEY && python3 /root/ai_layer.py >> /root/ai.out 2>&1 &
 ps aux | grep streamlit | grep -v grep
 cat /root/streamlit.out | tail -5
 pkill -f streamlit && sleep 3 && cat /root/dashboard.py | head -5
@@ -1997,4 +1956,45 @@ cd /root && streamlit run dashboard_new.py --server.port 8501 --server.address 0
 disown $!
 echo "Restarted"
 EXIT
+exit
+python3 << 'EOF'
+with open('/root/historical_replay_engine.py', 'r') as f:
+    content = f.read()
+
+# Find exact text around leaders
+idx = content.find('"leaders"')
+print(repr(content[idx:idx+300]))
+EOF
+
+python3 -c "
+content = open('/root/historical_replay_engine.py').read()
+idx = content.find('\"leaders\"')
+print(repr(content[idx:idx+300]))
+"
+grep -n "leader\|NVDA\|AAPL" /root/historical_replay_engine.py | head -10
+wc -l /root/historical_replay_engine.py && ls -la /root/historical_replay_engine.py
+pkill -f auto_monitor.py && pkill -f ai_layer.py
+sleep 2
+echo " Stopped"
+ps aux --sort=-%cpu | head -10
+cd /root && git checkout origin/main -- historical_replay_engine.py
+wc -l /root/historical_replay_engine.py
+echo " Restored"
+cd /root && tar -czf /root/backup_full_$(date +%Y%m%d).tar.gz   --exclude='backup_*'   --exclude='archive_old'   --exclude='logs'   --exclude='.git'   /root/*.py /root/*.sh /root/*.env /root/adaptive/ 2>/dev/null
+ls -lh /root/backup_full_*.tar.gz
+ls -lh /root/backup_full_*.tar.gz 2>/dev/null || echo "No backup found"
+ls -lh /root/*.tar.gz 2>/dev/null || echo "No tar files"
+tar -czf /tmp/backup_minervini.tar.gz /root/*.py /root/*.sh 2>/dev/null && ls -lh /tmp/backup_minervini.tar.gz
+ls /root/*.py | wc -l
+cd /root && git pull origin main && python3 /root/system_audit.py
+python3 /root/system_audit.py
+ls -la /root/system_audit.py
+cd /root && git pull origin main && ls -la system_audit.py
+curl -o /root/system_audit.py https://raw.githubusercontent.com/hsetraining1977-ux/minervini-bot/main/system_audit.py && ls -la /root/system_audit.py
+python3 /root/system_audit.py
+python3 --version && python3 /root/system_audit.py 2>&1
+echo "hello"
+echo "test"
+echo "hello"
+renice -n 19 $(pgrep -f intraday_engine) 2>/dev/null; renice -n 19 $(pgrep -f historical_replay) 2>/dev/null; echo "done"
 exit

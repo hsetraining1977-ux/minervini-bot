@@ -1,3 +1,4 @@
+from telegram_gate import send_telegram, send_alert
 """
 fundamental_engine.py
 =====================
@@ -32,16 +33,6 @@ import time
 from datetime import datetime, timedelta
 from config import TELEGRAM_TOKEN, TELEGRAM_CHAT_ID
 
-def send_telegram(msg: str):
-    try:
-        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-        requests.post(url, json={
-            "chat_id": TELEGRAM_CHAT_ID,
-            "text": msg,
-            "parse_mode": "HTML"
-        }, timeout=10)
-    except Exception as e:
-        print(f"[TG] {e}")
 
 WATCHLIST = [
     "NVDA","MSFT","AAPL","GOOGL","META","AMZN","AVGO","AMD",

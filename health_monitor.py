@@ -1,3 +1,4 @@
+from telegram_gate import send_telegram, send_alert
 #!/usr/bin/env python3
 """
 health_monitor.py — System Health Monitor
@@ -42,26 +43,6 @@ _last_alerts: dict = {}   # key → last alert timestamp
 # ─────────────────────────────────────────────────────────────
 # Telegram
 # ─────────────────────────────────────────────────────────────
-def send_telegram(msg: str, alert_key: str = "generic") -> bool:
-    """Send message — respect cooldown to avoid spam."""
-    now = time.time()
-    if now - _last_alerts.get(alert_key, 0) < ALERT_COOLDOWN:
-        return False
-    _last_alerts[alert_key] = now
-    if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
-        log.warning("Telegram credentials missing — alert not sent")
-        return False
-    try:
-        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-        resp = requests.post(url, json={
-            "chat_id": TELEGRAM_CHAT_ID,
-            "text": msg,
-            "parse_mode": "HTML"
-        }, timeout=10)
-        return resp.status_code == 200
-    except Exception as e:
-        log.error(f"Telegram send failed: {e}")
-        return False
 
 
 # ─────────────────────────────────────────────────────────────

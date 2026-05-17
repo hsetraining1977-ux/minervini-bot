@@ -1,3 +1,4 @@
+from telegram_gate import send_telegram, send_alert
 #!/usr/bin/env python3
 """
 resource_monitor.py — Memory & CPU Protection
@@ -39,22 +40,6 @@ _last_alert: dict = {}
 ALERT_COOLDOWN = 300  # 5 min
 
 
-def send_telegram(msg: str, key: str = "generic"):
-    now = time.time()
-    if now - _last_alert.get(key, 0) < ALERT_COOLDOWN:
-        return
-    _last_alert[key] = now
-    if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
-        return
-    try:
-        import requests
-        requests.post(
-            f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
-            json={"chat_id": TELEGRAM_CHAT_ID, "text": msg, "parse_mode": "HTML"},
-            timeout=10
-        )
-    except Exception as e:
-        log.error(f"Telegram failed: {e}")
 
 
 def get_metrics() -> dict:
